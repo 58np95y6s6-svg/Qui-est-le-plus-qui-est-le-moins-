@@ -1522,7 +1522,7 @@
   },
   {
     "id": "col_117",
-    "text": "Qui est le moins fiable pour arroser les plantes du bureau pendant les vacances ?",
+    "text": "Qui est le moins fiable pour remplir la machine à café quand elle est vide ?",
     "format": "least",
     "polarity": "negative",
     "themes": [
@@ -1531,7 +1531,7 @@
     "intensity": 1,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "Les plantes du bureau tremblent quand on les confie à {name}"
+    "verdict": "{name} laisse toujours la machine à café vide pour le suivant"
   },
   {
     "id": "col_118",

@@ -15,17 +15,16 @@
   },
   {
     "id": "fam_002",
-    "text": "Qui est le plus doué pour organiser des anniversaires surprises ?",
+    "text": "Qui est le plus doué pour trouver le cadeau parfait pour mamie ?",
     "format": "most",
     "polarity": "positive",
     "themes": [
-      "famille",
-      "amis"
+      "famille"
     ],
     "intensity": 1,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} organise des surprises dignes d'une agence d'événementiel"
+    "verdict": "{name} trouve toujours le cadeau qui fait craquer mamie"
   },
   {
     "id": "fam_003",
@@ -617,17 +616,16 @@
   },
   {
     "id": "fam_046",
-    "text": "Qui pour aider à déménager un dimanche matin ?",
+    "text": "Qui pour faire le discours au mariage d’un cousin ?",
     "format": "who_for",
     "polarity": "positive",
     "themes": [
-      "famille",
-      "amis"
+      "famille"
     ],
     "intensity": 2,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} portera les cartons sans se plaindre"
+    "verdict": "{name} fera pleurer toute la salle avec son discours"
   },
   {
     "id": "fam_047",
@@ -1027,17 +1025,16 @@
   },
   {
     "id": "fam_076",
-    "text": "Qui est le plus mauvais perdant aux jeux de société en famille ?",
+    "text": "Qui est le plus de mauvaise foi quand on refait le match au repas de famille ?",
     "format": "most",
     "polarity": "negative",
     "themes": [
-      "famille",
-      "amis"
+      "famille"
     ],
     "intensity": 3,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} renverse le plateau quand ça tourne mal"
+    "verdict": "{name} refait le match et le gagne à chaque fois"
   },
   {
     "id": "fam_077",
@@ -1428,31 +1425,29 @@
   },
   {
     "id": "fam_105",
-    "text": "Qui est le moins fiable pour arroser les plantes pendant les vacances ?",
+    "text": "Qui est le moins fiable pour nourrir le chat quand la famille part en week-end ?",
     "format": "least",
     "polarity": "negative",
     "themes": [
-      "famille",
-      "amis"
+      "famille"
     ],
     "intensity": 2,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} rend les plantes en état de momie"
+    "verdict": "{name} oublie le chat, qui ne l’oubliera pas"
   },
   {
     "id": "fam_106",
-    "text": "Qui est le moins doué pour faire un créneau devant la maison ?",
+    "text": "Qui est le moins doué pour réussir une recette de grand-mère ?",
     "format": "least",
     "polarity": "negative",
     "themes": [
-      "famille",
-      "amis"
+      "famille"
     ],
     "intensity": 1,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} fait un créneau en douze manœuvres"
+    "verdict": "{name} rate même les crêpes de mamie"
   },
   {
     "id": "fam_107",
@@ -1959,7 +1954,7 @@
   },
   {
     "id": "fam_144",
-    "text": "Qui est le plus doué pour piquer les frites dans l'assiette des autres ?",
+    "text": "Qui est le plus gros finisseur de restes directement dans le plat ?",
     "format": "most",
     "polarity": "negative",
     "themes": [
@@ -1969,7 +1964,7 @@
     "intensity": 2,
     "fullExcluded": false,
     "adult": false,
-    "verdict": "{name} pique dans toutes les assiettes à portée de main"
+    "verdict": "{name} finit les plats avant qu’ils refroidissent"
   },
   {
     "id": "fam_145",

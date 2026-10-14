@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "jdt_001",
+    "question": "As-tu déjà fait pipi dans une piscine ?",
+    "reveal": "{count} sur {total} ont déjà fait pipi dans une piscine",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_002",
+    "question": "As-tu déjà remis un caleçon sale faute de propre ?",
+    "reveal": "{count} sur {total} ont déjà remis un caleçon sale faute de propre",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_003",
+    "question": "As-tu déjà vomi dans un taxi ?",
+    "reveal": "{count} sur {total} ont déjà vomi dans un taxi",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_004",
+    "question": "As-tu déjà mangé un truc tombé par terre devant tout le monde ?",
+    "reveal": "{count} sur {total} ont déjà mangé un truc tombé par terre devant tout le monde",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_005",
+    "question": "As-tu déjà reniflé tes chaussettes pour savoir si elles étaient encore mettables ?",
+    "reveal": "{count} sur {total} ont déjà reniflé leurs chaussettes pour savoir si elles étaient encore mettables",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_006",
+    "question": "As-tu déjà bouché les toilettes de quelqu'un que tu connaissais à peine ?",
+    "reveal": "{count} sur {total} ont déjà bouché les toilettes de quelqu'un qu'ils connaissaient à peine",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_007",
+    "question": "As-tu déjà lâché une caisse dans un ascenseur plein ?",
+    "reveal": "{count} sur {total} ont déjà lâché une caisse dans un ascenseur plein",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_008",
+    "question": "As-tu déjà accusé quelqu'un d'autre d'un pet que tu avais lâché ?",
+    "reveal": "{count} sur {total} ont déjà accusé quelqu'un d'autre d'un pet qu'ils avaient lâché",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_009",
+    "question": "As-tu déjà mangé un yaourt périmé depuis plus d'un mois ?",
+    "reveal": "{count} sur {total} ont déjà mangé un yaourt périmé depuis plus d'un mois",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_010",
+    "question": "As-tu déjà enlevé la moisissure d'un pain pour manger le reste ?",
+    "reveal": "{count} sur {total} ont déjà enlevé la moisissure d'un pain pour manger le reste",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_011",
+    "question": "As-tu déjà passé plus de trois jours sans te doucher ?",
+    "reveal": "{count} sur {total} ont déjà passé plus de trois jours sans se doucher",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_012",
+    "question": "As-tu déjà bu par erreur une gorgée de bière avec un mégot dedans ?",
+    "reveal": "{count} sur {total} ont déjà bu par erreur une gorgée de bière avec un mégot dedans",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_013",
+    "question": "As-tu déjà fait pipi dans un lavabo ?",
+    "reveal": "{count} sur {total} ont déjà fait pipi dans un lavabo",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_014",
+    "question": "As-tu déjà fait pipi dans la rue en rentrant de soirée ?",
+    "reveal": "{count} sur {total} ont déjà fait pipi dans la rue en rentrant de soirée",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_015",
+    "question": "As-tu déjà dormi avec tes chaussures aux pieds après une soirée ?",
+    "reveal": "{count} sur {total} ont déjà dormi avec leurs chaussures aux pieds après une soirée",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_016",
+    "question": "As-tu déjà vomi dans ton propre sac ?",
+    "reveal": "{count} sur {total} ont déjà vomi dans leur propre sac",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_017",
+    "question": "As-tu déjà vomi sur quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà vomi sur quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_018",
+    "question": "T'es-tu déjà réveillé dans une baignoire après une soirée ?",
+    "reveal": "{count} sur {total} se sont déjà réveillés dans une baignoire après une soirée",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_019",
+    "question": "T'es-tu déjà réveillé sans savoir comment tu étais rentré ?",
+    "reveal": "{count} sur {total} se sont déjà réveillés sans savoir comment ils étaient rentrés",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_020",
+    "question": "As-tu déjà mangé un kebab à 5 h du matin assis sur un trottoir ?",
+    "reveal": "{count} sur {total} ont déjà mangé un kebab à 5 h du matin assis sur un trottoir",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_021",
+    "question": "As-tu déjà utilisé une chaussette comme papier toilette ?",
+    "reveal": "{count} sur {total} ont déjà utilisé une chaussette comme papier toilette",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_022",
+    "question": "As-tu déjà utilisé une feuille d'arbre comme papier toilette ?",
+    "reveal": "{count} sur {total} ont déjà utilisé une feuille d'arbre comme papier toilette",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_023",
+    "question": "As-tu déjà fait caca dans la nature ?",
+    "reveal": "{count} sur {total} ont déjà fait caca dans la nature",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_024",
+    "question": "As-tu déjà porté le même jean un mois sans le laver ?",
+    "reveal": "{count} sur {total} ont déjà porté le même jean un mois sans le laver",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_025",
+    "question": "As-tu déjà gardé les mêmes draps plus de deux mois ?",
+    "reveal": "{count} sur {total} ont déjà gardé les mêmes draps plus de deux mois",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_026",
+    "question": "As-tu déjà mangé dans une assiette sale faute de vaisselle propre ?",
+    "reveal": "{count} sur {total} ont déjà mangé dans une assiette sale faute de vaisselle propre",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_027",
+    "question": "As-tu déjà léché du ketchup tombé sur la table ?",
+    "reveal": "{count} sur {total} ont déjà léché du ketchup tombé sur la table",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_028",
+    "question": "As-tu déjà récupéré une frite dans la poubelle pour la manger ?",
+    "reveal": "{count} sur {total} ont déjà récupéré une frite dans la poubelle pour la manger",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_029",
+    "question": "As-tu déjà fini l'assiette d'un inconnu au restaurant ?",
+    "reveal": "{count} sur {total} ont déjà fini l'assiette d'un inconnu au restaurant",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_030",
+    "question": "As-tu déjà bu une bière tiède oubliée de la veille ?",
+    "reveal": "{count} sur {total} ont déjà bu une bière tiède oubliée de la veille",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_031",
+    "question": "As-tu déjà retourné un caleçon pour le porter une deuxième journée ?",
+    "reveal": "{count} sur {total} ont déjà retourné un caleçon pour le porter une deuxième journée",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_032",
+    "question": "As-tu déjà senti tes aisselles discrètement en public ?",
+    "reveal": "{count} sur {total} ont déjà senti leurs aisselles discrètement en public",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_033",
+    "question": "As-tu déjà mâché un chewing-gum déjà mâché par quelqu'un d'autre ?",
+    "reveal": "{count} sur {total} ont déjà mâché un chewing-gum déjà mâché par quelqu'un d'autre",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_034",
+    "question": "As-tu déjà rongé tes ongles de pieds ?",
+    "reveal": "{count} sur {total} ont déjà rongé leurs ongles de pieds",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_035",
+    "question": "As-tu déjà collé une crotte de nez sous une table ?",
+    "reveal": "{count} sur {total} ont déjà collé une crotte de nez sous une table",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_036",
+    "question": "As-tu déjà fait pipi sous la douche ?",
+    "reveal": "{count} sur {total} ont déjà fait pipi sous la douche",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_037",
+    "question": "As-tu déjà fait pipi dans une bouteille en voiture ?",
+    "reveal": "{count} sur {total} ont déjà fait pipi dans une bouteille en voiture",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_038",
+    "question": "As-tu déjà fait un rot bruyant pendant un repas de famille ?",
+    "reveal": "{count} sur {total} ont déjà fait un rot bruyant pendant un repas de famille",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_039",
+    "question": "As-tu déjà enchaîné une journée de travail dans la tenue de la soirée de la veille ?",
+    "reveal": "{count} sur {total} ont déjà enchaîné une journée de travail dans la tenue de la soirée de la veille",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_040",
+    "question": "As-tu déjà vomi par la fenêtre d'une voiture ?",
+    "reveal": "{count} sur {total} ont déjà vomi par la fenêtre d'une voiture",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_041",
+    "question": "As-tu déjà vomi dans une plante verte chez quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà vomi dans une plante verte chez quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_042",
+    "question": "As-tu déjà dormi par terre dans une salle de bain après une soirée ?",
+    "reveal": "{count} sur {total} ont déjà dormi par terre dans une salle de bain après une soirée",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_043",
+    "question": "As-tu déjà eu une gueule de bois si forte que tu n'as pas bougé de la journée ?",
+    "reveal": "{count} sur {total} ont déjà eu une gueule de bois si forte qu'ils n'ont pas bougé de la journée",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_044",
+    "question": "As-tu déjà posé un jour de congé à cause d'une gueule de bois ?",
+    "reveal": "{count} sur {total} ont déjà posé un jour de congé à cause d'une gueule de bois",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_045",
+    "question": "As-tu déjà mangé une pizza froide de la veille au petit-déjeuner ?",
+    "reveal": "{count} sur {total} ont déjà mangé une pizza froide de la veille au petit-déjeuner",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_046",
+    "question": "As-tu déjà léché le couvercle d'un yaourt devant un invité ?",
+    "reveal": "{count} sur {total} ont déjà léché le couvercle d'un yaourt devant un invité",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_047",
+    "question": "As-tu déjà laissé traîner de la vaisselle sale plus d'une semaine ?",
+    "reveal": "{count} sur {total} ont déjà laissé traîner de la vaisselle sale plus d'une semaine",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_048",
+    "question": "As-tu déjà servi à des invités un plat qui était tombé par terre ?",
+    "reveal": "{count} sur {total} ont déjà servi à des invités un plat qui était tombé par terre",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_049",
+    "question": "As-tu déjà servi à des invités un reste dont tu doutais de la fraîcheur ?",
+    "reveal": "{count} sur {total} ont déjà servi à des invités un reste dont ils doutaient de la fraîcheur",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_050",
+    "question": "As-tu déjà mangé un sandwich de station-service à trois heures du matin ?",
+    "reveal": "{count} sur {total} ont déjà mangé un sandwich de station-service à trois heures du matin",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_051",
+    "question": "As-tu déjà attrapé une intoxication alimentaire dans un buffet à volonté ?",
+    "reveal": "{count} sur {total} ont déjà attrapé une intoxication alimentaire dans un buffet à volonté",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_052",
+    "question": "As-tu déjà bouché les toilettes au travail ?",
+    "reveal": "{count} sur {total} ont déjà bouché les toilettes au travail",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_053",
+    "question": "As-tu déjà quitté des toilettes bouchées sans rien dire à personne ?",
+    "reveal": "{count} sur {total} ont déjà quitté des toilettes bouchées sans rien dire à personne",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_054",
+    "question": "As-tu déjà tiré la chasse d'eau pour couvrir un bruit gênant ?",
+    "reveal": "{count} sur {total} ont déjà tiré la chasse d'eau pour couvrir un bruit gênant",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_055",
+    "question": "As-tu déjà fait caca en laissant la porte ouverte devant tes colocs ?",
+    "reveal": "{count} sur {total} ont déjà fait caca en laissant la porte ouverte devant leurs colocs",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_056",
+    "question": "As-tu déjà dormi avec tes lentilles plusieurs jours de suite ?",
+    "reveal": "{count} sur {total} ont déjà dormi avec leurs lentilles plusieurs jours de suite",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_057",
+    "question": "As-tu déjà mangé un plat avec un cheveu dedans sans rien dire ?",
+    "reveal": "{count} sur {total} ont déjà mangé un plat avec un cheveu dedans sans rien dire",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_058",
+    "question": "As-tu déjà renvoyé en cuisine un plat avec un cheveu dedans ?",
+    "reveal": "{count} sur {total} ont déjà renvoyé en cuisine un plat avec un cheveu dedans",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_059",
+    "question": "As-tu déjà mangé directement dans la casserole debout devant le frigo ?",
+    "reveal": "{count} sur {total} ont déjà mangé directement dans la casserole debout devant le frigo",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_060",
+    "question": "As-tu déjà utilisé la brosse à dents de quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà utilisé la brosse à dents de quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_061",
+    "question": "As-tu déjà laissé une odeur atroce dans les toilettes de quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà laissé une odeur atroce dans les toilettes de quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_062",
+    "question": "As-tu déjà pioché dans le frigo de quelqu'un de ce salon sans demander ?",
+    "reveal": "{count} sur {total} ont déjà pioché dans le frigo de quelqu'un de ce salon sans demander",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_063",
+    "question": "As-tu déjà vomi chez quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà vomi chez quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_064",
+    "question": "As-tu déjà vu quelqu'un de ce salon dans un état pitoyable en fin de soirée ?",
+    "reveal": "{count} sur {total} ont déjà vu quelqu'un de ce salon dans un état pitoyable en fin de soirée",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_065",
+    "question": "As-tu déjà caché une tache sur le canapé de quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà caché une tache sur le canapé de quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_066",
+    "question": "As-tu déjà essuyé tes mains sales sur un rideau chez quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà essuyé leurs mains sales sur un rideau chez quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_067",
+    "question": "As-tu déjà bu dans la bouteille de quelqu'un de ce salon sans demander ?",
+    "reveal": "{count} sur {total} ont déjà bu dans la bouteille de quelqu'un de ce salon sans demander",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_068",
+    "question": "As-tu déjà dormi dans le lit de quelqu'un de ce salon sans te doucher après une soirée ?",
+    "reveal": "{count} sur {total} ont déjà dormi dans le lit de quelqu'un de ce salon sans se doucher après une soirée",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_069",
+    "question": "As-tu déjà fini le dernier rouleau de papier toilette chez quelqu'un de ce salon sans le dire ?",
+    "reveal": "{count} sur {total} ont déjà fini le dernier rouleau de papier toilette chez quelqu'un de ce salon sans le dire",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_070",
+    "question": "As-tu déjà recraché discrètement un plat préparé par quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà recraché discrètement un plat préparé par quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_071",
+    "question": "As-tu déjà remarqué une odeur bizarre chez quelqu'un de ce salon sans oser le dire ?",
+    "reveal": "{count} sur {total} ont déjà remarqué une odeur bizarre chez quelqu'un de ce salon sans oser le dire",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_072",
+    "question": "As-tu déjà tenu les cheveux de quelqu'un qui vomissait ?",
+    "reveal": "{count} sur {total} ont déjà tenu les cheveux de quelqu'un qui vomissait",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_073",
+    "question": "As-tu déjà nettoyé le vomi d'un ami ?",
+    "reveal": "{count} sur {total} ont déjà nettoyé le vomi d'un ami",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_074",
+    "question": "As-tu déjà ramené chez lui un ami trop éméché ?",
+    "reveal": "{count} sur {total} ont déjà ramené chez lui un ami trop éméché",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_075",
+    "question": "As-tu déjà débouché des toilettes à mains nues ?",
+    "reveal": "{count} sur {total} ont déjà débouché des toilettes à mains nues",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_076",
+    "question": "As-tu déjà nettoyé la salle de bain après une soirée qui n'était pas la tienne ?",
+    "reveal": "{count} sur {total} ont déjà nettoyé la salle de bain après une soirée qui n'était pas la leur",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_077",
+    "question": "As-tu déjà préparé un petit-déjeuner anti-gueule de bois pour tout le monde ?",
+    "reveal": "{count} sur {total} ont déjà préparé un petit-déjeuner anti-gueule de bois pour tout le monde",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_078",
+    "question": "As-tu déjà prêté ton pull à quelqu'un qui avait vomi sur le sien ?",
+    "reveal": "{count} sur {total} ont déjà prêté leur pull à quelqu'un qui avait vomi sur le sien",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_079",
+    "question": "As-tu déjà plongé la main dans une poubelle pour récupérer les clés de quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà plongé la main dans une poubelle pour récupérer les clés de quelqu'un",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_080",
+    "question": "As-tu déjà assumé à voix haute un pet que tu venais de lâcher ?",
+    "reveal": "{count} sur {total} ont déjà assumé à voix haute un pet qu'ils venaient de lâcher",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_081",
+    "question": "As-tu déjà prévenu quelqu'un qu'il avait un truc coincé entre les dents ?",
+    "reveal": "{count} sur {total} ont déjà prévenu quelqu'un qu'il avait un truc coincé entre les dents",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_082",
+    "question": "As-tu déjà prévenu quelqu'un que sa braguette était ouverte ?",
+    "reveal": "{count} sur {total} ont déjà prévenu quelqu'un que sa braguette était ouverte",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_083",
+    "question": "As-tu déjà dit à un ami qu'il sentait la transpiration ?",
+    "reveal": "{count} sur {total} ont déjà dit à un ami qu'il sentait la transpiration",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_084",
+    "question": "As-tu déjà nettoyé un frigo rempli de restes moisis ?",
+    "reveal": "{count} sur {total} ont déjà nettoyé un frigo rempli de restes moisis",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_085",
+    "question": "As-tu déjà ramassé la crotte de chien de quelqu'un d'autre ?",
+    "reveal": "{count} sur {total} ont déjà ramassé la crotte de chien de quelqu'un d'autre",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_086",
+    "question": "As-tu déjà dépanné d'un chewing-gum quelqu'un qui avait une haleine de chacal ?",
+    "reveal": "{count} sur {total} ont déjà dépanné d'un chewing-gum quelqu'un qui avait une haleine de chacal",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_087",
+    "question": "As-tu déjà prêté ta brosse à dents de secours à un ami de passage ?",
+    "reveal": "{count} sur {total} ont déjà prêté leur brosse à dents de secours à un ami de passage",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_088",
+    "question": "As-tu déjà ramassé les déchets laissés par d'autres sur une plage ?",
+    "reveal": "{count} sur {total} ont déjà ramassé les déchets laissés par d'autres sur une plage",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_089",
+    "question": "As-tu déjà accompagné un inconnu malade jusqu'aux toilettes en soirée ?",
+    "reveal": "{count} sur {total} ont déjà accompagné un inconnu malade jusqu'aux toilettes en soirée",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_090",
+    "question": "As-tu déjà veillé toute la nuit sur un ami qui avait trop bu ?",
+    "reveal": "{count} sur {total} ont déjà veillé toute la nuit sur un ami qui avait trop bu",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_091",
+    "question": "As-tu déjà épongé une inondation de toilettes chez un voisin ?",
+    "reveal": "{count} sur {total} ont déjà épongé une inondation de toilettes chez un voisin",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_092",
+    "question": "As-tu déjà payé le nettoyage d'un taxi pour un ami malade ?",
+    "reveal": "{count} sur {total} ont déjà payé le nettoyage d'un taxi pour un ami malade",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_093",
+    "question": "As-tu déjà soigné un ami en pleine gastro ?",
+    "reveal": "{count} sur {total} ont déjà soigné un ami en pleine gastro",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_094",
+    "question": "As-tu déjà vidé la litière d'un chat qui n'était pas le tien ?",
+    "reveal": "{count} sur {total} ont déjà vidé la litière d'un chat qui n'était pas le leur",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_095",
+    "question": "As-tu déjà fait toute la vaisselle d'une soirée tout seul ?",
+    "reveal": "{count} sur {total} ont déjà fait toute la vaisselle d'une soirée tout seuls",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_096",
+    "question": "As-tu déjà tiré une chasse d'eau oubliée par quelqu'un d'autre ?",
+    "reveal": "{count} sur {total} ont déjà tiré une chasse d'eau oubliée par quelqu'un d'autre",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_097",
+    "question": "As-tu déjà apporté du papier toilette à quelqu'un coincé aux toilettes ?",
+    "reveal": "{count} sur {total} ont déjà apporté du papier toilette à quelqu'un coincé aux toilettes",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_098",
+    "question": "As-tu déjà avoué à ton hôte que tu avais bouché ses toilettes ?",
+    "reveal": "{count} sur {total} ont déjà avoué à leur hôte qu'ils avaient bouché ses toilettes",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_099",
+    "question": "As-tu déjà prévenu quelqu'un qu'il avait du papier toilette collé à la chaussure ?",
+    "reveal": "{count} sur {total} ont déjà prévenu quelqu'un qu'il avait du papier toilette collé à la chaussure",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdt_100",
+    "question": "As-tu déjà fait Sam toute une soirée pour ramener tout le monde ?",
+    "reveal": "{count} sur {total} ont déjà fait Sam toute une soirée pour ramener tout le monde",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  }
+]

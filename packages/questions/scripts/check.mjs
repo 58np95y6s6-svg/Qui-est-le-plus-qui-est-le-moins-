@@ -69,6 +69,65 @@ const full = all.filter((q) => !q.fullExcluded);
 console.table(rows);
 console.log(`Total : ${all.length} questions · mode Full : ${full.length} · adultes : ${all.filter((q) => q.adult).length}`);
 
+// ---------- Mode « J'ai déjà / Jamais » ----------
+const JD_MIN = { collegues: 100, amis: 100, famille: 100, trash: 100, hot: 100 };
+const jd = [];
+for (const f of FILES) {
+  const path = join(root, "src", "jai-deja", `${f}.json`);
+  try { jd.push(...JSON.parse(readFileSync(path, "utf8"))); } catch { errors.push(`fichier manquant ou invalide : src/jai-deja/${f}.json`); }
+}
+for (const q of jd) {
+  const w = q.id ?? "?";
+  if (ids.has(q.id)) errors.push(`${w} : id en double`);
+  ids.add(q.id);
+  if (!/^(As-tu déjà|T'es-tu déjà|T’es-tu déjà) /.test(q.question ?? "") || !q.question.trim().endsWith("?")) errors.push(`${w} : la question doit commencer par « As-tu déjà » et finir par « ? »`);
+  if (q.question?.length > 130) errors.push(`${w} : question de plus de 130 caractères`);
+  if (!/\{count\}/.test(q.reveal ?? "") || !/\{total\}/.test(q.reveal ?? "")) errors.push(`${w} : reveal sans {count} ou {total}`);
+  if (!POLARITIES.includes(q.polarity) || ![1, 2, 3].includes(q.intensity)) errors.push(`${w} : polarité ou intensité invalide`);
+  const adultTheme = q.themes?.some((t) => t === "trash" || t === "hot");
+  if (adultTheme !== !!q.adult || (q.adult && !q.fullExcluded)) errors.push(`${w} : champs adult / fullExcluded incohérents`);
+  if (q.aboutRoom && q.intensity === 3 && !q.sensitive) errors.push(`${w} : question aboutRoom d'intensité 3 non marquée sensitive`);
+}
+const jdPrep = jd.map((q) => ({ id: q.id, b: bigrams(norm(q.question ?? "")) }));
+for (let i = 0; i < jdPrep.length; i++)
+  for (let j = i + 1; j < jdPrep.length; j++)
+    if (dice(jdPrep[i].b, jdPrep[j].b) > 0.85) errors.push(`quasi-doublon J'ai déjà : ${jdPrep[i].id} ≈ ${jdPrep[j].id}`);
+const jdRows = FILES.map((t) => { const qs = jd.filter((q) => q.themes?.includes(t)); if (qs.length < JD_MIN[t]) errors.push(`J'ai déjà / ${t} : ${qs.length} questions, minimum ${JD_MIN[t]}`);
+  return { thème: t, total: qs.length, aboutRoom: qs.filter((q) => q.aboutRoom).length, sensitive: qs.filter((q) => q.sensitive).length, "int 1/2/3": [1, 2, 3].map((i) => qs.filter((q) => q.intensity === i).length).join("/") }; });
+console.log("\nJ'ai déjà / Jamais"); console.table(jdRows);
+
+// ---------- Mode « Quiz culture » ----------
+const CATS = ["musique-fr", "histoire", "geographie", "cinema-series", "sport", "sciences", "gastronomie", "langue-fr", "pop-culture", "art-litterature", "jeux-video", "annees-80-2000"];
+const quiz = [];
+for (const c of CATS) {
+  try { quiz.push(...JSON.parse(readFileSync(join(root, "src", "quiz", `${c}.json`), "utf8"))); } catch { errors.push(`fichier manquant ou invalide : src/quiz/${c}.json`); }
+}
+const pos = [0, 0, 0, 0];
+for (const q of quiz) {
+  const w = q.id ?? "?";
+  if (ids.has(q.id)) errors.push(`${w} : id en double`);
+  ids.add(q.id);
+  if (!CATS.includes(q.category)) errors.push(`${w} : catégorie inconnue`);
+  if (!["easy", "medium", "hard"].includes(q.difficulty)) errors.push(`${w} : difficulté invalide`);
+  if (!Array.isArray(q.choices) || q.choices.length !== 4 || new Set(q.choices.map(norm)).size !== 4) errors.push(`${w} : il faut 4 choix distincts`);
+  if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) errors.push(`${w} : index de réponse invalide`); else pos[q.answer]++;
+  if (!q.question?.trim().endsWith("?") && !q.question?.includes("…")) errors.push(`${w} : la question doit finir par « ? »`);
+  if (typeof q.fact !== "string" || !q.fact.trim()) errors.push(`${w} : anecdote manquante`);
+}
+const qPrep = quiz.map((q) => ({ id: q.id, b: bigrams(norm(q.question ?? "")) }));
+for (let i = 0; i < qPrep.length; i++)
+  for (let j = i + 1; j < qPrep.length; j++)
+    if (dice(qPrep[i].b, qPrep[j].b) > 0.85) errors.push(`quasi-doublon Quiz : ${qPrep[i].id} ≈ ${qPrep[j].id}`);
+const qRows = CATS.map((c) => { const qs = quiz.filter((q) => q.category === c); const d = (x) => qs.filter((q) => q.difficulty === x).length;
+  if (d("easy") < 15 || d("medium") < 15 || d("hard") < 15) errors.push(`Quiz / ${c} : il faut au moins 15 questions par difficulté`);
+  return { catégorie: c, total: qs.length, facile: d("easy"), moyen: d("medium"), difficile: d("hard") }; });
+console.log("\nQuiz culture"); console.table(qRows);
+const posPct = pos.map((n) => pct(n, quiz.length || 1));
+console.log(`Position de la bonne réponse (%) : ${posPct.join(" / ")}`);
+if (quiz.length && posPct.some((x) => x < 18 || x > 32)) errors.push("Quiz : position de la bonne réponse trop déséquilibrée");
+
 if (errors.length) { console.error(`\n${errors.length} erreur(s) :\n- ` + errors.join("\n- ")); process.exit(1); }
 writeFileSync(join(root, "questions.fr.json"), JSON.stringify(all, null, 2) + "\n");
-console.log("OK, questions.fr.json régénéré.");
+writeFileSync(join(root, "jai-deja.fr.json"), JSON.stringify(jd, null, 2) + "\n");
+writeFileSync(join(root, "quiz.fr.json"), JSON.stringify(quiz, null, 2) + "\n");
+console.log(`OK : ${all.length} « Qui est le plus ? », ${jd.length} « J'ai déjà », ${quiz.length} questions de quiz. Fichiers fusionnés régénérés.`);

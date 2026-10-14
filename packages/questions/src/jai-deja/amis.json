@@ -1,0 +1,1870 @@
+[
+  {
+    "id": "jda_001",
+    "question": "As-tu déjà fait semblant de ne pas voir un message pour ne pas répondre ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de ne pas voir un message pour ne pas répondre",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_002",
+    "question": "As-tu déjà stalké l'ex d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà stalké l'ex d'une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_003",
+    "question": "As-tu déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon pour l'envoyer à quelqu'un d'autre ?",
+    "reveal": "{count} sur {total} ont déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon pour l'envoyer à quelqu'un d'autre",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_004",
+    "question": "As-tu déjà dormi dans un aéroport en attendant un vol ?",
+    "reveal": "{count} sur {total} ont déjà dormi dans un aéroport en attendant un vol",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_005",
+    "question": "As-tu déjà annulé une soirée à la dernière minute avec une fausse excuse ?",
+    "reveal": "{count} sur {total} ont déjà annulé une soirée à la dernière minute avec une fausse excuse",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_006",
+    "question": "As-tu déjà quitté un groupe WhatsApp en douce ?",
+    "reveal": "{count} sur {total} ont déjà quitté un groupe WhatsApp en douce",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_007",
+    "question": "As-tu déjà menti sur ton âge pour entrer en boîte ?",
+    "reveal": "{count} sur {total} ont déjà menti sur leur âge pour entrer en boîte",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_008",
+    "question": "As-tu déjà dit du mal d'une personne de ce salon dans un autre groupe de discussion ?",
+    "reveal": "{count} sur {total} ont déjà dit du mal d'une personne de ce salon dans un autre groupe de discussion",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_009",
+    "question": "As-tu déjà ghosté quelqu'un après un premier rendez-vous ?",
+    "reveal": "{count} sur {total} ont déjà ghosté quelqu'un après un premier rendez-vous",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_010",
+    "question": "As-tu déjà inventé un empêchement pour ne pas aider un pote à déménager ?",
+    "reveal": "{count} sur {total} ont déjà inventé un empêchement pour ne pas aider un pote à déménager",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_011",
+    "question": "As-tu déjà laissé la vaisselle s'empiler exprès pour que ton coloc craque ?",
+    "reveal": "{count} sur {total} ont déjà laissé la vaisselle s'empiler exprès pour que leur coloc craque",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_012",
+    "question": "As-tu déjà mangé la nourriture de ton coloc en espérant qu'il ne remarque rien ?",
+    "reveal": "{count} sur {total} ont déjà mangé la nourriture de leur coloc en espérant qu'il ne remarque rien",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_013",
+    "question": "As-tu déjà lu les messages de quelqu'un dans son téléphone sans qu'il le sache ?",
+    "reveal": "{count} sur {total} ont déjà lu les messages de quelqu'un dans son téléphone sans qu'il le sache",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_014",
+    "question": "As-tu déjà révélé un secret qu'une personne de ce salon t'avait confié ?",
+    "reveal": "{count} sur {total} ont déjà révélé un secret qu'une personne de ce salon leur avait confié",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_015",
+    "question": "As-tu déjà prétendu être déjà en route alors que tu étais encore sous la douche ?",
+    "reveal": "{count} sur {total} ont déjà prétendu être déjà en route alors qu'ils étaient encore sous la douche",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_016",
+    "question": "As-tu déjà créé un faux compte pour espionner quelqu'un sur les réseaux ?",
+    "reveal": "{count} sur {total} ont déjà créé un faux compte pour espionner quelqu'un sur les réseaux",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_017",
+    "question": "As-tu déjà dragué le crush d'un de tes meilleurs potes ?",
+    "reveal": "{count} sur {total} ont déjà dragué le crush d'un de leurs meilleurs potes",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_018",
+    "question": "As-tu déjà oublié l'anniversaire de ton meilleur ami ?",
+    "reveal": "{count} sur {total} ont déjà oublié l'anniversaire de leur meilleur ami",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_019",
+    "question": "As-tu déjà souhaité un anniversaire uniquement parce qu'un réseau social te l'a rappelé ?",
+    "reveal": "{count} sur {total} ont déjà souhaité un anniversaire uniquement parce qu'un réseau social le leur a rappelé",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_020",
+    "question": "As-tu déjà gardé un vêtement emprunté à un pote sans jamais le rendre ?",
+    "reveal": "{count} sur {total} ont déjà gardé un vêtement emprunté à un pote sans jamais le rendre",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_021",
+    "question": "As-tu déjà menti à une personne de ce salon pour éviter de passer la soirée avec elle ?",
+    "reveal": "{count} sur {total} ont déjà menti à une personne de ce salon pour éviter de passer la soirée avec elle",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_022",
+    "question": "As-tu déjà emprunté de l'argent à un ami sans jamais le rembourser ?",
+    "reveal": "{count} sur {total} ont déjà emprunté de l'argent à un ami sans jamais le rembourser",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_023",
+    "question": "As-tu déjà fait exprès d'oublier de rembourser une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait exprès d'oublier de rembourser une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_024",
+    "question": "As-tu déjà laissé un pote payer l'addition en faisant semblant de chercher ta carte ?",
+    "reveal": "{count} sur {total} ont déjà laissé un pote payer l'addition en faisant semblant de chercher leur carte",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_025",
+    "question": "As-tu déjà quitté une soirée sans dire au revoir à personne ?",
+    "reveal": "{count} sur {total} ont déjà quitté une soirée sans dire au revoir à personne",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_026",
+    "question": "As-tu déjà donné un faux prénom à quelqu'un qui te draguait en soirée ?",
+    "reveal": "{count} sur {total} ont déjà donné un faux prénom à quelqu'un qui les draguait en soirée",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_027",
+    "question": "As-tu déjà vomi chez quelqu'un en soirée sans jamais le lui avouer ?",
+    "reveal": "{count} sur {total} ont déjà vomi chez quelqu'un en soirée sans jamais le lui avouer",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_028",
+    "question": "As-tu déjà fait semblant de dormir pour ne pas ranger après une fête ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de dormir pour ne pas ranger après une fête",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_029",
+    "question": "As-tu déjà ramené des gens à l'appart sans prévenir ton coloc ?",
+    "reveal": "{count} sur {total} ont déjà ramené des gens à l'appart sans prévenir leur coloc",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_030",
+    "question": "As-tu déjà lu le journal intime de quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà lu le journal intime de quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_031",
+    "question": "As-tu déjà envoyé un message sur quelqu'un à la personne concernée ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message sur quelqu'un à la personne concernée",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_032",
+    "question": "As-tu déjà envoyé par erreur à une personne de ce salon un message qui se moquait d'elle ?",
+    "reveal": "{count} sur {total} ont déjà envoyé par erreur à une personne de ce salon un message qui se moquait d'elle",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_033",
+    "question": "As-tu déjà offert un cadeau à la personne qui te l'avait offert à l'origine ?",
+    "reveal": "{count} sur {total} ont déjà offert un cadeau à la personne qui le leur avait offert à l'origine",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_034",
+    "question": "As-tu déjà posté une story uniquement pour rendre jaloux un ex ?",
+    "reveal": "{count} sur {total} ont déjà posté une story uniquement pour rendre jaloux un ex",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_035",
+    "question": "T'es-tu déjà réjoui en secret d'un échec d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} se sont déjà réjouis en secret d'un échec d'une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_036",
+    "question": "As-tu déjà inventé une excuse pour ne pas inviter une personne de ce salon à une soirée ?",
+    "reveal": "{count} sur {total} ont déjà inventé une excuse pour ne pas inviter une personne de ce salon à une soirée",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_037",
+    "question": "As-tu déjà fait semblant d'aimer un plat cuisiné par une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant d'aimer un plat cuisiné par une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_038",
+    "question": "As-tu déjà créé un groupe WhatsApp sans une personne de ce salon pour parler d'elle ?",
+    "reveal": "{count} sur {total} ont déjà créé un groupe WhatsApp sans une personne de ce salon pour parler d'elle",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_039",
+    "question": "As-tu déjà volé l'idée de cadeau d'un ami pour l'offrir avant lui ?",
+    "reveal": "{count} sur {total} ont déjà volé l'idée de cadeau d'un ami pour l'offrir avant lui",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_040",
+    "question": "As-tu déjà abandonné tes potes en soirée pour partir avec un crush ?",
+    "reveal": "{count} sur {total} ont déjà abandonné leurs potes en soirée pour partir avec un crush",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_041",
+    "question": "As-tu déjà caché à tes amis que tu sortais avec quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà caché à leurs amis qu'ils sortaient avec quelqu'un",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_042",
+    "question": "As-tu déjà menti à tes parents sur l'endroit où tu passais la soirée ?",
+    "reveal": "{count} sur {total} ont déjà menti à leurs parents sur l'endroit où ils passaient la soirée",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_043",
+    "question": "As-tu déjà fait le mur pour aller à une fête ?",
+    "reveal": "{count} sur {total} ont déjà fait le mur pour aller à une fête",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_044",
+    "question": "As-tu déjà laissé un ami être puni pour une bêtise que tu avais faite ?",
+    "reveal": "{count} sur {total} ont déjà laissé un ami être puni pour une bêtise qu'ils avaient faite",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_045",
+    "question": "As-tu déjà rompu une promesse faite à ton meilleur ami ?",
+    "reveal": "{count} sur {total} ont déjà rompu une promesse faite à leur meilleur ami",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_046",
+    "question": "As-tu déjà demandé à un pote de t'appeler pour fuir un rendez-vous galant ?",
+    "reveal": "{count} sur {total} ont déjà demandé à un pote de les appeler pour fuir un rendez-vous galant",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_047",
+    "question": "As-tu déjà repris en partant la bouteille que tu avais apportée à une soirée ?",
+    "reveal": "{count} sur {total} ont déjà repris en partant la bouteille qu'ils avaient apportée à une soirée",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_048",
+    "question": "As-tu déjà coupé le wifi pour te venger de ton coloc ?",
+    "reveal": "{count} sur {total} ont déjà coupé le wifi pour se venger de leur coloc",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_049",
+    "question": "As-tu déjà accusé un coloc d'avoir mangé un truc que tu avais mangé toi-même ?",
+    "reveal": "{count} sur {total} ont déjà accusé un coloc d'avoir mangé un truc qu'ils avaient mangé eux-mêmes",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_050",
+    "question": "As-tu déjà embrassé l'ex d'un de tes amis ?",
+    "reveal": "{count} sur {total} ont déjà embrassé l'ex d'un de leurs amis",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_051",
+    "question": "As-tu déjà raconté la rupture d'un ami à tout le monde avant qu'il l'annonce ?",
+    "reveal": "{count} sur {total} ont déjà raconté la rupture d'un ami à tout le monde avant qu'il l'annonce",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_052",
+    "question": "As-tu déjà été viré d'une soirée par l'hôte ?",
+    "reveal": "{count} sur {total} ont déjà été virés d'une soirée par l'hôte",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_053",
+    "question": "T'es-tu déjà disputé avec un ami pour une histoire d'argent ?",
+    "reveal": "{count} sur {total} se sont déjà disputés avec un ami pour une histoire d'argent",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_054",
+    "question": "T'es-tu déjà incrusté à une fête où tu n'étais pas invité ?",
+    "reveal": "{count} sur {total} se sont déjà incrustés à une fête où ils n'étaient pas invités",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_055",
+    "question": "T'es-tu déjà trompé de prénom pendant un rendez-vous galant ?",
+    "reveal": "{count} sur {total} se sont déjà trompés de prénom pendant un rendez-vous galant",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_056",
+    "question": "As-tu déjà fouillé dans les affaires de ton coloc pendant son absence ?",
+    "reveal": "{count} sur {total} ont déjà fouillé dans les affaires de leur coloc pendant son absence",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_057",
+    "question": "As-tu déjà inventé une rumeur sur quelqu'un juste pour rigoler ?",
+    "reveal": "{count} sur {total} ont déjà inventé une rumeur sur quelqu'un juste pour rigoler",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_058",
+    "question": "As-tu déjà fait croire à un ami que tu étais malade pour ne pas venir à son mariage ?",
+    "reveal": "{count} sur {total} ont déjà fait croire à un ami qu'ils étaient malades pour ne pas venir à son mariage",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_059",
+    "question": "As-tu déjà gâché la surprise qu'un groupe préparait pour un ami ?",
+    "reveal": "{count} sur {total} ont déjà gâché la surprise qu'un groupe préparait pour un ami",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_060",
+    "question": "As-tu déjà supprimé un commentaire d'un ami sous ta photo parce qu'il te faisait honte ?",
+    "reveal": "{count} sur {total} ont déjà supprimé un commentaire d'un ami sous leur photo parce qu'il leur faisait honte",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_061",
+    "question": "As-tu déjà fait semblant d'être pris quand un ami t'invitait à son anniversaire ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant d'être pris quand un ami les invitait à son anniversaire",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_062",
+    "question": "As-tu déjà consolé un ami au téléphone pendant des heures ?",
+    "reveal": "{count} sur {total} ont déjà consolé un ami au téléphone pendant des heures",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_063",
+    "question": "As-tu déjà hébergé un pote qui n'avait nulle part où dormir ?",
+    "reveal": "{count} sur {total} ont déjà hébergé un pote qui n'avait nulle part où dormir",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_064",
+    "question": "As-tu déjà traversé la ville en pleine nuit pour aider un ami ?",
+    "reveal": "{count} sur {total} ont déjà traversé la ville en pleine nuit pour aider un ami",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_065",
+    "question": "As-tu déjà organisé un anniversaire surprise ?",
+    "reveal": "{count} sur {total} ont déjà organisé un anniversaire surprise",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_066",
+    "question": "As-tu déjà gardé un secret pendant des années sans jamais craquer ?",
+    "reveal": "{count} sur {total} ont déjà gardé un secret pendant des années sans jamais craquer",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_067",
+    "question": "As-tu déjà raccompagné chez lui un ami qui avait trop bu ?",
+    "reveal": "{count} sur {total} ont déjà raccompagné chez lui un ami qui avait trop bu",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_068",
+    "question": "As-tu déjà monté un canapé au cinquième étage pour un pote ?",
+    "reveal": "{count} sur {total} ont déjà monté un canapé au cinquième étage pour un pote",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_069",
+    "question": "As-tu déjà prêté de l'argent à un ami sans jamais le lui réclamer ?",
+    "reveal": "{count} sur {total} ont déjà prêté de l'argent à un ami sans jamais le lui réclamer",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_070",
+    "question": "As-tu déjà dit à un pote une vérité qu'il ne voulait pas entendre ?",
+    "reveal": "{count} sur {total} ont déjà dit à un pote une vérité qu'il ne voulait pas entendre",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_071",
+    "question": "As-tu déjà défendu un inconnu qui se faisait embêter dans la rue ?",
+    "reveal": "{count} sur {total} ont déjà défendu un inconnu qui se faisait embêter dans la rue",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_072",
+    "question": "As-tu déjà pris la défense d'une personne de ce salon en son absence ?",
+    "reveal": "{count} sur {total} ont déjà pris la défense d'une personne de ce salon en son absence",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_073",
+    "question": "As-tu déjà traversé le pays juste pour assister au mariage d'un ami ?",
+    "reveal": "{count} sur {total} ont déjà traversé le pays juste pour assister au mariage d'un ami",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_074",
+    "question": "As-tu déjà laissé ta place à quelqu'un dans un train bondé ?",
+    "reveal": "{count} sur {total} ont déjà laissé leur place à quelqu'un dans un train bondé",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_075",
+    "question": "As-tu déjà rendu un portefeuille trouvé par terre avec tout l'argent dedans ?",
+    "reveal": "{count} sur {total} ont déjà rendu un portefeuille trouvé par terre avec tout l'argent dedans",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_076",
+    "question": "As-tu déjà payé l'addition en douce pour tout le groupe ?",
+    "reveal": "{count} sur {total} ont déjà payé l'addition en douce pour tout le groupe",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_077",
+    "question": "As-tu déjà cuisiné pour un ami qui traversait une mauvaise passe ?",
+    "reveal": "{count} sur {total} ont déjà cuisiné pour un ami qui traversait une mauvaise passe",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_078",
+    "question": "As-tu déjà réconcilié deux amis fâchés ?",
+    "reveal": "{count} sur {total} ont déjà réconcilié deux amis fâchés",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_079",
+    "question": "As-tu déjà nettoyé tout l'appart après une fête sans qu'on te le demande ?",
+    "reveal": "{count} sur {total} ont déjà nettoyé tout l'appart après une fête sans qu'on le leur demande",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_080",
+    "question": "As-tu déjà gardé un secret d'une personne de ce salon sans jamais le répéter ?",
+    "reveal": "{count} sur {total} ont déjà gardé un secret d'une personne de ce salon sans jamais le répéter",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_081",
+    "question": "As-tu déjà récupéré un ami en voiture à 4 h du matin ?",
+    "reveal": "{count} sur {total} ont déjà récupéré un ami en voiture à 4 h du matin",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_082",
+    "question": "As-tu déjà fabriqué un album photo souvenir pour tes amis ?",
+    "reveal": "{count} sur {total} ont déjà fabriqué un album photo souvenir pour leurs amis",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_083",
+    "question": "As-tu déjà retrouvé la trace d'un ami d'enfance perdu de vue ?",
+    "reveal": "{count} sur {total} ont déjà retrouvé la trace d'un ami d'enfance perdu de vue",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_084",
+    "question": "As-tu déjà accompagné un ami à un rendez-vous qui le stressait ?",
+    "reveal": "{count} sur {total} ont déjà accompagné un ami à un rendez-vous qui le stressait",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_085",
+    "question": "As-tu déjà envoyé un message à un ami juste pour savoir comment il allait ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message à un ami juste pour savoir comment il allait",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_086",
+    "question": "As-tu déjà joué les entremetteurs entre deux amis qui se sont mis ensemble ?",
+    "reveal": "{count} sur {total} ont déjà joué les entremetteurs entre deux amis qui se sont mis ensemble",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_087",
+    "question": "As-tu déjà cédé la meilleure chambre à un ami en vacances ?",
+    "reveal": "{count} sur {total} ont déjà cédé la meilleure chambre à un ami en vacances",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_088",
+    "question": "As-tu déjà organisé un week-end entre potes de A à Z ?",
+    "reveal": "{count} sur {total} ont déjà organisé un week-end entre potes de A à Z",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_089",
+    "question": "As-tu déjà avoué une bêtise à un ami avant qu'il la découvre ?",
+    "reveal": "{count} sur {total} ont déjà avoué une bêtise à un ami avant qu'il la découvre",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_090",
+    "question": "As-tu déjà présenté des excuses à un ami des années après une dispute ?",
+    "reveal": "{count} sur {total} ont déjà présenté des excuses à un ami des années après une dispute",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_091",
+    "question": "As-tu déjà renoncé à draguer quelqu'un parce qu'un pote l'aimait bien ?",
+    "reveal": "{count} sur {total} ont déjà renoncé à draguer quelqu'un parce qu'un pote l'aimait bien",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_092",
+    "question": "As-tu déjà refusé de répéter une rumeur sur un ami ?",
+    "reveal": "{count} sur {total} ont déjà refusé de répéter une rumeur sur un ami",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_093",
+    "question": "As-tu déjà remboursé une personne de ce salon sans qu'elle ait besoin de te relancer ?",
+    "reveal": "{count} sur {total} ont déjà remboursé une personne de ce salon sans qu'elle ait besoin de les relancer",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_094",
+    "question": "As-tu déjà donné ta dernière part de pizza à un pote ?",
+    "reveal": "{count} sur {total} ont déjà donné leur dernière part de pizza à un pote",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_095",
+    "question": "As-tu déjà attendu un ami plus d'une heure sans lui en vouloir ?",
+    "reveal": "{count} sur {total} ont déjà attendu un ami plus d'une heure sans lui en vouloir",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_096",
+    "question": "As-tu déjà révisé toute une nuit avec un pote pour l'aider à réussir un examen ?",
+    "reveal": "{count} sur {total} ont déjà révisé toute une nuit avec un pote pour l'aider à réussir un examen",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_097",
+    "question": "As-tu déjà conduit toute la nuit pour que tes potes puissent dormir ?",
+    "reveal": "{count} sur {total} ont déjà conduit toute la nuit pour que leurs potes puissent dormir",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_098",
+    "question": "As-tu déjà avoué à un ami que tu avais dit du mal de lui ?",
+    "reveal": "{count} sur {total} ont déjà avoué à un ami qu'ils avaient dit du mal de lui",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_099",
+    "question": "T'es-tu déjà excusé auprès d'une personne de ce salon pour une vieille histoire ?",
+    "reveal": "{count} sur {total} se sont déjà excusés auprès d'une personne de ce salon pour une vieille histoire",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_100",
+    "question": "As-tu déjà annulé tes vacances pour aider un ami en galère ?",
+    "reveal": "{count} sur {total} ont déjà annulé leurs vacances pour aider un ami en galère",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_101",
+    "question": "As-tu déjà raté un avion ?",
+    "reveal": "{count} sur {total} ont déjà raté un avion",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_102",
+    "question": "As-tu déjà fait du stop pour rentrer de vacances ?",
+    "reveal": "{count} sur {total} ont déjà fait du stop pour rentrer de vacances",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_103",
+    "question": "As-tu déjà fait la fête jusqu'au lever du soleil ?",
+    "reveal": "{count} sur {total} ont déjà fait la fête jusqu'au lever du soleil",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_104",
+    "question": "As-tu déjà fait un discours à un mariage ?",
+    "reveal": "{count} sur {total} ont déjà fait un discours à un mariage",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_105",
+    "question": "As-tu déjà chanté au karaoké devant des inconnus ?",
+    "reveal": "{count} sur {total} ont déjà chanté au karaoké devant des inconnus",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_106",
+    "question": "As-tu déjà vécu en colocation à plus de quatre ?",
+    "reveal": "{count} sur {total} ont déjà vécu en colocation à plus de quatre",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_107",
+    "question": "As-tu déjà rencontré quelqu'un sur une appli de rencontre ?",
+    "reveal": "{count} sur {total} ont déjà rencontré quelqu'un sur une appli de rencontre",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_108",
+    "question": "As-tu déjà voyagé seul à l'autre bout du monde ?",
+    "reveal": "{count} sur {total} ont déjà voyagé seuls à l'autre bout du monde",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_109",
+    "question": "As-tu déjà dansé sur une table en soirée ?",
+    "reveal": "{count} sur {total} ont déjà dansé sur une table en soirée",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_110",
+    "question": "As-tu déjà perdu tes clés en rentrant de soirée ?",
+    "reveal": "{count} sur {total} ont déjà perdu leurs clés en rentrant de soirée",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_111",
+    "question": "As-tu déjà été le dernier invité à partir d'une fête ?",
+    "reveal": "{count} sur {total} ont déjà été les derniers invités à partir d'une fête",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_112",
+    "question": "As-tu déjà fait un road trip sans rien réserver ?",
+    "reveal": "{count} sur {total} ont déjà fait un road trip sans rien réserver",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_113",
+    "question": "As-tu déjà dormi chez quelqu'un rencontré le jour même en voyage ?",
+    "reveal": "{count} sur {total} ont déjà dormi chez quelqu'un rencontré le jour même en voyage",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_114",
+    "question": "As-tu déjà eu plus de 500 messages non lus sur WhatsApp ?",
+    "reveal": "{count} sur {total} ont déjà eu plus de 500 messages non lus sur WhatsApp",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_115",
+    "question": "As-tu déjà envoyé un vocal de plus de cinq minutes ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un vocal de plus de cinq minutes",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_116",
+    "question": "As-tu déjà acheté un billet d'avion sur un coup de tête ?",
+    "reveal": "{count} sur {total} ont déjà acheté un billet d'avion sur un coup de tête",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_117",
+    "question": "As-tu déjà accepté un rendez-vous arrangé par des amis ?",
+    "reveal": "{count} sur {total} ont déjà accepté un rendez-vous arrangé par des amis",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_118",
+    "question": "As-tu déjà passé une nuit blanche à refaire le monde avec des potes ?",
+    "reveal": "{count} sur {total} ont déjà passé une nuit blanche à refaire le monde avec des potes",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_119",
+    "question": "As-tu déjà perdu ton téléphone pendant une soirée ?",
+    "reveal": "{count} sur {total} ont déjà perdu leur téléphone pendant une soirée",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_120",
+    "question": "As-tu déjà débarqué à une soirée où tu ne connaissais personne ?",
+    "reveal": "{count} sur {total} ont déjà débarqué à une soirée où ils ne connaissaient personne",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_121",
+    "question": "As-tu déjà fait une déclaration à un ami de longue date ?",
+    "reveal": "{count} sur {total} ont déjà fait une déclaration à un ami de longue date",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_122",
+    "question": "As-tu déjà eu un crush sur une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà eu un crush sur une personne de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_123",
+    "question": "As-tu déjà eu un crush sur le frère d'un pote ?",
+    "reveal": "{count} sur {total} ont déjà eu un crush sur le frère d'un pote",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_124",
+    "question": "As-tu déjà ressorti avec un ex ?",
+    "reveal": "{count} sur {total} ont déjà ressorti avec un ex",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_125",
+    "question": "T'es-tu déjà fait recaler à l'entrée d'une boîte de nuit ?",
+    "reveal": "{count} sur {total} se sont déjà fait recaler à l'entrée d'une boîte de nuit",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_126",
+    "question": "T'es-tu déjà perdu dans une ville étrangère sans batterie ?",
+    "reveal": "{count} sur {total} se sont déjà perdus dans une ville étrangère sans batterie",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_127",
+    "question": "T'es-tu déjà endormi en pleine soirée avant minuit ?",
+    "reveal": "{count} sur {total} se sont déjà endormis en pleine soirée avant minuit",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_128",
+    "question": "T'es-tu déjà fait larguer par message ?",
+    "reveal": "{count} sur {total} se sont déjà fait larguer par message",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_129",
+    "question": "T'es-tu déjà retrouvé enfermé dehors en pyjama ?",
+    "reveal": "{count} sur {total} se sont déjà retrouvés enfermés dehors en pyjama",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jda_130",
+    "question": "As-tu déjà dit « je t'aime » en premier dans une relation ?",
+    "reveal": "{count} sur {total} ont déjà dit « je t'aime » en premier dans une relation",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  }
+]

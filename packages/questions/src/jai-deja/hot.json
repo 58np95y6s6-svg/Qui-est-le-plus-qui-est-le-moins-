@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "jdh_001",
+    "question": "As-tu déjà envoyé un nude ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un nude",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_002",
+    "question": "As-tu déjà fait l'amour dans un lieu public ?",
+    "reveal": "{count} sur {total} ont déjà fait l'amour dans un lieu public",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_003",
+    "question": "As-tu déjà simulé sous la couette ?",
+    "reveal": "{count} sur {total} ont déjà simulé sous la couette",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_004",
+    "question": "As-tu déjà couché le premier soir ?",
+    "reveal": "{count} sur {total} ont déjà couché le premier soir",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_005",
+    "question": "As-tu déjà téléchargé une appli de rencontre ?",
+    "reveal": "{count} sur {total} ont déjà téléchargé une appli de rencontre",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_006",
+    "question": "As-tu déjà eu un rendez-vous avec quelqu'un rencontré sur une appli ?",
+    "reveal": "{count} sur {total} ont déjà eu un rendez-vous avec quelqu'un rencontré sur une appli",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_007",
+    "question": "As-tu déjà embrassé un inconnu en soirée ?",
+    "reveal": "{count} sur {total} ont déjà embrassé un inconnu en soirée",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_008",
+    "question": "As-tu déjà vécu un plan à trois ?",
+    "reveal": "{count} sur {total} ont déjà vécu un plan à trois",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_009",
+    "question": "As-tu déjà testé un club libertin ?",
+    "reveal": "{count} sur {total} ont déjà testé un club libertin",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_010",
+    "question": "As-tu déjà acheté un sextoy ?",
+    "reveal": "{count} sur {total} ont déjà acheté un sextoy",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_011",
+    "question": "As-tu déjà offert un cadeau coquin pour la Saint-Valentin ?",
+    "reveal": "{count} sur {total} ont déjà offert un cadeau coquin pour la Saint-Valentin",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_012",
+    "question": "As-tu déjà fait l'amour dans une voiture ?",
+    "reveal": "{count} sur {total} ont déjà fait l'amour dans une voiture",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_013",
+    "question": "As-tu déjà rejoint le club très fermé des câlins en avion ?",
+    "reveal": "{count} sur {total} ont déjà rejoint le club très fermé des câlins en avion",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_014",
+    "question": "As-tu déjà recouché avec un ex après la rupture ?",
+    "reveal": "{count} sur {total} ont déjà recouché avec un ex après la rupture",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_015",
+    "question": "As-tu déjà envoyé un message à un ex à 3 h du matin ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message à un ex à 3 h du matin",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_016",
+    "question": "As-tu déjà stalké le nouveau partenaire d'un ex ?",
+    "reveal": "{count} sur {total} ont déjà stalké le nouveau partenaire d'un ex",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_017",
+    "question": "As-tu déjà menti sur ton âge sur une appli de rencontre ?",
+    "reveal": "{count} sur {total} ont déjà menti sur leur âge sur une appli de rencontre",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_018",
+    "question": "As-tu déjà mis une photo de toi vieille de cinq ans sur une appli ?",
+    "reveal": "{count} sur {total} ont déjà mis une photo d'eux vieille de cinq ans sur une appli",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_019",
+    "question": "As-tu déjà ghosté quelqu'un après un rendez-vous ?",
+    "reveal": "{count} sur {total} ont déjà ghosté quelqu'un après un rendez-vous",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_020",
+    "question": "T'es-tu déjà fait ghoster après une nuit ensemble ?",
+    "reveal": "{count} sur {total} se sont déjà fait ghoster après une nuit ensemble",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_021",
+    "question": "As-tu déjà fait un strip-tease ?",
+    "reveal": "{count} sur {total} ont déjà fait un strip-tease",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_022",
+    "question": "As-tu déjà participé à un jeu de soirée qui a fini en bisous ?",
+    "reveal": "{count} sur {total} ont déjà participé à un jeu de soirée qui a fini en bisous",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_023",
+    "question": "As-tu déjà envoyé un message coquin à un groupe par erreur ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message coquin à un groupe par erreur",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_024",
+    "question": "As-tu déjà eu un plan cul régulier ?",
+    "reveal": "{count} sur {total} ont déjà eu un plan cul régulier",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_025",
+    "question": "As-tu déjà eu une aventure avec un collègue ?",
+    "reveal": "{count} sur {total} ont déjà eu une aventure avec un collègue",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_026",
+    "question": "As-tu déjà eu une aventure avec un supérieur hiérarchique ?",
+    "reveal": "{count} sur {total} ont déjà eu une aventure avec un supérieur hiérarchique",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_027",
+    "question": "As-tu déjà trompé quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà trompé quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_028",
+    "question": "As-tu déjà eu une liaison avec une personne en couple ?",
+    "reveal": "{count} sur {total} ont déjà eu une liaison avec une personne en couple",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_029",
+    "question": "As-tu déjà fait l'amour sur ton lieu de travail ?",
+    "reveal": "{count} sur {total} ont déjà fait l'amour sur leur lieu de travail",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_030",
+    "question": "As-tu déjà porté de la lingerie spéciale pour un rendez-vous ?",
+    "reveal": "{count} sur {total} ont déjà porté de la lingerie spéciale pour un rendez-vous",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_031",
+    "question": "As-tu déjà fait du sexting ?",
+    "reveal": "{count} sur {total} ont déjà fait du sexting",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_032",
+    "question": "As-tu déjà fait un appel vidéo coquin ?",
+    "reveal": "{count} sur {total} ont déjà fait un appel vidéo coquin",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_033",
+    "question": "As-tu déjà utilisé des menottes ailleurs que dans un commissariat ?",
+    "reveal": "{count} sur {total} ont déjà utilisé des menottes ailleurs que dans un commissariat",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_034",
+    "question": "As-tu déjà joué un jeu de rôle coquin ?",
+    "reveal": "{count} sur {total} ont déjà joué un jeu de rôle coquin",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_035",
+    "question": "T'es-tu déjà fait surprendre en plein câlin ?",
+    "reveal": "{count} sur {total} se sont déjà fait surprendre en plein câlin",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_036",
+    "question": "As-tu déjà fait l'amour chez tes parents ?",
+    "reveal": "{count} sur {total} ont déjà fait l'amour chez leurs parents",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_037",
+    "question": "As-tu déjà fait une séance photo sexy ?",
+    "reveal": "{count} sur {total} ont déjà fait une séance photo sexy",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_038",
+    "question": "As-tu déjà oublié le prénom de quelqu'un le lendemain matin ?",
+    "reveal": "{count} sur {total} ont déjà oublié le prénom de quelqu'un le lendemain matin",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_039",
+    "question": "As-tu déjà dit le mauvais prénom au pire moment ?",
+    "reveal": "{count} sur {total} ont déjà dit le mauvais prénom au pire moment",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_040",
+    "question": "As-tu déjà fait semblant de dormir pour esquiver les avances de ton partenaire ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de dormir pour esquiver les avances de leur partenaire",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_041",
+    "question": "As-tu déjà eu un coup d'un soir en vacances ?",
+    "reveal": "{count} sur {total} ont déjà eu un coup d'un soir en vacances",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_042",
+    "question": "As-tu déjà craqué pour ton coach à la salle de sport ?",
+    "reveal": "{count} sur {total} ont déjà craqué pour leur coach à la salle de sport",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_043",
+    "question": "As-tu déjà dragué le barman pour avoir un verre gratuit ?",
+    "reveal": "{count} sur {total} ont déjà dragué le barman pour avoir un verre gratuit",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_044",
+    "question": "As-tu déjà swipé à droite sur tout le monde par ennui ?",
+    "reveal": "{count} sur {total} ont déjà swipé à droite sur tout le monde par ennui",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_045",
+    "question": "As-tu déjà matché avec quelqu'un que tu connaissais dans la vraie vie ?",
+    "reveal": "{count} sur {total} ont déjà matché avec quelqu'un qu'ils connaissaient dans la vraie vie",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_046",
+    "question": "As-tu déjà parlé de ta vie sexuelle avec ta mère ?",
+    "reveal": "{count} sur {total} ont déjà parlé de leur vie sexuelle avec leur mère",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_047",
+    "question": "As-tu déjà eu un fou rire en plein câlin ?",
+    "reveal": "{count} sur {total} ont déjà eu un fou rire en plein câlin",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_048",
+    "question": "As-tu déjà cassé un lit pendant une nuit agitée ?",
+    "reveal": "{count} sur {total} ont déjà cassé un lit pendant une nuit agitée",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_049",
+    "question": "As-tu déjà reçu une plainte des voisins pour une nuit trop bruyante ?",
+    "reveal": "{count} sur {total} ont déjà reçu une plainte des voisins pour une nuit trop bruyante",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_050",
+    "question": "As-tu déjà pris une chambre d'hôtel juste pour quelques heures ?",
+    "reveal": "{count} sur {total} ont déjà pris une chambre d'hôtel juste pour quelques heures",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_051",
+    "question": "As-tu déjà liké une vieille photo d'un ex par erreur ?",
+    "reveal": "{count} sur {total} ont déjà liké une vieille photo d'un ex par erreur",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_052",
+    "question": "As-tu déjà embrassé deux personnes dans la même soirée ?",
+    "reveal": "{count} sur {total} ont déjà embrassé deux personnes dans la même soirée",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_053",
+    "question": "As-tu déjà enchaîné deux rendez-vous galants le même jour ?",
+    "reveal": "{count} sur {total} ont déjà enchaîné deux rendez-vous galants le même jour",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_054",
+    "question": "As-tu déjà ressorti la même phrase de drague à deux personnes le même soir ?",
+    "reveal": "{count} sur {total} ont déjà ressorti la même phrase de drague à deux personnes le même soir",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_055",
+    "question": "T'es-tu déjà fait recaler par message après un premier rendez-vous ?",
+    "reveal": "{count} sur {total} se sont déjà fait recaler par message après un premier rendez-vous",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_056",
+    "question": "As-tu déjà dit « je t'aime » sans le penser ?",
+    "reveal": "{count} sur {total} ont déjà dit « je t'aime » sans le penser",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_057",
+    "question": "As-tu déjà exagéré ton nombre de partenaires ?",
+    "reveal": "{count} sur {total} ont déjà exagéré leur nombre de partenaires",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_058",
+    "question": "As-tu déjà dragué quelqu'un juste pour rendre un ex jaloux ?",
+    "reveal": "{count} sur {total} ont déjà dragué quelqu'un juste pour rendre un ex jaloux",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_059",
+    "question": "As-tu déjà lu les messages de ton partenaire en cachette ?",
+    "reveal": "{count} sur {total} ont déjà lu les messages de leur partenaire en cachette",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_060",
+    "question": "As-tu déjà annulé un rendez-vous galant avec une fausse excuse ?",
+    "reveal": "{count} sur {total} ont déjà annulé un rendez-vous galant avec une fausse excuse",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_061",
+    "question": "As-tu déjà demandé à un ami de t'appeler pour fuir un rendez-vous raté ?",
+    "reveal": "{count} sur {total} ont déjà demandé à un ami de les appeler pour fuir un rendez-vous raté",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_062",
+    "question": "As-tu déjà flirté alors que tu étais en couple ?",
+    "reveal": "{count} sur {total} ont déjà flirté alors qu'ils étaient en couple",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_063",
+    "question": "As-tu déjà caché une appli de rencontre à ton partenaire ?",
+    "reveal": "{count} sur {total} ont déjà caché une appli de rencontre à leur partenaire",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_064",
+    "question": "As-tu déjà testé une page du Kama-sutra ?",
+    "reveal": "{count} sur {total} ont déjà testé une page du Kama-sutra",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_065",
+    "question": "As-tu déjà dansé de façon torride en boîte ?",
+    "reveal": "{count} sur {total} ont déjà dansé de façon torride en boîte",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_066",
+    "question": "As-tu déjà dragué quelqu'un au supermarché ?",
+    "reveal": "{count} sur {total} ont déjà dragué quelqu'un au supermarché",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_067",
+    "question": "As-tu déjà fait le premier pas avec un crush ?",
+    "reveal": "{count} sur {total} ont déjà fait le premier pas avec un crush",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_068",
+    "question": "As-tu déjà abordé un inconnu dans la rue pour lui donner ton numéro ?",
+    "reveal": "{count} sur {total} ont déjà abordé un inconnu dans la rue pour lui donner leur numéro",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_069",
+    "question": "As-tu déjà fait une déclaration d'amour en public ?",
+    "reveal": "{count} sur {total} ont déjà fait une déclaration d'amour en public",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_070",
+    "question": "As-tu déjà reçu un compliment inoubliable après une nuit ensemble ?",
+    "reveal": "{count} sur {total} ont déjà reçu un compliment inoubliable après une nuit ensemble",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_071",
+    "question": "As-tu déjà organisé un week-end surprise romantique ?",
+    "reveal": "{count} sur {total} ont déjà organisé un week-end surprise romantique",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_072",
+    "question": "As-tu déjà écrit une lettre d'amour à la main ?",
+    "reveal": "{count} sur {total} ont déjà écrit une lettre d'amour à la main",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_073",
+    "question": "As-tu déjà transformé un rendez-vous raté en super soirée ?",
+    "reveal": "{count} sur {total} ont déjà transformé un rendez-vous raté en super soirée",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_074",
+    "question": "As-tu déjà repoussé gentiment des avances en soirée ?",
+    "reveal": "{count} sur {total} ont déjà repoussé gentiment des avances en soirée",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_075",
+    "question": "As-tu déjà avoué tes sentiments à un ami ?",
+    "reveal": "{count} sur {total} ont déjà avoué leurs sentiments à un ami",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_076",
+    "question": "As-tu déjà proposé un fantasme à ton partenaire ?",
+    "reveal": "{count} sur {total} ont déjà proposé un fantasme à leur partenaire",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_077",
+    "question": "As-tu déjà osé une tenue très sexy en soirée ?",
+    "reveal": "{count} sur {total} ont déjà osé une tenue très sexy en soirée",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_078",
+    "question": "As-tu déjà chanté une sérénade pour séduire quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà chanté une sérénade pour séduire quelqu'un",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_079",
+    "question": "As-tu déjà fait livrer des fleurs à un crush ?",
+    "reveal": "{count} sur {total} ont déjà fait livrer des fleurs à un crush",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_080",
+    "question": "As-tu déjà offert un massage sensuel ?",
+    "reveal": "{count} sur {total} ont déjà offert un massage sensuel",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_081",
+    "question": "As-tu déjà séduit quelqu'un dans une langue étrangère ?",
+    "reveal": "{count} sur {total} ont déjà séduit quelqu'un dans une langue étrangère",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_082",
+    "question": "As-tu déjà conclu grâce à une phrase d'approche ringarde ?",
+    "reveal": "{count} sur {total} ont déjà conclu grâce à une phrase d'approche ringarde",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_083",
+    "question": "As-tu déjà accepté de tester une nouveauté proposée par ton partenaire ?",
+    "reveal": "{count} sur {total} ont déjà accepté de tester une nouveauté proposée par leur partenaire",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_084",
+    "question": "As-tu déjà préparé un dîner aux chandelles pour séduire ?",
+    "reveal": "{count} sur {total} ont déjà préparé un dîner aux chandelles pour séduire",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_085",
+    "question": "As-tu déjà dragué quelqu'un qui te semblait inaccessible ?",
+    "reveal": "{count} sur {total} ont déjà dragué quelqu'un qui leur semblait inaccessible",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_086",
+    "question": "As-tu déjà assumé un fantasme à voix haute devant des amis ?",
+    "reveal": "{count} sur {total} ont déjà assumé un fantasme à voix haute devant des amis",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_087",
+    "question": "As-tu déjà consolé un ami après un gros râteau ?",
+    "reveal": "{count} sur {total} ont déjà consolé un ami après un gros râteau",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_088",
+    "question": "As-tu déjà formé un couple en jouant les entremetteurs ?",
+    "reveal": "{count} sur {total} ont déjà formé un couple en jouant les entremetteurs",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_089",
+    "question": "As-tu déjà flirté avec quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà flirté avec quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_090",
+    "question": "As-tu déjà eu un crush sur quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà eu un crush sur quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_091",
+    "question": "As-tu déjà fait un rêve coquin sur quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait un rêve coquin sur quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_092",
+    "question": "As-tu déjà embrassé quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà embrassé quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_093",
+    "question": "As-tu déjà matché avec quelqu'un de ce salon sur une appli ?",
+    "reveal": "{count} sur {total} ont déjà matché avec quelqu'un de ce salon sur une appli",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_094",
+    "question": "As-tu déjà imaginé quelqu'un de ce salon tout nu ?",
+    "reveal": "{count} sur {total} ont déjà imaginé quelqu'un de ce salon tout nu",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_095",
+    "question": "As-tu déjà stalké les photos de vacances de quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà stalké les photos de vacances de quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_096",
+    "question": "As-tu déjà demandé des conseils de drague à quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà demandé des conseils de drague à quelqu'un de ce salon",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_097",
+    "question": "As-tu déjà raconté une nuit torride à quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà raconté une nuit torride à quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_098",
+    "question": "As-tu déjà eu un rendez-vous arrangé par quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà eu un rendez-vous arrangé par quelqu'un de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_099",
+    "question": "As-tu déjà envié le succès en drague de quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà envié le succès en drague de quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": true,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdh_100",
+    "question": "As-tu déjà envoyé un message coquin à quelqu'un de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message coquin à quelqu'un de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": true,
+    "fullExcluded": true
+  }
+]
