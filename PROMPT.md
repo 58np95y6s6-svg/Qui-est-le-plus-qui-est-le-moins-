@@ -1,7 +1,8 @@
-# PROMPT — « QUI ?! » · PWA de quiz social multijoueur temps réel
+# PROMPT — « Grillé ! » · PWA de jeux de soirée multijoueur temps réel
 
 > Copie-colle tout ce qui suit dans ton agent de code (Claude Code, Cursor, v0, Bolt…).
-> Le nom « QUI ?! » est un nom de travail : remplace-le librement.
+> **Nom de l'app : « Grillé ! »** (« t'es grillé » : désigné par les autres, aveu révélé ou mauvaise réponse, chaque mode finit par griller quelqu'un). Slogan : « Le jeu qui vous grille. » Logo : le mot GRILLÉ en Bricolage Grotesque 800, le point d'exclamation en or, légèrement penché.
+> Les banques de questions sont **déjà rédigées** dans `packages/questions/src/` : ne les réécris pas, branche-les, et complète-les seulement si le script de contrôle le demande.
 
 ---
 
@@ -19,9 +20,18 @@ Règles de travail non négociables :
 
 ---
 
-## 1. Le concept en une phrase
+## 1. Le concept
 
-Des joueurs réunis dans la même pièce rejoignent un salon depuis leur téléphone (code ou QR code). À chaque tour, une question du type **« Qui est le plus… ? »**, **« Qui est le moins… ? »** ou **« Qui pour… ? »** s'affiche avec **la photo et le prénom de tous les participants visibles d'un coup d'œil**. Chacun vote pour un membre du salon, on révèle le verdict, la personne désignée peut **contester** et plaider sa cause. À la fin, on sacre **le plus encensé** et **le plus taclé** de la soirée.
+Des joueurs réunis dans la même pièce rejoignent un salon depuis leur téléphone (code ou QR code), avec leur prénom et leur selfie. Le maître du jeu choisit **un mode de jeu** au moment de créer le salon :
+
+| Mode | Principe | Fin de partie |
+|---|---|---|
+| **Qui est le plus ?** | Une question « Qui est le plus… / le moins… / Qui pour… ? » s'affiche avec **la photo et le prénom de tous les participants visibles d'un coup d'œil**. Chacun vote pour un membre du salon, on révèle le verdict, le désigné peut **contester** et plaider sa cause (§5.1 à §5.10). | Podiums du **plus encensé** et du **plus taclé** |
+| **J'ai déjà / Jamais** | Une question « As-tu déjà… ? » s'affiche. Chacun répond **en secret** « J'ai déjà » ou « Jamais » et parie sur le nombre de « J'ai déjà » dans la pièce. On révèle le total, puis les visages selon les réglages (§5B). | **Le plus expérimenté**, **l'ange de la soirée**, **le détective** |
+| **Quiz culture** | QCM à 4 réponses façon Kahoot, avec catégories (musique française, histoire, cinéma…) et 3 niveaux de difficulté. Points selon la rapidité et la difficulté (§5C). | Podium au score |
+| **Soirée mix** | Enchaîne les trois modes par blocs (par exemple 10 + 10 + 10), avec un classement global. | Cérémonie complète |
+
+Les thèmes **Collègues, Amis, Famille, Full** (et **Trash, Hot** derrière le verrou 18+) s'appliquent aux deux modes sociaux. Le quiz utilise ses propres catégories.
 
 ---
 
@@ -80,7 +90,7 @@ On abandonne le mono-orange au profit d'une palette plus festive et plus contras
 | `--gold` | `#FFD23F` | `#F2B700` | Podium, compte à rebours, couronnes |
 | `--pink` | `#FF9BD8` | `#F06BB8` | Accents, confettis |
 
-Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte foncé `#14101F` sur `--positive` et `--gold`, jamais de blanc dessus. Les couleurs de thème : **Collègues = bleu ciel**, **Amis = rose**, **Famille = or**, **Full = violet**, **Trash = vert citron**, **Hot = corail**, réutilisées en cartes empilées façon référence.
+Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte foncé `#14101F` sur `--positive` et `--gold`, jamais de blanc dessus. Couleurs des modes : **Qui est le plus ? = violet**, **J'ai déjà = corail**, **Quiz = bleu ciel**, **Soirée mix = or**. Les couleurs de thème : **Collègues = bleu ciel**, **Amis = rose**, **Famille = or**, **Full = violet**, **Trash = vert citron**, **Hot = corail**, réutilisées en cartes empilées façon référence.
 
 **Typographies (Google Fonts, auto-hébergées pour le hors-ligne)**
 - **Titres et questions** : *Bricolage Grotesque* 700–800, interlettrage serré (-0.02em). La question s'affiche en très grand.
@@ -107,7 +117,7 @@ Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte fonc�
 ## 5. Parcours et écrans (tous à concevoir et à coder)
 
 ### 5.1 Accueil
-Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Lien « Comment on joue ? » (3 cartes swipables). Invite à installer la PWA après la première partie, jamais avant.
+Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Créer une partie ouvre d'abord le **choix du mode** : quatre grandes cartes empilées (Qui est le plus ? en violet, J'ai déjà en corail, Quiz culture en bleu ciel, Soirée mix en or), chacune avec une phrase d'explication et un exemple de question. Lien « Comment on joue ? » (3 cartes swipables). Invite à installer la PWA après la première partie, jamais avant.
 
 ### 5.2 Rejoindre
 - Saisie d'un **code de 6 caractères** (alphabet sans ambiguïté : sans 0/O, 1/I/L) en cases séparées, collage automatique, majuscules forcées.
@@ -123,7 +133,7 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Lien « C
 - Le profil (prénom + photo) est **stocké uniquement sur le téléphone du joueur** (IndexedDB, avec repli `localStorage`) et réutilisé aux parties suivantes, avec boutons « Changer » et « Effacer ma photo ». Voir §8.4.
 
 ### 5.4 Création du salon : réglages du MJ
-Écran en cartes empilées, chaque réglage en une ligne claire :
+Écran en cartes empilées, chaque réglage en une ligne claire. Le mode choisi est rappelé en haut, et les réglages qui ne le concernent pas sont masqués (le quiz a ses propres réglages, §5C). Réglages du mode **Qui est le plus ?** :
 
 | Réglage | Valeurs | Défaut |
 |---|---|---|
@@ -207,6 +217,75 @@ Séquence révélée écran par écran, que le MJ fait avancer :
 
 ---
 
+### 5.11 Compteur d'avancement (tous les modes)
+Les joueurs doivent toujours savoir où ils en sont dans la session :
+- **Barre de progression segmentée** en haut de chaque écran de question : un segment par question (30 par défaut). Les segments joués se colorent selon le résultat (citron pour positif, corail pour négatif, bleu ciel pour neutre ; dans le quiz, vert si le joueur a eu juste et gris sinon). Le segment en cours pulse.
+- À côté : **« Q12 / 30 »** en Unbounded, et une **estimation du temps restant** (« ≈ 9 min »), calculée à partir de la durée moyenne des tours précédents.
+- **Jalons** : à la moitié, un écran **« Mi-temps »** de 5 s avec le classement provisoire (pour le quiz) ou les tendances (« Karim est en tête des taclés ») ; à 5 questions de la fin, le bandeau **« Dernière ligne droite »** ; et pour la dernière, un écran d'annonce **« Dernière question ! »** avec roulement de tambour.
+- Dans le salon d'attente et entre deux parties : « Partie 2 de la soirée » et le nombre total de questions jouées depuis l'ouverture du salon.
+- Le MJ voit en plus un petit menu de contrôle (pause, passer la question, terminer maintenant), sans perdre l'avancement.
+
+---
+
+## 5B. Mode « J'ai déjà / Jamais »
+
+### 5B.1 Réglages spécifiques
+| Réglage | Valeurs | Défaut |
+|---|---|---|
+| Nombre de questions | 10 / 20 / **30** / 50 | 30 |
+| Thème | Collègues / Amis / Famille / Full (+ Trash / Hot derrière le verrou 18+), choix du MJ ou vote des joueurs | — |
+| **Révélation** | **Nombre + « J'assume »** (seul le total est montré, chacun peut ensuite révéler son visage) / Visages toujours / Nombre seulement | Nombre + « J'assume » |
+| **Pronostics** | Activés / Désactivés | Activés |
+| Minuteur | Aucun / 15 s / 20 s / 30 s | 20 s |
+| Intensité, Retardataires | comme le mode Qui est le plus ? | — |
+
+### 5B.2 Déroulé d'un tour
+1. **Question** : « As-tu déjà… ? » en très grand, avec la barre d'avancement. Pour répondre, deux énormes boutons qui prennent la moitié basse de l'écran : **« J'ai déjà »** (corail) et **« Jamais »** (citron). Un joueur peut changer d'avis tant que la phase est ouverte. La grille des joueurs est affichée en petit au-dessus des boutons, avec une coche sur ceux qui ont répondu (jamais leur réponse).
+2. **Pronostic** (si activé), sur le même écran juste après la réponse : « Combien d'entre vous ont déjà ? », avec un sélecteur de 0 à N (gros boutons − / +).
+3. **Fin de phase** : comme le mode Qui est le plus ?, quand tout le monde a répondu, quand le MJ clôt, ou à la fin du minuteur, puis compte à rebours 3-2-1 synchronisé.
+4. **Révélation** : un compteur qui défile jusqu'au vrai nombre (« **5** sur 9 ont déjà… », avec la phrase `reveal` de la question). Puis, selon le réglage :
+   - *Visages toujours* : les tuiles des « J'ai déjà » se retournent et passent en corail, les autres s'estompent ;
+   - *Nombre + « J'assume »* : chaque joueur qui a répondu « J'ai déjà » voit pendant 8 s un bouton **« J'assume »** ; ceux qui appuient voient leur tuile se retourner devant tout le monde ;
+   - *Nombre seulement* : seul le total est montré.
+   - Les questions marquées `sensitive` ne montrent **jamais** les visages, quel que soit le réglage.
+5. **Pronostics** : les joueurs qui ont trouvé le nombre exact gagnent **3 points**, ceux à ±1 gagnent **1 point** ; on les affiche avec un badge « Détective ».
+6. **« Raconte ! »** (si des visages sont révélés) : le MJ peut appuyer sur « Raconte ! » ; le jeu tire au sort une des personnes révélées, et son téléphone affiche « C'est à toi de raconter » pendant 45 s.
+
+### 5B.3 Score et cérémonie
+- **Le plus expérimenté** : le plus de « J'ai déjà », pondérés par l'intensité. **L'ange de la soirée** : le moins de « J'ai déjà ». Ces deux podiums ne sont affichés **que si la révélation des visages était activée** ; sinon on ne révèle rien sur les réponses individuelles, même à la fin.
+- **Le détective** : le plus de points de pronostic (toujours affiché).
+- Statistiques de groupe : « Ce soir, le groupe a cumulé 87 aveux », « La question la plus avouée », « La question où personne n'a osé ».
+- **Confidentialité** : les réponses individuelles ne quittent jamais le serveur sauf révélation choisie ; en mode *Nombre seulement*, le serveur n'envoie que des totaux.
+
+---
+
+## 5C. Mode « Quiz culture »
+
+### 5C.1 Réglages spécifiques
+| Réglage | Valeurs | Défaut |
+|---|---|---|
+| Nombre de questions | 10 / 20 / **30** / 50 | 20 |
+| **Catégories** | Choix multiple parmi les 12 catégories (§7.8), « Toutes », ou vote des joueurs | Toutes |
+| **Difficulté** | Facile / Moyen / Difficile / **Progressive** (facile au début, difficile à la fin) | Progressive |
+| Minuteur | 10 s / **20 s** / 30 s | 20 s |
+| Joker 50/50 | 0 / **1** / 2 par joueur | 1 |
+
+### 5C.2 Déroulé d'un tour
+1. **Question** : catégorie et difficulté en pastilles (Facile en citron, Moyen en or, Difficile en corail), question en grand, **4 réponses** en grandes tuiles colorées (une couleur et une forme par position, pour pouvoir y faire référence à l'oral), minuteur circulaire. Bouton Joker 50/50 discret.
+2. Le premier clic est définitif. Une coche apparaît sur la tuile des joueurs qui ont répondu.
+3. Fin de phase quand tout le monde a répondu, ou à la fin du minuteur, puis **3-2-1**.
+4. **Révélation** : la bonne réponse s'illumine ; sous chaque réponse, **les photos des joueurs qui l'ont choisie** (on voit qui s'est grillé). Puis l'anecdote `fact` de la question, et les points gagnés par chacun.
+5. **Classement provisoire** toutes les 5 questions (liste façon référence, avec flèches de tendance).
+
+### 5C.3 Score
+- Points de base : **500** (facile), **750** (moyen), **1 000** (difficile).
+- Multiplicateur de rapidité de 1,0 (réponse immédiate) à 0,5 (dernière seconde), linéaire.
+- Série : +10 % par bonne réponse consécutive, plafonné à +50 %.
+- Joker 50/50 : la question rapporte la moitié des points.
+- Cérémonie : podium 2-1-3 au score, puis prix bonus (*Le plus rapide*, *Le spécialiste* (meilleur taux dans une catégorie), *La remontée* (plus grosse progression au classement), *Grillé* (la question où tout le monde s'est trompé)).
+
+---
+
 ## 6. Logique de score et de polarité
 
 - Chaque question a une **polarité** : `positive` (+1), `negative` (-1) ou `neutral` (0).
@@ -286,7 +365,40 @@ Deux thèmes supplémentaires, réservés aux soirées entre adultes consentants
 
 **Format** : champ `adult: true`, `themes: ["trash"]` ou `["hot"]`, `fullExcluded: true` obligatoire. Le serveur refuse de tirer une question `adult` si le salon n'a pas le consentement 18+ validé.
 
-### 7.5 Script de contrôle `pnpm questions:check`
+### 7.7 Banque « J'ai déjà / Jamais »
+Fichiers `packages/questions/src/jai-deja/{collegues,amis,famille,trash,hot}.json` (déjà rédigés : au moins 100 questions par thème tout public et 100 par thème adulte).
+```json
+{
+  "id": "jda_042",
+  "question": "As-tu déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon pour l'envoyer à quelqu'un d'autre ?",
+  "reveal": "{count} sur {total} ont déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon pour l'envoyer à quelqu'un d'autre",
+  "polarity": "negative",
+  "themes": ["amis"],
+  "intensity": 3,
+  "aboutRoom": true,
+  "sensitive": true,
+  "adult": false,
+  "fullExcluded": false
+}
+```
+`aboutRoom` : la question vise les personnes présentes. `sensitive` : jamais de révélation des visages. Mêmes règles de tirage que §7.4 (alternance de polarité, montée en intensité, pas de répétition) et mêmes règles 18+ que §7.6.
+
+### 7.8 Banque « Quiz culture »
+Fichiers `packages/questions/src/quiz/{categorie}.json` (déjà rédigés : **45 questions par catégorie**, 15 faciles, 15 moyennes, 15 difficiles). Catégories : `musique-fr` (Musique française), `histoire`, `geographie`, `cinema-series`, `sport`, `sciences`, `gastronomie`, `langue-fr` (Langue française et expressions), `pop-culture`, `art-litterature`, `jeux-video`, `annees-80-2000` (Nostalgie 80-90-2000).
+```json
+{
+  "id": "qmu_001",
+  "category": "musique-fr",
+  "difficulty": "easy",
+  "question": "Quel chanteur a sorti l'album « Racine carrée » en 2015 ?",
+  "choices": ["Stromae", "Maître Gims", "Orelsan", "Angèle"],
+  "answer": 0,
+  "fact": "L'album contient « Papaoutai » et « Formidable »."
+}
+```
+Les choix sont **mélangés à l'affichage** (le serveur garde la correspondance). Pas de question répétée dans un même salon.
+
+### 7.9 Script de contrôle `pnpm questions:check`
 Il échoue si : ids en double, textes en double ou quasi-doublons (similarité normalisée > 0,85), volume par thème insuffisant, ratios hors tolérance (±5 %), question sans `verdict`, `{name}` absent du verdict, mot de la liste interdite trouvé (avec une liste spécifique pour Trash et Hot), question `adult` sans `fullExcluded: true`, question `adult` mélangée avec le thème Famille, moins de 120 questions Trash ou Hot. Il affiche un tableau de statistiques par thème, polarité, format et intensité.
 
 ---
@@ -295,15 +407,20 @@ Il échoue si : ids en double, textes en double ou quasi-doublons (similarité n
 
 ### 8.1 Machine à états d'un salon (côté serveur)
 ```
-LOBBY → (THEME_VOTE) → QUESTION_INTRO → VOTING → COUNTDOWN → RESULTS
-RESULTS → CHALLENGE_DEFENSE → REVOTING → COUNTDOWN → FINAL_RESULTS
-RESULTS | FINAL_RESULTS → QUESTION_INTRO (question suivante) | CEREMONY → ENDED
+LOBBY → (CONSENT_18) → (THEME_VOTE) → QUESTION_INTRO → <phase de réponse du mode> → COUNTDOWN → <révélation du mode>
+
+Qui est le plus ? : VOTING → COUNTDOWN → RESULTS
+                    RESULTS → CHALLENGE_DEFENSE → REVOTING → COUNTDOWN → FINAL_RESULTS
+J'ai déjà :        ANSWERING (réponse + pronostic) → COUNTDOWN → REVEAL_COUNT → (ASSUME_WINDOW) → (STORYTIME)
+Quiz :             ANSWERING → COUNTDOWN → REVEAL_ANSWER → (LEADERBOARD toutes les 5 questions)
+
+Après chaque révélation → (MILESTONE : mi-temps, dernière question) → QUESTION_INTRO | CEREMONY → ENDED
 n'importe quel état → PAUSED → retour à l'état précédent
 ```
-Chaque transition est une fonction pure `(state, event) => state`, testée, avec les transitions interdites rejetées.
+Chaque mode est un module (`modes/whoIsMost.ts`, `modes/neverHaveI.ts`, `modes/quiz.ts`) qui implémente la même interface (`answerPhase`, `reveal`, `score`, `ceremony`) ; la Soirée mix les enchaîne. Chaque transition est une fonction pure `(state, event) => state`, testée, avec les transitions interdites rejetées.
 
 ### 8.2 Événements (tous typés et validés par Zod)
-Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `theme:vote`, `game:start`, `vote:cast`, `vote:clear`, `vote:forceClose`, `challenge:start`, `challenge:endDefense`, `game:next`, `game:pause`, `game:end`.
+Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `theme:vote`, `game:start`, `vote:cast`, `vote:clear`, `vote:forceClose`, `challenge:start`, `challenge:endDefense`, `answer:submit` (J'ai déjà et quiz), `guess:submit` (pronostic), `joker:use`, `reveal:assume`, `story:request`, `game:next`, `game:pause`, `game:end`.
 Serveur → client : `room:state` (instantané complet, filtré selon le destinataire), `room:patch` (deltas), `phase:changed` (avec `endsAt` en temps serveur), `vote:progress` (nombre de votants et ids des votants, **jamais le contenu des votes** avant la révélation), `results:revealed`, `error` (codes normalisés).
 
 ### 8.3 Robustesse
@@ -371,11 +488,15 @@ README.md     # installation, lancement, déploiement, captures
 - Machine à états : toutes les transitions valides, et rejet des transitions invalides.
 - Algorithme de grille : pour N = 3 à 20 et pour 4 tailles d'écran (375×667, 390×844, 844×390, 1920×1080), aucune tuile < 64 px et aucun débordement.
 - Tirage de questions : ratios respectés, pas de doublon, alternance des formats, déterminisme avec seed.
+- J'ai déjà : points de pronostic (exact, ±1), aucune fuite des réponses individuelles en mode *Nombre seulement*, questions `sensitive` jamais révélées.
+- Quiz : calcul des points (difficulté, rapidité, série, joker), difficulté progressive, mélange des choix.
+- Compteur d'avancement : estimation du temps restant, déclenchement des jalons (mi-temps, dernière ligne droite, dernière question).
 
 **Tests de bout en bout (Playwright, plusieurs contextes navigateur)**
 - 1 MJ + 4 joueurs : création, rejoindre par code, selfie simulé (fausse caméra Chromium), vote du thème, 3 questions jouées, une contestation qui acquitte, clôture forcée par le MJ, cérémonie finale.
 - Un joueur se déconnecte en plein vote puis revient : il retrouve sa place et son vote.
 - Le MJ quitte : transfert du rôle.
+- Une partie J'ai déjà de 5 questions (révélation « J'assume ») et une partie Quiz de 5 questions avec un joker.
 
 **Critères d'acceptation**
 - [ ] Une partie complète de 30 questions avec 8 joueurs se déroule sans erreur dans la console.
@@ -383,7 +504,8 @@ README.md     # installation, lancement, déploiement, captures
 - [ ] Le 3-2-1 est synchronisé visuellement sur tous les écrans.
 - [ ] Le bouton « Contester » n'apparaît que chez le ou les désignés.
 - [ ] Le récap affiche les deux podiums (positif, négatif) et les prix bonus.
-- [ ] `pnpm questions:check` passe avec au moins 480 questions de base + 120 Trash + 120 Hot.
+- [ ] `pnpm questions:check` passe : Qui est le plus ? (480 de base + 120 Trash + 120 Hot), J'ai déjà (≥ 100 par thème), Quiz (12 catégories × 45).
+- [ ] Les quatre modes (Qui est le plus ?, J'ai déjà, Quiz, Soirée mix) se jouent de bout en bout, avec la barre d'avancement et les jalons.
 - [ ] Aucune question 18+ ne peut être tirée sans le consentement de tous les joueurs, ni en mode Full, ni en thème Famille.
 - [ ] Lighthouse mobile : PWA installable, Performance ≥ 90, Accessibilité ≥ 95.
 - [ ] `pnpm lint`, `pnpm typecheck`, `pnpm test` et `pnpm e2e` passent.
@@ -396,8 +518,8 @@ README.md     # installation, lancement, déploiement, captures
 2. `packages/shared` : types, Zod, machine à états, scoring, grille, tirage, avec leurs tests.
 3. Worker + Durable Object temps réel complet, testé en local avec `wrangler dev` et `@cloudflare/vitest-pool-workers`.
 4. Design system (tokens, typos, composants de base : bouton, carte, pilule, tuile joueur, podium, compte à rebours).
-5. Écrans dans l'ordre du parcours (§5), câblés au serveur.
-6. **Banque de questions complète** (rédigée par lots de 60, chaque lot vérifié par le script).
+5. Écrans dans l'ordre du parcours (§5), câblés au serveur, mode Qui est le plus ? d'abord, puis J'ai déjà (§5B), Quiz (§5C) et Soirée mix.
+6. **Branchement des banques de questions existantes** et passage du script de contrôle.
 7. PWA, sons, haptique, wake lock, écran partagé.
 8. Tests E2E, audit Lighthouse, README avec captures d'écran (portrait et paysage, clair et sombre).
 

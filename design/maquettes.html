@@ -1,4 +1,4 @@
-<title>QUI ?! Maquettes</title>
+<title>Grillé ! Maquettes</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,6 +102,11 @@ figcaption span{color:var(--board-muted);font-size:13px}
 .cdnum.anim{animation:pop .55s cubic-bezier(.3,1.4,.5,1)}
 @keyframes spin{0%{transform:rotate(0)}30%,60%{transform:rotate(-90deg)}90%,100%{transform:rotate(0)}}
 .rot{animation:spin 2.4s ease-in-out infinite}
+@keyframes pulse{50%{opacity:.4}}
+.ans{border-radius:22px;padding:14px;display:flex;align-items:center;gap:12px;font-weight:800;font-size:18px;color:#14101F;text-align:left;min-height:64px}
+.ans .sh{width:30px;height:30px;flex:none;display:grid;place-items:center}
+.mini{display:flex;margin-left:auto}
+.mini .av{margin-left:-8px;box-shadow:0 0 0 2px #14101F}
 @keyframes crown{0%,100%{transform:translateX(-50%) rotate(-8deg)}50%{transform:translateX(-50%) rotate(6deg) translateY(-4px)}}
 .crown{position:absolute;left:50%;top:-46px;width:76px;animation:crown 2.6s ease-in-out infinite}
 .stamp{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-12deg);border:5px solid currentColor;border-radius:14px;padding:6px 14px;font-family:var(--num);font-weight:900;font-size:30px;letter-spacing:.04em;background:rgba(16,12,28,.55);backdrop-filter:blur(2px);white-space:nowrap}
@@ -137,15 +142,15 @@ figcaption span{color:var(--board-muted);font-size:13px}
 .readout small{display:block;font-family:var(--body);color:var(--board-muted);font-size:13px;margin-top:4px}
 .simstage{display:flex;justify-content:center;min-width:0}
 @media (max-width:820px){.hero,.sim{grid-template-columns:minmax(0,1fr)}.types{grid-template-columns:minmax(0,1fr)}}
-@media (prefers-reduced-motion:reduce){.rot,.crown,.cdnum.anim{animation:none}}
+@media (prefers-reduced-motion:reduce){.rot,.crown,.cdnum.anim,.app i{animation:none!important}}
 </style>
 
 <div class="wrap">
   <header class="hero">
     <div>
       <div class="eyebrow">Maquettes v1 · direction « soirée électrique »</div>
-      <h1>QUI <em>?!</em></h1>
-      <p>Le jeu de soirée où l'on vote pour ses potes. Les écrans clés du parcours, en portrait et en paysage, avec un simulateur qui montre comment la grille des joueurs tient toujours sans scroll.</p>
+      <h1>GRILLÉ<em>!</em></h1>
+      <p>Le jeu qui vous grille : trois modes (Qui est le plus ?, J'ai déjà, Quiz culture) et une soirée mix. Les écrans clés du parcours, en portrait et en paysage, avec un simulateur qui montre comment la grille des joueurs tient toujours sans scroll.</p>
     </div>
     <div>
       <div class="swatches">
@@ -167,6 +172,11 @@ figcaption span{color:var(--board-muted);font-size:13px}
   <section>
     <div class="sec-head"><h2>Le parcours, en portrait</h2><p>De l'accueil à la cérémonie. Le jeu reste en portrait tant que la grille tient avec des tuiles d'au moins 64 px.</p></div>
     <div class="row" id="portrait"></div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Les autres modes</h2><p>J'ai déjà / Jamais, le Quiz culture, et les jalons d'avancement communs à tous les modes.</p></div>
+    <div class="row" id="modes"></div>
   </section>
 
   <section>
@@ -247,6 +257,13 @@ function ringTimer(size,frac,color,label){
   const r=size/2-4,c=2*Math.PI*r;
   return `<div class="ring" style="width:${size}px;height:${size}px"><svg width="${size}" height="${size}"><circle cx="${size/2}" cy="${size/2}" r="${r}" stroke="rgba(255,255,255,.12)" stroke-width="5" fill="none"/><circle cx="${size/2}" cy="${size/2}" r="${r}" stroke="${color}" stroke-width="5" fill="none" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c*(1-frac)}"/></svg><span class="num" style="font-size:${size*.26}px;font-weight:800">${label}</span></div>`;
 }
+function progress(cur,total,res){
+  const col={p:"var(--pos)",n:"var(--neg)",u:"var(--neu)",k:"var(--muted)"};
+  let h=`<div style="display:flex;gap:3px;align-items:center" aria-label="Question ${cur} sur ${total}">`;
+  for(let k=1;k<=total;k++){const c=k<cur?col[res[(k-1)%res.length]]:k===cur?"var(--ink)":"var(--surface-2)";h+=`<i style="flex:1;height:${k===cur?8:5}px;border-radius:3px;background:${c};${k===cur?"animation:pulse 1.2s ease-in-out infinite":""}"></i>`}
+  return h+"</div>";
+}
+const RES="nppnupnpnnpu";
 const dots=(n,on)=>`<div class="dots">${Array.from({length:n},(_,k)=>`<i class="${k<on?"on":""}"></i>`).join("")}</div>`;
 function qr(){let s=7,h="";const rnd=()=>(s=(s*16807)%2147483647)/2147483647;const N=25;
   const fin=(x,y)=>`<rect x="${x}" y="${y}" width="7" height="7" fill="#14101F"/><rect x="${x+1}" y="${y+1}" width="5" height="5" fill="#fff"/><rect x="${x+2}" y="${y+2}" width="3" height="3" fill="#14101F"/>`;
@@ -274,8 +291,8 @@ P.push(phone(`<div class="content" style="justify-content:space-between">
     <span class="pill" style="background:var(--surface);color:var(--gold);font-size:13px">${I.crown.replace('viewBox','width="20" viewBox')} 3 couronnes</span>
   </div>
   <div style="margin-top:6px">
-    <div class="disp" style="font-size:118px;font-weight:800;line-height:.82">QUI<span style="color:var(--gold);display:inline-block;transform:rotate(-8deg)">?!</span></div>
-    <div class="disp" style="font-size:22px;font-weight:700;margin-top:12px;color:var(--muted)">Le jeu qui balance vos potes.</div>
+    <div class="disp" style="font-size:86px;font-weight:800;line-height:.85">GRILLÉ<span style="color:var(--gold);display:inline-block;transform:rotate(-8deg)">!</span></div>
+    <div class="disp" style="font-size:22px;font-weight:700;margin-top:12px;color:var(--muted)">Le jeu qui vous grille.</div>
   </div>
   <div style="display:flex;flex-direction:column">
     ${[["Amis","Soirées, vacances, galères",'#FF9BD8'],["Collègues","Réunions, afterworks, open space",'#5CD6FF'],["Famille","Noël, repas du dimanche",'#FFD23F']].map((t,k)=>`<div style="background:${t[2]};color:#14101F;border-radius:28px;padding:18px 20px ${k<2?"34px":"18px"};margin-top:${k?"-20px":"0"};box-shadow:0 -6px 18px rgba(0,0,0,.25)"><div class="disp" style="font-size:24px;font-weight:800">${t[0]}</div><div style="font-weight:600;font-size:14px">${t[1]}</div></div>`).join("")}
@@ -285,6 +302,16 @@ P.push(phone(`<div class="content" style="justify-content:space-between">
     <button class="btn ghost">Rejoindre avec un code</button>
   </div>
 </div>`,{cap:"Accueil",sub:"Deux actions, les thèmes empilés en cartes comme dans la référence."}));
+
+// 1b. Choix du mode
+P.push(phone(`<div class="content" style="gap:12px">
+  <div class="disp" style="font-size:34px;font-weight:800">On joue à quoi ?</div>
+  ${[["Qui est le plus ?","On vote pour quelqu'un du salon.","« Qui est le plus susceptible de rater son train ? »","#7B4DFF","#fff"],
+     ["J'ai déjà / Jamais","On avoue en secret, on parie sur le total.","« As-tu déjà dormi pendant une visio ? »","#FF4D6A","#14101F"],
+     ["Quiz culture","QCM à 4 réponses, la vitesse compte.","Musique française, histoire, cinéma…","#5CD6FF","#14101F"],
+     ["Soirée mix","Les trois modes enchaînés.","10 + 10 + 10 questions","#FFD23F","#14101F"]].map((m,k)=>`<div style="background:${m[3]};color:${m[4]};border-radius:28px;padding:18px 20px ${k<3?"38px":"20px"};margin-top:${k?"-24px":"0"};box-shadow:0 -6px 18px rgba(0,0,0,.3);${k===0?"outline:3px solid #fff;outline-offset:-3px":""}"><div class="line"><span class="disp" style="font-size:26px;font-weight:800">${m[0]}</span>${k===0?`<span style="width:30px;height:30px;border-radius:50%;background:#fff;color:#14101F;display:grid;place-items:center">${I.check.replace("<svg",'<svg width="16"')}</span>`:""}</div><div style="font-weight:700;font-size:15px">${m[1]}</div><div style="font-weight:600;font-size:13px;opacity:.75;margin-top:4px">${m[2]}</div></div>`).join("")}
+  <button class="btn white" style="margin-top:auto">Choisir les règles ${I.arrow.replace("<svg",'<svg width="20"')}</button>
+</div>`,{cap:"Choix du mode",sub:"Le premier écran après « Créer une partie »."}));
 
 // 2. Selfie
 P.push(phone(`<div class="content" style="align-items:center;text-align:center">
@@ -345,11 +372,12 @@ P.push(phone(`<div class="content" style="gap:14px">
 
 // 5. Question portrait
 function questionPortrait(N,o={}){
-  const W=o.w||390,H=o.h||844,gridH=H-54-26-196-104;
+  const W=o.w||390,H=o.h||844,gridH=H-54-26-216-104;
   const g=grid(N,W-40,gridH,{sel:o.sel??1,voted:o.voted??[0,1,2,4,6],me:o.me});
   return {g:g.g,html:`<div class="content" style="gap:14px">
     <div class="qband">
-      <div class="qtop"><div style="display:flex;gap:10px;align-items:center"><span class="num" style="font-size:20px;font-weight:800">12<span class="muted">/30</span></span><span class="pill" style="background:var(--neg);color:#14101F">${I.down.replace("<svg",'<svg width="12"')} Le plus</span></div>${ringTimer(52,.6,"#FFD23F","18")}</div>
+      ${progress(12,30,RES)}
+      <div class="qtop"><div style="display:flex;gap:10px;align-items:center"><span class="num" style="font-size:20px;font-weight:800">Q12<span class="muted">/30</span></span><span class="pill" style="background:var(--neg);color:#14101F">${I.down.replace("<svg",'<svg width="12"')} Le plus</span><span class="muted" style="font-size:13px;font-weight:700">≈ 9 min</span></div>${ringTimer(52,.6,"#FFD23F","18")}</div>
       <div class="qtext" style="font-size:${W<380?27:31}px">Qui est le plus susceptible de rater son train ?</div>
     </div>
     ${g.html}
@@ -438,13 +466,88 @@ P.push(phone(`<div class="content" style="align-items:center;justify-content:cen
 P.splice(5,0,phone(questionPortrait(8,{sel:3,voted:[0,1,3,5],me:0}).html,{light:true,cap:"Question, mode clair",sub:"Même écran en clair, vu par Léa : sa propre tuile est grisée."}));
 document.getElementById("portrait").innerHTML=P.join("");
 
+/* ---------- Autres modes ---------- */
+const M=[];
+// J'ai déjà : réponse
+const jdGrid=grid(9,350,150,{voted:[0,2,3,5,6],me:-1});
+M.push(phone(`<div class="content" style="gap:12px">
+  ${progress(8,30,"pnnupn")}
+  <div class="qtop"><div style="display:flex;gap:10px;align-items:center"><span class="num" style="font-size:20px;font-weight:800">Q8<span class="muted">/30</span></span><span class="pill" style="background:var(--neg);color:#14101F">J'ai déjà</span></div>${ringTimer(52,.5,"#FFD23F","11")}</div>
+  <div class="qtext" style="font-size:27px">As-tu déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon pour l'envoyer à quelqu'un d'autre ?</div>
+  ${jdGrid.html}
+  <div class="line" style="font-size:14px">${dots(9,5)}<span class="muted"><b class="num" style="color:var(--ink)">5/9</b> ont répondu</span></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    <button class="btn" style="background:var(--neg);color:#14101F;box-shadow:0 6px 0 #9C1C33;height:120px;flex-direction:column;font-size:22px;box-shadow:0 0 0 4px #fff,0 6px 0 4px #9C1C33">J'ai déjà<span style="font-size:13px;font-weight:700">touché</span></button>
+    <button class="btn" style="background:var(--pos);color:#14101F;box-shadow:0 6px 0 #6E9A12;height:120px;flex-direction:column;font-size:22px">Jamais<span style="font-size:13px;font-weight:700">innocent</span></button>
+  </div>
+</div>`,{cap:"J'ai déjà, réponse secrète",sub:"Deux énormes boutons. Les coches montrent qui a répondu, jamais quoi."}));
+// J'ai déjà : pronostic
+M.push(phone(`<div class="content" style="gap:16px;align-items:center;text-align:center">
+  <div style="align-self:stretch">${progress(8,30,"pnnupn")}</div>
+  <span class="pill" style="background:var(--surface);color:var(--neg);margin-top:20px">Réponse envoyée · J'ai déjà</span>
+  <div class="disp" style="font-size:36px;font-weight:800;line-height:1.05">Combien d'entre vous ont déjà ?</div>
+  <div class="muted" style="font-weight:600">Le nombre exact rapporte 3 points, à un près 1 point.</div>
+  <div style="display:flex;align-items:center;gap:22px;margin-top:24px">
+    <button class="btn ghost" style="width:76px;height:76px;border-radius:50%;font-size:36px;padding:0">−</button>
+    <span class="num" style="font-size:120px;font-weight:900;color:var(--gold);line-height:1;min-width:110px">4</span>
+    <button class="btn ghost" style="width:76px;height:76px;border-radius:50%;font-size:36px;padding:0">+</button>
+  </div>
+  <div class="num muted" style="font-size:15px">sur 9 joueurs</div>
+  <button class="btn primary" style="align-self:stretch;margin-top:auto">Valider mon pronostic</button>
+</div>`,{cap:"J'ai déjà, pronostic",sub:"Juste après la réponse, on parie sur le total de la pièce."}));
+// J'ai déjà : révélation
+const jdRev=grid(9,350,250,{});
+M.push(phone(`<div class="content" style="gap:12px;text-align:center">
+  ${progress(8,30,"pnnupn")}
+  <div class="num" style="font-size:96px;font-weight:900;line-height:1;color:var(--neg);margin-top:8px">5<span style="font-size:36px;color:var(--muted)">/9</span></div>
+  <div class="disp" style="font-size:21px;font-weight:700;line-height:1.2">ont déjà pris une capture d'écran d'une conversation intime d'une personne de ce salon</div>
+  <span class="pill" style="background:var(--gold);color:#14101F;align-self:center">2 ont assumé</span>
+  ${jdRev.html.replace(/class="tile" data-i="(1|5)"/g,'class="tile" data-i="$1" style="--x:1"').replace(/(<button class="tile" data-i="(?!1"|5")\d+")/g,'$1 style="opacity:.3"')}
+  <div style="display:flex;gap:10px;align-items:center;justify-content:center;background:var(--surface);border-radius:20px;padding:12px">${av(3,38)}<span style="font-weight:800;text-align:left;flex:1">Inès, détective !<br><span class="muted" style="font-weight:600;font-size:13px">a pronostiqué 5 · +3 points</span></span></div>
+  <button class="btn" style="background:var(--neg);color:#14101F;box-shadow:0 6px 0 #9C1C33">J'assume <span class="num" style="font-size:13px">· 6 s</span></button>
+</div>`,{cap:"J'ai déjà, révélation",sub:"Le total d'abord. Ensuite, ceux qui veulent appuient sur « J'assume » et leur visage apparaît."}));
+// Quiz : question
+const AC=[["#7B4DFF","#fff","▲"],["#FF4D6A","#14101F","◆"],["#FFD23F","#14101F","●"],["#5CD6FF","#14101F","■"]];
+M.push(phone(`<div class="content" style="gap:14px">
+  ${progress(7,20,"kkp".replace(/k/g,"p")+"kpkp")}
+  <div class="qtop"><div style="display:flex;gap:8px;align-items:center"><span class="num" style="font-size:20px;font-weight:800">Q7<span class="muted">/20</span></span><span class="pill" style="background:var(--surface);color:var(--neu)">Musique FR</span><span class="pill" style="background:var(--gold);color:#14101F">Moyen</span></div>${ringTimer(52,.7,"#FFD23F","14")}</div>
+  <div class="qtext" style="font-size:30px;margin-top:6px">Quel chanteur a sorti l'album « Racine carrée » en 2015 ?</div>
+  <div style="display:flex;justify-content:space-between;align-items:center"><span class="muted" style="font-weight:700;font-size:14px">750 pts · série ×3 (+30 %)</span><span class="pill" style="background:var(--surface-2);color:var(--ink);letter-spacing:0;text-transform:none;font-size:13px">Joker 50/50</span></div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:auto">
+    ${["Stromae","Maître Gims","Orelsan","Angèle"].map((c,k)=>`<div class="ans" style="background:${AC[k][0]};color:${AC[k][1]};flex-direction:column;align-items:flex-start;min-height:132px;justify-content:space-between"><span class="sh" style="font-size:22px">${AC[k][2]}</span><span class="disp" style="font-size:22px">${c}</span></div>`).join("")}
+  </div>
+  <div class="line" style="font-size:14px">${dots(9,4)}<span class="muted"><b class="num" style="color:var(--ink)">4/9</b> ont répondu</span></div>
+</div>`,{cap:"Quiz, question",sub:"Une couleur et une forme par réponse, pour pouvoir dire « le carré bleu ! » à l'oral."}));
+// Quiz : révélation
+M.push(phone(`<div class="content" style="gap:12px">
+  ${progress(7,20,"ppkpkp")}
+  <div class="disp" style="font-size:22px;font-weight:800;line-height:1.15">Quel chanteur a sorti l'album « Racine carrée » en 2015 ?</div>
+  ${[["Stromae",[0,3,5,6,8],1],["Maître Gims",[2],0],["Orelsan",[1,7],0],["Angèle",[4],0]].map((a,k)=>`<div class="ans" style="background:${a[2]?"var(--pos)":"var(--surface)"};color:${a[2]?"#14101F":"var(--ink)"};${a[2]?"":"opacity:.75"}"><span class="sh" style="color:${a[2]?"#14101F":AC[k][0]}">${a[2]?I.check.replace("<svg",'<svg width="24"'):AC[k][2]}</span><span style="flex:1">${a[0]}</span><span class="mini" style="padding-left:8px">${a[1].map(i=>av(i,34)).join("")}</span></div>`).join("")}
+  <div class="card" style="background:var(--surface-2)"><div class="muted" style="font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase">Le saviez-vous ?</div><div style="font-weight:600;margin-top:4px">L'album contient « Papaoutai » et « Formidable ».</div></div>
+  <div style="display:flex;gap:10px;align-items:center;margin-top:auto">${av(0,44)}<div style="flex:1"><div style="font-weight:800">Léa · bonne réponse en 3 s</div><div class="muted num" style="font-size:13px">+ 877 pts · total 4 210</div></div><span class="pill num" style="background:var(--pos);color:#14101F">2e</span></div>
+</div>`,{cap:"Quiz, révélation",sub:"Sous chaque réponse, les photos de ceux qui l'ont choisie. On voit tout de suite qui s'est grillé."}));
+// Mi-temps
+M.push(phone(`<div class="content" style="gap:14px;align-items:center;text-align:center;justify-content:center;background:radial-gradient(circle at 50% 35%,rgba(255,210,63,.28),transparent 62%)">
+  <div style="align-self:stretch">${progress(16,30,RES)}</div>
+  <span class="pill" style="background:var(--gold);color:#14101F;margin-top:auto">Q15 / 30 · ≈ 11 min restantes</span>
+  <div class="disp" style="font-size:64px;font-weight:800;line-height:.9">Mi-temps</div>
+  <div class="muted" style="font-weight:700">Les tendances de la soirée</div>
+  <div style="align-self:stretch;display:flex;flex-direction:column;gap:10px;text-align:left">
+    <div class="card" style="display:flex;gap:12px;align-items:center;padding:12px 14px">${av(1,48,"#FF4D6A")}<div><div style="font-weight:800">Karim mène les taclés</div><div class="muted" style="font-size:13px;font-weight:600">4 désignations négatives</div></div></div>
+    <div class="card" style="display:flex;gap:12px;align-items:center;padding:12px 14px">${av(0,48,"#C6FF3D")}<div><div style="font-weight:800">Léa mène les encensés</div><div class="muted" style="font-size:13px;font-weight:600">5 désignations positives</div></div></div>
+  </div>
+  <div style="margin-top:auto;font-weight:700" class="muted">Reprise dans <span class="num" style="color:var(--ink)">4</span></div>
+</div>`,{cap:"Jalon : mi-temps",sub:"La barre segmentée suit toute la session. Puis « Dernière ligne droite » et « Dernière question ! »."}));
+document.getElementById("modes").innerHTML=M.join("");
+
 /* ---------- Écrans paysage ---------- */
 function questionLand(N,o={}){
   const W=o.w||844,H=o.h||390,left=Math.round(W*.32);
   const g=grid(N,W-left-48-70,H-40,{sel:o.sel??4,voted:o.voted??[0,1,2,4,6,7,9,11],me:o.me});
   return {g:g.g,html:`<div style="display:flex;height:100%;padding:20px 24px 20px 64px;gap:22px;position:relative;z-index:1">
     <div style="width:${left}px;flex:none;display:flex;flex-direction:column;gap:12px">
-      <div class="qtop"><div style="display:flex;gap:8px;align-items:center"><span class="num" style="font-size:17px;font-weight:800">12<span class="muted">/30</span></span><span class="pill" style="background:var(--pos);color:#14101F">${I.up.replace("<svg",'<svg width="12"')} Qui pour</span></div>${ringTimer(44,.4,"#FFD23F","12")}</div>
+      ${progress(12,30,RES)}
+      <div class="qtop"><div style="display:flex;gap:8px;align-items:center"><span class="num" style="font-size:17px;font-weight:800">Q12<span class="muted">/30</span></span><span class="pill" style="background:var(--pos);color:#14101F">${I.up.replace("<svg",'<svg width="12"')} Qui pour</span></div>${ringTimer(44,.4,"#FFD23F","12")}</div>
       <div class="qtext" style="font-size:${W<700?22:27}px">Qui pour un trajet de 12 h en voiture (musique, conversation…) ?</div>
       <div style="margin-top:auto;display:flex;flex-direction:column;gap:8px">
         <div class="line" style="font-size:13px">${dots(N,(o.voted??[0,1,2,4,6,7,9,11]).length)}</div>

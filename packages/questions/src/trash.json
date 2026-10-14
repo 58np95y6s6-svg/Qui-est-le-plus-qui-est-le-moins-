@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "tra_001",
+    "text": "Qui pue le plus des pieds ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a les pieds les plus redoutables de la bande"
+  },
+  {
+    "id": "tra_002",
+    "text": "Qui pète le plus en douce ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} lâche les pets les plus sournois de la soirée"
+  },
+  {
+    "id": "tra_003",
+    "text": "Qui a la pire haleine du matin ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a la pire haleine du matin"
+  },
+  {
+    "id": "tra_004",
+    "text": "Qui est le plus gros rat, du genre à piquer dans le frigo des autres sans demander ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} pille les frigos des autres sans le moindre remords"
+  },
+  {
+    "id": "tra_005",
+    "text": "Qui a l'appart le plus insalubre, avec de la vaisselle qui moisit depuis des semaines ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} cultive des espèces inconnues dans son évier"
+  },
+  {
+    "id": "tra_006",
+    "text": "Qui a l'estomac le plus solide ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un estomac en béton armé"
+  },
+  {
+    "id": "tra_007",
+    "text": "Qui a la gueule de bois la plus pathétique ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} agonise sur le canapé le lendemain de chaque soirée"
+  },
+  {
+    "id": "tra_008",
+    "text": "Qui laisse le plus traîner ses chaussettes sales partout ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sème ses chaussettes sales comme le Petit Poucet"
+  },
+  {
+    "id": "tra_009",
+    "text": "Qui garde le plus longtemps le même jean sans le laver ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} porte un jean qui tient debout tout seul"
+  },
+  {
+    "id": "tra_010",
+    "text": "Qui ronfle le plus fort ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ronfle comme un tracteur en pleine moisson"
+  },
+  {
+    "id": "tra_011",
+    "text": "Qui passe le plus de temps aux toilettes avec son téléphone ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a élu domicile sur le trône, téléphone en main"
+  },
+  {
+    "id": "tra_012",
+    "text": "Qui renifle le plus ses fringues pour savoir si elles sont encore mettables ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait passer le test du nez à chaque t-shirt"
+  },
+  {
+    "id": "tra_013",
+    "text": "Qui a le frigo le plus dangereux, avec des restes qui datent du mois dernier ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un frigo classé zone à risque"
+  },
+  {
+    "id": "tra_014",
+    "text": "Qui a vomi dans les endroits les plus improbables ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a vomi dans des lieux que personne n'oubliera"
+  },
+  {
+    "id": "tra_015",
+    "text": "Qui a les goûts culinaires les plus douteux ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} mange des trucs que personne n'oserait goûter"
+  },
+  {
+    "id": "tra_016",
+    "text": "Qui squatte le plus longtemps chez les autres après une soirée ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} s'incruste chez les autres jusqu'au surlendemain"
+  },
+  {
+    "id": "tra_017",
+    "text": "Qui disparaît le plus vite au moment de payer sa tournée ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} s'évapore pile au moment de sa tournée"
+  },
+  {
+    "id": "tra_018",
+    "text": "Qui laisse le plus de poils dans la douche des autres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse sa signature dans chaque bonde de douche"
+  },
+  {
+    "id": "tra_019",
+    "text": "Qui a la voiture la plus crade, façon poubelle sur roues ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} roule dans une poubelle sur roues"
+  },
+  {
+    "id": "tra_020",
+    "text": "Qui a le meilleur remède anti-gueule de bois ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} détient la potion miracle contre la gueule de bois"
+  },
+  {
+    "id": "tra_021",
+    "text": "Qui tient le mieux l'alcool sans jamais finir la tête dans la cuvette ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne finit jamais la tête dans la cuvette"
+  },
+  {
+    "id": "tra_022",
+    "text": "Qui se cure le plus le nez quand personne ne regarde ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} part en exploration nasale dès qu'on a le dos tourné"
+  },
+  {
+    "id": "tra_023",
+    "text": "Qui mange le plus salement ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} mange comme un bambin de deux ans"
+  },
+  {
+    "id": "tra_024",
+    "text": "Qui a la pire histoire de toilettes en soirée ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a vécu le pire drame de toilettes de la bande"
+  },
+  {
+    "id": "tra_025",
+    "text": "Qui réutilise le plus longtemps la même serviette de bain ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une serviette qui n'a pas vu la machine depuis des lustres"
+  },
+  {
+    "id": "tra_026",
+    "text": "Qui laisse le plus de miettes partout où il passe ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sème des miettes partout sur son passage"
+  },
+  {
+    "id": "tra_027",
+    "text": "Qui raconte le plus ses problèmes de transit à table ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} détaille son transit en plein repas"
+  },
+  {
+    "id": "tra_028",
+    "text": "Qui fait le plus de bruits dégoûtants en mangeant ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} mange avec la bande-son la plus dégoûtante du monde"
+  },
+  {
+    "id": "tra_029",
+    "text": "Qui devient le plus gênant après trois verres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} devient une légende du malaise après trois verres"
+  },
+  {
+    "id": "tra_030",
+    "text": "Qui est le plus doué pour sauver une soirée qui part en vrille ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sauve toutes les soirées qui partent en vrille"
+  },
+  {
+    "id": "tra_031",
+    "text": "Qui oublie le plus souvent de tirer la chasse ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse des surprises dans les toilettes"
+  },
+  {
+    "id": "tra_032",
+    "text": "Qui est le plus accro au kebab de 4 h du matin ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne rentre jamais sans son kebab de 4 h du matin"
+  },
+  {
+    "id": "tra_033",
+    "text": "Qui est le plus fiable pour tenir les cheveux d'un pote qui vomit ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est l'ange gardien des soirées qui finissent aux toilettes"
+  },
+  {
+    "id": "tra_034",
+    "text": "Qui invente les recettes les plus chelou à base de restes ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} invente des recettes de restes qui font peur"
+  },
+  {
+    "id": "tra_035",
+    "text": "Qui empeste le plus la clope froide ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sent le cendrier à dix mètres"
+  },
+  {
+    "id": "tra_036",
+    "text": "Qui a le plus de tupperwares moisis oubliés au bureau ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} élève des moisissures dans ses tupperwares oubliés"
+  },
+  {
+    "id": "tra_037",
+    "text": "Qui a le plus d'autodérision sur ses pires hontes ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} assume ses pires hontes avec panache"
+  },
+  {
+    "id": "tra_038",
+    "text": "Qui a la pire hygiène en camping ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} revient du camping dans un état préoccupant"
+  },
+  {
+    "id": "tra_039",
+    "text": "Qui a le plus de trucs louches au fond de son sac ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} trimballe un sac rempli de mystères douteux"
+  },
+  {
+    "id": "tra_040",
+    "text": "Qui a les toilettes les plus terrifiantes à la maison ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a des toilettes déconseillées aux âmes sensibles"
+  },
+  {
+    "id": "tra_041",
+    "text": "Qui se gratte le plus en public sans aucune gêne ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se gratte partout, devant tout le monde"
+  },
+  {
+    "id": "tra_042",
+    "text": "Qui est le plus radin sur le papier toilette quand il reçoit ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rationne le PQ de ses invités"
+  },
+  {
+    "id": "tra_043",
+    "text": "Qui a le plus de photos de soirées compromettantes sur son téléphone ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} cache une galerie de photos de soirées compromettantes"
+  },
+  {
+    "id": "tra_044",
+    "text": "Qui est le plus partant pour goûter n'importe quel plat bizarre ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} goûte tout sans broncher"
+  },
+  {
+    "id": "tra_045",
+    "text": "Qui fait durer le plus longtemps la même brosse à dents ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une brosse à dents qui a connu plusieurs saisons"
+  },
+  {
+    "id": "tra_046",
+    "text": "Qui récupère le plus vite après une grosse cuite ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se relève de n'importe quelle cuite comme si de rien n'était"
+  },
+  {
+    "id": "tra_047",
+    "text": "Qui a les rituels les plus bizarres aux toilettes ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a des rituels aux toilettes que personne ne veut connaître"
+  },
+  {
+    "id": "tra_048",
+    "text": "Qui a le meilleur flair pour repérer un aliment périmé ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} détecte un yaourt périmé à dix mètres"
+  },
+  {
+    "id": "tra_049",
+    "text": "Qui a la meilleure technique pour camoufler une odeur dans la salle de bain des autres ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} maîtrise l'art de couvrir les odeurs"
+  },
+  {
+    "id": "tra_050",
+    "text": "Qui garde la cuisine la plus nickel, même après une grosse fiesta ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une cuisine impeccable même après la fête"
+  },
+  {
+    "id": "tra_051",
+    "text": "Qui a la meilleure anecdote de soirée qui a complètement dérapé ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} raconte la soirée qui a dérapé mieux que personne"
+  },
+  {
+    "id": "tra_052",
+    "text": "Qui sent le plus le chien mouillé après une soirée dansante ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sort de la piste de danse en mode chien mouillé"
+  },
+  {
+    "id": "tra_053",
+    "text": "Qui laisse le plus traîner ses ongles coupés un peu partout ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sème des rognures d'ongles dans tout l'appart"
+  },
+  {
+    "id": "tra_054",
+    "text": "Qui a le plus de fois fini une soirée en ramenant la mauvaise veste, pleine de vomi ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} repart toujours avec la mauvaise veste, et pas la plus propre"
+  },
+  {
+    "id": "tra_055",
+    "text": "Qui se mouche le plus bruyamment à table ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se mouche à table comme une corne de brume"
+  },
+  {
+    "id": "tra_056",
+    "text": "Qui se lèche le plus les doigts après avoir mangé avant de toucher à tout ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse des empreintes grasses absolument partout"
+  },
+  {
+    "id": "tra_057",
+    "text": "Qui se lave le moins les mains en sortant des toilettes ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sort des toilettes sans passer par le lavabo"
+  },
+  {
+    "id": "tra_058",
+    "text": "Qui change le moins souvent ses draps ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dort dans des draps d'une autre saison"
+  },
+  {
+    "id": "tra_059",
+    "text": "Qui est le moins dégoûté par quoi que ce soit ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne connaît pas le mot dégoût"
+  },
+  {
+    "id": "tra_060",
+    "text": "Qui passe le moins souvent l'aspirateur ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un aspirateur encore sous blister"
+  },
+  {
+    "id": "tra_061",
+    "text": "Qui se coupe le moins souvent les ongles de pieds ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a des ongles de pieds qui griffent les draps"
+  },
+  {
+    "id": "tra_062",
+    "text": "Qui prend le moins de douches le week-end ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait des week-ends entiers sans douche"
+  },
+  {
+    "id": "tra_063",
+    "text": "Qui partage le moins sa bouffe, quitte à planquer ses gâteaux ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} planque ses gâteaux pour ne jamais partager"
+  },
+  {
+    "id": "tra_064",
+    "text": "Qui se brosse le moins souvent les dents avant de dormir ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} zappe le brossage du soir sans culpabiliser"
+  },
+  {
+    "id": "tra_065",
+    "text": "Qui est le moins gêné de parler de caca à table ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} parle de caca à table sans aucun complexe"
+  },
+  {
+    "id": "tra_066",
+    "text": "Qui lave le moins souvent sa tasse ou sa gourde ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} boit dans une tasse qui n'a jamais connu l'éponge"
+  },
+  {
+    "id": "tra_067",
+    "text": "Qui aère le moins sa chambre ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} vit dans une chambre qui n'a jamais été aérée"
+  },
+  {
+    "id": "tra_068",
+    "text": "Qui est le moins susceptible de vomir, même après une soirée apocalyptique ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} garde tout, même après la pire soirée"
+  },
+  {
+    "id": "tra_069",
+    "text": "Qui rembourse le moins ses dettes de soirée ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} doit des verres à toute la bande depuis des années"
+  },
+  {
+    "id": "tra_070",
+    "text": "Qui ramène le moins de choses quand il est invité à une soirée ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} débarque toujours les mains vides"
+  },
+  {
+    "id": "tra_071",
+    "text": "Qui vide le moins souvent sa poubelle ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} vit à côté d'une poubelle qui déborde"
+  },
+  {
+    "id": "tra_072",
+    "text": "Qui a le moins de honte le lendemain d'une soirée qui a dérapé ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} assume tout le lendemain sans rougir"
+  },
+  {
+    "id": "tra_073",
+    "text": "Qui nettoie le moins la cuisine après avoir cuisiné ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse la cuisine en scène de crime après chaque repas"
+  },
+  {
+    "id": "tra_074",
+    "text": "Qui se soucie le moins des dates de péremption ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} considère les dates de péremption comme une simple suggestion"
+  },
+  {
+    "id": "tra_075",
+    "text": "Qui se souvient le moins de ses propres soirées ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} reconstitue ses soirées grâce aux stories des autres"
+  },
+  {
+    "id": "tra_076",
+    "text": "Qui a le moins peur des toilettes de festival ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} affronte les toilettes de festival sans trembler"
+  },
+  {
+    "id": "tra_077",
+    "text": "Qui nettoie le moins souvent son téléphone, plus sale qu'une cuvette ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un téléphone plus sale qu'une cuvette"
+  },
+  {
+    "id": "tra_078",
+    "text": "Qui est le moins discret quand il va aux toilettes chez les autres ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait profiter tout l'appart de sa pause toilettes"
+  },
+  {
+    "id": "tra_079",
+    "text": "Qui range le moins vite ses courses, quitte à laisser fondre les surgelés ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse fondre les surgelés dans le sac"
+  },
+  {
+    "id": "tra_080",
+    "text": "Qui a le moins de filtre pour raconter ses histoires dégoûtantes ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} raconte les pires détails sans aucun filtre"
+  },
+  {
+    "id": "tra_081",
+    "text": "Qui met le moins de déo avant de sortir ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait confiance à son odeur naturelle, à tort"
+  },
+  {
+    "id": "tra_082",
+    "text": "Qui a le moins de mal à nettoyer le vomi des autres ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} nettoie le vomi des autres sans broncher"
+  },
+  {
+    "id": "tra_083",
+    "text": "Qui change le moins souvent de sous-vêtements ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} pousse ses sous-vêtements jusqu'à leurs limites"
+  },
+  {
+    "id": "tra_084",
+    "text": "Qui fait le moins de chichis pour dormir n'importe où après une soirée ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dort n'importe où, même sur un carrelage"
+  },
+  {
+    "id": "tra_085",
+    "text": "Qui a le moins de scrupules à rendre sale ce qu'on lui a prêté ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rend tout ce qu'on lui prête dans un état douteux"
+  },
+  {
+    "id": "tra_086",
+    "text": "Qui est le moins capable de garder son sérieux quand quelqu'un pète ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} explose de rire au moindre pet"
+  },
+  {
+    "id": "tra_087",
+    "text": "Qui se soucie le moins de l'odeur qu'il laisse aux toilettes ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rend les toilettes inutilisables pour un bon quart d'heure"
+  },
+  {
+    "id": "tra_088",
+    "text": "Qui laisse le moins de traces de son passage aux toilettes ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse les toilettes plus propres qu'en entrant"
+  },
+  {
+    "id": "tra_089",
+    "text": "Qui est le moins rancunier quand on vomit sur ses chaussures ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} pardonne même un vomi sur ses chaussures"
+  },
+  {
+    "id": "tra_090",
+    "text": "Qui pour lécher le sol pour 50 € ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} lèche le sol pour 50 €, sans la moindre hésitation"
+  },
+  {
+    "id": "tra_091",
+    "text": "Qui pour croquer un insecte grillé sans faire la grimace ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} croque les insectes comme des chips"
+  },
+  {
+    "id": "tra_092",
+    "text": "Qui pour déboucher les toilettes en pleine soirée ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le héros des toilettes bouchées"
+  },
+  {
+    "id": "tra_093",
+    "text": "Qui pour boire un shot de sauce piquante pour 20 € ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} boit la sauce piquante cul sec pour 20 €"
+  },
+  {
+    "id": "tra_094",
+    "text": "Qui pour porter la même tenue une semaine entière pour un pari ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} tient une semaine dans la même tenue, odeur comprise"
+  },
+  {
+    "id": "tra_095",
+    "text": "Qui pour finir l'assiette d'un inconnu au resto ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} finit les assiettes des inconnus sans sourciller"
+  },
+  {
+    "id": "tra_096",
+    "text": "Qui pour sentir les pieds de tout le monde et désigner le gagnant ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le jury officiel des pieds qui puent"
+  },
+  {
+    "id": "tra_097",
+    "text": "Qui pour plonger la main dans la cuvette afin de récupérer son téléphone ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} repêche son téléphone dans la cuvette sans hésiter"
+  },
+  {
+    "id": "tra_098",
+    "text": "Qui pour survivre une semaine de festival sans prendre une seule douche ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} survit au festival sans croiser une douche"
+  },
+  {
+    "id": "tra_099",
+    "text": "Qui pour goûter les croquettes du chat pour 10 € ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} goûte les croquettes du chat pour 10 €"
+  },
+  {
+    "id": "tra_100",
+    "text": "Qui pour taxer tes frites dès que tu tournes la tête ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} pique les frites de tout le monde"
+  },
+  {
+    "id": "tra_101",
+    "text": "Qui pour ramener les croissants le lendemain d'une soirée sans qu'on demande ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} débarque avec les croissants de la survie"
+  },
+  {
+    "id": "tra_102",
+    "text": "Qui pour remettre l'appart en état après une soirée qui a viré au carnage ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} remet l'appart en état après le carnage"
+  },
+  {
+    "id": "tra_103",
+    "text": "Qui pour boire le mélange immonde de tous les fonds de verre pour 100 € ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} avale l'immonde mélange pour 100 €"
+  },
+  {
+    "id": "tra_104",
+    "text": "Qui pour repartir d'une soirée avec les bouteilles des autres sous le bras ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} repart des soirées avec les bouteilles des autres"
+  },
+  {
+    "id": "tra_105",
+    "text": "Qui pour gagner un concours de rots ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} remporte haut la main le concours de rots"
+  },
+  {
+    "id": "tra_106",
+    "text": "Qui pour dormir dans le canapé le plus crasseux d'une coloc étudiante ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dort partout, même dans le pire canapé de coloc"
+  },
+  {
+    "id": "tra_107",
+    "text": "Qui pour t'aider à effacer les preuves d'une soirée qui a dégénéré ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} efface toutes les preuves de la soirée"
+  },
+  {
+    "id": "tra_108",
+    "text": "Qui pour te prêter des fringues propres après une soirée qui a mal fini ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dépanne en fringues propres après les pires soirées"
+  },
+  {
+    "id": "tra_109",
+    "text": "Qui pour jouer le goûteur officiel des restes douteux du frigo ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le goûteur officiel des restes douteux"
+  },
+  {
+    "id": "tra_110",
+    "text": "Qui pour mâcher un chewing-gum trouvé sous une table en échange de 200 € ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} mâche le chewing-gum de sous la table pour 200 €"
+  },
+  {
+    "id": "tra_111",
+    "text": "Qui a déjà fait pipi dans la piscine ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà fait pipi dans la piscine, avoue"
+  },
+  {
+    "id": "tra_112",
+    "text": "Qui est le plus susceptible de manger un truc tombé par terre ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} applique la règle des cinq secondes avec ferveur"
+  },
+  {
+    "id": "tra_113",
+    "text": "Qui a déjà vomi dans un taxi ou un VTC ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà offert un nettoyage de banquette à un chauffeur"
+  },
+  {
+    "id": "tra_114",
+    "text": "Qui a déjà dormi dans une baignoire après une soirée ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà fait sa nuit dans une baignoire"
+  },
+  {
+    "id": "tra_115",
+    "text": "Qui est le plus susceptible d'accuser le chien après avoir pété ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} accuse le chien à chaque pet"
+  },
+  {
+    "id": "tra_116",
+    "text": "Qui a déjà fait pipi dans un endroit public complètement interdit ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a arrosé un lieu qui n'aurait jamais dû l'être"
+  },
+  {
+    "id": "tra_117",
+    "text": "Qui a déjà mangé un truc moisi en enlevant juste la partie verte ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} gratte le moisi et mange le reste"
+  },
+  {
+    "id": "tra_118",
+    "text": "Qui est le plus susceptible de filer du resto avant de payer sa part ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} file du resto juste avant l'addition"
+  },
+  {
+    "id": "tra_119",
+    "text": "Qui a déjà vomi sur quelqu'un en soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà vomi sur quelqu'un, et tout le monde s'en souvient"
+  },
+  {
+    "id": "tra_120",
+    "text": "Qui a déjà ressorti un vêtement du panier à linge sale pour le remettre ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} recycle le panier à linge sale sans complexe"
+  },
+  {
+    "id": "tra_121",
+    "text": "Qui est le plus susceptible de finir le fond de verre d'un inconnu en soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} finit les fonds de verre des inconnus"
+  },
+  {
+    "id": "tra_122",
+    "text": "Qui a déjà réutilisé un mouchoir déjà bien servi ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} recycle ses mouchoirs usagés"
+  },
+  {
+    "id": "tra_123",
+    "text": "Qui a déjà petit-déjeuné avec la pizza froide oubliée sur la table basse ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} petit-déjeune avec la pizza froide de la veille"
+  },
+  {
+    "id": "tra_124",
+    "text": "Qui est le plus susceptible de s'endormir aux toilettes en pleine soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait sa nuit sur le trône en pleine soirée"
+  },
+  {
+    "id": "tra_125",
+    "text": "Qui a déjà lâché un pet en plein rendez-vous galant ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà parfumé un premier rendez-vous"
+  },
+  {
+    "id": "tra_126",
+    "text": "Qui a déjà envoyé un SMS honteux à 4 h du matin qu'il regrette encore ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} regrette encore son SMS de 4 h du matin"
+  },
+  {
+    "id": "tra_127",
+    "text": "Qui est le plus susceptible de renifler ses aisselles en public ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait le test de l'aisselle devant tout le monde"
+  },
+  {
+    "id": "tra_128",
+    "text": "Qui a déjà récupéré un truc dans la poubelle pour le manger ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà fait les poubelles pour grignoter"
+  },
+  {
+    "id": "tra_129",
+    "text": "Qui a déjà perdu une chaussure en rentrant de soirée ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rentre de soirée avec une seule chaussure"
+  },
+  {
+    "id": "tra_130",
+    "text": "Qui a déjà fini une soirée en vomissant dans son propre sac ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà transformé son sac en seau"
+  },
+  {
+    "id": "tra_131",
+    "text": "Qui est le plus susceptible de lécher son assiette au restaurant ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} lèche son assiette, même au restaurant"
+  },
+  {
+    "id": "tra_132",
+    "text": "Qui est le plus susceptible de laisser pourrir son linge sale dans sa valise ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse le linge sale pourrir dans sa valise"
+  },
+  {
+    "id": "tra_133",
+    "text": "Qui est le plus susceptible d'avoir toujours du gel et des mouchoirs sur soi ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est la trousse de secours ambulante de la bande"
+  },
+  {
+    "id": "tra_134",
+    "text": "Qui est le plus susceptible de distribuer Doliprane et verres d'eau au réveil ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} distribue Doliprane et verres d'eau au réveil"
+  },
+  {
+    "id": "tra_135",
+    "text": "Qui a déjà fait ses besoins dans un sac plastique faute de toilettes ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà vécu l'urgence ultime, sac plastique à la main"
+  },
+  {
+    "id": "tra_136",
+    "text": "Qui est le plus susceptible de rafler tous les sachets de ketchup du fast-food ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un tiroir entier de sachets de ketchup volés"
+  },
+  {
+    "id": "tra_137",
+    "text": "Qui a déjà remis au frigo une bouteille de lait bue directement au goulot ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} boit au goulot et remet la bouteille au frigo"
+  },
+  {
+    "id": "tra_138",
+    "text": "Qui a déjà fait pipi dans un lavabo ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà confondu lavabo et urinoir"
+  },
+  {
+    "id": "tra_139",
+    "text": "Qui a déjà dormi tout habillé, chaussures aux pieds, après une soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se couche après la soirée encore chaussé"
+  },
+  {
+    "id": "tra_140",
+    "text": "Qui a déjà vidé le minibar d'un hôtel en remplissant les bouteilles avec de l'eau ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "trash"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} remplit les bouteilles du minibar avec de l'eau du robinet"
+  }
+]

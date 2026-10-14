@@ -1,0 +1,1822 @@
+[
+  {
+    "id": "hot_001",
+    "text": "Qui est le meilleur coup de la pièce ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est officiellement le meilleur coup de la pièce"
+  },
+  {
+    "id": "hot_002",
+    "text": "Qui est le plus libéré·e ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est la personne la plus libérée de la bande"
+  },
+  {
+    "id": "hot_003",
+    "text": "Qui est le plus gourmand·e au lit ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un appétit légendaire sous la couette"
+  },
+  {
+    "id": "hot_004",
+    "text": "Qui a le jeu de séduction le plus redoutable ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un jeu de séduction imbattable"
+  },
+  {
+    "id": "hot_005",
+    "text": "Qui a le regard le plus charmeur ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait fondre n'importe qui d'un seul regard"
+  },
+  {
+    "id": "hot_006",
+    "text": "Qui embrasse le mieux ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} embrasse mieux que tout le monde ici"
+  },
+  {
+    "id": "hot_007",
+    "text": "Qui envoie les textos les plus chauds ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} envoie des textos qui font monter la température"
+  },
+  {
+    "id": "hot_008",
+    "text": "Qui a les meilleures phrases d'accroche ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une phrase d'accroche pour chaque occasion"
+  },
+  {
+    "id": "hot_009",
+    "text": "Qui a le plus d'imagination au lit ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une imagination sans limites sous la couette"
+  },
+  {
+    "id": "hot_010",
+    "text": "Qui dégage le plus de sex-appeal ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dégage un sex-appeal qui fait tourner les têtes"
+  },
+  {
+    "id": "hot_011",
+    "text": "Qui danse de la façon la plus sensuelle ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} met le feu à la piste avec une danse ultra sensuelle"
+  },
+  {
+    "id": "hot_012",
+    "text": "Qui fait les massages les plus irrésistibles ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait des massages qui font fondre"
+  },
+  {
+    "id": "hot_013",
+    "text": "Qui a la voix la plus sexy au téléphone ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une voix qui fait rougir au bout du fil"
+  },
+  {
+    "id": "hot_014",
+    "text": "Qui a le plus d'endurance ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une endurance qui force le respect"
+  },
+  {
+    "id": "hot_015",
+    "text": "Qui sait le mieux faire monter la tension avec un simple regard ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait monter la tension sans dire un mot"
+  },
+  {
+    "id": "hot_016",
+    "text": "Qui organise les rendez-vous les plus romantiques ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} organise des rendez-vous dignes d'un film"
+  },
+  {
+    "id": "hot_017",
+    "text": "Qui a le plus de succès sur les applis de rencontre ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} croule sous les matchs"
+  },
+  {
+    "id": "hot_018",
+    "text": "Qui est le plus joueur·se sous la couette ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} transforme chaque nuit en jeu"
+  },
+  {
+    "id": "hot_019",
+    "text": "Qui a le plus de charme sans même essayer ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} séduit sans même s'en rendre compte"
+  },
+  {
+    "id": "hot_020",
+    "text": "Qui sait le mieux mettre l'ambiance pour une soirée en tête-à-tête ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} crée l'ambiance parfaite pour un tête-à-tête"
+  },
+  {
+    "id": "hot_021",
+    "text": "Qui fait les compliments les plus troublants ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} glisse des compliments qui font rougir"
+  },
+  {
+    "id": "hot_022",
+    "text": "Qui laisse les souvenirs les plus torrides à ses ex ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse à ses ex des souvenirs brûlants"
+  },
+  {
+    "id": "hot_023",
+    "text": "Qui ghoste le plus après un date ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} disparaît dans la nature après chaque date"
+  },
+  {
+    "id": "hot_024",
+    "text": "Qui drague de la façon la plus lourde ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} drague avec la subtilité d'un bulldozer"
+  },
+  {
+    "id": "hot_025",
+    "text": "Qui a le plus d'ex toxiques au compteur ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} collectionne les ex toxiques"
+  },
+  {
+    "id": "hot_026",
+    "text": "Qui s'attache le plus vite après un plan d'un soir ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} tombe amoureux·se au premier café du lendemain"
+  },
+  {
+    "id": "hot_027",
+    "text": "Qui accumule le plus de matchs sans jamais oser passer au date ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} collectionne les matchs sans jamais passer au date"
+  },
+  {
+    "id": "hot_028",
+    "text": "Qui a les photos les plus trompeuses sur son profil de rencontre ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un profil de rencontre qui relève de la fiction"
+  },
+  {
+    "id": "hot_029",
+    "text": "Qui remet le plus souvent le couvert avec son ex ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} remet le couvert avec son ex en boucle"
+  },
+  {
+    "id": "hot_030",
+    "text": "Qui fait le plus semblant d'être expérimenté·e ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} joue les experts sans en avoir le CV"
+  },
+  {
+    "id": "hot_031",
+    "text": "Qui s'endort le plus vite après l'amour ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} s'endort avant même le câlin"
+  },
+  {
+    "id": "hot_032",
+    "text": "Qui passe le plus de temps à swiper au lieu de vivre sa vie ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} swipe plus vite que son ombre"
+  },
+  {
+    "id": "hot_033",
+    "text": "Qui se fait le plus de films après un simple sourire ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} imagine le mariage après un simple sourire"
+  },
+  {
+    "id": "hot_034",
+    "text": "Qui a le plus de mal à cacher ses crushs ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rougit dès que son crush entre dans la pièce"
+  },
+  {
+    "id": "hot_035",
+    "text": "Qui a les techniques de drague les plus ringardes ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} drague comme dans un film des années 90"
+  },
+  {
+    "id": "hot_036",
+    "text": "Qui est le plus collant·e après un premier baiser ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} envoie quinze messages après le premier baiser"
+  },
+  {
+    "id": "hot_037",
+    "text": "Qui raconte le plus ses dates foireux à toute la bande ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} transforme chaque date raté en stand-up"
+  },
+  {
+    "id": "hot_038",
+    "text": "Qui envoie le plus de vocaux de dix minutes à ses crushs ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} inonde ses crushs de vocaux interminables"
+  },
+  {
+    "id": "hot_039",
+    "text": "Qui a le plus de body count ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a le body count le plus impressionnant de la bande"
+  },
+  {
+    "id": "hot_040",
+    "text": "Qui a les fantasmes les plus inavouables ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} cache des fantasmes inavouables"
+  },
+  {
+    "id": "hot_041",
+    "text": "Qui a le plus de contacts d'ex enregistrés sous de faux noms ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un répertoire rempli d'ex sous pseudo"
+  },
+  {
+    "id": "hot_042",
+    "text": "Qui a le plus de crushs en même temps ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} gère plusieurs crushs en simultané"
+  },
+  {
+    "id": "hot_043",
+    "text": "Qui a la vie amoureuse la plus mouvementée ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une vie amoureuse digne d'une série"
+  },
+  {
+    "id": "hot_044",
+    "text": "Qui a l'historique de navigation le plus gênant ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un historique de navigation à effacer d'urgence"
+  },
+  {
+    "id": "hot_045",
+    "text": "Qui a le type de partenaire le plus inattendu ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} craque toujours pour les profils les plus inattendus"
+  },
+  {
+    "id": "hot_046",
+    "text": "Qui a les anecdotes de lit les plus folles ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a des anecdotes de lit à couper le souffle"
+  },
+  {
+    "id": "hot_047",
+    "text": "Qui a le plus d'histoires de vacances torrides ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} revient de chaque vacances avec une histoire torride"
+  },
+  {
+    "id": "hot_048",
+    "text": "Qui a les plans d'un soir les plus improbables ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a des plans d'un soir dignes d'un scénario"
+  },
+  {
+    "id": "hot_049",
+    "text": "Qui a le plus de fantasmes liés aux uniformes ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un faible pour les uniformes"
+  },
+  {
+    "id": "hot_050",
+    "text": "Qui est le plus fleur bleue derrière ses airs de séducteur ou séductrice ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} cache un cœur d'artichaut derrière son jeu de séduction"
+  },
+  {
+    "id": "hot_051",
+    "text": "Qui a la playlist la plus chaude pour les soirées en tête-à-tête ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a la playlist parfaite pour faire grimper la température"
+  },
+  {
+    "id": "hot_052",
+    "text": "Qui a le plus de rencards en une seule semaine ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} enchaîne les rencards comme des réunions"
+  },
+  {
+    "id": "hot_053",
+    "text": "Qui est le moins pudique ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} n'a aucune pudeur, et c'est assumé"
+  },
+  {
+    "id": "hot_054",
+    "text": "Qui est le moins égoïste au lit ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} pense toujours au plaisir de l'autre"
+  },
+  {
+    "id": "hot_055",
+    "text": "Qui est le moins jaloux·se en couple ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne connaît pas la jalousie"
+  },
+  {
+    "id": "hot_056",
+    "text": "Qui est le moins gêné·e pour parler de ses envies ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} parle de ses envies sans rougir"
+  },
+  {
+    "id": "hot_057",
+    "text": "Qui se lasse le moins vite de son ou sa partenaire ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} reste accro à son ou sa partenaire pendant des années"
+  },
+  {
+    "id": "hot_058",
+    "text": "Qui rate le moins ses premiers rendez-vous ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} transforme chaque premier date en succès"
+  },
+  {
+    "id": "hot_059",
+    "text": "Qui est le moins romantique ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a le romantisme d'une facture d'électricité"
+  },
+  {
+    "id": "hot_060",
+    "text": "Qui est le moins discret·e sur sa vie sexuelle ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} raconte tout, absolument tout"
+  },
+  {
+    "id": "hot_061",
+    "text": "Qui est le moins capable de garder une relation plus de trois mois ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne dépasse jamais le troisième mois"
+  },
+  {
+    "id": "hot_062",
+    "text": "Qui a le moins de patience pour les préliminaires ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} zappe les préliminaires comme les pubs"
+  },
+  {
+    "id": "hot_063",
+    "text": "Qui assume le moins ses plans d'un soir ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait comme si de rien n'était le lendemain"
+  },
+  {
+    "id": "hot_064",
+    "text": "Qui fait le moins d'efforts au premier rendez-vous ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} débarque au premier date en jogging"
+  },
+  {
+    "id": "hot_065",
+    "text": "Qui répond le moins vite aux messages de ses crushs ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} laisse ses crushs en vu pendant des jours"
+  },
+  {
+    "id": "hot_066",
+    "text": "Qui a le moins de flair pour choisir ses partenaires ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un radar à mauvais plans"
+  },
+  {
+    "id": "hot_067",
+    "text": "Qui est le moins à l'aise quand on parle de sexe ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} devient écarlate dès qu'on parle de sexe"
+  },
+  {
+    "id": "hot_068",
+    "text": "Qui est le moins difficile en matière de partenaires ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} n'a pas vraiment de critères"
+  },
+  {
+    "id": "hot_069",
+    "text": "Qui attend le moins longtemps avant de passer aux choses sérieuses ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne perd jamais de temps avec les préambules"
+  },
+  {
+    "id": "hot_070",
+    "text": "Qui reste le moins longtemps célibataire ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est célibataire environ quarante-huit heures"
+  },
+  {
+    "id": "hot_071",
+    "text": "Qui a le moins de mal à aborder un ou une inconnu·e qui lui plaît ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} aborde n'importe qui avec aplomb"
+  },
+  {
+    "id": "hot_072",
+    "text": "Qui est le moins prévisible au lit ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} réserve toujours une surprise sous la couette"
+  },
+  {
+    "id": "hot_073",
+    "text": "Qui est le moins coincé·e quand il s'agit de tester des nouveautés ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} dit oui à toutes les nouveautés"
+  },
+  {
+    "id": "hot_074",
+    "text": "Qui est le moins doué·e pour flirter sans se griller ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se grille dès la première tentative de flirt"
+  },
+  {
+    "id": "hot_075",
+    "text": "Qui sait le moins dire non à un ex qui revient ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} craque à chaque retour d'un ex"
+  },
+  {
+    "id": "hot_076",
+    "text": "Qui se prend le moins la tête après un râteau ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} encaisse les râteaux avec le sourire"
+  },
+  {
+    "id": "hot_077",
+    "text": "Qui supprime le moins ses applis de rencontre, même en couple depuis peu ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} garde ses applis de rencontre « au cas où »"
+  },
+  {
+    "id": "hot_078",
+    "text": "Qui est le moins subtil·e quand quelqu'un lui plaît ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait comprendre son attirance à toute la pièce"
+  },
+  {
+    "id": "hot_079",
+    "text": "Qui est le moins prude au moment de choisir un sextoy ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} choisit un sextoy comme on choisit un dessert"
+  },
+  {
+    "id": "hot_080",
+    "text": "Qui a le moins de limites sur la piste de danse en boîte ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} transforme la piste de danse en zone torride"
+  },
+  {
+    "id": "hot_081",
+    "text": "Qui est le moins fiable pour garder un secret d'alcôve ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} révèle les secrets d'alcôve au premier verre"
+  },
+  {
+    "id": "hot_082",
+    "text": "Qui a le moins peur de faire le premier pas ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait toujours le premier pas"
+  },
+  {
+    "id": "hot_083",
+    "text": "Qui est le moins doué·e pour retirer ses fringues avec élégance ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se bat avec son jean au pire moment"
+  },
+  {
+    "id": "hot_084",
+    "text": "Qui pour tester un club libertin ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} poussera bientôt la porte d'un club libertin"
+  },
+  {
+    "id": "hot_085",
+    "text": "Qui ferait le meilleur strip-tease ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ferait un strip-tease inoubliable"
+  },
+  {
+    "id": "hot_086",
+    "text": "Qui pour un action ou vérité très, très hot ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} choisit toujours action, même la plus hot"
+  },
+  {
+    "id": "hot_087",
+    "text": "Qui pour un bain de minuit tout nu ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} plonge tout nu dès minuit sonné"
+  },
+  {
+    "id": "hot_088",
+    "text": "Qui pour une soirée speed dating ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} enchaîne les speed datings avec brio"
+  },
+  {
+    "id": "hot_089",
+    "text": "Qui pour une séance photo boudoir ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} assure en séance photo boudoir"
+  },
+  {
+    "id": "hot_090",
+    "text": "Qui pour un week-end dans un camp naturiste ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} part en week-end naturiste sans hésiter"
+  },
+  {
+    "id": "hot_091",
+    "text": "Qui pour un date à l'aveugle organisé par la bande ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} accepte le date à l'aveugle organisé par la bande"
+  },
+  {
+    "id": "hot_092",
+    "text": "Qui pour participer à une télé-réalité de dating ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sera la star de la prochaine télé-réalité de dating"
+  },
+  {
+    "id": "hot_093",
+    "text": "Qui pour faire un tour au salon de l'érotisme ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ressort du salon de l'érotisme les bras chargés"
+  },
+  {
+    "id": "hot_094",
+    "text": "Qui pour un jeu de rôle coquin avec déguisement ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} sort le costume pour un jeu de rôle coquin"
+  },
+  {
+    "id": "hot_095",
+    "text": "Qui pour écrire une fanfiction érotique ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} écrit des fanfictions érotiques sous pseudo"
+  },
+  {
+    "id": "hot_096",
+    "text": "Qui pour animer une réunion de vente de sextoys entre amis ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} anime la réunion sextoys comme un ou une pro"
+  },
+  {
+    "id": "hot_097",
+    "text": "Qui pour une nuit dans une love room avec miroir au plafond ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} réserve la love room avec miroir au plafond"
+  },
+  {
+    "id": "hot_098",
+    "text": "Qui pour donner les meilleurs conseils de drague ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le coach en drague officiel de la bande"
+  },
+  {
+    "id": "hot_099",
+    "text": "Qui pour animer un atelier d'éducation sexuelle sans tabou ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} anime l'atelier d'éducation sexuelle sans tabou"
+  },
+  {
+    "id": "hot_100",
+    "text": "Qui pour écrire la lettre d'amour la plus torride ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} écrit des lettres d'amour qui brûlent les doigts"
+  },
+  {
+    "id": "hot_101",
+    "text": "Qui pour organiser le week-end en amoureux parfait ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} organise le week-end en amoureux parfait"
+  },
+  {
+    "id": "hot_102",
+    "text": "Qui pour un slow très, très rapproché ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le partenaire de slow que tout le monde veut"
+  },
+  {
+    "id": "hot_103",
+    "text": "Qui pour un bain moussant à deux ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} prépare le bain moussant à deux idéal"
+  },
+  {
+    "id": "hot_104",
+    "text": "Qui pour choisir la lingerie la plus sexy ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a un goût infaillible en lingerie"
+  },
+  {
+    "id": "hot_105",
+    "text": "Qui ferait le meilleur acteur ou la meilleure actrice de film coquin ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ferait carrière dans le film coquin"
+  },
+  {
+    "id": "hot_106",
+    "text": "Qui pour te coacher avant un premier rendez-vous ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} coache tout le monde avant un premier date"
+  },
+  {
+    "id": "hot_107",
+    "text": "Qui pour stalker le nouveau crush de tout le monde en cinq minutes ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} retrouve n'importe quel crush en cinq minutes chrono"
+  },
+  {
+    "id": "hot_108",
+    "text": "Qui pour être ton ou ta wingman de soirée ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} est le meilleur wingman de la bande"
+  },
+  {
+    "id": "hot_109",
+    "text": "Qui pour écrire la bio de profil de rencontre la plus irrésistible ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} écrit des bios qui font matcher à tous les coups"
+  },
+  {
+    "id": "hot_110",
+    "text": "Qui est le plus susceptible d'envoyer un nude par erreur ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} enverra un jour un nude au mauvais contact"
+  },
+  {
+    "id": "hot_111",
+    "text": "Qui est le plus susceptible de coucher le premier soir ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} ne voit aucune raison d'attendre le deuxième soir"
+  },
+  {
+    "id": "hot_112",
+    "text": "Qui est le plus susceptible de stalker son ex sur Insta ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} connaît la vie de son ex mieux que son ex"
+  },
+  {
+    "id": "hot_113",
+    "text": "Qui est le plus susceptible d'envoyer « tu dors ? » à 2 h du matin ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} envoie des « tu dors ? » à 2 h du matin"
+  },
+  {
+    "id": "hot_114",
+    "text": "Qui est le plus susceptible de se tromper de prénom au lit ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} finira par se tromper de prénom au mauvais moment"
+  },
+  {
+    "id": "hot_115",
+    "text": "Qui a déjà été surpris·e en plein câlin très intime ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà été pris·e la main dans le sac, en plein câlin"
+  },
+  {
+    "id": "hot_116",
+    "text": "Qui a déjà liké une vieille photo en stalkant son crush ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà liké une photo de 2017 par accident"
+  },
+  {
+    "id": "hot_117",
+    "text": "Qui est le plus susceptible de larguer quelqu'un par message ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rompt par message, émojis compris"
+  },
+  {
+    "id": "hot_118",
+    "text": "Qui est le plus susceptible d'avoir un plan cul régulier ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a forcément un plan régulier quelque part"
+  },
+  {
+    "id": "hot_119",
+    "text": "Qui a déjà fait des galipettes dans un lieu public ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà fait des galipettes là où il ne fallait pas"
+  },
+  {
+    "id": "hot_120",
+    "text": "Qui est le plus susceptible d'avoir un compte OnlyFans secret ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} cache un compte OnlyFans florissant"
+  },
+  {
+    "id": "hot_121",
+    "text": "Qui est le plus susceptible d'avoir une boîte à jouets coquins bien remplie ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a une collection de jouets coquins impressionnante"
+  },
+  {
+    "id": "hot_122",
+    "text": "Qui est le plus susceptible de faire trembler les murs de la coloc ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} empêche toute la coloc de dormir"
+  },
+  {
+    "id": "hot_123",
+    "text": "Qui est le plus susceptible de flirter avec le serveur ou la serveuse ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} flirte avec chaque serveur et chaque serveuse"
+  },
+  {
+    "id": "hot_124",
+    "text": "Qui est le plus susceptible de tester un plan à trois ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} tentera un jour l'expérience à trois"
+  },
+  {
+    "id": "hot_125",
+    "text": "Qui est le plus susceptible de craquer pour son ou sa boss ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} finira par craquer pour son ou sa boss"
+  },
+  {
+    "id": "hot_126",
+    "text": "Qui a déjà emballé quelqu'un à un mariage ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà emballé quelqu'un à un mariage"
+  },
+  {
+    "id": "hot_127",
+    "text": "Qui a déjà embrassé quelqu'un sans connaître son prénom ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà embrassé un parfait inconnu"
+  },
+  {
+    "id": "hot_128",
+    "text": "Qui est le plus susceptible de décrocher un date au rayon fruits et légumes ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} trouve l'amour entre les tomates et les courgettes"
+  },
+  {
+    "id": "hot_129",
+    "text": "Qui est le plus susceptible de rouler une pelle à un·e inconnu·e en boîte ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} embrasse des inconnus en boîte chaque week-end"
+  },
+  {
+    "id": "hot_130",
+    "text": "Qui est le plus susceptible de faire chavirer n'importe qui en une soirée ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} fait chavirer les cœurs en une seule soirée"
+  },
+  {
+    "id": "hot_131",
+    "text": "Qui est le plus susceptible de transformer un massage en tout autre chose ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} transforme chaque massage en tout autre chose"
+  },
+  {
+    "id": "hot_132",
+    "text": "Qui est le plus susceptible de mentir sur son âge sur une appli de rencontre ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} rajeunit de cinq ans sur les applis"
+  },
+  {
+    "id": "hot_133",
+    "text": "Qui a déjà pris un rencard juste pour se faire offrir un resto ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà accepté un date pour le resto gratuit"
+  },
+  {
+    "id": "hot_134",
+    "text": "Qui a déjà oublié qu'il ou elle avait deux rendez-vous le même soir ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà jonglé entre deux dates le même soir"
+  },
+  {
+    "id": "hot_135",
+    "text": "Qui a déjà fait un strip-poker ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} a déjà fini un strip-poker en sous-vêtements"
+  },
+  {
+    "id": "hot_136",
+    "text": "Qui est le plus susceptible de pleurer devant son ex en soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} craque en voyant son ex débarquer en soirée"
+  },
+  {
+    "id": "hot_137",
+    "text": "Qui est le plus susceptible de se faire draguer partout où il ou elle va ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} se fait draguer jusqu'à la boulangerie"
+  },
+  {
+    "id": "hot_138",
+    "text": "Qui est le plus susceptible d'avoir réalisé tous ses fantasmes avant 40 ans ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} aura coché tous ses fantasmes avant 40 ans"
+  },
+  {
+    "id": "hot_139",
+    "text": "Qui a déjà simulé pour que ça se termine plus vite ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} mérite un César pour ses performances simulées"
+  },
+  {
+    "id": "hot_140",
+    "text": "Qui est le plus susceptible de rater un date parce qu'il ou elle a trop bu avant ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "hot"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": true,
+    "verdict": "{name} arrive au date déjà pompette, et ça se voit"
+  }
+]
