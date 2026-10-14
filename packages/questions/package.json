@@ -1,0 +1,11 @@
+{
+  "name": "@grille/questions",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./most": "./questions.fr.json",
+    "./never": "./jai-deja.fr.json",
+    "./quiz": "./quiz.fr.json"
+  },
+  "scripts": { "check": "node scripts/check.mjs" }
+}

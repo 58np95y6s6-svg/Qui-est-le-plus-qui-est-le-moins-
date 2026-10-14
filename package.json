@@ -1,0 +1,15 @@
+{
+  "name": "grille",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "pnpm --filter @grille/web build && pnpm --parallel --filter @grille/web --filter @grille/party dev",
+    "build": "pnpm questions:check && pnpm --filter @grille/web build",
+    "deploy": "pnpm build && pnpm --filter @grille/party deploy",
+    "test": "pnpm --filter @grille/shared test",
+    "typecheck": "pnpm -r typecheck",
+    "questions:check": "node packages/questions/scripts/check.mjs",
+    "e2e": "node apps/web/e2e/run.mjs"
+  }
+}
