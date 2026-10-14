@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qsc_001",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quelle planète est surnommée « la planète rouge » ?",
+    "choices": [
+      "Vénus",
+      "Mars",
+      "Jupiter",
+      "Mercure"
+    ],
+    "answer": 1,
+    "fact": "Sa couleur vient de l'oxyde de fer, autrement dit de la rouille, présent dans sa poussière."
+  },
+  {
+    "id": "qsc_002",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quelle est la formule chimique de l'eau ?",
+    "choices": [
+      "HO2",
+      "H2O2",
+      "H2O",
+      "OH"
+    ],
+    "answer": 2,
+    "fact": "H2O2 est le peroxyde d'hydrogène, ou eau oxygénée, utilisé pour désinfecter et décolorer."
+  },
+  {
+    "id": "qsc_003",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel est le plus grand organe du corps humain ?",
+    "choices": [
+      "Le foie",
+      "Les poumons",
+      "La peau",
+      "L'intestin"
+    ],
+    "answer": 2,
+    "fact": "Chez l'adulte, la peau couvre près de 2 m² et pèse plusieurs kilos."
+  },
+  {
+    "id": "qsc_004",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel scientifique a formulé la théorie de la relativité ?",
+    "choices": [
+      "Isaac Newton",
+      "Albert Einstein",
+      "Niels Bohr",
+      "Max Planck"
+    ],
+    "answer": 1,
+    "fact": "Son prix Nobel de 1921 récompensait l'effet photoélectrique, pas la relativité."
+  },
+  {
+    "id": "qsc_005",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quelle est l'étoile la plus proche de la Terre ?",
+    "choices": [
+      "Le Soleil",
+      "Proxima du Centaure",
+      "Sirius",
+      "L'étoile Polaire"
+    ],
+    "answer": 0,
+    "fact": "Sa lumière met environ 8 minutes à nous parvenir."
+  },
+  {
+    "id": "qsc_006",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Combien de pattes possède une araignée ?",
+    "choices": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "answer": 0,
+    "fact": "Les araignées ne sont pas des insectes mais des arachnides, comme les scorpions."
+  },
+  {
+    "id": "qsc_007",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel gaz les plantes absorbent-elles pour réaliser la photosynthèse ?",
+    "choices": [
+      "Oxygène",
+      "Azote",
+      "Hydrogène",
+      "Dioxyde de carbone"
+    ],
+    "answer": 3,
+    "fact": "L'oxygène qu'elles rejettent provient de la décomposition de molécules d'eau."
+  },
+  {
+    "id": "qsc_008",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quelle vitamine notre peau fabrique-t-elle grâce aux rayons du soleil ?",
+    "choices": [
+      "La vitamine A",
+      "La vitamine C",
+      "La vitamine D",
+      "La vitamine K"
+    ],
+    "answer": 2,
+    "fact": "Elle aide l'organisme à fixer le calcium, indispensable à la solidité des os."
+  },
+  {
+    "id": "qsc_009",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "À quelle température l'eau bout-elle au niveau de la mer ?",
+    "choices": [
+      "90 °C",
+      "110 °C",
+      "120 °C",
+      "100 °C"
+    ],
+    "answer": 3,
+    "fact": "Au sommet du mont Blanc, la pression étant plus faible, l'eau bout vers 85 °C."
+  },
+  {
+    "id": "qsc_010",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel est l'animal terrestre le plus rapide ?",
+    "choices": [
+      "Le lion",
+      "L'antilope",
+      "Le lévrier",
+      "Le guépard"
+    ],
+    "answer": 3,
+    "fact": "Il dépasse les 90 km/h en pointe, mais seulement sur de courtes distances."
+  },
+  {
+    "id": "qsc_011",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel scientifique a découvert la pénicilline ?",
+    "choices": [
+      "Louis Pasteur",
+      "Alexander Fleming",
+      "Marie Curie",
+      "Robert Koch"
+    ],
+    "answer": 1,
+    "fact": "En 1928, il remarqua qu'une moisissure tuait les bactéries d'une boîte de culture oubliée."
+  },
+  {
+    "id": "qsc_012",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Combien de planètes compte le système solaire ?",
+    "choices": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "answer": 1,
+    "fact": "Pluton a été reclassée « planète naine » en 2006 par l'Union astronomique internationale."
+  },
+  {
+    "id": "qsc_013",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel est le symbole chimique de l'or ?",
+    "choices": [
+      "Ag",
+      "Fe",
+      "Pb",
+      "Au"
+    ],
+    "answer": 3,
+    "fact": "Au vient du latin « aurum », qui signifie or."
+  },
+  {
+    "id": "qsc_014",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Quel savant a mis au point le vaccin contre la rage ?",
+    "choices": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Edward Jenner",
+      "Albert Calmette"
+    ],
+    "answer": 0,
+    "fact": "En 1885, il l'administra au jeune Joseph Meister, mordu par un chien enragé."
+  },
+  {
+    "id": "qsc_015",
+    "category": "sciences",
+    "difficulty": "easy",
+    "question": "Que mesure l'échelle de Richter ?",
+    "choices": [
+      "Les ouragans",
+      "Les tornades",
+      "Les séismes",
+      "Les marées"
+    ],
+    "answer": 2,
+    "fact": "Elle a été mise au point en 1935 par le sismologue américain Charles Richter."
+  },
+  {
+    "id": "qsc_016",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Combien d'os compte le squelette d'un humain adulte ?",
+    "choices": [
+      "186",
+      "226",
+      "256",
+      "206"
+    ],
+    "answer": 3,
+    "fact": "Un nouveau-né en possède environ 300, dont beaucoup fusionnent en grandissant."
+  },
+  {
+    "id": "qsc_017",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel est le seul mammifère capable de voler activement ?",
+    "choices": [
+      "L'écureuil volant",
+      "Le colugo",
+      "La chauve-souris",
+      "Le phalanger volant"
+    ],
+    "answer": 2,
+    "fact": "Les chauves-souris représentent environ un cinquième des espèces de mammifères."
+  },
+  {
+    "id": "qsc_018",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel est l'os le plus long du corps humain ?",
+    "choices": [
+      "Le fémur",
+      "Le tibia",
+      "L'humérus",
+      "Le péroné"
+    ],
+    "answer": 0,
+    "fact": "Le plus petit est l'étrier, dans l'oreille moyenne, qui mesure environ 3 mm."
+  },
+  {
+    "id": "qsc_019",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quelle est la plus grosse planète du système solaire ?",
+    "choices": [
+      "Saturne",
+      "Jupiter",
+      "Uranus",
+      "Neptune"
+    ],
+    "answer": 1,
+    "fact": "Sa Grande Tache rouge est une gigantesque tempête observée depuis plus de 150 ans."
+  },
+  {
+    "id": "qsc_020",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel groupe sanguin est surnommé « donneur universel » ?",
+    "choices": [
+      "O négatif",
+      "AB positif",
+      "A négatif",
+      "B positif"
+    ],
+    "answer": 0,
+    "fact": "À l'inverse, le groupe AB positif est qualifié de « receveur universel »."
+  },
+  {
+    "id": "qsc_021",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Combien de cœurs possède une pieuvre ?",
+    "choices": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": 0,
+    "fact": "Son sang est bleu, car il transporte l'oxygène grâce à l'hémocyanine, riche en cuivre."
+  },
+  {
+    "id": "qsc_022",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Qui a mis au point l'imprimerie à caractères mobiles en Europe au XVe siècle ?",
+    "choices": [
+      "Copernic",
+      "Érasme",
+      "Dürer",
+      "Gutenberg"
+    ],
+    "answer": 3,
+    "fact": "Sa Bible, achevée vers 1455, est le premier grand livre imprimé en Europe."
+  },
+  {
+    "id": "qsc_023",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quelle est, environ, la vitesse de la lumière dans le vide ?",
+    "choices": [
+      "30 000 km/s",
+      "3 000 km/s",
+      "3 millions de km/s",
+      "300 000 km/s"
+    ],
+    "answer": 3,
+    "fact": "Sa valeur exacte, 299 792 458 m/s, est fixée par la définition même du mètre."
+  },
+  {
+    "id": "qsc_024",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel est le plus grand oiseau vivant ?",
+    "choices": [
+      "L'autruche",
+      "L'émeu",
+      "Le casoar",
+      "Le condor des Andes"
+    ],
+    "answer": 0,
+    "fact": "Ses œufs pèsent environ 1,5 kg, soit l'équivalent d'une vingtaine d'œufs de poule."
+  },
+  {
+    "id": "qsc_025",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel gaz est le plus abondant dans l'air que nous respirons ?",
+    "choices": [
+      "L'oxygène",
+      "Le dioxyde de carbone",
+      "L'azote",
+      "L'argon"
+    ],
+    "answer": 2,
+    "fact": "L'air contient environ 78 % d'azote et 21 % d'oxygène."
+  },
+  {
+    "id": "qsc_026",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Qui a été la première femme à recevoir un prix Nobel ?",
+    "choices": [
+      "Irène Joliot-Curie",
+      "Marie Curie",
+      "Rosalind Franklin",
+      "Lise Meitner"
+    ],
+    "answer": 1,
+    "fact": "Elle a été récompensée en physique en 1903, puis en chimie en 1911."
+  },
+  {
+    "id": "qsc_027",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel est le nom du premier satellite artificiel de l'histoire ?",
+    "choices": [
+      "Explorer 1",
+      "Vostok 1",
+      "Spoutnik 1",
+      "Telstar 1"
+    ],
+    "answer": 2,
+    "fact": "Lancé par l'URSS le 4 octobre 1957, il émettait de simples « bip-bip » radio."
+  },
+  {
+    "id": "qsc_028",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Combien de chromosomes compte une cellule humaine ordinaire ?",
+    "choices": [
+      "23",
+      "44",
+      "46",
+      "48"
+    ],
+    "answer": 2,
+    "fact": "Ils vont par paires : 23 viennent de la mère et 23 du père."
+  },
+  {
+    "id": "qsc_029",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quelle partie de l'œil lui donne sa couleur ?",
+    "choices": [
+      "La pupille",
+      "La cornée",
+      "La rétine",
+      "L'iris"
+    ],
+    "answer": 3,
+    "fact": "La pupille est en fait une ouverture : elle paraît noire car la lumière y entre sans en ressortir."
+  },
+  {
+    "id": "qsc_030",
+    "category": "sciences",
+    "difficulty": "medium",
+    "question": "Quel métal est liquide à température ambiante ?",
+    "choices": [
+      "Le plomb",
+      "Le mercure",
+      "L'étain",
+      "Le zinc"
+    ],
+    "answer": 1,
+    "fact": "Son symbole, Hg, vient du latin « hydrargyrum », « argent liquide »."
+  },
+  {
+    "id": "qsc_031",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel physicien a découvert la radioactivité naturelle en 1896 ?",
+    "choices": [
+      "Pierre Curie",
+      "Ernest Rutherford",
+      "Henri Becquerel",
+      "Wilhelm Röntgen"
+    ],
+    "answer": 2,
+    "fact": "Il a partagé le prix Nobel de physique 1903 avec Pierre et Marie Curie."
+  },
+  {
+    "id": "qsc_032",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel chimiste russe a publié la classification périodique des éléments en 1869 ?",
+    "choices": [
+      "Dmitri Mendeleïev",
+      "Ivan Pavlov",
+      "Alexandre Boutlerov",
+      "Mikhaïl Lomonossov"
+    ],
+    "answer": 0,
+    "fact": "Il laissa des cases vides pour des éléments inconnus, dont il prédit les propriétés."
+  },
+  {
+    "id": "qsc_033",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Combien de temps dure environ la gestation d'une éléphante ?",
+    "choices": [
+      "22 mois",
+      "12 mois",
+      "9 mois",
+      "30 mois"
+    ],
+    "answer": 0,
+    "fact": "C'est la gestation la plus longue de tous les mammifères terrestres."
+  },
+  {
+    "id": "qsc_034",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Sur quelle planète se trouve le volcan Olympus Mons ?",
+    "choices": [
+      "Vénus",
+      "Mars",
+      "Mercure",
+      "Jupiter"
+    ],
+    "answer": 1,
+    "fact": "Ce volcan géant s'élève à plus de 20 km au-dessus des plaines qui l'entourent."
+  },
+  {
+    "id": "qsc_035",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel savant américain a inventé le paratonnerre au XVIIIe siècle ?",
+    "choices": [
+      "Thomas Edison",
+      "Samuel Morse",
+      "James Watt",
+      "Benjamin Franklin"
+    ],
+    "answer": 3,
+    "fact": "Il est aussi l'un des signataires de la Déclaration d'indépendance des États-Unis."
+  },
+  {
+    "id": "qsc_036",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel est l'élément chimique le plus abondant dans l'Univers ?",
+    "choices": [
+      "L'hélium",
+      "L'hydrogène",
+      "L'oxygène",
+      "Le carbone"
+    ],
+    "answer": 1,
+    "fact": "L'hélium doit son nom au Soleil (« hêlios ») : il y fut détecté avant d'être trouvé sur Terre."
+  },
+  {
+    "id": "qsc_037",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Combien de paires de côtes possède généralement un être humain ?",
+    "choices": [
+      "12",
+      "10",
+      "11",
+      "14"
+    ],
+    "answer": 0,
+    "fact": "Les deux dernières paires sont dites « flottantes », car elles ne sont pas reliées au sternum."
+  },
+  {
+    "id": "qsc_038",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel inventeur français a réalisé la plus ancienne photographie connue, vers 1827 ?",
+    "choices": [
+      "Louis Daguerre",
+      "Félix Nadar",
+      "Louis Lumière",
+      "Nicéphore Niépce"
+    ],
+    "answer": 3,
+    "fact": "Son « Point de vue du Gras » a nécessité une pose de plusieurs heures, voire de plusieurs jours."
+  },
+  {
+    "id": "qsc_039",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quelle sonde a été la première à quitter l'héliosphère, en 2012 ?",
+    "choices": [
+      "Voyager 1",
+      "Voyager 2",
+      "Pioneer 10",
+      "New Horizons"
+    ],
+    "answer": 0,
+    "fact": "Lancée en 1977, elle emporte un disque doré contenant des sons et des images de la Terre."
+  },
+  {
+    "id": "qsc_040",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Avec Francis Crick, qui a décrit la structure en double hélice de l'ADN en 1953 ?",
+    "choices": [
+      "Linus Pauling",
+      "Erwin Chargaff",
+      "James Watson",
+      "Oswald Avery"
+    ],
+    "answer": 2,
+    "fact": "Leurs travaux s'appuyaient notamment sur un cliché de diffraction obtenu par Rosalind Franklin."
+  },
+  {
+    "id": "qsc_041",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel mammifère australien pond des œufs ?",
+    "choices": [
+      "Le koala",
+      "L'ornithorynque",
+      "Le wombat",
+      "Le kangourou"
+    ],
+    "answer": 1,
+    "fact": "Le mâle possède un ergot venimeux sur ses pattes arrière."
+  },
+  {
+    "id": "qsc_042",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel savant grec a estimé la circonférence de la Terre au IIIe siècle av. J.-C. ?",
+    "choices": [
+      "Archimède",
+      "Ératosthène",
+      "Pythagore",
+      "Euclide"
+    ],
+    "answer": 1,
+    "fact": "Il compara l'ombre du Soleil à Syène et à Alexandrie le même jour de l'année."
+  },
+  {
+    "id": "qsc_043",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel chimiste français est considéré comme le père de la chimie moderne ?",
+    "choices": [
+      "Antoine Lavoisier",
+      "Louis Gay-Lussac",
+      "Claude Berthollet",
+      "Joseph Proust"
+    ],
+    "answer": 0,
+    "fact": "Fermier général, il fut guillotiné en 1794, sous la Terreur."
+  },
+  {
+    "id": "qsc_044",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "Quel moine a découvert les lois de l'hérédité en étudiant des petits pois ?",
+    "choices": [
+      "Jean-Baptiste Lamarck",
+      "Thomas Morgan",
+      "August Weismann",
+      "Gregor Mendel"
+    ],
+    "answer": 3,
+    "fact": "Publiés en 1866, ses travaux sont restés quasiment ignorés jusqu'en 1900."
+  },
+  {
+    "id": "qsc_045",
+    "category": "sciences",
+    "difficulty": "hard",
+    "question": "À combien de degrés Celsius correspond le zéro absolu ?",
+    "choices": [
+      "−173,15 °C",
+      "−373,15 °C",
+      "−273,15 °C",
+      "−237,15 °C"
+    ],
+    "answer": 2,
+    "fact": "C'est le 0 kelvin, température théorique où l'agitation des particules est minimale."
+  }
+]

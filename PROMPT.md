@@ -68,29 +68,39 @@ Si le MJ se déconnecte plus de 30 s, le rôle passe automatiquement au joueur p
 
 ## 4. Direction artistique (design hyper moderne)
 
-### 4.1 Ce qu'on garde de l'inspiration fournie
-La référence (app d'apprentissage des langues, orange vif + crème) donne l'esprit : **cartes très arrondies et empilées en couleurs franches**, **podium 2-1-3 avec avatars posés dessus**, **sélecteur segmenté en pilule** (Hebdo / Tout), **liste de classement aérée** avec flèches de tendance, **badge compteur en haut à droite**, en-tête « avatar + nom + niveau », **gros CTA blanc pleine largeur** sur fond coloré, beaucoup d'air et une grande lisibilité.
+### 4.1 La référence est le modèle de composition
+La référence fournie (app d'apprentissage des langues, orange vif + crème) est **le modèle à suivre de près pour la composition** ; seules les couleurs et les typos changent. Reprends fidèlement :
+- **Fond crème clair** et beaucoup d'air ; l'app est **claire par défaut** (un mode sombre existe en option).
+- **En-tête « avatar + prénom + sous-titre »** en haut à gauche, et **pastille compteur** colorée en haut à droite (chez nous : couronnes gagnées).
+- **Grande carte héros de couleur franche** avec une rangée de petites tuiles (chez nous : les cases du code pour rejoindre) et un **gros bouton blanc pleine largeur**.
+- **Rangée de pastilles rondes** à bordure claire, l'active entourée d'un anneau de couleur (chez nous : les thèmes Collègues, Amis, Famille, Full, 18+).
+- **Cartes pastel empilées qui se chevauchent** (rose, pervenche, citron), titre + deux lignes de description + **illustration 3D débordante** à droite, et un petit bouton plein sur la dernière carte (chez nous : les modes de jeu).
+- **Écran classement** : fond plein de couleur, flèche retour + titre centré, **sélecteur segmenté en pilule** (l'option active en blanc), **podium 2-1-3** en blocs d'une teinte plus claire avec gros chiffres, avatars posés au-dessus, prénom en blanc et **pilule blanche « 311 pts »**, puis une **feuille blanche aux coins arrondis** qui remonte par-dessus avec la liste « 04, 05, 06… », avatar, prénom en couleur, points, et **flèches vertes / rouges** de tendance.
+- **Avatars illustrés** en style cartoon quand il n'y a pas de photo (le selfie reste la règle).
+- **Illustrations 3D** : utilise le pack open source **Microsoft Fluent Emoji 3D** (licence MIT, fichiers PNG à auto-héberger) pour les visuels des cartes de modes, des thèmes et des écrans vides.
 
-### 4.2 Ce qu'on change : nouvelle identité « soirée électrique »
-On abandonne le mono-orange au profit d'une palette plus festive et plus contrastée, pensée pour le **mode sombre en priorité** (on joue souvent le soir, lumière tamisée), avec un mode clair aussi soigné.
+### 4.2 Ce qu'on change : couleurs et typos
+L'orange de la référence est remplacé par un **violet électrique** comme couleur héros, avec des pastels pour les cartes.
 
 **Couleurs (tokens CSS sur `:root`)**
 
-| Token | Sombre (défaut) | Clair | Usage |
+| Token | Clair (défaut) | Sombre (option) | Usage |
 |---|---|---|---|
-| `--bg` | `#100C1C` | `#F7F3EC` | Fond de l'app |
-| `--surface` | `#1C1630` | `#FFFFFF` | Cartes |
-| `--surface-2` | `#272040` | `#EFE9DF` | Cartes secondaires, champs |
-| `--ink` | `#F7F3EC` | `#14101F` | Texte principal |
-| `--ink-muted` | `#A79FC2` | `#6B6480` | Texte secondaire |
-| `--primary` | `#7B4DFF` (violet électrique) | `#6A3CF0` | CTA, sélection, MJ |
-| `--positive` | `#C6FF3D` (citron acide) | `#5FB800` | Questions et palmarès positifs |
-| `--negative` | `#FF4D6A` (corail sanguin) | `#E5304F` | Questions et palmarès négatifs |
-| `--neutral` | `#5CD6FF` (bleu ciel) | `#0E9BD1` | Questions « Qui pour… » neutres et fun |
-| `--gold` | `#FFD23F` | `#F2B700` | Podium, compte à rebours, couronnes |
-| `--pink` | `#FF9BD8` | `#F06BB8` | Accents, confettis |
+| `--bg` | `#F6F1E9` (crème) | `#100C1C` | Fond de l'app |
+| `--surface` | `#FFFFFF` | `#1C1630` | Cartes, feuille du classement |
+| `--surface-2` | `#ECE5DA` | `#272040` | Pastilles, champs, cases |
+| `--ink` | `#17112A` | `#F7F3EC` | Texte principal |
+| `--ink-muted` | `#6B6480` | `#A79FC2` | Texte secondaire |
+| `--primary` | `#6A3CF0` (violet électrique) | `#7B4DFF` | Carte héros, écrans pleins, CTA, MJ |
+| `--primary-soft` | `#8F6BFF` | `#9A78FF` | Blocs du podium sur fond violet |
+| `--card-pink` | `#FFB8E1` | idem | Carte « Qui est le plus ? », thème Amis |
+| `--card-peri` | `#BCC8FF` | idem | Carte « J'ai déjà », thème Collègues |
+| `--card-lime` | `#A6FF6E` | idem | Carte « Quiz culture » |
+| `--positive` | `#2FC25B` (texte) / `#C6FF3D` (fond) | `#C6FF3D` | Positif, flèches vertes |
+| `--negative` | `#E5304F` | `#FF4D6A` | Négatif, flèches rouges |
+| `--gold` | `#FFC93C` | `#FFD23F` | Podium, 3-2-1, couronnes |
 
-Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte foncé `#14101F` sur `--positive` et `--gold`, jamais de blanc dessus. Couleurs des modes : **Qui est le plus ? = violet**, **J'ai déjà = corail**, **Quiz = bleu ciel**, **Soirée mix = or**. Les couleurs de thème : **Collègues = bleu ciel**, **Amis = rose**, **Famille = or**, **Full = violet**, **Trash = vert citron**, **Hot = corail**, réutilisées en cartes empilées façon référence.
+Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le) ; texte foncé sur les pastels, le citron et l'or ; texte blanc sur le violet. Couleurs des modes : **Qui est le plus ? = rose**, **J'ai déjà = pervenche**, **Quiz = citron**, **Soirée mix = or**. Les écrans de tension (3-2-1, plaidoirie, cérémonie) passent en **plein violet** comme l'écran classement de la référence.
 
 **Typographies (Google Fonts, auto-hébergées pour le hors-ligne)**
 - **Titres et questions** : *Bricolage Grotesque* 700–800, interlettrage serré (-0.02em). La question s'affiche en très grand.
@@ -101,7 +111,7 @@ Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte fonc�
 - Rayons : cartes 28 px, boutons 20 px, pilules et avatars `999px`.
 - Ombres « décalées » franches (ex. `0 6px 0 rgba(0,0,0,.35)`) sur les CTA, qui s'enfoncent au tap (translateY 4px). Sur les cartes, une ombre douce et un léger grain (noise SVG à 4 % d'opacité).
 - Photos des joueurs en **cercles avec un anneau coloré** (couleur attribuée à chaque joueur parmi 12 teintes harmonisées), ou en squircle quand la grille devient dense.
-- Iconographie : Phosphor Icons (style *bold* ou *fill*), aucune icône emoji dans l'interface (les emoji sont réservés au contenu des réactions).
+- Iconographie : Phosphor Icons (style *bold* ou *fill*) pour les icônes d'interface ; illustrations Fluent Emoji 3D pour les visuels (§4.1).
 
 **Mouvement (Framer Motion, ressorts)**
 - Transitions de phase : la carte question arrive en *slide + scale* avec ressort (`stiffness 260, damping 20`).
@@ -143,7 +153,7 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Créer un
 | **Choix du thème** | « Je choisis » ou **« Les joueurs votent »** | Je choisis |
 | Voter pour soi-même | Oui / Non | Non |
 | Votes | **Anonymes** / Publics (on révèle qui a voté pour qui) | Anonymes |
-| Minuteur par question | Aucun / 20 s / 30 s / 45 s / 60 s | 30 s |
+| Passer une question | Seuil de joueurs qui doivent le demander : 1/3 / la moitié | 1/3 (minimum 2) |
 | Contestation | Activée / Désactivée, et nombre maximal par joueur (1 / 2 / 3 / illimité) | Activée, 2 |
 | Intensité | Soft / **Épicé** (filtre les questions d'intensité 3) | Soft |
 | Équilibre | Curseur positif ↔ négatif (par défaut 40 % positif, 40 % négatif, 20 % neutre) | 40/40/20 |
@@ -174,14 +184,15 @@ si tuile < 64 px en portrait → exiger le paysage
 
 - **Mode paysage forcé** quand la grille ne tient pas en portrait : on tente `screen.orientation.lock('landscape')` en plein écran (Android), sinon (iOS) un écran plein « Tourne ton téléphone » avec animation, qui disparaît dès la rotation. En paysage, le bandeau question passe en colonne à gauche (30 %) et la grille à droite (70 %).
 - Le prénom est toujours lisible (≥ 12 px, une ligne, ellipsis), la photo ≥ 64 px.
-- Tap sur une tuile = vote, avec un état « sélectionné » très net. On peut **changer d'avis tant que le vote est ouvert**. Avec 2 ou 3 votes par question, compteur « 2/3 votes utilisés ».
+- **Voter se fait en deux temps** : le tap sur une tuile la **sélectionne** (état très net : anneau violet, légère mise à l'échelle) ; on peut toucher une autre tuile pour **changer d'avis** autant de fois qu'on veut ; puis on appuie sur le gros bouton **« Valider mon vote pour Karim »** en bas. Avant validation, rien n'est envoyé au serveur comme vote. **Après validation, le vote est verrouillé** et l'écran affiche « Vote validé », la liste des joueurs qu'on attend encore, et la grille en lecture seule. Avec 2 ou 3 votes par question, on sélectionne 2 ou 3 tuiles (compteur « 2/3 sélectionnés ») avant de valider.
+- **Pas de minuteur de vote** : on attend que tout le monde ait validé. Seul le MJ peut forcer la suite.
+- **Proposer de passer la question** : chaque joueur a un petit lien discret **« Passer cette question »** sous la grille. Les demandes s'affichent pour tous dans un bandeau (« Tom propose de passer · 2 / 3 ») avec un bouton « Moi aussi ». Quand le seuil réglé est atteint (par défaut 1/3 des joueurs, minimum 2), la question est remplacée par une autre **sans compter dans l'avancement** (la session garde 30 questions jouées). Le MJ peut passer seul à tout moment. Une demande peut être retirée tant que le seuil n'est pas atteint.
 - Si « voter pour soi » est désactivé, sa propre tuile est visible mais grisée.
 - Indicateur **« 6/9 ont voté »** sous forme de petits points, **sans révéler qui a voté pour qui**, mais avec une coche discrète sur les tuiles de ceux qui ont déjà voté (pour savoir qui on attend).
-- Minuteur circulaire autour du numéro de question s'il est activé.
-- **Côté MJ uniquement** : bouton **« Clore le vote »** (confirmation par appui long de 600 ms pour éviter les erreurs).
+- **Côté MJ uniquement** : bouton **« Forcer la suite »** (confirmation par appui long de 600 ms pour éviter les erreurs), qui clôt le vote même si des joueurs n'ont pas validé.
 
 ### 5.7 Fin du vote → compte à rebours 3-2-1
-Déclencheurs, dans cet ordre : **tous les joueurs connectés ont voté** OU **le MJ clôt le vote** OU **le minuteur expire**. Puis le serveur diffuse une heure de fin et **tous les écrans affichent le 3-2-1 de façon synchronisée** (à ±100 ms grâce à la compensation de décalage d'horloge, voir §8). Les non-votants comptent comme abstention.
+Deux déclencheurs seulement : **tous les joueurs connectés ont validé leur vote** OU **le MJ force la suite**. Il n'y a pas de minuteur. Puis le serveur diffuse une heure de fin et **tous les écrans affichent le 3-2-1 de façon synchronisée** (à ±100 ms grâce à la compensation de décalage d'horloge, voir §8). Les non-votants comptent comme abstention.
 
 ### 5.8 Résultats du tour
 - Le ou les **désignés** (le plus de votes) au centre, grande photo, couronne, nombre de votes, phrase de verdict générée à partir de la question (« Pour 5 voix sur 8, **Léa** est la plus susceptible de rater son train »).
@@ -236,13 +247,12 @@ Les joueurs doivent toujours savoir où ils en sont dans la session :
 | Thème | Collègues / Amis / Famille / Full (+ Trash / Hot derrière le verrou 18+), choix du MJ ou vote des joueurs | — |
 | **Révélation** | **Nombre + « J'assume »** (seul le total est montré, chacun peut ensuite révéler son visage) / Visages toujours / Nombre seulement | Nombre + « J'assume » |
 | **Pronostics** | Activés / Désactivés | Activés |
-| Minuteur | Aucun / 15 s / 20 s / 30 s | 20 s |
 | Intensité, Retardataires | comme le mode Qui est le plus ? | — |
 
 ### 5B.2 Déroulé d'un tour
-1. **Question** : « As-tu déjà… ? » en très grand, avec la barre d'avancement. Pour répondre, deux énormes boutons qui prennent la moitié basse de l'écran : **« J'ai déjà »** (corail) et **« Jamais »** (citron). Un joueur peut changer d'avis tant que la phase est ouverte. La grille des joueurs est affichée en petit au-dessus des boutons, avec une coche sur ceux qui ont répondu (jamais leur réponse).
+1. **Question** : « As-tu déjà… ? » en très grand, avec la barre d'avancement. Pour répondre, deux énormes boutons qui prennent la moitié basse de l'écran : **« J'ai déjà »** (corail) et **« Jamais »** (citron). Comme pour le vote, on **sélectionne** sa réponse (on peut changer) puis on **valide** ; ensuite, c'est verrouillé. La grille des joueurs est affichée en petit au-dessus des boutons, avec une coche sur ceux qui ont répondu (jamais leur réponse).
 2. **Pronostic** (si activé), sur le même écran juste après la réponse : « Combien d'entre vous ont déjà ? », avec un sélecteur de 0 à N (gros boutons − / +).
-3. **Fin de phase** : comme le mode Qui est le plus ?, quand tout le monde a répondu, quand le MJ clôt, ou à la fin du minuteur, puis compte à rebours 3-2-1 synchronisé.
+3. **Fin de phase** : comme le mode Qui est le plus ?, quand tout le monde a validé, ou quand le MJ force la suite (pas de minuteur), puis compte à rebours 3-2-1 synchronisé.
 4. **Révélation** : un compteur qui défile jusqu'au vrai nombre (« **5** sur 9 ont déjà… », avec la phrase `reveal` de la question). Puis, selon le réglage :
    - *Visages toujours* : les tuiles des « J'ai déjà » se retournent et passent en corail, les autres s'estompent ;
    - *Nombre + « J'assume »* : chaque joueur qui a répondu « J'ai déjà » voit pendant 8 s un bouton **« J'assume »** ; ceux qui appuient voient leur tuile se retourner devant tout le monde ;
@@ -267,7 +277,7 @@ Les joueurs doivent toujours savoir où ils en sont dans la session :
 | Nombre de questions | 10 / 20 / **30** / 50 | 20 |
 | **Catégories** | Choix multiple parmi les 12 catégories (§7.8), « Toutes », ou vote des joueurs | Toutes |
 | **Difficulté** | Facile / Moyen / Difficile / **Progressive** (facile au début, difficile à la fin) | Progressive |
-| Minuteur | 10 s / **20 s** / 30 s | 20 s |
+| Minuteur | 10 s / **20 s** / 30 s (le quiz est le seul mode chronométré, car les points dépendent de la rapidité) | 20 s |
 | Joker 50/50 | 0 / **1** / 2 par joueur | 1 |
 
 ### 5C.2 Déroulé d'un tour
@@ -347,7 +357,7 @@ Deux thèmes supplémentaires, réservés aux soirées entre adultes consentants
 - Le MJ active « Mode 18+ » dans les réglages : écran de confirmation explicite (« Tous les joueurs ont 18 ans ou plus et sont d'accord pour des questions trash et coquines »).
 - Puis **chaque joueur confirme sur son téléphone** (« Je suis majeur·e et partant·e ») avant que le thème soit jouable. Si un seul joueur refuse ou ne répond pas en 30 s, les thèmes 18+ restent verrouillés pour cette partie (sans dire qui a refusé).
 - Les thèmes 18+ sont **incompatibles avec le thème Famille** : si le MJ a choisi Famille ou le préréglage « Repas de famille », l'option 18+ est désactivée avec une explication.
-- Un badge 🔞 discret reste affiché pendant toute la partie, et chaque joueur peut à tout moment appuyer sur « Passer cette question » : si au moins 2 joueurs (ou 25 % du salon) passent, la question est remplacée sans être jouée.
+- Un badge 🔞 discret reste affiché pendant toute la partie, et le bouton « Passer cette question » (§5.6) fonctionne comme ailleurs ; en 18+, le seuil est abaissé à **2 joueurs**, quel que soit le réglage.
 
 **Thème Trash** (vert citron, icône poubelle ou mouche) : le sale, le gênant, le dégoûtant, l'hygiène, les mauvaises habitudes, la honte assumée.
 - Exemples : « Qui pue le plus des pieds ? », « Qui est le plus susceptible de renifler son linge pour savoir s'il est propre ? », « Qui a déjà fait pipi dans la piscine ? », « Qui est le plus susceptible de manger un truc tombé par terre ? », « Qui pète le plus en douce ? », « Qui garde le même caleçon le plus longtemps ? », « Qui a la pire haleine du matin ? », « Qui est le plus susceptible de vomir en soirée ? », « Qui se cure le nez en voiture ? », « Qui a la chambre la plus crade ? », « Qui est le moins regardant sur la date de péremption ? », « Qui pour lécher le sol pour 50 € ? ».
@@ -420,7 +430,7 @@ n'importe quel état → PAUSED → retour à l'état précédent
 Chaque mode est un module (`modes/whoIsMost.ts`, `modes/neverHaveI.ts`, `modes/quiz.ts`) qui implémente la même interface (`answerPhase`, `reveal`, `score`, `ceremony`) ; la Soirée mix les enchaîne. Chaque transition est une fonction pure `(state, event) => state`, testée, avec les transitions interdites rejetées.
 
 ### 8.2 Événements (tous typés et validés par Zod)
-Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `theme:vote`, `game:start`, `vote:cast`, `vote:clear`, `vote:forceClose`, `challenge:start`, `challenge:endDefense`, `answer:submit` (J'ai déjà et quiz), `guess:submit` (pronostic), `joker:use`, `reveal:assume`, `story:request`, `game:next`, `game:pause`, `game:end`.
+Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `theme:vote`, `game:start`, `vote:submit` (vote validé, définitif), `vote:forceClose`, `skip:request`, `skip:withdraw`, `challenge:start`, `challenge:endDefense`, `answer:submit` (J'ai déjà et quiz, définitif), `guess:submit` (pronostic), `joker:use`, `reveal:assume`, `story:request`, `game:next`, `game:pause`, `game:end`.
 Serveur → client : `room:state` (instantané complet, filtré selon le destinataire), `room:patch` (deltas), `phase:changed` (avec `endsAt` en temps serveur), `vote:progress` (nombre de votants et ids des votants, **jamais le contenu des votes** avant la révélation), `results:revealed`, `error` (codes normalisés).
 
 ### 8.3 Robustesse
@@ -484,6 +494,7 @@ README.md     # installation, lancement, déploiement, captures
 
 **Tests unitaires (Vitest), obligatoires**
 - Décompte des votes : 1 et plusieurs votes par joueur, abstentions, égalités, vote pour soi interdit.
+- Passer une question : seuil (1/3, moitié, 2 en 18+), retrait d'une demande, remplacement sans incrémenter l'avancement.
 - Scoring : polarité, ex æquo, poids unanime, remplacement après contestation.
 - Machine à états : toutes les transitions valides, et rejet des transitions invalides.
 - Algorithme de grille : pour N = 3 à 20 et pour 4 tailles d'écran (375×667, 390×844, 844×390, 1920×1080), aucune tuile < 64 px et aucun débordement.
@@ -503,6 +514,9 @@ README.md     # installation, lancement, déploiement, captures
 - [ ] Tous les joueurs sont visibles sans scroll de 3 à 20 joueurs (avec bascule en paysage si nécessaire).
 - [ ] Le 3-2-1 est synchronisé visuellement sur tous les écrans.
 - [ ] Le bouton « Contester » n'apparaît que chez le ou les désignés.
+- [ ] Voter se fait en deux temps (sélection modifiable, puis validation définitive) ; aucun minuteur de vote ; la suite ne démarre que quand tout le monde a validé ou que le MJ force.
+- [ ] Un joueur peut proposer de passer la question ; au seuil, la question est remplacée sans compter dans l'avancement.
+- [ ] L'interface reprend la composition de la référence (fond crème, carte héros, cartes pastel empilées, écran classement plein violet avec feuille blanche).
 - [ ] Le récap affiche les deux podiums (positif, négatif) et les prix bonus.
 - [ ] `pnpm questions:check` passe : Qui est le plus ? (480 de base + 120 Trash + 120 Hot), J'ai déjà (≥ 100 par thème), Quiz (12 catégories × 45).
 - [ ] Les quatre modes (Qui est le plus ?, J'ai déjà, Quiz, Soirée mix) se jouent de bout en bout, avec la barre d'avancement et les jalons.

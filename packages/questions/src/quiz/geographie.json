@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qge_001",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "choices": [
+      "Sydney",
+      "Melbourne",
+      "Perth",
+      "Canberra"
+    ],
+    "answer": 3,
+    "fact": "La ville a été créée de toutes pièces, en compromis entre Sydney et Melbourne."
+  },
+  {
+    "id": "qge_002",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus long fleuve de France ?",
+    "choices": [
+      "La Garonne",
+      "La Seine",
+      "Le Rhône",
+      "La Loire"
+    ],
+    "answer": 3,
+    "fact": "Elle prend sa source au mont Gerbier-de-Jonc, en Ardèche."
+  },
+  {
+    "id": "qge_003",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quelle est la capitale du Canada ?",
+    "choices": [
+      "Ottawa",
+      "Toronto",
+      "Montréal",
+      "Vancouver"
+    ],
+    "answer": 0,
+    "fact": "La reine Victoria l'a choisie comme capitale en 1857."
+  },
+  {
+    "id": "qge_004",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus haut sommet des Alpes ?",
+    "choices": [
+      "Le Cervin",
+      "Le mont Blanc",
+      "La Barre des Écrins",
+      "Le mont Rose"
+    ],
+    "answer": 1,
+    "fact": "Son altitude varie de quelques mètres selon l'épaisseur de sa calotte de glace."
+  },
+  {
+    "id": "qge_005",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel pays d'Europe a la forme d'une botte ?",
+    "choices": [
+      "La Croatie",
+      "La Grèce",
+      "Le Portugal",
+      "L'Italie"
+    ],
+    "answer": 3,
+    "fact": "Le « talon » de la botte correspond aux Pouilles."
+  },
+  {
+    "id": "qge_006",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel pays a un drapeau blanc frappé d'un disque rouge ?",
+    "choices": [
+      "La Chine",
+      "La Corée du Sud",
+      "Le Japon",
+      "Le Bangladesh"
+    ],
+    "answer": 2,
+    "fact": "Le disque rouge représente le soleil ; ce drapeau est surnommé Hinomaru."
+  },
+  {
+    "id": "qge_007",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quelle est la capitale du Brésil ?",
+    "choices": [
+      "Salvador",
+      "Rio de Janeiro",
+      "Brasília",
+      "São Paulo"
+    ],
+    "answer": 2,
+    "fact": "Inaugurée en 1960, la ville a été dessinée par Lúcio Costa et Oscar Niemeyer."
+  },
+  {
+    "id": "qge_008",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel fleuve rejoint la Saône à Lyon ?",
+    "choices": [
+      "La Loire",
+      "La Seine",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "answer": 2,
+    "fact": "Le quartier de la Confluence tient son nom de cette rencontre."
+  },
+  {
+    "id": "qge_009",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus grand océan du monde ?",
+    "choices": [
+      "L'Atlantique",
+      "Le Pacifique",
+      "L'océan Arctique",
+      "L'océan Indien"
+    ],
+    "answer": 1,
+    "fact": "Magellan l'a baptisé « Pacifique » parce qu'il l'avait trouvé calme."
+  },
+  {
+    "id": "qge_010",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus long fleuve d'Afrique ?",
+    "choices": [
+      "Le Niger",
+      "Le Zambèze",
+      "Le Congo",
+      "Le Nil"
+    ],
+    "answer": 3,
+    "fact": "Il se jette dans la Méditerranée par un vaste delta, en Égypte."
+  },
+  {
+    "id": "qge_011",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quelle ville est le chef-lieu de la région Bretagne ?",
+    "choices": [
+      "Rennes",
+      "Nantes",
+      "Quimper",
+      "Brest"
+    ],
+    "answer": 0,
+    "fact": "Nantes, ancienne capitale des ducs de Bretagne, est rattachée aux Pays de la Loire."
+  },
+  {
+    "id": "qge_012",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Dans quel pays se trouve le Machu Picchu ?",
+    "choices": [
+      "La Bolivie",
+      "Le Pérou",
+      "Le Chili",
+      "Le Mexique"
+    ],
+    "answer": 1,
+    "fact": "Cette cité inca a été révélée au monde en 1911 par l'explorateur Hiram Bingham."
+  },
+  {
+    "id": "qge_013",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus haut sommet du monde ?",
+    "choices": [
+      "Le K2",
+      "L'Everest",
+      "Le Lhotse",
+      "Le Kangchenjunga"
+    ],
+    "answer": 1,
+    "fact": "Il se dresse à la frontière entre le Népal et la Chine (Tibet)."
+  },
+  {
+    "id": "qge_014",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quelle île est surnommée « l'île de Beauté » ?",
+    "choices": [
+      "La Martinique",
+      "La Guadeloupe",
+      "La Corse",
+      "La Réunion"
+    ],
+    "answer": 2,
+    "fact": "Napoléon Bonaparte est né à Ajaccio, en 1769."
+  },
+  {
+    "id": "qge_015",
+    "category": "geographie",
+    "difficulty": "easy",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "choices": [
+      "Le Sahara",
+      "Le désert de Sonora",
+      "Le désert d'Arabie",
+      "Le Kalahari"
+    ],
+    "answer": 0,
+    "fact": "L'Antarctique, désert froid, est encore plus vaste."
+  },
+  {
+    "id": "qge_016",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quelle est la capitale de la Turquie ?",
+    "choices": [
+      "Istanbul",
+      "Ankara",
+      "Izmir",
+      "Antalya"
+    ],
+    "answer": 1,
+    "fact": "Atatürk en a fait la capitale en 1923, à la place d'Istanbul."
+  },
+  {
+    "id": "qge_017",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel département porte le numéro 13 ?",
+    "choices": [
+      "Bouches-du-Rhône",
+      "Var",
+      "Vaucluse",
+      "Gard"
+    ],
+    "answer": 0,
+    "fact": "Son chef-lieu, Marseille, a été fondé par des Grecs de Phocée vers 600 av. J.-C."
+  },
+  {
+    "id": "qge_018",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel pays a un drapeau carré, rouge à croix blanche ?",
+    "choices": [
+      "Malte",
+      "La Géorgie",
+      "La Suisse",
+      "Le Danemark"
+    ],
+    "answer": 2,
+    "fact": "Avec le Vatican, c'est l'un des deux seuls États au drapeau carré."
+  },
+  {
+    "id": "qge_019",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "choices": [
+      "Dunedin",
+      "Auckland",
+      "Christchurch",
+      "Wellington"
+    ],
+    "answer": 3,
+    "fact": "C'est la capitale d'État la plus australe du monde."
+  },
+  {
+    "id": "qge_020",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel fleuve forme l'estuaire de la Gironde avec la Dordogne ?",
+    "choices": [
+      "La Charente",
+      "La Garonne",
+      "Le Lot",
+      "L'Adour"
+    ],
+    "answer": 1,
+    "fact": "La Gironde est souvent présentée comme le plus vaste estuaire d'Europe occidentale."
+  },
+  {
+    "id": "qge_021",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "choices": [
+      "Gibraltar",
+      "Ormuz",
+      "Messine",
+      "Le Bosphore"
+    ],
+    "answer": 0,
+    "fact": "Il ne mesure qu'environ 14 km dans sa partie la plus étroite."
+  },
+  {
+    "id": "qge_022",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quelle est la capitale du Maroc ?",
+    "choices": [
+      "Fès",
+      "Rabat",
+      "Casablanca",
+      "Marrakech"
+    ],
+    "answer": 1,
+    "fact": "Casablanca est la plus grande ville du pays, mais pas sa capitale."
+  },
+  {
+    "id": "qge_023",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel petit État est niché dans les Pyrénées ?",
+    "choices": [
+      "Monaco",
+      "Saint-Marin",
+      "Le Liechtenstein",
+      "Andorre"
+    ],
+    "answer": 3,
+    "fact": "Ses deux coprinces sont le président français et l'évêque d'Urgell."
+  },
+  {
+    "id": "qge_024",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel lac est partagé entre la France et la Suisse ?",
+    "choices": [
+      "Le lac d'Annecy",
+      "Le lac de Constance",
+      "Le Léman",
+      "Le lac du Bourget"
+    ],
+    "answer": 2,
+    "fact": "Le Rhône le traverse avant d'en ressortir à Genève."
+  },
+  {
+    "id": "qge_025",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Combien de pays bordent la France métropolitaine par la terre ?",
+    "choices": [
+      "9",
+      "7",
+      "6",
+      "8"
+    ],
+    "answer": 3,
+    "fact": "La plus longue frontière terrestre française est celle avec le Brésil, via la Guyane."
+  },
+  {
+    "id": "qge_026",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel drapeau a trois bandes horizontales noire, rouge et or ?",
+    "choices": [
+      "La Lituanie",
+      "L'Autriche",
+      "La Belgique",
+      "L'Allemagne"
+    ],
+    "answer": 3,
+    "fact": "Le drapeau belge reprend des couleurs proches, mais en bandes verticales."
+  },
+  {
+    "id": "qge_027",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quelle est la capitale de l'Écosse ?",
+    "choices": [
+      "Édimbourg",
+      "Glasgow",
+      "Inverness",
+      "Aberdeen"
+    ],
+    "answer": 0,
+    "fact": "Son château est perché sur le piton d'un ancien volcan."
+  },
+  {
+    "id": "qge_028",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quel fleuve traverse Vienne, Budapest et Belgrade ?",
+    "choices": [
+      "L'Elbe",
+      "Le Dniepr",
+      "Le Danube",
+      "Le Rhin"
+    ],
+    "answer": 2,
+    "fact": "Il traverse ou longe dix pays avant de se jeter dans la mer Noire."
+  },
+  {
+    "id": "qge_029",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Quelle est la préfecture de la Haute-Savoie ?",
+    "choices": [
+      "Annecy",
+      "Thonon-les-Bains",
+      "Chambéry",
+      "Albertville"
+    ],
+    "answer": 0,
+    "fact": "Chambéry est la préfecture du département voisin, la Savoie."
+  },
+  {
+    "id": "qge_030",
+    "category": "geographie",
+    "difficulty": "medium",
+    "question": "Dans quel océan se trouve l'île de La Réunion ?",
+    "choices": [
+      "L'océan Austral",
+      "L'océan Pacifique",
+      "L'océan Indien",
+      "L'océan Atlantique"
+    ],
+    "answer": 2,
+    "fact": "Son piton de la Fournaise est l'un des volcans les plus actifs du monde."
+  },
+  {
+    "id": "qge_031",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quelle est la capitale de la Birmanie ?",
+    "choices": [
+      "Rangoun",
+      "Bago",
+      "Mandalay",
+      "Naypyidaw"
+    ],
+    "answer": 3,
+    "fact": "Elle a remplacé Rangoun comme capitale au milieu des années 2000."
+  },
+  {
+    "id": "qge_032",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel département porte le numéro 01 ?",
+    "choices": [
+      "L'Ain",
+      "L'Aisne",
+      "L'Allier",
+      "L'Ardèche"
+    ],
+    "answer": 0,
+    "fact": "Les numéros suivent à l'origine l'ordre alphabétique des départements."
+  },
+  {
+    "id": "qge_033",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel est le lac le plus profond du monde ?",
+    "choices": [
+      "Le Titicaca",
+      "Le Tanganyika",
+      "Le Baïkal",
+      "Le lac Supérieur"
+    ],
+    "answer": 2,
+    "fact": "Ce lac de Sibérie contient environ un cinquième de l'eau douce liquide de surface du globe."
+  },
+  {
+    "id": "qge_034",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel est le point culminant de l'Espagne ?",
+    "choices": [
+      "L'Almanzor",
+      "Le Teide",
+      "L'Aneto",
+      "Le Mulhacén"
+    ],
+    "answer": 1,
+    "fact": "Ce volcan se dresse sur l'île de Tenerife, aux Canaries."
+  },
+  {
+    "id": "qge_035",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel pays a pour capitale Ouagadougou ?",
+    "choices": [
+      "Le Mali",
+      "Le Togo",
+      "Le Burkina Faso",
+      "Le Niger"
+    ],
+    "answer": 2,
+    "fact": "Le pays s'appelait la Haute-Volta jusqu'en 1984."
+  },
+  {
+    "id": "qge_036",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel pays a un cèdre vert au centre de son drapeau ?",
+    "choices": [
+      "Chypre",
+      "Le Liban",
+      "La Jordanie",
+      "La Syrie"
+    ],
+    "answer": 1,
+    "fact": "Le cèdre du Liban est cité à plusieurs reprises dans la Bible."
+  },
+  {
+    "id": "qge_037",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel est le plus long fleuve d'Europe ?",
+    "choices": [
+      "Le Rhin",
+      "La Volga",
+      "Le Dniepr",
+      "Le Danube"
+    ],
+    "answer": 1,
+    "fact": "Elle se jette dans la mer Caspienne."
+  },
+  {
+    "id": "qge_038",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quelle est la capitale de la Mongolie ?",
+    "choices": [
+      "Oulan-Bator",
+      "Douchanbé",
+      "Bichkek",
+      "Achgabat"
+    ],
+    "answer": 0,
+    "fact": "Elle est souvent citée comme la capitale nationale la plus froide du monde."
+  },
+  {
+    "id": "qge_039",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quelle est la plus grande île du monde, hors continents ?",
+    "choices": [
+      "Le Groenland",
+      "Madagascar",
+      "Bornéo",
+      "La Nouvelle-Guinée"
+    ],
+    "answer": 0,
+    "fact": "Malgré son nom, « terre verte », elle est couverte de glace à environ 80 %."
+  },
+  {
+    "id": "qge_040",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel département a pour préfecture Mende ?",
+    "choices": [
+      "La Lozère",
+      "La Haute-Loire",
+      "Le Cantal",
+      "L'Aveyron"
+    ],
+    "answer": 0,
+    "fact": "La Lozère est le département le moins peuplé de France."
+  },
+  {
+    "id": "qge_041",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel pays est traversé par l'équateur et le tropique du Capricorne ?",
+    "choices": [
+      "L'Équateur",
+      "La Colombie",
+      "Le Brésil",
+      "L'Argentine"
+    ],
+    "answer": 2,
+    "fact": "C'est le seul pays au monde traversé par ces deux lignes."
+  },
+  {
+    "id": "qge_042",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quelle est la capitale de la Slovénie ?",
+    "choices": [
+      "Bratislava",
+      "Skopje",
+      "Zagreb",
+      "Ljubljana"
+    ],
+    "answer": 3,
+    "fact": "Le dragon est l'emblème de la ville, présent sur ses armoiries."
+  },
+  {
+    "id": "qge_043",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel détroit sépare l'Asie de l'Amérique ?",
+    "choices": [
+      "Le détroit d'Hudson",
+      "Le détroit de Davis",
+      "Le détroit de Magellan",
+      "Le détroit de Béring"
+    ],
+    "answer": 3,
+    "fact": "Il ne mesure qu'environ 82 km de large en son point le plus étroit."
+  },
+  {
+    "id": "qge_044",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quel est le plus haut sommet du Massif central ?",
+    "choices": [
+      "Le puy de Dôme",
+      "Le puy de Sancy",
+      "Le mont Mézenc",
+      "Le plomb du Cantal"
+    ],
+    "answer": 1,
+    "fact": "Ce volcan culmine à 1 885 m, dans les monts Dore."
+  },
+  {
+    "id": "qge_045",
+    "category": "geographie",
+    "difficulty": "hard",
+    "question": "Quelle région française a pour chef-lieu Orléans ?",
+    "choices": [
+      "Pays de la Loire",
+      "Île-de-France",
+      "Bourgogne-Franche-Comté",
+      "Centre-Val de Loire"
+    ],
+    "answer": 3,
+    "fact": "Orléans a été délivrée des Anglais par Jeanne d'Arc en 1429."
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qhi_001",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "En quelle année a eu lieu la prise de la Bastille ?",
+    "choices": [
+      "1776",
+      "1789",
+      "1799",
+      "1792"
+    ],
+    "answer": 1,
+    "fact": "Le 14 juillet n'est devenu fête nationale qu'en 1880."
+  },
+  {
+    "id": "qhi_002",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quel roi de France a été guillotiné en 1793 ?",
+    "choices": [
+      "Louis XIV",
+      "Charles X",
+      "Louis XV",
+      "Louis XVI"
+    ],
+    "answer": 3,
+    "fact": "Il est exécuté le 21 janvier 1793 sur la place de la Révolution, future place de la Concorde."
+  },
+  {
+    "id": "qhi_003",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quel roi était surnommé le « Roi-Soleil » ?",
+    "choices": [
+      "Henri IV",
+      "François Ier",
+      "Louis XIV",
+      "Louis XIII"
+    ],
+    "answer": 2,
+    "fact": "Son règne de 72 ans est le plus long de l'histoire de France."
+  },
+  {
+    "id": "qhi_004",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "En quelle année Christophe Colomb atteint-il l'Amérique ?",
+    "choices": [
+      "1492",
+      "1498",
+      "1453",
+      "1515"
+    ],
+    "answer": 0,
+    "fact": "Il pensait avoir atteint les Indes, d'où le nom d'« Indiens » donné aux habitants."
+  },
+  {
+    "id": "qhi_005",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quelle bataille François Ier remporte-t-il en 1515 ?",
+    "choices": [
+      "Azincourt",
+      "Crécy",
+      "Pavie",
+      "Marignan"
+    ],
+    "answer": 3,
+    "fact": "Selon la tradition, il y est fait chevalier par Bayard."
+  },
+  {
+    "id": "qhi_006",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quelle héroïne a été brûlée vive à Rouen en 1431 ?",
+    "choices": [
+      "Blanche de Castille",
+      "Aliénor d'Aquitaine",
+      "Jeanne Hachette",
+      "Jeanne d'Arc"
+    ],
+    "answer": 3,
+    "fact": "Elle a été canonisée par l'Église catholique en 1920."
+  },
+  {
+    "id": "qhi_007",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "En quelle année le mur de Berlin est-il tombé ?",
+    "choices": [
+      "1989",
+      "1985",
+      "1991",
+      "1987"
+    ],
+    "answer": 0,
+    "fact": "Le mur avait été érigé en août 1961."
+  },
+  {
+    "id": "qhi_008",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Qui a été vaincu à la bataille de Waterloo en 1815 ?",
+    "choices": [
+      "Louis XVIII",
+      "Charles X",
+      "Napoléon III",
+      "Napoléon Ier"
+    ],
+    "answer": 3,
+    "fact": "Exilé sur l'île de Sainte-Hélène, Napoléon y meurt en 1821."
+  },
+  {
+    "id": "qhi_009",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Qui a été le premier homme à marcher sur la Lune ?",
+    "choices": [
+      "Michael Collins",
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Youri Gagarine"
+    ],
+    "answer": 2,
+    "fact": "C'était en juillet 1969, lors de la mission Apollo 11."
+  },
+  {
+    "id": "qhi_010",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "En quelle année commence la Première Guerre mondiale ?",
+    "choices": [
+      "1916",
+      "1912",
+      "1914",
+      "1918"
+    ],
+    "answer": 2,
+    "fact": "L'armistice est signé le 11 novembre 1918 à Rethondes, dans un wagon."
+  },
+  {
+    "id": "qhi_011",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Qui lance l'appel du 18 juin 1940 ?",
+    "choices": [
+      "Philippe Pétain",
+      "Charles de Gaulle",
+      "Jean Moulin",
+      "Philippe Leclerc"
+    ],
+    "answer": 1,
+    "fact": "Il le lance depuis Londres, sur les ondes de la BBC."
+  },
+  {
+    "id": "qhi_012",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quelle civilisation a bâti les pyramides de Gizeh ?",
+    "choices": [
+      "Les Babyloniens",
+      "Les Égyptiens",
+      "Les Mayas",
+      "Les Perses"
+    ],
+    "answer": 1,
+    "fact": "La grande pyramide, celle de Khéops, date d'environ 2560 av. J.-C."
+  },
+  {
+    "id": "qhi_013",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quel paquebot a coulé en 1912 après avoir heurté un iceberg ?",
+    "choices": [
+      "Le Lusitania",
+      "Le Britannic",
+      "Le Titanic",
+      "Le Normandie"
+    ],
+    "answer": 2,
+    "fact": "Il effectuait son voyage inaugural entre Southampton et New York."
+  },
+  {
+    "id": "qhi_014",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Quel président américain a été assassiné à Dallas en 1963 ?",
+    "choices": [
+      "John F. Kennedy",
+      "Richard Nixon",
+      "Abraham Lincoln",
+      "Lyndon Johnson"
+    ],
+    "answer": 0,
+    "fact": "Lee Harvey Oswald, arrêté pour le meurtre, est abattu deux jours plus tard."
+  },
+  {
+    "id": "qhi_015",
+    "category": "histoire",
+    "difficulty": "easy",
+    "question": "Où a lieu le débarquement allié du 6 juin 1944 ?",
+    "choices": [
+      "En Bretagne",
+      "En Normandie",
+      "Dans le Pas-de-Calais",
+      "En Provence"
+    ],
+    "answer": 1,
+    "fact": "Un second débarquement a lieu en Provence le 15 août 1944."
+  },
+  {
+    "id": "qhi_016",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Qui fut le premier empereur romain ?",
+    "choices": [
+      "Jules César",
+      "Auguste",
+      "Caligula",
+      "Néron"
+    ],
+    "answer": 1,
+    "fact": "Il s'appelait Octave avant de recevoir le titre d'Auguste en 27 av. J.-C."
+  },
+  {
+    "id": "qhi_017",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel roi promulgue l'édit de Nantes en 1598 ?",
+    "choices": [
+      "Henri III",
+      "Charles IX",
+      "Louis XIII",
+      "Henri IV"
+    ],
+    "answer": 3,
+    "fact": "L'édit accorde des droits aux protestants ; Louis XIV le révoque en 1685."
+  },
+  {
+    "id": "qhi_018",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "En quelle année Charlemagne est-il couronné empereur ?",
+    "choices": [
+      "768",
+      "814",
+      "843",
+      "800"
+    ],
+    "answer": 3,
+    "fact": "Il est couronné à Rome par le pape Léon III, le jour de Noël."
+  },
+  {
+    "id": "qhi_019",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel traité de 1919 règle la paix avec l'Allemagne ?",
+    "choices": [
+      "Traité de Sèvres",
+      "Traité de Versailles",
+      "Traité de Trianon",
+      "Traité de Saint-Germain"
+    ],
+    "answer": 1,
+    "fact": "Il est signé le 28 juin 1919 dans la galerie des Glaces."
+  },
+  {
+    "id": "qhi_020",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Qui a vaincu Vercingétorix à Alésia ?",
+    "choices": [
+      "Crassus",
+      "Jules César",
+      "Pompée",
+      "Marc Antoine"
+    ],
+    "answer": 1,
+    "fact": "La bataille d'Alésia a eu lieu en 52 av. J.-C."
+  },
+  {
+    "id": "qhi_021",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "En quelle année a lieu la révolution russe d'Octobre ?",
+    "choices": [
+      "1917",
+      "1905",
+      "1921",
+      "1914"
+    ],
+    "answer": 0,
+    "fact": "Selon notre calendrier, elle a eu lieu en novembre : la Russie suivait le calendrier julien."
+  },
+  {
+    "id": "qhi_022",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel roi d'Angleterre rompt avec Rome et fonde l'Église anglicane ?",
+    "choices": [
+      "Richard III",
+      "Édouard VI",
+      "Henri VIII",
+      "Jacques Ier"
+    ],
+    "answer": 2,
+    "fact": "Le pape refusait d'annuler son mariage avec Catherine d'Aragon."
+  },
+  {
+    "id": "qhi_023",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "En quelle année les Françaises votent-elles pour la première fois ?",
+    "choices": [
+      "1936",
+      "1958",
+      "1945",
+      "1919"
+    ],
+    "answer": 2,
+    "fact": "Le droit de vote leur avait été accordé par une ordonnance d'avril 1944."
+  },
+  {
+    "id": "qhi_024",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel pharaon a son tombeau découvert par Howard Carter en 1922 ?",
+    "choices": [
+      "Toutânkhamon",
+      "Ramsès II",
+      "Khéops",
+      "Akhenaton"
+    ],
+    "answer": 0,
+    "fact": "Le tombeau, dans la Vallée des Rois, était resté presque intact."
+  },
+  {
+    "id": "qhi_025",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Qui porte le décret d'abolition de l'esclavage de 1848 ?",
+    "choices": [
+      "Jules Ferry",
+      "Victor Hugo",
+      "Alphonse de Lamartine",
+      "Victor Schœlcher"
+    ],
+    "answer": 3,
+    "fact": "Une première abolition, en 1794, avait été annulée par Bonaparte en 1802."
+  },
+  {
+    "id": "qhi_026",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quelle était la capitale de l'Empire byzantin ?",
+    "choices": [
+      "Antioche",
+      "Alexandrie",
+      "Athènes",
+      "Constantinople"
+    ],
+    "answer": 3,
+    "fact": "Sa prise par les Ottomans en 1453 marque traditionnellement la fin du Moyen Âge."
+  },
+  {
+    "id": "qhi_027",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel conflit oppose la France et l'Angleterre de 1337 à 1453 ?",
+    "choices": [
+      "Guerre de Cent Ans",
+      "Guerre des Deux-Roses",
+      "Guerre de Trente Ans",
+      "Guerre de Sept Ans"
+    ],
+    "answer": 0,
+    "fact": "Malgré son nom, ce conflit a duré 116 ans."
+  },
+  {
+    "id": "qhi_028",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Qui est Premier ministre britannique de 1940 à 1945 ?",
+    "choices": [
+      "Clement Attlee",
+      "Anthony Eden",
+      "Winston Churchill",
+      "Neville Chamberlain"
+    ],
+    "answer": 2,
+    "fact": "Churchill a aussi reçu le prix Nobel de littérature en 1953."
+  },
+  {
+    "id": "qhi_029",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "En quelle année est instaurée la Ve République ?",
+    "choices": [
+      "1958",
+      "1946",
+      "1968",
+      "1962"
+    ],
+    "answer": 0,
+    "fact": "Le référendum de 1962 instaure l'élection du président au suffrage universel direct."
+  },
+  {
+    "id": "qhi_030",
+    "category": "histoire",
+    "difficulty": "medium",
+    "question": "Quel navigateur atteint l'Inde par la mer en 1498 ?",
+    "choices": [
+      "Fernand de Magellan",
+      "Bartolomeu Dias",
+      "Vasco de Gama",
+      "Pedro Álvares Cabral"
+    ],
+    "answer": 2,
+    "fact": "Bartolomeu Dias avait franchi le cap de Bonne-Espérance dix ans plus tôt, en 1488."
+  },
+  {
+    "id": "qhi_031",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel chef franc arrête une armée omeyyade près de Poitiers en 732 ?",
+    "choices": [
+      "Charles Martel",
+      "Clovis",
+      "Carloman",
+      "Pépin le Bref"
+    ],
+    "answer": 0,
+    "fact": "Charles Martel est le grand-père de Charlemagne."
+  },
+  {
+    "id": "qhi_032",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel roi fonde la dynastie capétienne en 987 ?",
+    "choices": [
+      "Robert II",
+      "Hugues Capet",
+      "Eudes",
+      "Louis V"
+    ],
+    "answer": 1,
+    "fact": "Les Capétiens et leurs branches cadettes régneront sur la France jusqu'en 1848."
+  },
+  {
+    "id": "qhi_033",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel traité de 1494 partage le Nouveau Monde entre Espagne et Portugal ?",
+    "choices": [
+      "Traité de Tordesillas",
+      "Traité de Verdun",
+      "Traité de Cateau-Cambrésis",
+      "Traité d'Utrecht"
+    ],
+    "answer": 0,
+    "fact": "C'est en vertu de ce partage que le Brésil est devenu portugais."
+  },
+  {
+    "id": "qhi_034",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "En quelle année a lieu la bataille de Hastings ?",
+    "choices": [
+      "1066",
+      "1054",
+      "1086",
+      "1099"
+    ],
+    "answer": 0,
+    "fact": "Guillaume, duc de Normandie, devient alors roi d'Angleterre : c'est « le Conquérant »."
+  },
+  {
+    "id": "qhi_035",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Qui fut le dernier roi à régner sur la France ?",
+    "choices": [
+      "Henri V",
+      "Charles X",
+      "Louis XVIII",
+      "Louis-Philippe Ier"
+    ],
+    "answer": 3,
+    "fact": "Le « roi des Français » est renversé par la révolution de février 1848."
+  },
+  {
+    "id": "qhi_036",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel empereur romain fait bâtir un mur dans le nord de la Bretagne ?",
+    "choices": [
+      "Trajan",
+      "Marc Aurèle",
+      "Claude",
+      "Hadrien"
+    ],
+    "answer": 3,
+    "fact": "Commencé vers 122, le mur traversait l'île d'une côte à l'autre."
+  },
+  {
+    "id": "qhi_037",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel Carthaginois franchit les Alpes avec des éléphants ?",
+    "choices": [
+      "Hamilcar",
+      "Massinissa",
+      "Hasdrubal",
+      "Hannibal"
+    ],
+    "answer": 3,
+    "fact": "Il les traverse en 218 av. J.-C., pendant la deuxième guerre punique."
+  },
+  {
+    "id": "qhi_038",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "En quelle année a lieu la Commune de Paris ?",
+    "choices": [
+      "1870",
+      "1848",
+      "1871",
+      "1830"
+    ],
+    "answer": 2,
+    "fact": "Elle dure environ deux mois et s'achève par la « Semaine sanglante »."
+  },
+  {
+    "id": "qhi_039",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel ministre rend l'école primaire gratuite, obligatoire et laïque ?",
+    "choices": [
+      "Jean Jaurès",
+      "Jules Ferry",
+      "Léon Gambetta",
+      "Victor Duruy"
+    ],
+    "answer": 1,
+    "fact": "Les grandes lois scolaires de Jules Ferry datent de 1881 et 1882."
+  },
+  {
+    "id": "qhi_040",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Qui règne sur la France lors de la Saint-Barthélemy (1572) ?",
+    "choices": [
+      "Henri II",
+      "François II",
+      "Henri III",
+      "Charles IX"
+    ],
+    "answer": 3,
+    "fact": "Le massacre des protestants commence à Paris dans la nuit du 23 au 24 août 1572."
+  },
+  {
+    "id": "qhi_041",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel souverain unifie la Chine en 221 av. J.-C. ?",
+    "choices": [
+      "Gengis Khan",
+      "Kubilaï Khan",
+      "Qin Shi Huang",
+      "Han Wudi"
+    ],
+    "answer": 2,
+    "fact": "Son tombeau est gardé par l'armée de terre cuite, découverte en 1974."
+  },
+  {
+    "id": "qhi_042",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quels traités mettent fin à la guerre de Trente Ans en 1648 ?",
+    "choices": [
+      "Traités d'Aix-la-Chapelle",
+      "Traités d'Utrecht",
+      "Traités de Westphalie",
+      "Traités de Nimègue"
+    ],
+    "answer": 2,
+    "fact": "Ils ont été signés à Münster et à Osnabrück."
+  },
+  {
+    "id": "qhi_043",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quelle était la capitale des Aztèques ?",
+    "choices": [
+      "Teotihuacan",
+      "Tenochtitlan",
+      "Cuzco",
+      "Chichén Itzá"
+    ],
+    "answer": 1,
+    "fact": "Mexico a été bâtie sur ses ruines après la conquête de Cortés en 1521."
+  },
+  {
+    "id": "qhi_044",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Qui devient président de la République en août 1871 ?",
+    "choices": [
+      "Adolphe Thiers",
+      "Patrice de Mac Mahon",
+      "Léon Gambetta",
+      "Jules Grévy"
+    ],
+    "answer": 0,
+    "fact": "Thiers venait de diriger la répression de la Commune de Paris."
+  },
+  {
+    "id": "qhi_045",
+    "category": "histoire",
+    "difficulty": "hard",
+    "question": "Quel roi fait construire le château de Chambord ?",
+    "choices": [
+      "Henri II",
+      "François Ier",
+      "Louis XII",
+      "Charles VIII"
+    ],
+    "answer": 1,
+    "fact": "Son escalier à double révolution est parfois attribué à Léonard de Vinci."
+  }
+]

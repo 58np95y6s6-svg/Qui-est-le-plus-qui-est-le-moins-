@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qsp_001",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Combien de joueurs chaque équipe aligne-t-elle sur un terrain de football ?",
+    "choices": [
+      "10",
+      "12",
+      "11",
+      "9"
+    ],
+    "answer": 2,
+    "fact": "Le gardien est le seul joueur autorisé à toucher le ballon de la main, et seulement dans sa surface."
+  },
+  {
+    "id": "qsp_002",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "En quelle année la France a-t-elle remporté sa première Coupe du monde de football ?",
+    "choices": [
+      "1994",
+      "1998",
+      "2002",
+      "1986"
+    ],
+    "answer": 1,
+    "fact": "La finale contre le Brésil s'est jouée au Stade de France et s'est conclue sur le score de 3-0."
+  },
+  {
+    "id": "qsp_003",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Sur quelle surface se joue le tournoi de Roland-Garros ?",
+    "choices": [
+      "Gazon",
+      "Dur",
+      "Terre battue",
+      "Moquette"
+    ],
+    "answer": 2,
+    "fact": "La « terre battue » est en réalité de la brique pilée étalée sur une couche de calcaire."
+  },
+  {
+    "id": "qsp_004",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quelle est la couleur du maillot du leader du classement général du Tour de France ?",
+    "choices": [
+      "Jaune",
+      "Vert",
+      "Blanc",
+      "Rose"
+    ],
+    "answer": 0,
+    "fact": "Le jaune rappelle la couleur du papier du journal L'Auto, organisateur du premier Tour."
+  },
+  {
+    "id": "qsp_005",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Combien de points rapporte un essai au rugby à XV ?",
+    "choices": [
+      "3",
+      "4",
+      "7",
+      "5"
+    ],
+    "answer": 3,
+    "fact": "L'essai ne vaut 5 points que depuis 1992 : il en valait 4 auparavant."
+  },
+  {
+    "id": "qsp_006",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quelle ville a accueilli les Jeux olympiques d'été de 2024 ?",
+    "choices": [
+      "Los Angeles",
+      "Paris",
+      "Tokyo",
+      "Londres"
+    ],
+    "answer": 1,
+    "fact": "Paris recevait les JO d'été pour la troisième fois, après 1900 et 1924."
+  },
+  {
+    "id": "qsp_007",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Combien d'anneaux figurent sur le drapeau olympique ?",
+    "choices": [
+      "4",
+      "6",
+      "5",
+      "7"
+    ],
+    "answer": 2,
+    "fact": "Dessiné par Pierre de Coubertin en 1913, il symbolise l'union des cinq continents."
+  },
+  {
+    "id": "qsp_008",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Dans quel pays le rugby est-il né, selon la légende ?",
+    "choices": [
+      "Écosse",
+      "France",
+      "Nouvelle-Zélande",
+      "Angleterre"
+    ],
+    "answer": 3,
+    "fact": "William Webb Ellis, élève de l'école de Rugby,, aurait pris le ballon à la main en 1823."
+  },
+  {
+    "id": "qsp_009",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Au tennis, comment appelle-t-on le score de 40-40 ?",
+    "choices": [
+      "Avantage",
+      "Égalité",
+      "Jeu blanc",
+      "Tie-break"
+    ],
+    "answer": 1,
+    "fact": "En anglais, on dit « deuce », qui viendrait du français « à deux »."
+  },
+  {
+    "id": "qsp_010",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quel nageur français a remporté quatre titres individuels aux JO de Paris 2024 ?",
+    "choices": [
+      "Léon Marchand",
+      "Florent Manaudou",
+      "Maxime Grousset",
+      "Yannick Agnel"
+    ],
+    "answer": 0,
+    "fact": "Il a gagné le 200 m papillon et le 200 m brasse le même soir, à environ deux heures d'intervalle."
+  },
+  {
+    "id": "qsp_011",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quel numéro Zinédine Zidane portait-il en équipe de France ?",
+    "choices": [
+      "9",
+      "7",
+      "5",
+      "10"
+    ],
+    "answer": 3,
+    "fact": "Il a été expulsé en finale du Mondial 2006 pour un coup de tête sur Marco Materazzi."
+  },
+  {
+    "id": "qsp_012",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quel sport se joue avec un volant ?",
+    "choices": [
+      "Squash",
+      "Padel",
+      "Pelote basque",
+      "Badminton"
+    ],
+    "answer": 3,
+    "fact": "Un volant de compétition est fabriqué avec 16 plumes d'oie ou de canard."
+  },
+  {
+    "id": "qsp_013",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Quelle est la distance officielle d'un marathon ?",
+    "choices": [
+      "40 km",
+      "42,195 km",
+      "42 km",
+      "45,5 km"
+    ],
+    "answer": 1,
+    "fact": "Cette distance vient des JO de Londres 1908, où le départ fut donné près du château de Windsor."
+  },
+  {
+    "id": "qsp_014",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Dans quel sport Teddy Riner s'est-il illustré ?",
+    "choices": [
+      "Lutte",
+      "Karaté",
+      "Boxe",
+      "Judo"
+    ],
+    "answer": 3,
+    "fact": "Il a été champion olympique individuel en 2012, 2016 et 2024."
+  },
+  {
+    "id": "qsp_015",
+    "category": "sport",
+    "difficulty": "easy",
+    "question": "Combien de joueurs par équipe se trouvent sur un terrain de basket ?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "4"
+    ],
+    "answer": 0,
+    "fact": "Le basket a été inventé en 1891 par James Naismith, avec des paniers à pêches en guise de cibles."
+  },
+  {
+    "id": "qsp_016",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel joueur a marqué deux buts de la tête en finale de la Coupe du monde 1998 ?",
+    "choices": [
+      "Emmanuel Petit",
+      "Zinédine Zidane",
+      "Thierry Henry",
+      "Youri Djorkaeff"
+    ],
+    "answer": 1,
+    "fact": "Emmanuel Petit a inscrit le troisième but, dans le temps additionnel."
+  },
+  {
+    "id": "qsp_017",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel pays a remporté la toute première Coupe du monde de football, en 1930 ?",
+    "choices": [
+      "Brésil",
+      "Argentine",
+      "Italie",
+      "Uruguay"
+    ],
+    "answer": 3,
+    "fact": "Pays organisateur, l'Uruguay a battu l'Argentine 4-2 en finale à Montevideo."
+  },
+  {
+    "id": "qsp_018",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "En quelle année se sont déroulés les premiers Jeux olympiques modernes ?",
+    "choices": [
+      "1900",
+      "1888",
+      "1896",
+      "1908"
+    ],
+    "answer": 2,
+    "fact": "Ils ont eu lieu à Athènes, à l'initiative du Français Pierre de Coubertin."
+  },
+  {
+    "id": "qsp_019",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel cycliste belge, cinq fois vainqueur du Tour de France, était surnommé « le Cannibale » ?",
+    "choices": [
+      "Bernard Hinault",
+      "Jacques Anquetil",
+      "Miguel Indurain",
+      "Eddy Merckx"
+    ],
+    "answer": 3,
+    "fact": "Pour son premier Tour, en 1969, il remporta le général, le classement par points et celui de la montagne."
+  },
+  {
+    "id": "qsp_020",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Combien de sets faut-il gagner pour remporter un match masculin en Grand Chelem ?",
+    "choices": [
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "answer": 2,
+    "fact": "À Wimbledon en 2010, Isner et Mahut ont disputé un cinquième set conclu sur le score de 70-68."
+  },
+  {
+    "id": "qsp_021",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Combien de points rapporte un drop au rugby ?",
+    "choices": [
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "answer": 0,
+    "fact": "Jonny Wilkinson a offert le titre mondial 2003 à l'Angleterre sur un drop en prolongation."
+  },
+  {
+    "id": "qsp_022",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel pays a remporté la Coupe du monde de rugby 1995, organisée chez lui ?",
+    "choices": [
+      "Nouvelle-Zélande",
+      "Australie",
+      "Afrique du Sud",
+      "Angleterre"
+    ],
+    "answer": 2,
+    "fact": "Nelson Mandela remit le trophée en portant le maillot du capitaine François Pienaar."
+  },
+  {
+    "id": "qsp_023",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel est le surnom de l'équipe nationale de rugby de Nouvelle-Zélande ?",
+    "choices": [
+      "Wallabies",
+      "All Blacks",
+      "Springboks",
+      "Pumas"
+    ],
+    "answer": 1,
+    "fact": "Avant chaque match, ses joueurs exécutent un haka, une danse traditionnelle maorie."
+  },
+  {
+    "id": "qsp_024",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel footballeur brésilien a remporté trois Coupes du monde en tant que joueur ?",
+    "choices": [
+      "Garrincha",
+      "Ronaldo",
+      "Zico",
+      "Pelé"
+    ],
+    "answer": 3,
+    "fact": "Il a été sacré en 1958, 1962 et 1970 avec le Brésil."
+  },
+  {
+    "id": "qsp_025",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quelle course cycliste est surnommée « l'Enfer du Nord » ?",
+    "choices": [
+      "Milan-San Remo",
+      "Paris-Roubaix",
+      "Liège-Bastogne-Liège",
+      "Tour des Flandres"
+    ],
+    "answer": 1,
+    "fact": "Son vainqueur reçoit un pavé en guise de trophée."
+  },
+  {
+    "id": "qsp_026",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Sous quel nom le boxeur Cassius Clay est-il devenu célèbre ?",
+    "choices": [
+      "Joe Frazier",
+      "George Foreman",
+      "Muhammad Ali",
+      "Sonny Liston"
+    ],
+    "answer": 2,
+    "fact": "Il a changé de nom en 1964, après sa conversion à l'islam."
+  },
+  {
+    "id": "qsp_027",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel sprinteur a remporté le 100 m olympique en 2008, 2012 et 2016 ?",
+    "choices": [
+      "Usain Bolt",
+      "Yohan Blake",
+      "Asafa Powell",
+      "Justin Gatlin"
+    ],
+    "answer": 0,
+    "fact": "Aux Mondiaux de Berlin en 2009, il a couru le 100 m en 9 s 58."
+  },
+  {
+    "id": "qsp_028",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Combien de trous compte un parcours de golf standard ?",
+    "choices": [
+      "18",
+      "9",
+      "16",
+      "21"
+    ],
+    "answer": 0,
+    "fact": "Ce chiffre vient de St Andrews, en Écosse, qui réduisit son parcours de 22 à 18 trous en 1764."
+  },
+  {
+    "id": "qsp_029",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel club français a remporté la Ligue des champions en 1993 ?",
+    "choices": [
+      "Paris Saint-Germain",
+      "Olympique de Marseille",
+      "AS Monaco",
+      "Girondins de Bordeaux"
+    ],
+    "answer": 1,
+    "fact": "Basile Boli a marqué l'unique but de la finale, de la tête, contre l'AC Milan."
+  },
+  {
+    "id": "qsp_030",
+    "category": "sport",
+    "difficulty": "medium",
+    "question": "Quel joueur a marqué le but de « la main de Dieu » au Mondial 1986 ?",
+    "choices": [
+      "Diego Maradona",
+      "Jorge Valdano",
+      "Mario Kempes",
+      "Jorge Burruchaga"
+    ],
+    "answer": 0,
+    "fact": "Quatre minutes plus tard, face à l'Angleterre, il marquait le « but du siècle » après un long slalom."
+  },
+  {
+    "id": "qsp_031",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Lors de quelle Coupe du monde les cartons jaunes et rouges ont-ils fait leur apparition ?",
+    "choices": [
+      "1958",
+      "1982",
+      "1966",
+      "1970"
+    ],
+    "answer": 3,
+    "fact": "L'idée est venue à l'arbitre anglais Ken Aston en s'arrêtant à un feu tricolore."
+  },
+  {
+    "id": "qsp_032",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "En quelle année s'est déroulée la première Coupe du monde de rugby ?",
+    "choices": [
+      "1991",
+      "1987",
+      "1983",
+      "1995"
+    ],
+    "answer": 1,
+    "fact": "Coorganisée par la Nouvelle-Zélande et l'Australie, elle a été remportée par les All Blacks."
+  },
+  {
+    "id": "qsp_033",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quel pays a organisé la Coupe du monde de football 1954 ?",
+    "choices": [
+      "Suisse",
+      "Suède",
+      "Allemagne",
+      "Italie"
+    ],
+    "answer": 0,
+    "fact": "L'Allemagne de l'Ouest y battit la Hongrie en finale : c'est le « miracle de Berne »."
+  },
+  {
+    "id": "qsp_034",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quelle gymnaste a obtenu la première note parfaite de 10 aux Jeux olympiques ?",
+    "choices": [
+      "Olga Korbut",
+      "Larissa Latynina",
+      "Nadia Comaneci",
+      "Ludmilla Tourischeva"
+    ],
+    "answer": 2,
+    "fact": "À Montréal en 1976, le tableau, prévu pour trois chiffres, afficha « 1.00 »."
+  },
+  {
+    "id": "qsp_035",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quelle ville française a accueilli les Jeux olympiques d'hiver de 1968 ?",
+    "choices": [
+      "Grenoble",
+      "Albertville",
+      "Chamonix",
+      "Annecy"
+    ],
+    "answer": 0,
+    "fact": "Jean-Claude Killy y remporta les trois épreuves de ski alpin masculines."
+  },
+  {
+    "id": "qsp_036",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Où se sont tenus les premiers Jeux olympiques d'hiver, en 1924 ?",
+    "choices": [
+      "Saint-Moritz",
+      "Chamonix",
+      "Lake Placid",
+      "Oslo"
+    ],
+    "answer": 1,
+    "fact": "On parlait alors de « Semaine internationale des sports d'hiver » ; le titre de JO fut donné après coup."
+  },
+  {
+    "id": "qsp_037",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quel était le nom du trophée de la Coupe du monde de football avant 1974 ?",
+    "choices": [
+      "Coupe Henri-Delaunay",
+      "Coupe Pierre-de-Coubertin",
+      "Coupe Jules-Rimet",
+      "Coupe Gabriel-Hanot"
+    ],
+    "answer": 2,
+    "fact": "Le Brésil l'a conservée après son troisième titre en 1970, mais elle a été volée à Rio en 1983."
+  },
+  {
+    "id": "qsp_038",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quelle sélection a remporté l'Euro 1992 après avoir été repêchée au dernier moment ?",
+    "choices": [
+      "Suède",
+      "Pays-Bas",
+      "Grèce",
+      "Danemark"
+    ],
+    "answer": 3,
+    "fact": "Le Danemark remplaçait la Yougoslavie, exclue en raison de la guerre."
+  },
+  {
+    "id": "qsp_039",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "En quelle année Yannick Noah a-t-il remporté Roland-Garros ?",
+    "choices": [
+      "1981",
+      "1985",
+      "1983",
+      "1979"
+    ],
+    "answer": 2,
+    "fact": "Il a battu le Suédois Mats Wilander en finale, en trois sets."
+  },
+  {
+    "id": "qsp_040",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Qui a remporté le tout premier Tour de France, en 1903 ?",
+    "choices": [
+      "Maurice Garin",
+      "Henri Cornet",
+      "Lucien Petit-Breton",
+      "Octave Lapize"
+    ],
+    "answer": 0,
+    "fact": "Ce premier Tour ne comptait que six étapes, dont certaines dépassaient 400 km."
+  },
+  {
+    "id": "qsp_041",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Qui a fondé le judo à la fin du XIXe siècle ?",
+    "choices": [
+      "Morihei Ueshiba",
+      "Jigoro Kano",
+      "Gichin Funakoshi",
+      "Mas Oyama"
+    ],
+    "answer": 1,
+    "fact": "Il a ouvert son école, le Kodokan, à Tokyo en 1882."
+  },
+  {
+    "id": "qsp_042",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quel coureur a gagné le Tour de France 1989 avec 8 secondes d'avance sur Laurent Fignon ?",
+    "choices": [
+      "Pedro Delgado",
+      "Stephen Roche",
+      "Greg LeMond",
+      "Miguel Indurain"
+    ],
+    "answer": 2,
+    "fact": "Tout s'est joué lors du contre-la-montre final, arrivé sur les Champs-Élysées."
+  },
+  {
+    "id": "qsp_043",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quelle athlète française a réussi le doublé 200 m - 400 m aux JO d'Atlanta en 1996 ?",
+    "choices": [
+      "Marie-José Pérec",
+      "Christine Arron",
+      "Muriel Hurtis",
+      "Eunice Barber"
+    ],
+    "answer": 0,
+    "fact": "Elle avait déjà remporté le 400 m aux Jeux de Barcelone en 1992."
+  },
+  {
+    "id": "qsp_044",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quelle Française a remporté le simple dames de Roland-Garros en 2000 ?",
+    "choices": [
+      "Amélie Mauresmo",
+      "Nathalie Tauziat",
+      "Julie Halard",
+      "Mary Pierce"
+    ],
+    "answer": 3,
+    "fact": "La même année, elle gagna aussi le double à Roland-Garros, associée à Martina Hingis."
+  },
+  {
+    "id": "qsp_045",
+    "category": "sport",
+    "difficulty": "hard",
+    "question": "Quel cycliste breton, surnommé « le Blaireau », a remporté cinq Tours de France ?",
+    "choices": [
+      "Bernard Hinault",
+      "Louison Bobet",
+      "Jean Robic",
+      "Laurent Fignon"
+    ],
+    "answer": 0,
+    "fact": "Il est né à Yffiniac, dans les Côtes-d'Armor, et a gagné son premier Tour en 1978."
+  }
+]

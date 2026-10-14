@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qla_001",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « poser un lapin » à quelqu'un ?",
+    "choices": [
+      "Lui faire une blague",
+      "Lui mentir",
+      "Ne pas venir au rendez-vous",
+      "Partir sans payer"
+    ],
+    "answer": 2,
+    "fact": "Au XIXe siècle, « faire un lapin » signifiait ne pas payer un service rendu."
+  },
+  {
+    "id": "qla_002",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "En verlan, que signifie « chelou » ?",
+    "choices": [
+      "Joli",
+      "Lent",
+      "Fou",
+      "Louche"
+    ],
+    "answer": 3,
+    "fact": "Le mot « verlan » est lui-même le verlan de « l'envers »."
+  },
+  {
+    "id": "qla_003",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Quelle est la bonne orthographe ?",
+    "choices": [
+      "Dévelopement",
+      "Dévellopement",
+      "Développemment",
+      "Développement"
+    ],
+    "answer": 3,
+    "fact": "En anglais, « development » ne prend qu'un seul p, d'où de fréquentes confusions."
+  },
+  {
+    "id": "qla_004",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Complétez l'expression : « Avoir un poil dans la… »",
+    "choices": [
+      "Bouche",
+      "Main",
+      "Poche",
+      "Tête"
+    ],
+    "answer": 1,
+    "fact": "L'image : on serait si paresseux qu'un poil aurait le temps de pousser dans sa main inactive."
+  },
+  {
+    "id": "qla_005",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « tomber dans les pommes » ?",
+    "choices": [
+      "Tomber amoureux",
+      "S'évanouir",
+      "Se tromper",
+      "Être ruiné"
+    ],
+    "answer": 1,
+    "fact": "L'expression viendrait de « être dans les pâmes », c'est-à-dire en pâmoison."
+  },
+  {
+    "id": "qla_006",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Lequel de ces mots prend un X au pluriel ?",
+    "choices": [
+      "Clou",
+      "Trou",
+      "Fou",
+      "Genou"
+    ],
+    "answer": 3,
+    "fact": "Bijou, caillou, chou, genou, hibou, joujou et pou forment la célèbre liste des exceptions."
+  },
+  {
+    "id": "qla_007",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « avoir le cafard » ?",
+    "choices": [
+      "Être déprimé",
+      "Avoir peur",
+      "Être sale",
+      "Avoir faim"
+    ],
+    "answer": 0,
+    "fact": "Baudelaire a contribué à populariser ce sens du mot dans « Les Fleurs du mal »."
+  },
+  {
+    "id": "qla_008",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "En argot, que désignent « l'oseille », « le blé » et « le fric » ?",
+    "choices": [
+      "La nourriture",
+      "Le travail",
+      "L'argent",
+      "Les vêtements"
+    ],
+    "answer": 2,
+    "fact": "« Pognon », « thune » et « flouze » sont d'autres synonymes argotiques."
+  },
+  {
+    "id": "qla_009",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « mettre la puce à l'oreille » ?",
+    "choices": [
+      "Éveiller les soupçons",
+      "Chuchoter un secret",
+      "Agacer quelqu'un",
+      "Faire rire"
+    ],
+    "answer": 0,
+    "fact": "Au Moyen Âge, l'expression évoquait plutôt un désir amoureux qui empêche de dormir."
+  },
+  {
+    "id": "qla_010",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Complétez : « Il ne faut pas vendre la peau de l'ours avant de l'avoir… »",
+    "choices": [
+      "Tué",
+      "Vu",
+      "Chassé",
+      "Mangé"
+    ],
+    "answer": 0,
+    "fact": "La Fontaine en a tiré une fable : « L'Ours et les deux Compagnons »."
+  },
+  {
+    "id": "qla_011",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « se mettre sur son trente-et-un » ?",
+    "choices": [
+      "Être en retard",
+      "S'habiller élégamment",
+      "Se mettre en colère",
+      "Se coucher tôt"
+    ],
+    "answer": 1,
+    "fact": "Une hypothèse y voit une déformation de « trentain », un drap de luxe."
+  },
+  {
+    "id": "qla_012",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie « avoir un chat dans la gorge » ?",
+    "choices": [
+      "Avoir peur",
+      "Avoir faim",
+      "Être enroué",
+      "Être muet"
+    ],
+    "answer": 2,
+    "fact": "Viendrait d'un jeu de mots entre « matou » et « maton », qui désignait un grumeau."
+  },
+  {
+    "id": "qla_013",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Quel mot est le verlan de « femme » ?",
+    "choices": [
+      "Meuf",
+      "Keum",
+      "Reum",
+      "Teuf"
+    ],
+    "answer": 0,
+    "fact": "« Keum » est le verlan de « mec », « reum » celui de « mère » et « teuf » celui de « fête »."
+  },
+  {
+    "id": "qla_014",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que signifie familièrement « casser sa pipe » ?",
+    "choices": [
+      "Se fâcher",
+      "Mourir",
+      "Arrêter de fumer",
+      "Se ruiner"
+    ],
+    "answer": 1,
+    "fact": "Une explication évoque les soldats opérés sans anesthésie, qui serraient une pipe entre les dents."
+  },
+  {
+    "id": "qla_015",
+    "category": "langue-fr",
+    "difficulty": "easy",
+    "question": "Que désigne familièrement une « bagnole » ?",
+    "choices": [
+      "Une maison",
+      "Un vélo",
+      "Une moto",
+      "Une voiture"
+    ],
+    "answer": 3,
+    "fact": "Le mot viendrait de « banne », une sorte de tombereau."
+  },
+  {
+    "id": "qla_016",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Quel est le participe passé du verbe « résoudre » ?",
+    "choices": [
+      "Résolu",
+      "Résout",
+      "Résoudu",
+      "Résolvé"
+    ],
+    "answer": 0,
+    "fact": "Il existe aussi un rare « résous », au sens de transformé : « un brouillard résous en pluie »."
+  },
+  {
+    "id": "qla_017",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Au présent de l'indicatif, quelle forme du verbe « dire » est correcte ?",
+    "choices": [
+      "Vous dites",
+      "Vous disez",
+      "Vous dîtes",
+      "Vous disiez"
+    ],
+    "answer": 0,
+    "fact": "Seuls « dire » et « redire » font « -dites » : on écrit « vous contredisez », « vous interdisez »."
+  },
+  {
+    "id": "qla_018",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Quel est le pluriel de « festival » ?",
+    "choices": [
+      "Festivaux",
+      "Festivals",
+      "Festivales",
+      "Festivaus"
+    ],
+    "answer": 1,
+    "fact": "Bal, carnaval, chacal, festival, récital et régal prennent eux aussi un simple S."
+  },
+  {
+    "id": "qla_019",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « payer en monnaie de singe » ?",
+    "choices": [
+      "Ne pas payer",
+      "Payer en pièces",
+      "Payer en retard",
+      "Payer trop cher"
+    ],
+    "answer": 0,
+    "fact": "Saint Louis dispensait de péage les montreurs de singes, qui payaient en faisant faire un tour à l'animal."
+  },
+  {
+    "id": "qla_020",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « faire chou blanc » ?",
+    "choices": [
+      "Réussir",
+      "Se taire",
+      "Rougir",
+      "Échouer"
+    ],
+    "answer": 3,
+    "fact": "Aux quilles, « coup » se prononçait « chou » en berrichon : faire un coup blanc, c'est ne rien abattre."
+  },
+  {
+    "id": "qla_021",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Dans « à la queue leu leu », que désigne le mot « leu » ?",
+    "choices": [
+      "Le lieu",
+      "La lumière",
+      "Le loup",
+      "Le lion"
+    ],
+    "answer": 2,
+    "fact": "En ancien français, « leu » signifiait loup : les loups se déplacent souvent en file."
+  },
+  {
+    "id": "qla_022",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Lequel de ces noms est masculin ?",
+    "choices": [
+      "Oasis",
+      "Écritoire",
+      "Astérisque",
+      "Azalée"
+    ],
+    "answer": 2,
+    "fact": "On dit aussi « un pétale » et « un haltère », souvent employés au féminin à tort."
+  },
+  {
+    "id": "qla_023",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « avoir maille à partir » avec quelqu'un ?",
+    "choices": [
+      "Avoir un différend",
+      "Lui devoir de l'argent",
+      "En être amoureux",
+      "Travailler ensemble"
+    ],
+    "answer": 0,
+    "fact": "La maille était une petite pièce de monnaie, et « partir » signifiait partager."
+  },
+  {
+    "id": "qla_024",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Quelle phrase est correctement orthographiée ?",
+    "choices": [
+      "Elle s'est rendue compte",
+      "Elle s'est rendus compte",
+      "Elle c'est rendu compte",
+      "Elle s'est rendu compte"
+    ],
+    "answer": 3,
+    "fact": "« Compte » est complément d'objet placé après le verbe : le participe reste invariable."
+  },
+  {
+    "id": "qla_025",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « tirer les vers du nez » à quelqu'un ?",
+    "choices": [
+      "Le soigner",
+      "Le faire parler",
+      "L'ennuyer",
+      "Se moquer de lui"
+    ],
+    "answer": 1,
+    "fact": "Selon une hypothèse, « vers » viendrait du latin « verum », le vrai."
+  },
+  {
+    "id": "qla_026",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Qu'est-ce qu'un palindrome ?",
+    "choices": [
+      "Mot aux sens contraires",
+      "Mot lisible dans les 2 sens",
+      "Mot qui imite un son",
+      "Mot d'origine grecque"
+    ],
+    "answer": 1,
+    "fact": "« Kayak », « radar » et « ressasser » sont des palindromes."
+  },
+  {
+    "id": "qla_027",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "En argot, qui est « la daronne » ?",
+    "choices": [
+      "La mère",
+      "La patronne",
+      "La police",
+      "La voisine"
+    ],
+    "answer": 0,
+    "fact": "« Daron » désignait autrefois le maître de maison, voire le patron."
+  },
+  {
+    "id": "qla_028",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « prendre la poudre d'escampette » ?",
+    "choices": [
+      "Se maquiller",
+      "Se battre",
+      "Faire exploser",
+      "S'enfuir"
+    ],
+    "answer": 3,
+    "fact": "« Escampette » vient du vieux verbe « escamper », s'enfuir, d'origine italienne."
+  },
+  {
+    "id": "qla_029",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « ne pas être dans son assiette » ?",
+    "choices": [
+      "Ne pas avoir faim",
+      "Être mal placé",
+      "Être en retard",
+      "Ne pas être en forme"
+    ],
+    "answer": 3,
+    "fact": "« Assiette » désignait autrefois la manière d'être assis, la posture."
+  },
+  {
+    "id": "qla_030",
+    "category": "langue-fr",
+    "difficulty": "medium",
+    "question": "Que signifie « bayer aux corneilles » ?",
+    "choices": [
+      "Chasser les oiseaux",
+      "Parler pour rien",
+      "Rêvasser bouche bée",
+      "Se lever tôt"
+    ],
+    "answer": 2,
+    "fact": "« Bayer », c'est garder la bouche ouverte : à ne pas confondre avec « bâiller »."
+  },
+  {
+    "id": "qla_031",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Au passé simple, comment conjugue-t-on « coudre » à la 1re personne du singulier ?",
+    "choices": [
+      "Je cousis",
+      "Je coudis",
+      "Je cousus",
+      "Je coudus"
+    ],
+    "answer": 0,
+    "fact": "Le passé simple de « coudre » se forme sur le radical « cous- », comme dans « nous cousons »."
+  },
+  {
+    "id": "qla_032",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Que signifie l'adjectif rare « callipyge » ?",
+    "choices": [
+      "Aux beaux cheveux",
+      "À la belle écriture",
+      "Aux belles fesses",
+      "Au beau chant"
+    ],
+    "answer": 2,
+    "fact": "Une célèbre statue antique est appelée la « Vénus callipyge »."
+  },
+  {
+    "id": "qla_033",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Que signifie l'adjectif « pusillanime » ?",
+    "choices": [
+      "Qui est très petit",
+      "Qui est généreux",
+      "Qui manque de courage",
+      "Qui est bavard"
+    ],
+    "answer": 2,
+    "fact": "Il vient du latin « pusillus animus », un esprit petit, faible."
+  },
+  {
+    "id": "qla_034",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Comment s'appelle le signe « & » ?",
+    "choices": [
+      "L'arobase",
+      "Le pied-de-mouche",
+      "Le tilde",
+      "L'esperluette"
+    ],
+    "answer": 3,
+    "fact": "C'est à l'origine une ligature des lettres e et t, formant le latin « et »."
+  },
+  {
+    "id": "qla_035",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Comment appelle-t-on une alliance de deux mots de sens contraires ?",
+    "choices": [
+      "Un oxymore",
+      "Une litote",
+      "Une hyperbole",
+      "Une allitération"
+    ],
+    "answer": 0,
+    "fact": "« Cette obscure clarté qui tombe des étoiles » (Corneille, « Le Cid ») en est un exemple célèbre."
+  },
+  {
+    "id": "qla_036",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Quel est le participe passé du verbe « clore » ?",
+    "choices": [
+      "Cloré",
+      "Clos",
+      "Clu",
+      "Closé"
+    ],
+    "answer": 1,
+    "fact": "« Clore » est un verbe défectif : il n'a ni imparfait ni passé simple."
+  },
+  {
+    "id": "qla_037",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Complétez correctement : « Il faut que je … ce qu'il dit. »",
+    "choices": [
+      "croye",
+      "croie",
+      "crois",
+      "croit"
+    ],
+    "answer": 1,
+    "fact": "Même piège avec « voir » : on écrit « que je voie », sans y."
+  },
+  {
+    "id": "qla_038",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Quel mot argotique d'origine arabe désigne le médecin ?",
+    "choices": [
+      "Clebs",
+      "Kif",
+      "Bled",
+      "Toubib"
+    ],
+    "answer": 3,
+    "fact": "Il vient de l'arabe « tabib », rapporté par les soldats ayant servi en Afrique du Nord."
+  },
+  {
+    "id": "qla_039",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Quel était le sens premier de l'adjectif « formidable » ?",
+    "choices": [
+      "Qui est bien formé",
+      "Qui est minuscule",
+      "Qui fait peur",
+      "Qui est joyeux"
+    ],
+    "answer": 2,
+    "fact": "Il vient du latin « formido », qui signifie la peur, l'effroi."
+  },
+  {
+    "id": "qla_040",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Qu'est-ce qu'un « hapax » ?",
+    "choices": [
+      "Mot qui se lit à l'envers",
+      "Mot emprunté à l'anglais",
+      "Mot attesté une seule fois",
+      "Mot sans aucune voyelle"
+    ],
+    "answer": 2,
+    "fact": "Le terme vient du grec « hapax legomenon », « dit une seule fois »."
+  },
+  {
+    "id": "qla_041",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Que signifie « peigner la girafe » ?",
+    "choices": [
+      "Flatter son patron",
+      "Faire un travail inutile",
+      "Être très grand",
+      "Se coiffer à la hâte"
+    ],
+    "answer": 1,
+    "fact": "Dans le même esprit, on dit aussi « enfiler des perles »."
+  },
+  {
+    "id": "qla_042",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Dans l'argot d'autrefois, que signifiait le cri « Vingt-deux ! » ?",
+    "choices": [
+      "Bonne chance !",
+      "À la tienne !",
+      "Attention, on arrive !",
+      "C'est gagné !"
+    ],
+    "answer": 2,
+    "fact": "On l'utilisait notamment pour prévenir de l'arrivée de la police : « Vingt-deux, v'là les flics ! »"
+  },
+  {
+    "id": "qla_043",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Que désigne le mot rare « nycthémère » ?",
+    "choices": [
+      "Une éclipse de Lune",
+      "Une durée de 24 heures",
+      "Un oiseau de nuit",
+      "Une insomnie"
+    ],
+    "answer": 1,
+    "fact": "Il vient du grec « nux », la nuit, et « hêmera », le jour."
+  },
+  {
+    "id": "qla_044",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Quelle phrase est correcte ?",
+    "choices": [
+      "Quoique tu fasses, je t'aime",
+      "Quoi que tu fais, je t'aime",
+      "Quoique tu fais, je t'aime",
+      "Quoi que tu fasses, je t'aime"
+    ],
+    "answer": 3,
+    "fact": "« Quoi que » signifie « quelle que soit la chose que » ; « quoique » signifie « bien que »."
+  },
+  {
+    "id": "qla_045",
+    "category": "langue-fr",
+    "difficulty": "hard",
+    "question": "Que signifie « se faire appeler Arthur » ?",
+    "choices": [
+      "Se faire gronder",
+      "Changer de nom",
+      "Devenir célèbre",
+      "Être trahi"
+    ],
+    "answer": 0,
+    "fact": "On l'explique souvent par l'Occupation et le couvre-feu : « Acht Uhr » (huit heures) aurait donné « Arthur »."
+  }
+]

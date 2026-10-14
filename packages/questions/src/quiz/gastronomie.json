@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qga_001",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "De quelle région française la choucroute est-elle la grande spécialité ?",
+    "choices": [
+      "La Lorraine",
+      "L'Alsace",
+      "La Bretagne",
+      "La Savoie"
+    ],
+    "answer": 1,
+    "fact": "Le mot vient de l'alsacien « sürkrüt », qui signifie « chou aigre »."
+  },
+  {
+    "id": "qga_002",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "De quel pays la paella est-elle originaire ?",
+    "choices": [
+      "Portugal",
+      "Mexique",
+      "Espagne",
+      "Italie"
+    ],
+    "answer": 2,
+    "fact": "Elle vient de la région de Valence, où la recette traditionnelle associe poulet et lapin."
+  },
+  {
+    "id": "qga_003",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quel est l'ingrédient principal du guacamole ?",
+    "choices": [
+      "La tomate",
+      "L'avocat",
+      "Le concombre",
+      "Le poivron"
+    ],
+    "answer": 1,
+    "fact": "Son nom vient du nahuatl « ahuacamolli », qui signifie « sauce à l'avocat »."
+  },
+  {
+    "id": "qga_004",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quelle ville a donné son nom à une célèbre moutarde forte ?",
+    "choices": [
+      "Lyon",
+      "Reims",
+      "Dijon",
+      "Bordeaux"
+    ],
+    "answer": 2,
+    "fact": "La moutarde de Dijon désigne une recette : la plupart de ses graines sont cultivées au Canada."
+  },
+  {
+    "id": "qga_005",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Avec quelle farine prépare-t-on les galettes bretonnes ?",
+    "choices": [
+      "Le sarrasin",
+      "Le blé",
+      "Le seigle",
+      "Le maïs"
+    ],
+    "answer": 0,
+    "fact": "Malgré son surnom de « blé noir », le sarrasin n'est pas une céréale."
+  },
+  {
+    "id": "qga_006",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Dans quel liquide mijote traditionnellement le bœuf bourguignon ?",
+    "choices": [
+      "Le vin rouge",
+      "La bière",
+      "Le cidre",
+      "Le vin blanc"
+    ],
+    "answer": 0,
+    "fact": "On le prépare traditionnellement avec un vin rouge de Bourgogne."
+  },
+  {
+    "id": "qga_007",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quel fromage est indispensable à une tartiflette ?",
+    "choices": [
+      "Le comté",
+      "Le beaufort",
+      "Le reblochon",
+      "La tomme"
+    ],
+    "answer": 2,
+    "fact": "La tartiflette a été popularisée dans les années 1980 par l'interprofession du reblochon."
+  },
+  {
+    "id": "qga_008",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quelle ville est le berceau de la bouillabaisse ?",
+    "choices": [
+      "Nice",
+      "Toulon",
+      "Sète",
+      "Marseille"
+    ],
+    "answer": 3,
+    "fact": "Son nom viendrait de « bouillir » et « abaisser » : on baisse le feu dès l'ébullition."
+  },
+  {
+    "id": "qga_009",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quel fromage garnit la pizza Margherita ?",
+    "choices": [
+      "La mozzarella",
+      "Le parmesan",
+      "Le gorgonzola",
+      "La ricotta"
+    ],
+    "answer": 0,
+    "fact": "Tomate, mozzarella et basilic : ses couleurs rappellent le drapeau italien."
+  },
+  {
+    "id": "qga_010",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quels sont les deux ingrédients de base de la mayonnaise ?",
+    "choices": [
+      "Crème et beurre",
+      "Lait et farine",
+      "Jaune d'œuf et huile",
+      "Blanc d'œuf et beurre"
+    ],
+    "answer": 2,
+    "fact": "Son nom évoquerait la prise de Port-Mahon, à Minorque, par les Français en 1756."
+  },
+  {
+    "id": "qga_011",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quel alcool entre dans la recette du mojito ?",
+    "choices": [
+      "La vodka",
+      "Le gin",
+      "La tequila",
+      "Le rhum"
+    ],
+    "answer": 3,
+    "fact": "Ce cocktail cubain associe aussi menthe, citron vert, sucre et eau gazeuse."
+  },
+  {
+    "id": "qga_012",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quelle ville est célèbre pour ses « bouchons » et ses quenelles ?",
+    "choices": [
+      "Lyon",
+      "Grenoble",
+      "Dijon",
+      "Strasbourg"
+    ],
+    "answer": 0,
+    "fact": "Les bouchons sont de petits restaurants lyonnais servant une cuisine traditionnelle."
+  },
+  {
+    "id": "qga_013",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "De quelle région le cassoulet est-il originaire ?",
+    "choices": [
+      "La Provence",
+      "Le Languedoc",
+      "L'Alsace",
+      "La Normandie"
+    ],
+    "answer": 1,
+    "fact": "Castelnaudary, Carcassonne et Toulouse se disputent sa paternité."
+  },
+  {
+    "id": "qga_014",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Avec quel fruit produit-on principalement le calvados ?",
+    "choices": [
+      "La cerise",
+      "La prune",
+      "Le raisin",
+      "La pomme"
+    ],
+    "answer": 3,
+    "fact": "C'est une eau-de-vie de cidre, vieillie au moins deux ans en fût de chêne."
+  },
+  {
+    "id": "qga_015",
+    "category": "gastronomie",
+    "difficulty": "easy",
+    "question": "Quel est l'ingrédient principal du houmous ?",
+    "choices": [
+      "La lentille",
+      "Le haricot blanc",
+      "Le pois chiche",
+      "La fève"
+    ],
+    "answer": 2,
+    "fact": "Il est aussi parfumé au tahini, une pâte de graines de sésame."
+  },
+  {
+    "id": "qga_016",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Selon la tradition, quelle Normande aurait inventé le camembert ?",
+    "choices": [
+      "Jeanne Lanos",
+      "Marie Harel",
+      "Anne Morin",
+      "Louise Bertin"
+    ],
+    "answer": 1,
+    "fact": "Elle l'aurait mis au point vers 1791, sur les conseils d'un prêtre réfractaire venu de la Brie."
+  },
+  {
+    "id": "qga_017",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quelle viennoiserie descend du « kipferl » autrichien ?",
+    "choices": [
+      "Le pain au chocolat",
+      "La brioche",
+      "Le croissant",
+      "Le chausson aux pommes"
+    ],
+    "answer": 2,
+    "fact": "C'est pourquoi on parle de « viennoiseries » pour ces pâtisseries du petit-déjeuner."
+  },
+  {
+    "id": "qga_018",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Avec quel cépage le beaujolais est-il principalement produit ?",
+    "choices": [
+      "Le pinot noir",
+      "Le merlot",
+      "La syrah",
+      "Le gamay"
+    ],
+    "answer": 3,
+    "fact": "Le beaujolais nouveau est mis en vente le troisième jeudi de novembre."
+  },
+  {
+    "id": "qga_019",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "De quel pays le gouda est-il originaire ?",
+    "choices": [
+      "Pays-Bas",
+      "Belgique",
+      "Suisse",
+      "Danemark"
+    ],
+    "answer": 0,
+    "fact": "Il doit son nom à la ville de Gouda, où il était pesé et vendu sur le marché."
+  },
+  {
+    "id": "qga_020",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Avec quel lait le crottin de Chavignol est-il fabriqué ?",
+    "choices": [
+      "Brebis",
+      "Vache",
+      "Chèvre",
+      "Bufflonne"
+    ],
+    "answer": 2,
+    "fact": "Il est produit dans le Sancerrois, autour du village de Chavignol, dans le Cher."
+  },
+  {
+    "id": "qga_021",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quelle épice est tirée des pistils d'une fleur de crocus ?",
+    "choices": [
+      "Le safran",
+      "La vanille",
+      "La cardamome",
+      "Le curcuma"
+    ],
+    "answer": 0,
+    "fact": "Il faut plus de 100 000 fleurs, récoltées à la main, pour obtenir un kilo de safran."
+  },
+  {
+    "id": "qga_022",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quel chef a créé la « soupe aux truffes V.G.E. » en 1975 ?",
+    "choices": [
+      "Joël Robuchon",
+      "Alain Ducasse",
+      "Michel Guérard",
+      "Paul Bocuse"
+    ],
+    "answer": 3,
+    "fact": "Il l'a servie à l'Élysée, lors du repas célébrant sa Légion d'honneur."
+  },
+  {
+    "id": "qga_023",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quel apéritif mélange vin blanc et crème de cassis ?",
+    "choices": [
+      "Le spritz",
+      "Le kir",
+      "Le bellini",
+      "Le mimosa"
+    ],
+    "answer": 1,
+    "fact": "Il doit son nom au chanoine Félix Kir, maire de Dijon après la guerre."
+  },
+  {
+    "id": "qga_024",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Que signifie « tiramisu » en italien ?",
+    "choices": [
+      "« Petit nuage »",
+      "« Douceur du soir »",
+      "« Remonte-moi »",
+      "« Café crème »"
+    ],
+    "answer": 2,
+    "fact": "Ce dessert associe mascarpone, œufs, cacao et biscuits imbibés de café."
+  },
+  {
+    "id": "qga_025",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Dans quel pays le pho est-il un plat national ?",
+    "choices": [
+      "Thaïlande",
+      "Japon",
+      "Corée du Sud",
+      "Viêt Nam"
+    ],
+    "answer": 3,
+    "fact": "Cette soupe de nouilles de riz au bouillon de bœuf est née dans le nord du pays au début du XXe siècle."
+  },
+  {
+    "id": "qga_026",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quelle appellation bordelaise est célèbre pour ses vins blancs liquoreux ?",
+    "choices": [
+      "Pomerol",
+      "Sauternes",
+      "Saint-Émilion",
+      "Margaux"
+    ],
+    "answer": 1,
+    "fact": "Ses vins doivent leur douceur à la « pourriture noble », un champignon appelé Botrytis cinerea."
+  },
+  {
+    "id": "qga_027",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quel moine bénédictin est associé à la légende du champagne ?",
+    "choices": [
+      "Dom Bosco",
+      "Dom Mabillon",
+      "Dom Calmet",
+      "Dom Pérignon"
+    ],
+    "answer": 3,
+    "fact": "Contrairement à la légende, il n'a pas inventé les bulles : il cherchait plutôt à les éviter."
+  },
+  {
+    "id": "qga_028",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quelle sauce associe beurre, jaunes d'œufs, échalote et estragon ?",
+    "choices": [
+      "La béarnaise",
+      "La hollandaise",
+      "La Mornay",
+      "La gribiche"
+    ],
+    "answer": 0,
+    "fact": "Malgré son nom, elle serait née à Saint-Germain-en-Laye, au Pavillon Henri IV."
+  },
+  {
+    "id": "qga_029",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Dans quelle commune de Sologne est née la tarte Tatin ?",
+    "choices": [
+      "Lamotte-Beuvron",
+      "Romorantin",
+      "Salbris",
+      "Vierzon"
+    ],
+    "answer": 0,
+    "fact": "Elle est attribuée aux sœurs Tatin, qui tenaient un hôtel face à la gare."
+  },
+  {
+    "id": "qga_030",
+    "category": "gastronomie",
+    "difficulty": "medium",
+    "question": "Quel fromage du Jura est produit en meules d'environ 40 kg ?",
+    "choices": [
+      "Le morbier",
+      "Le comté",
+      "Le mont-d'or",
+      "La cancoillotte"
+    ],
+    "answer": 1,
+    "fact": "Il faut plus de 400 litres de lait pour fabriquer une seule meule de comté."
+  },
+  {
+    "id": "qga_031",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel gâteau en forme de roue a été créé en hommage à une course cycliste ?",
+    "choices": [
+      "Le paris-brest",
+      "Le saint-honoré",
+      "L'opéra",
+      "Le fraisier"
+    ],
+    "answer": 0,
+    "fact": "Il a été créé en 1910 par le pâtissier Louis Durand, à Maisons-Laffitte."
+  },
+  {
+    "id": "qga_032",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel chef a publié « Le Guide culinaire » en 1903 ?",
+    "choices": [
+      "Antonin Carême",
+      "Fernand Point",
+      "Auguste Escoffier",
+      "Urbain Dubois"
+    ],
+    "answer": 2,
+    "fact": "Il a aussi créé la pêche Melba, en hommage à la cantatrice australienne Nellie Melba."
+  },
+  {
+    "id": "qga_033",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Dans quelle région cultive-t-on le piment d'Espelette ?",
+    "choices": [
+      "Béarn",
+      "Roussillon",
+      "Pays basque",
+      "Provence"
+    ],
+    "answer": 2,
+    "fact": "Après la récolte, les piments sèchent en guirlandes sur les façades des maisons."
+  },
+  {
+    "id": "qga_034",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel fromage est surnommé « la boule de Lille » ?",
+    "choices": [
+      "La mimolette",
+      "Le maroilles",
+      "L'édam",
+      "Le gouda"
+    ],
+    "answer": 0,
+    "fact": "Sa couleur orange vient du rocou, un colorant naturel extrait d'une graine."
+  },
+  {
+    "id": "qga_035",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Comment s'appelle la bouteille de 62 cl réservée au vin jaune du Jura ?",
+    "choices": [
+      "La fillette",
+      "La chopine",
+      "Le pot",
+      "Le clavelin"
+    ],
+    "answer": 3,
+    "fact": "62 cl, c'est ce qui resterait d'un litre de vin après plus de six ans de vieillissement en fût."
+  },
+  {
+    "id": "qga_036",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel fromage a été le premier à bénéficier d'une appellation d'origine, en 1925 ?",
+    "choices": [
+      "Le comté",
+      "Le roquefort",
+      "Le camembert",
+      "Le brie de Meaux"
+    ],
+    "answer": 1,
+    "fact": "Il est affiné dans les caves naturelles du Combalou, à Roquefort-sur-Soulzon."
+  },
+  {
+    "id": "qga_037",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Le mot « tapenade » vient du provençal « tapeno ». Que désigne-t-il ?",
+    "choices": [
+      "L'olive",
+      "L'anchois",
+      "L'ail",
+      "La câpre"
+    ],
+    "answer": 3,
+    "fact": "Malgré l'olive noire omniprésente, ce sont bien les câpres qui ont donné leur nom à la recette."
+  },
+  {
+    "id": "qga_038",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel est le seul cépage autorisé pour les vins de l'appellation Chablis ?",
+    "choices": [
+      "Le sauvignon",
+      "Le chenin",
+      "Le chardonnay",
+      "L'aligoté"
+    ],
+    "answer": 2,
+    "fact": "Les sols de Chablis regorgent de fossiles de petites huîtres, Exogyra virgula."
+  },
+  {
+    "id": "qga_039",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "De quel pays vient l'eau-de-vie de genièvre dont descend le gin ?",
+    "choices": [
+      "Angleterre",
+      "Écosse",
+      "Irlande",
+      "Pays-Bas"
+    ],
+    "answer": 3,
+    "fact": "Le « jenever » néerlandais aurait été popularisé en Angleterre au XVIIe siècle."
+  },
+  {
+    "id": "qga_040",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Sur une bouteille de cognac, que signifie le sigle VSOP ?",
+    "choices": [
+      "Very Special Old Product",
+      "Very Superior Old Pale",
+      "Vintage Selected Old Pure",
+      "Very Smooth Old Prime"
+    ],
+    "answer": 1,
+    "fact": "Ce sigle anglais rappelle l'importance historique du commerce du cognac avec l'Angleterre."
+  },
+  {
+    "id": "qga_041",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel fromage AOP de Franche-Comté se déguste chaud, à la cuillère ?",
+    "choices": [
+      "Le mont-d'or",
+      "L'époisses",
+      "Le munster",
+      "Le langres"
+    ],
+    "answer": 0,
+    "fact": "Il est cerclé d'une sangle d'épicéa, qui parfume sa pâte."
+  },
+  {
+    "id": "qga_042",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "De quel pays le tokaji, vin liquoreux, est-il emblématique ?",
+    "choices": [
+      "Hongrie",
+      "Roumanie",
+      "Autriche",
+      "Croatie"
+    ],
+    "answer": 0,
+    "fact": "Louis XIV l'aurait qualifié de « vin des rois, roi des vins »."
+  },
+  {
+    "id": "qga_043",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quelle épice est obtenue à partir de l'écorce d'un arbre ?",
+    "choices": [
+      "La muscade",
+      "Le clou de girofle",
+      "Le poivre",
+      "La cannelle"
+    ],
+    "answer": 3,
+    "fact": "Les clous de girofle sont, eux, des boutons floraux séchés."
+  },
+  {
+    "id": "qga_044",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "Quel agrume aromatise la liqueur Grand Marnier ?",
+    "choices": [
+      "Le citron",
+      "L'orange amère",
+      "La mandarine",
+      "La bergamote"
+    ],
+    "answer": 1,
+    "fact": "Créée en 1880, elle associe du cognac à une essence d'oranges amères."
+  },
+  {
+    "id": "qga_045",
+    "category": "gastronomie",
+    "difficulty": "hard",
+    "question": "En Champagne, quelle est la contenance d'un jéroboam ?",
+    "choices": [
+      "4,5 litres",
+      "3 litres",
+      "6 litres",
+      "1,5 litre"
+    ],
+    "answer": 1,
+    "fact": "Le mathusalem fait 6 litres, le salmanazar 9 litres et le balthazar 12 litres."
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qci_001",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui a réalisé « Titanic » (1997) ?",
+    "choices": [
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "Ridley Scott",
+      "James Cameron"
+    ],
+    "answer": 3,
+    "fact": "Le film a remporté 11 Oscars, autant que « Ben-Hur » et « Le Retour du roi »."
+  },
+  {
+    "id": "qci_002",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui joue Obélix dans « Astérix et Obélix contre César » (1999) ?",
+    "choices": [
+      "Gérard Jugnot",
+      "Gérard Depardieu",
+      "Christian Clavier",
+      "Jean Reno"
+    ],
+    "answer": 1,
+    "fact": "Christian Clavier y incarne Astérix."
+  },
+  {
+    "id": "qci_003",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Dans « Star Wars », qui révèle à Luke qu'il est son père ?",
+    "choices": [
+      "L'Empereur Palpatine",
+      "Dark Vador",
+      "Obi-Wan Kenobi",
+      "Yoda"
+    ],
+    "answer": 1,
+    "fact": "La révélation a lieu dans « L'Empire contre-attaque » (1980)."
+  },
+  {
+    "id": "qci_004",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Quelle actrice joue Amélie Poulain ?",
+    "choices": [
+      "Ludivine Sagnier",
+      "Marion Cotillard",
+      "Mélanie Laurent",
+      "Audrey Tautou"
+    ],
+    "answer": 3,
+    "fact": "Le film de Jean-Pierre Jeunet se déroule à Montmartre."
+  },
+  {
+    "id": "qci_005",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Dans « Friends », comment s'appelle le café des héros ?",
+    "choices": [
+      "Central Perk",
+      "Luke's Diner",
+      "Monk's Café",
+      "MacLaren's"
+    ],
+    "answer": 0,
+    "fact": "La série compte 10 saisons, diffusées de 1994 à 2004."
+  },
+  {
+    "id": "qci_006",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui joue aux côtés d'Omar Sy dans « Intouchables » ?",
+    "choices": [
+      "Daniel Auteuil",
+      "Jean Dujardin",
+      "François Cluzet",
+      "Fabrice Luchini"
+    ],
+    "answer": 2,
+    "fact": "Omar Sy a reçu le César du meilleur acteur pour ce rôle en 2012."
+  },
+  {
+    "id": "qci_007",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui a réalisé « Jurassic Park » (1993) ?",
+    "choices": [
+      "Steven Spielberg",
+      "Joe Dante",
+      "John McTiernan",
+      "George Lucas"
+    ],
+    "answer": 0,
+    "fact": "Le film est adapté d'un roman de Michael Crichton."
+  },
+  {
+    "id": "qci_008",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Dans « Le Seigneur des anneaux », qui porte l'Anneau au Mordor ?",
+    "choices": [
+      "Bilbon",
+      "Aragorn",
+      "Frodon",
+      "Sam"
+    ],
+    "answer": 2,
+    "fact": "La trilogie de Peter Jackson a été tournée en Nouvelle-Zélande."
+  },
+  {
+    "id": "qci_009",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Dans « Game of Thrones », quelle maison a pour devise « L'hiver vient » ?",
+    "choices": [
+      "Baratheon",
+      "Targaryen",
+      "Stark",
+      "Lannister"
+    ],
+    "answer": 2,
+    "fact": "La série est adaptée des romans de George R. R. Martin."
+  },
+  {
+    "id": "qci_010",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Quel acteur incarne Jack Sparrow ?",
+    "choices": [
+      "Brad Pitt",
+      "Keanu Reeves",
+      "Orlando Bloom",
+      "Johnny Depp"
+    ],
+    "answer": 3,
+    "fact": "Il s'est inspiré de Keith Richards, qui joue ensuite le père de Jack dans la saga."
+  },
+  {
+    "id": "qci_011",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui joue Jacquouille la Fripouille dans « Les Visiteurs » ?",
+    "choices": [
+      "Gérard Jugnot",
+      "Jean Reno",
+      "Thierry Lhermitte",
+      "Christian Clavier"
+    ],
+    "answer": 3,
+    "fact": "Jean Reno y incarne le chevalier Godefroy de Montmirail."
+  },
+  {
+    "id": "qci_012",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Dans quel dessin animé Disney le lionceau Simba devient-il roi ?",
+    "choices": [
+      "Tarzan",
+      "Le Roi lion",
+      "Le Livre de la jungle",
+      "Robin des Bois"
+    ],
+    "answer": 1,
+    "fact": "Sorti en 1994, il a été refait en images de synthèse en 2019."
+  },
+  {
+    "id": "qci_013",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Quelle ville accueille chaque mois de mai un grand festival de cinéma ?",
+    "choices": [
+      "Deauville",
+      "Biarritz",
+      "Cannes",
+      "Annecy"
+    ],
+    "answer": 2,
+    "fact": "La récompense suprême y est la Palme d'or."
+  },
+  {
+    "id": "qci_014",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Qui a créé la série « Kaamelott » ?",
+    "choices": [
+      "Alexandre Astier",
+      "Kad Merad",
+      "Éric Judor",
+      "Jamel Debbouze"
+    ],
+    "answer": 0,
+    "fact": "Astier y joue le roi Arthur et en compose aussi la musique."
+  },
+  {
+    "id": "qci_015",
+    "category": "cinema-series",
+    "difficulty": "easy",
+    "question": "Quelle troupe est à l'origine des « Bronzés » ?",
+    "choices": [
+      "Les Inconnus",
+      "Le Splendid",
+      "Les Nuls",
+      "Les Robins des Bois"
+    ],
+    "answer": 1,
+    "fact": "Le film de 1978 se déroule dans un club de vacances en Côte d'Ivoire."
+  },
+  {
+    "id": "qci_016",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Dans quelle ville est muté Philippe dans « Bienvenue chez les Ch'tis » ?",
+    "choices": [
+      "Bergues",
+      "Roubaix",
+      "Dunkerque",
+      "Lille"
+    ],
+    "answer": 0,
+    "fact": "Le film de Dany Boon a attiré plus de 20 millions de spectateurs en France."
+  },
+  {
+    "id": "qci_017",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui a réalisé « La Haine » (1995) ?",
+    "choices": [
+      "Luc Besson",
+      "Jacques Audiard",
+      "Cédric Klapisch",
+      "Mathieu Kassovitz"
+    ],
+    "answer": 3,
+    "fact": "Il a obtenu le prix de la mise en scène au Festival de Cannes 1995."
+  },
+  {
+    "id": "qci_018",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Quel personnage joue Jacques Villeret dans « Le Dîner de cons » ?",
+    "choices": [
+      "Pierre Brochant",
+      "Juste Leblanc",
+      "François Pignon",
+      "Lucien Cheval"
+    ],
+    "answer": 2,
+    "fact": "Francis Veber a adapté sa propre pièce de théâtre au cinéma en 1998."
+  },
+  {
+    "id": "qci_019",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui partage l'affiche avec Louis de Funès dans « La Grande Vadrouille » ?",
+    "choices": [
+      "Jean Gabin",
+      "Bourvil",
+      "Lino Ventura",
+      "Fernandel"
+    ],
+    "answer": 1,
+    "fact": "Le film de Gérard Oury (1966) est resté plus de 40 ans le plus gros succès français en salles."
+  },
+  {
+    "id": "qci_020",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui a réalisé « Pulp Fiction » (1994) ?",
+    "choices": [
+      "Martin Scorsese",
+      "Francis Ford Coppola",
+      "Quentin Tarantino",
+      "Guy Ritchie"
+    ],
+    "answer": 2,
+    "fact": "Le film a reçu la Palme d'or au Festival de Cannes 1994."
+  },
+  {
+    "id": "qci_021",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Quel est le métier de Walter White au début de « Breaking Bad » ?",
+    "choices": [
+      "Pharmacien",
+      "Professeur de chimie",
+      "Médecin",
+      "Policier"
+    ],
+    "answer": 1,
+    "fact": "Il adopte le pseudonyme « Heisenberg », en référence au physicien allemand."
+  },
+  {
+    "id": "qci_022",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui joue le tueur à gages dans « Léon » (1994) ?",
+    "choices": [
+      "Jean Reno",
+      "Tchéky Karyo",
+      "Gary Oldman",
+      "Jean-Hugues Anglade"
+    ],
+    "answer": 0,
+    "fact": "Natalie Portman y tient son premier rôle au cinéma, à 12 ans."
+  },
+  {
+    "id": "qci_023",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Quel film sud-coréen remporte l'Oscar du meilleur film en 2020 ?",
+    "choices": [
+      "Old Boy",
+      "Burning",
+      "Memories of Murder",
+      "Parasite"
+    ],
+    "answer": 3,
+    "fact": "C'est le premier film non anglophone à remporter cet Oscar."
+  },
+  {
+    "id": "qci_024",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Dans « The Office » (US), comment s'appelle l'entreprise ?",
+    "choices": [
+      "Wernham Hogg",
+      "Initech",
+      "Sterling Cooper",
+      "Dunder Mifflin"
+    ],
+    "answer": 3,
+    "fact": "Wernham Hogg est l'entreprise de la version britannique d'origine, créée par Ricky Gervais."
+  },
+  {
+    "id": "qci_025",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui a réalisé « Les Quatre Cents Coups » (1959) ?",
+    "choices": [
+      "François Truffaut",
+      "Claude Chabrol",
+      "Éric Rohmer",
+      "Jean-Luc Godard"
+    ],
+    "answer": 0,
+    "fact": "Jean-Pierre Léaud y incarne Antoine Doinel, qu'il retrouvera dans d'autres films de Truffaut."
+  },
+  {
+    "id": "qci_026",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui incarne OSS 117 dans le film de 2006 ?",
+    "choices": [
+      "Guillaume Canet",
+      "José Garcia",
+      "Jean Dujardin",
+      "Gilles Lellouche"
+    ],
+    "answer": 2,
+    "fact": "Dujardin recevra ensuite l'Oscar du meilleur acteur pour « The Artist »."
+  },
+  {
+    "id": "qci_027",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui joue Vito Corleone dans « Le Parrain » (1972) ?",
+    "choices": [
+      "James Caan",
+      "Robert Duvall",
+      "Al Pacino",
+      "Marlon Brando"
+    ],
+    "answer": 3,
+    "fact": "Il a refusé l'Oscar obtenu pour ce rôle, pour défendre la cause amérindienne."
+  },
+  {
+    "id": "qci_028",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "De quel pays vient la série « La Casa de papel » ?",
+    "choices": [
+      "Colombie",
+      "Mexique",
+      "Espagne",
+      "Argentine"
+    ],
+    "answer": 2,
+    "fact": "Les braqueurs portent des masques à l'effigie de Salvador Dalí."
+  },
+  {
+    "id": "qci_029",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Qui a réalisé « Le Grand Bleu » (1988) ?",
+    "choices": [
+      "Jean-Jacques Beineix",
+      "Luc Besson",
+      "Jean-Jacques Annaud",
+      "Claude Lelouch"
+    ],
+    "answer": 1,
+    "fact": "Le film s'inspire des apnéistes Jacques Mayol et Enzo Maiorca."
+  },
+  {
+    "id": "qci_030",
+    "category": "cinema-series",
+    "difficulty": "medium",
+    "question": "Quelle actrice a reçu l'Oscar pour « La Môme » ?",
+    "choices": [
+      "Marion Cotillard",
+      "Isabelle Huppert",
+      "Juliette Binoche",
+      "Sophie Marceau"
+    ],
+    "answer": 0,
+    "fact": "Elle y incarne Édith Piaf."
+  },
+  {
+    "id": "qci_031",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a réalisé « La Règle du jeu » (1939) ?",
+    "choices": [
+      "Jean Renoir",
+      "Julien Duvivier",
+      "Marcel Carné",
+      "Jean Vigo"
+    ],
+    "answer": 0,
+    "fact": "Il était le fils du peintre Pierre-Auguste Renoir."
+  },
+  {
+    "id": "qci_032",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Quel est le premier long métrage de Jean-Luc Godard ?",
+    "choices": [
+      "Le Mépris",
+      "Pierrot le Fou",
+      "À bout de souffle",
+      "Alphaville"
+    ],
+    "answer": 2,
+    "fact": "Jean-Paul Belmondo et Jean Seberg y tiennent les rôles principaux."
+  },
+  {
+    "id": "qci_033",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Dans quel film Arletty lance-t-elle « Atmosphère, atmosphère… » ?",
+    "choices": [
+      "Quai des brumes",
+      "Les Enfants du paradis",
+      "Hôtel du Nord",
+      "Le jour se lève"
+    ],
+    "answer": 2,
+    "fact": "Ce film de Marcel Carné est sorti en 1938."
+  },
+  {
+    "id": "qci_034",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Quel film a remporté le tout premier Oscar du meilleur film ?",
+    "choices": [
+      "Le Chanteur de jazz",
+      "L'Aurore",
+      "Metropolis",
+      "Les Ailes"
+    ],
+    "answer": 3,
+    "fact": "Ce film muet sur des pilotes de la Grande Guerre a été primé en 1929."
+  },
+  {
+    "id": "qci_035",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a réalisé « Les Tontons flingueurs » (1963) ?",
+    "choices": [
+      "Georges Lautner",
+      "Jean-Pierre Melville",
+      "Henri Verneuil",
+      "Gérard Oury"
+    ],
+    "answer": 0,
+    "fact": "Ses dialogues cultes sont signés Michel Audiard."
+  },
+  {
+    "id": "qci_036",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a créé la série « Les Soprano » ?",
+    "choices": [
+      "David Chase",
+      "David Simon",
+      "Matthew Weiner",
+      "Vince Gilligan"
+    ],
+    "answer": 0,
+    "fact": "La série a été diffusée sur HBO de 1999 à 2007."
+  },
+  {
+    "id": "qci_037",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Dans « Twin Peaks », quelle jeune femme est retrouvée assassinée ?",
+    "choices": [
+      "Audrey Horne",
+      "Donna Hayward",
+      "Shelly Johnson",
+      "Laura Palmer"
+    ],
+    "answer": 3,
+    "fact": "La série est cocréée par David Lynch et Mark Frost."
+  },
+  {
+    "id": "qci_038",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Quel film de Jacques Demy (1964) est entièrement chanté ?",
+    "choices": [
+      "Lola",
+      "Les Demoiselles de Rochefort",
+      "Les Parapluies de Cherbourg",
+      "Peau d'âne"
+    ],
+    "answer": 2,
+    "fact": "Il a remporté le Grand Prix à Cannes en 1964 ; la musique est de Michel Legrand."
+  },
+  {
+    "id": "qci_039",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui joue « Le Samouraï » (1967) de Jean-Pierre Melville ?",
+    "choices": [
+      "Jean-Paul Belmondo",
+      "Alain Delon",
+      "Yves Montand",
+      "Lino Ventura"
+    ],
+    "answer": 1,
+    "fact": "Il y incarne Jef Costello, tueur à gages solitaire et taciturne."
+  },
+  {
+    "id": "qci_040",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a réalisé « Cyrano de Bergerac » (1990) avec Depardieu ?",
+    "choices": [
+      "Patrice Chéreau",
+      "Bertrand Blier",
+      "Claude Berri",
+      "Jean-Paul Rappeneau"
+    ],
+    "answer": 3,
+    "fact": "Le film a remporté 10 César, dont celui du meilleur film."
+  },
+  {
+    "id": "qci_041",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Dans « Citizen Kane », que désigne le mot « Rosebud » ?",
+    "choices": [
+      "Un cheval",
+      "Une luge",
+      "Une femme",
+      "Un bateau"
+    ],
+    "answer": 1,
+    "fact": "Orson Welles avait 25 ans à la sortie de ce film, en 1941."
+  },
+  {
+    "id": "qci_042",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Quel numéro porte le héros de la série « Le Prisonnier » ?",
+    "choices": [
+      "Numéro 1",
+      "Numéro 6",
+      "Numéro 2",
+      "Numéro 7"
+    ],
+    "answer": 1,
+    "fact": "Il clame : « Je ne suis pas un numéro, je suis un homme libre ! »"
+  },
+  {
+    "id": "qci_043",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a composé la musique d'« Il était une fois dans l'Ouest » ?",
+    "choices": [
+      "Nino Rota",
+      "Maurice Jarre",
+      "John Williams",
+      "Ennio Morricone"
+    ],
+    "answer": 3,
+    "fact": "Sergio Leone faisait jouer la musique sur le plateau pendant le tournage."
+  },
+  {
+    "id": "qci_044",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Qui a réalisé « Les Sept Samouraïs » (1954) ?",
+    "choices": [
+      "Akira Kurosawa",
+      "Takeshi Kitano",
+      "Kenji Mizoguchi",
+      "Yasujirō Ozu"
+    ],
+    "answer": 0,
+    "fact": "Le film a été transposé en western : « Les Sept Mercenaires » (1960)."
+  },
+  {
+    "id": "qci_045",
+    "category": "cinema-series",
+    "difficulty": "hard",
+    "question": "Quel film de Méliès (1902) montre un obus planté dans l'œil de la Lune ?",
+    "choices": [
+      "Le Royaume des fées",
+      "Le Voyage dans la Lune",
+      "L'Éclipse du soleil",
+      "Voyage à travers l'impossible"
+    ],
+    "answer": 1,
+    "fact": "Il s'inspire librement des romans de Jules Verne et de H. G. Wells."
+  }
+]

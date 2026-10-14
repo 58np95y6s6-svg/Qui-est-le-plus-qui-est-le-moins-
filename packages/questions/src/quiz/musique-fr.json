@@ -1,0 +1,632 @@
+[
+  {
+    "id": "qmu_001",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui a créé « La Vie en rose » ?",
+    "choices": [
+      "Barbara",
+      "Juliette Gréco",
+      "Édith Piaf",
+      "Dalida"
+    ],
+    "answer": 2,
+    "fact": "Édith Piaf en a écrit elle-même les paroles, sur une musique de Louiguy."
+  },
+  {
+    "id": "qmu_002",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « Ne me quitte pas » (1959) ?",
+    "choices": [
+      "Georges Brassens",
+      "Charles Aznavour",
+      "Léo Ferré",
+      "Jacques Brel"
+    ],
+    "answer": 3,
+    "fact": "Nina Simone en a enregistré une célèbre reprise, en français."
+  },
+  {
+    "id": "qmu_003",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Quel groupe a sorti « L'Aventurier » en 1982 ?",
+    "choices": [
+      "Indochine",
+      "Noir Désir",
+      "Téléphone",
+      "Trust"
+    ],
+    "answer": 0,
+    "fact": "Les paroles s'inspirent de Bob Morane, le héros des romans d'Henri Vernes."
+  },
+  {
+    "id": "qmu_004",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « Alors on danse » (2009) ?",
+    "choices": [
+      "Stromae",
+      "Calogero",
+      "Christophe Maé",
+      "Bénabar"
+    ],
+    "answer": 0,
+    "fact": "Le titre a été numéro 1 dans plusieurs pays d'Europe, dont l'Allemagne."
+  },
+  {
+    "id": "qmu_005",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « Je l'aime à mourir » ?",
+    "choices": [
+      "Laurent Voulzy",
+      "Francis Cabrel",
+      "Hugues Aufray",
+      "Yves Duteil"
+    ],
+    "answer": 1,
+    "fact": "La chanson figure sur l'album « Les Chemins de traverse », sorti en 1979."
+  },
+  {
+    "id": "qmu_006",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « Foule sentimentale » (1993) ?",
+    "choices": [
+      "Daniel Lavoie",
+      "Julien Clerc",
+      "Alain Souchon",
+      "Michel Jonasz"
+    ],
+    "answer": 2,
+    "fact": "La chanson dénonce la société de consommation et ses désirs fabriqués."
+  },
+  {
+    "id": "qmu_007",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Quel chanteur était surnommé « l'idole des jeunes » ?",
+    "choices": [
+      "Claude François",
+      "Johnny Hallyday",
+      "Michel Polnareff",
+      "Eddy Mitchell"
+    ],
+    "answer": 1,
+    "fact": "Le surnom vient de sa chanson « L'Idole des jeunes » (1962), adaptée d'un titre américain."
+  },
+  {
+    "id": "qmu_008",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "« Aux Champs-Élysées… au soleil, sous la pluie, à midi ou à… » ?",
+    "choices": [
+      "l'aube",
+      "Paris",
+      "minuit",
+      "jamais"
+    ],
+    "answer": 2,
+    "fact": "La chanson de Joe Dassin adapte « Waterloo Road », du groupe britannique Jason Crest."
+  },
+  {
+    "id": "qmu_009",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Quelle chanson de Claude François est devenue « My Way » ?",
+    "choices": [
+      "Alexandrie Alexandra",
+      "Belles ! Belles ! Belles !",
+      "Le Téléphone pleure",
+      "Comme d'habitude"
+    ],
+    "answer": 3,
+    "fact": "Paul Anka en a écrit les paroles anglaises pour Frank Sinatra, qui l'enregistre en 1968-1969."
+  },
+  {
+    "id": "qmu_010",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Quelle chanteuse belge a sorti « Balance ton quoi » ?",
+    "choices": [
+      "Louane",
+      "Angèle",
+      "Clara Luciani",
+      "Pomme"
+    ],
+    "answer": 1,
+    "fact": "Angèle est la sœur cadette du rappeur Roméo Elvis."
+  },
+  {
+    "id": "qmu_011",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Quel duo français a sorti « One More Time » ?",
+    "choices": [
+      "Daft Punk",
+      "Air",
+      "Cassius",
+      "Justice"
+    ],
+    "answer": 0,
+    "fact": "Thomas Bangalter et Guy-Manuel de Homem-Christo apparaissaient casqués en robots."
+  },
+  {
+    "id": "qmu_012",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « Les Lacs du Connemara » (1981) ?",
+    "choices": [
+      "Hervé Vilard",
+      "Frédéric François",
+      "Gérard Lenorman",
+      "Michel Sardou"
+    ],
+    "answer": 3,
+    "fact": "Le Connemara est une région sauvage de l'ouest de l'Irlande."
+  },
+  {
+    "id": "qmu_013",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui a écrit et chanté « Mistral gagnant » (1985) ?",
+    "choices": [
+      "Daniel Balavoine",
+      "Jean-Jacques Goldman",
+      "Renaud",
+      "Alain Souchon"
+    ],
+    "answer": 2,
+    "fact": "Le Mistral gagnant était une confiserie de poudre acidulée qu'on aspirait à la paille."
+  },
+  {
+    "id": "qmu_014",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui a écrit « Pour que tu m'aimes encore » pour Céline Dion ?",
+    "choices": [
+      "Luc Plamondon",
+      "Pascal Obispo",
+      "Michel Berger",
+      "Jean-Jacques Goldman"
+    ],
+    "answer": 3,
+    "fact": "Le titre figure sur l'album « D'eux » (1995), largement écrit par Goldman."
+  },
+  {
+    "id": "qmu_015",
+    "category": "musique-fr",
+    "difficulty": "easy",
+    "question": "Qui chante « La Bohème » (1965) ?",
+    "choices": [
+      "Yves Montand",
+      "Charles Aznavour",
+      "Serge Reggiani",
+      "Gilbert Bécaud"
+    ],
+    "answer": 1,
+    "fact": "La chanson évoque la jeunesse d'un peintre à Montmartre."
+  },
+  {
+    "id": "qmu_016",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Qui a gagné l'Eurovision 1977 pour la France avec « L'oiseau et l'enfant » ?",
+    "choices": [
+      "Sheila",
+      "Mireille Mathieu",
+      "Marie Myriam",
+      "Nicole Croisille"
+    ],
+    "answer": 2,
+    "fact": "Marie Myriam est née au Congo belge, de parents portugais."
+  },
+  {
+    "id": "qmu_017",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel groupe a sorti l'album « L'École du micro d'argent » (1997) ?",
+    "choices": [
+      "IAM",
+      "Fonky Family",
+      "Psy 4 de la Rime",
+      "Suprême NTM"
+    ],
+    "answer": 0,
+    "fact": "Le groupe marseillais y signe notamment « Petit frère » et « Nés sous la même étoile »."
+  },
+  {
+    "id": "qmu_018",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel est le vrai nom de Johnny Hallyday ?",
+    "choices": [
+      "Hervé Forneri",
+      "Claude Moine",
+      "Jean-Pierre Hallet",
+      "Jean-Philippe Smet"
+    ],
+    "answer": 3,
+    "fact": "Claude Moine est le vrai nom d'Eddy Mitchell, Hervé Forneri celui de Dick Rivers."
+  },
+  {
+    "id": "qmu_019",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel groupe a sorti l'album « Un autre monde » en 1984 ?",
+    "choices": [
+      "Les Rita Mitsouko",
+      "Trust",
+      "Indochine",
+      "Téléphone"
+    ],
+    "answer": 3,
+    "fact": "C'est le dernier album studio de Téléphone, qui se sépare en 1986."
+  },
+  {
+    "id": "qmu_020",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Qui a créé la chanson « Je suis malade » en 1973 ?",
+    "choices": [
+      "Serge Reggiani",
+      "Julien Clerc",
+      "Michel Sardou",
+      "Serge Lama"
+    ],
+    "answer": 3,
+    "fact": "Dalida puis Lara Fabian en ont fait des reprises très populaires."
+  },
+  {
+    "id": "qmu_021",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Avec qui Gainsbourg sort-il « Je t'aime… moi non plus » en 1969 ?",
+    "choices": [
+      "France Gall",
+      "Catherine Deneuve",
+      "Brigitte Bardot",
+      "Jane Birkin"
+    ],
+    "answer": 3,
+    "fact": "Une première version enregistrée avec Brigitte Bardot en 1967 n'est sortie qu'en 1986."
+  },
+  {
+    "id": "qmu_022",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel rappeur a sorti l'album « La fête est finie » en 2017 ?",
+    "choices": [
+      "Nekfeu",
+      "Lomepal",
+      "Orelsan",
+      "Vald"
+    ],
+    "answer": 2,
+    "fact": "Orelsan a grandi à Caen, ville très présente dans ses textes."
+  },
+  {
+    "id": "qmu_023",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Pour quel pays France Gall a-t-elle gagné l'Eurovision 1965 ?",
+    "choices": [
+      "Monaco",
+      "Luxembourg",
+      "France",
+      "Belgique"
+    ],
+    "answer": 1,
+    "fact": "« Poupée de cire, poupée de son » était signée Serge Gainsbourg."
+  },
+  {
+    "id": "qmu_024",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "En quelle année Daniel Balavoine est-il mort pendant le Paris-Dakar ?",
+    "choices": [
+      "1986",
+      "1985",
+      "1989",
+      "1983"
+    ],
+    "answer": 0,
+    "fact": "Son hélicoptère s'est écrasé au Mali, avec l'organisateur Thierry Sabine à bord."
+  },
+  {
+    "id": "qmu_025",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel rappeur a sorti « Caroline » en 1991 ?",
+    "choices": [
+      "Akhenaton",
+      "Passi",
+      "MC Solaar",
+      "Doc Gynéco"
+    ],
+    "answer": 2,
+    "fact": "Le titre figure sur son premier album, « Qui sème le vent récolte le tempo »."
+  },
+  {
+    "id": "qmu_026",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quelle chanteuse a écrit et créé « L'Aigle noir » (1970) ?",
+    "choices": [
+      "Barbara",
+      "Dalida",
+      "Juliette Gréco",
+      "Anne Sylvestre"
+    ],
+    "answer": 0,
+    "fact": "Barbara racontait que la chanson lui était venue d'un rêve."
+  },
+  {
+    "id": "qmu_027",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "De quelle ville est originaire le groupe Noir Désir ?",
+    "choices": [
+      "Lyon",
+      "Toulouse",
+      "Bordeaux",
+      "Nantes"
+    ],
+    "answer": 2,
+    "fact": "Leur titre « Le vent nous portera » est sorti en 2001."
+  },
+  {
+    "id": "qmu_028",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quelle chanteuse a sorti « Désenchantée » en 1991 ?",
+    "choices": [
+      "Mylène Farmer",
+      "Jeanne Mas",
+      "Patricia Kaas",
+      "Vanessa Paradis"
+    ],
+    "answer": 0,
+    "fact": "Les paroles sont de Mylène Farmer, la musique de Laurent Boutonnat."
+  },
+  {
+    "id": "qmu_029",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel âge avait Vanessa Paradis à la sortie de « Joe le taxi » (1987) ?",
+    "choices": [
+      "12 ans",
+      "14 ans",
+      "16 ans",
+      "18 ans"
+    ],
+    "answer": 1,
+    "fact": "Le titre a aussi été un tube au Royaume-Uni, chose rare pour une chanson en français."
+  },
+  {
+    "id": "qmu_030",
+    "category": "musique-fr",
+    "difficulty": "medium",
+    "question": "Quel chanteur a eu un immense succès avec « Aline » en 1965 ?",
+    "choices": [
+      "Antoine",
+      "Christophe",
+      "Michel Delpech",
+      "Hervé Vilard"
+    ],
+    "answer": 1,
+    "fact": "Christophe, de son vrai nom Daniel Bevilacqua, a aussi chanté « Les Mots bleus »."
+  },
+  {
+    "id": "qmu_031",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Quel était le vrai nom de la chanteuse Barbara ?",
+    "choices": [
+      "Monique Serf",
+      "Simone Kaminker",
+      "Marie-Hélène Gauthier",
+      "Yolanda Gigliotti"
+    ],
+    "answer": 0,
+    "fact": "Son nom de scène rend hommage à sa grand-mère maternelle, Varvara."
+  },
+  {
+    "id": "qmu_032",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Dans quelle ville est née Dalida ?",
+    "choices": [
+      "Tunis",
+      "Rome",
+      "Alexandrie",
+      "Le Caire"
+    ],
+    "answer": 3,
+    "fact": "Avant la chanson, elle a été élue Miss Égypte en 1954."
+  },
+  {
+    "id": "qmu_033",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Quel est le premier album studio de Stromae (2010) ?",
+    "choices": [
+      "Multitude",
+      "Cheese",
+      "Bruxelles",
+      "Racine carrée"
+    ],
+    "answer": 1,
+    "fact": "« Alors on danse » figure sur cet album."
+  },
+  {
+    "id": "qmu_034",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Qui a offert à la France sa première victoire à l'Eurovision, en 1958 ?",
+    "choices": [
+      "Jacqueline Boyer",
+      "Isabelle Aubret",
+      "Jean-Claude Pascal",
+      "André Claveau"
+    ],
+    "answer": 3,
+    "fact": "Il l'emporte avec « Dors, mon amour »."
+  },
+  {
+    "id": "qmu_035",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "De quelle ville de Seine-Saint-Denis est issu le groupe NTM ?",
+    "choices": [
+      "Montreuil",
+      "Créteil",
+      "Saint-Denis",
+      "Sarcelles"
+    ],
+    "answer": 2,
+    "fact": "Le groupe est formé par Kool Shen et JoeyStarr à la fin des années 1980."
+  },
+  {
+    "id": "qmu_036",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Quel album-concept Gainsbourg sort-il en 1971 ?",
+    "choices": [
+      "Histoire de Melody Nelson",
+      "Rock Around the Bunker",
+      "Vu de l'extérieur",
+      "L'Homme à tête de chou"
+    ],
+    "answer": 0,
+    "fact": "Jane Birkin pose en Melody sur la pochette."
+  },
+  {
+    "id": "qmu_037",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Qui a écrit les paroles des « Feuilles mortes » ?",
+    "choices": [
+      "Paul Éluard",
+      "Boris Vian",
+      "Louis Aragon",
+      "Jacques Prévert"
+    ],
+    "answer": 3,
+    "fact": "La musique est de Joseph Kosma ; Yves Montand l'a rendue célèbre."
+  },
+  {
+    "id": "qmu_038",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Quel artiste a écrit et créé « Avec le temps » (1970) ?",
+    "choices": [
+      "Serge Reggiani",
+      "Jean Ferrat",
+      "Léo Ferré",
+      "Georges Moustaki"
+    ],
+    "answer": 2,
+    "fact": "Léo Ferré était né à Monaco, en 1916."
+  },
+  {
+    "id": "qmu_039",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Qui chante « La Montagne » (1964) ?",
+    "choices": [
+      "Georges Moustaki",
+      "Jean Ferrat",
+      "Gilbert Bécaud",
+      "Georges Brassens"
+    ],
+    "answer": 1,
+    "fact": "Ferrat s'était installé à Antraigues-sur-Volane, en Ardèche."
+  },
+  {
+    "id": "qmu_040",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Avec qui Michel Berger a-t-il écrit l'opéra-rock « Starmania » ?",
+    "choices": [
+      "Étienne Roda-Gil",
+      "Luc Plamondon",
+      "Didier Barbelivien",
+      "Jean-Loup Dabadie"
+    ],
+    "answer": 1,
+    "fact": "Le spectacle est créé au Palais des congrès de Paris en 1979."
+  },
+  {
+    "id": "qmu_041",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Quelle salle parisienne Bruno Coquatrix a-t-il dirigée ?",
+    "choices": [
+      "Le Bataclan",
+      "L'Alhambra",
+      "L'Olympia",
+      "Bobino"
+    ],
+    "answer": 2,
+    "fact": "Il en prend la direction en 1954 et en fait un temple du music-hall."
+  },
+  {
+    "id": "qmu_042",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "De quelle ville viennent les frères du duo PNL ?",
+    "choices": [
+      "Corbeil-Essonnes",
+      "Sevran",
+      "Évry",
+      "Grigny"
+    ],
+    "answer": 0,
+    "fact": "Ademo et N.O.S ont grandi dans la cité des Tarterêts."
+  },
+  {
+    "id": "qmu_043",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Qui a écrit et chanté « San Francisco » (1972) ?",
+    "choices": [
+      "Maxime Le Forestier",
+      "Georges Moustaki",
+      "Yves Simon",
+      "Graeme Allwright"
+    ],
+    "answer": 0,
+    "fact": "La « maison bleue adossée à la colline » existe vraiment, dans le quartier de Castro."
+  },
+  {
+    "id": "qmu_044",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Qui a représenté la France à l'Eurovision 2021 avec « Voilà » ?",
+    "choices": [
+      "Alma",
+      "Amir",
+      "La Zarra",
+      "Barbara Pravi"
+    ],
+    "answer": 3,
+    "fact": "Elle a terminé 2e, derrière le groupe italien Måneskin."
+  },
+  {
+    "id": "qmu_045",
+    "category": "musique-fr",
+    "difficulty": "hard",
+    "question": "Dans quelle ville est né Georges Brassens ?",
+    "choices": [
+      "Montpellier",
+      "Sète",
+      "Toulon",
+      "Marseille"
+    ],
+    "answer": 1,
+    "fact": "Sa « Supplique pour être enterré à la plage de Sète » rend hommage à sa ville natale."
+  }
+]

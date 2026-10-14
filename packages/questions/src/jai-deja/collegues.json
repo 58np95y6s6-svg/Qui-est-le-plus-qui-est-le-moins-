@@ -1,0 +1,1555 @@
+[
+  {
+    "id": "jdc_001",
+    "question": "As-tu déjà fait semblant d'être en réunion pour éviter un appel ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant d'être en réunion pour éviter un appel",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_002",
+    "question": "As-tu déjà critiqué un collègue présent dans ce salon dans son dos ?",
+    "reveal": "{count} sur {total} ont déjà critiqué un collègue présent dans ce salon dans son dos",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_003",
+    "question": "As-tu déjà dormi pendant une visio, caméra coupée ?",
+    "reveal": "{count} sur {total} ont déjà dormi pendant une visio, caméra coupée",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_004",
+    "question": "As-tu déjà répondu « je regarde ça » sans jamais regarder ?",
+    "reveal": "{count} sur {total} ont déjà répondu « je regarde ça » sans jamais regarder",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_005",
+    "question": "As-tu déjà posé un jour d'arrêt pour un lendemain de soirée ?",
+    "reveal": "{count} sur {total} ont déjà posé un jour d'arrêt pour un lendemain de soirée",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_006",
+    "question": "As-tu déjà apporté des croissants au bureau sans qu'on te le demande ?",
+    "reveal": "{count} sur {total} ont déjà apporté des croissants au bureau sans qu'on le leur demande",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_007",
+    "question": "As-tu déjà bougé ta souris pour rester « disponible » sur Teams ?",
+    "reveal": "{count} sur {total} ont déjà bougé leur souris pour rester « disponibles » sur Teams",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_008",
+    "question": "As-tu déjà travaillé en pyjama toute une journée de télétravail ?",
+    "reveal": "{count} sur {total} ont déjà travaillé en pyjama toute une journée de télétravail",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_009",
+    "question": "As-tu déjà fait une visio en chemise en haut et en short en bas ?",
+    "reveal": "{count} sur {total} ont déjà fait une visio en chemise en haut et en short en bas",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_010",
+    "question": "As-tu déjà prétexté une mauvaise connexion pour quitter une réunion ?",
+    "reveal": "{count} sur {total} ont déjà prétexté une mauvaise connexion pour quitter une réunion",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_011",
+    "question": "As-tu déjà mangé le yaourt d'un collègue dans le frigo commun ?",
+    "reveal": "{count} sur {total} ont déjà mangé le yaourt d'un collègue dans le frigo commun",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_012",
+    "question": "As-tu déjà pleuré aux toilettes du bureau ?",
+    "reveal": "{count} sur {total} ont déjà pleuré aux toilettes du bureau",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_013",
+    "question": "As-tu déjà aidé un nouveau à s'intégrer sans qu'on te le demande ?",
+    "reveal": "{count} sur {total} ont déjà aidé un nouveau à s'intégrer sans qu'on le leur demande",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_014",
+    "question": "As-tu déjà gonflé une note de frais ?",
+    "reveal": "{count} sur {total} ont déjà gonflé une note de frais",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_015",
+    "question": "As-tu déjà oublié de couper ton micro en disant du mal de quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà oublié de couper leur micro en disant du mal de quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_016",
+    "question": "As-tu déjà cherché un autre job pendant tes heures de travail ?",
+    "reveal": "{count} sur {total} ont déjà cherché un autre job pendant leurs heures de travail",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_017",
+    "question": "As-tu déjà emporté des fournitures de bureau chez toi ?",
+    "reveal": "{count} sur {total} ont déjà emporté des fournitures de bureau chez eux",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_018",
+    "question": "As-tu déjà pris la défense d'un collègue face à un chef ?",
+    "reveal": "{count} sur {total} ont déjà pris la défense d'un collègue face à un chef",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_019",
+    "question": "As-tu déjà envoyé un mail rageur que tu as regretté ensuite ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un mail rageur qu'ils ont regretté ensuite",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_020",
+    "question": "As-tu déjà utilisé « cordialement » comme une insulte ?",
+    "reveal": "{count} sur {total} ont déjà utilisé « cordialement » comme une insulte",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_021",
+    "question": "As-tu déjà organisé un pot de départ pour un collègue ?",
+    "reveal": "{count} sur {total} ont déjà organisé un pot de départ pour un collègue",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_022",
+    "question": "As-tu déjà dansé sur une table à un afterwork ?",
+    "reveal": "{count} sur {total} ont déjà dansé sur une table à un afterwork",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_023",
+    "question": "As-tu déjà trop fait la fête lors d'un séminaire d'entreprise ?",
+    "reveal": "{count} sur {total} ont déjà trop fait la fête lors d'un séminaire d'entreprise",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_024",
+    "question": "As-tu déjà envoyé un message privé dans le chat général de la boîte ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message privé dans le chat général de la boîte",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_025",
+    "question": "As-tu déjà liké par erreur une vieille photo d'un collègue ?",
+    "reveal": "{count} sur {total} ont déjà liké par erreur une vieille photo d'un collègue",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_026",
+    "question": "As-tu déjà fait la bise à un client qui te tendait la main ?",
+    "reveal": "{count} sur {total} ont déjà fait la bise à un client qui leur tendait la main",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_027",
+    "question": "As-tu déjà inventé un rendez-vous chez le dentiste pour partir plus tôt ?",
+    "reveal": "{count} sur {total} ont déjà inventé un rendez-vous chez le dentiste pour partir plus tôt",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_028",
+    "question": "As-tu déjà couvert un collègue arrivé en retard ?",
+    "reveal": "{count} sur {total} ont déjà couvert un collègue arrivé en retard",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_029",
+    "question": "As-tu déjà menti sur ton salaire pour impressionner quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà menti sur leur salaire pour impressionner quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_030",
+    "question": "As-tu déjà tapé le nom de ton chef sur Google ?",
+    "reveal": "{count} sur {total} ont déjà tapé le nom de leur chef sur Google",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_031",
+    "question": "As-tu déjà espionné le profil LinkedIn d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà espionné le profil LinkedIn d'une personne de ce salon",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_032",
+    "question": "As-tu déjà dit du mal d'un chef qui se trouvait juste derrière toi ?",
+    "reveal": "{count} sur {total} ont déjà dit du mal d'un chef qui se trouvait juste derrière eux",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_033",
+    "question": "As-tu déjà offert un café à un collègue débordé ?",
+    "reveal": "{count} sur {total} ont déjà offert un café à un collègue débordé",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_034",
+    "question": "As-tu déjà complimenté un collègue devant le chef ?",
+    "reveal": "{count} sur {total} ont déjà complimenté un collègue devant le chef",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_035",
+    "question": "As-tu déjà pris le mérite du travail de quelqu'un d'autre ?",
+    "reveal": "{count} sur {total} ont déjà pris le mérite du travail de quelqu'un d'autre",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_036",
+    "question": "As-tu déjà révélé le salaire d'un collègue à quelqu'un ?",
+    "reveal": "{count} sur {total} ont déjà révélé le salaire d'un collègue à quelqu'un",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_037",
+    "question": "As-tu déjà lancé une rumeur au bureau ?",
+    "reveal": "{count} sur {total} ont déjà lancé une rumeur au bureau",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_038",
+    "question": "As-tu déjà fait circuler un ragot sur une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait circuler un ragot sur une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_039",
+    "question": "As-tu déjà piqué un fou rire en pleine réunion ?",
+    "reveal": "{count} sur {total} ont déjà piqué un fou rire en pleine réunion",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_040",
+    "question": "As-tu déjà appelé ton chef « maman » ?",
+    "reveal": "{count} sur {total} ont déjà appelé leur chef « maman »",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_041",
+    "question": "As-tu déjà fini le dossier d'un collègue débordé à sa place ?",
+    "reveal": "{count} sur {total} ont déjà fini le dossier d'un collègue débordé à sa place",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_042",
+    "question": "As-tu déjà démissionné sur un coup de tête ?",
+    "reveal": "{count} sur {total} ont déjà démissionné sur un coup de tête",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_043",
+    "question": "As-tu déjà regardé une série pendant tes heures de télétravail ?",
+    "reveal": "{count} sur {total} ont déjà regardé une série pendant leurs heures de télétravail",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_044",
+    "question": "As-tu déjà partagé ton écran avec un onglet gênant ouvert ?",
+    "reveal": "{count} sur {total} ont déjà partagé leur écran avec un onglet gênant ouvert",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_045",
+    "question": "As-tu déjà envoyé à ton chef un message destiné à ta moitié ?",
+    "reveal": "{count} sur {total} ont déjà envoyé à leur chef un message destiné à leur moitié",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_046",
+    "question": "As-tu déjà fermé le bar lors d'une soirée d'entreprise ?",
+    "reveal": "{count} sur {total} ont déjà fermé le bar lors d'une soirée d'entreprise",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_047",
+    "question": "As-tu déjà gardé un secret qu'un collègue t'avait confié ?",
+    "reveal": "{count} sur {total} ont déjà gardé un secret qu'un collègue leur avait confié",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_048",
+    "question": "As-tu déjà trahi un secret qu'une personne de ce salon t'avait confié ?",
+    "reveal": "{count} sur {total} ont déjà trahi un secret qu'une personne de ce salon leur avait confié",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_049",
+    "question": "As-tu déjà ignoré un appel de ton chef un dimanche ?",
+    "reveal": "{count} sur {total} ont déjà ignoré un appel de leur chef un dimanche",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_050",
+    "question": "As-tu déjà travaillé depuis une plage ?",
+    "reveal": "{count} sur {total} ont déjà travaillé depuis une plage",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_051",
+    "question": "As-tu déjà dit à un client que c'était « en cours » alors que rien n'était commencé ?",
+    "reveal": "{count} sur {total} ont déjà dit à un client que c'était « en cours » alors que rien n'était commencé",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_052",
+    "question": "As-tu déjà donné un coup de main à un collègue pendant un week-end ?",
+    "reveal": "{count} sur {total} ont déjà donné un coup de main à un collègue pendant un week-end",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_053",
+    "question": "As-tu déjà inventé une excuse bidon pour sauter un afterwork ?",
+    "reveal": "{count} sur {total} ont déjà inventé une excuse bidon pour sauter un afterwork",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_054",
+    "question": "As-tu déjà remis à sa place un client désagréable avec le sourire ?",
+    "reveal": "{count} sur {total} ont déjà remis à sa place un client désagréable avec le sourire",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_055",
+    "question": "As-tu déjà accepté une réunion où tu n'avais rien à faire ?",
+    "reveal": "{count} sur {total} ont déjà accepté une réunion où ils n'avaient rien à faire",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_056",
+    "question": "As-tu déjà imité une personne de ce salon dans son dos ?",
+    "reveal": "{count} sur {total} ont déjà imité une personne de ce salon dans son dos",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_057",
+    "question": "As-tu déjà vanté le travail d'une personne de ce salon auprès de son chef ?",
+    "reveal": "{count} sur {total} ont déjà vanté le travail d'une personne de ce salon auprès de son chef",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_058",
+    "question": "As-tu déjà mis le chef en copie d'un mail pour piéger un collègue ?",
+    "reveal": "{count} sur {total} ont déjà mis le chef en copie d'un mail pour piéger un collègue",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_059",
+    "question": "As-tu déjà cliqué sur « répondre à tous » par erreur ?",
+    "reveal": "{count} sur {total} ont déjà cliqué sur « répondre à tous » par erreur",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_060",
+    "question": "As-tu déjà signé une carte de départ sans savoir pour qui c'était ?",
+    "reveal": "{count} sur {total} ont déjà signé une carte de départ sans savoir pour qui c'était",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_061",
+    "question": "As-tu déjà pris le temps de former un stagiaire ?",
+    "reveal": "{count} sur {total} ont déjà pris le temps de former un stagiaire",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_062",
+    "question": "As-tu déjà défendu un stagiaire injustement accusé ?",
+    "reveal": "{count} sur {total} ont déjà défendu un stagiaire injustement accusé",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_063",
+    "question": "As-tu déjà caché une erreur à ton chef ?",
+    "reveal": "{count} sur {total} ont déjà caché une erreur à leur chef",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_064",
+    "question": "As-tu déjà avoué de toi-même une grosse erreur à ton chef ?",
+    "reveal": "{count} sur {total} ont déjà avoué d'eux-mêmes une grosse erreur à leur chef",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_065",
+    "question": "As-tu déjà demandé une augmentation ?",
+    "reveal": "{count} sur {total} ont déjà demandé une augmentation",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_066",
+    "question": "As-tu déjà bluffé avec une fausse offre concurrente pour obtenir une augmentation ?",
+    "reveal": "{count} sur {total} ont déjà bluffé avec une fausse offre concurrente pour obtenir une augmentation",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_067",
+    "question": "As-tu déjà programmé un mail pour faire croire que tu travaillais à l'aube ?",
+    "reveal": "{count} sur {total} ont déjà programmé un mail pour faire croire qu'ils travaillaient à l'aube",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_068",
+    "question": "As-tu déjà remonté le moral d'un collègue en pleine galère ?",
+    "reveal": "{count} sur {total} ont déjà remonté le moral d'un collègue en pleine galère",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_069",
+    "question": "As-tu déjà réchauffé du poisson au micro-ondes du bureau ?",
+    "reveal": "{count} sur {total} ont déjà réchauffé du poisson au micro-ondes du bureau",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_070",
+    "question": "As-tu déjà rempli ton sac de goodies sur un salon professionnel ?",
+    "reveal": "{count} sur {total} ont déjà rempli leur sac de goodies sur un salon professionnel",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_071",
+    "question": "As-tu déjà joué au bingo des phrases toutes faites de ton chef ?",
+    "reveal": "{count} sur {total} ont déjà joué au bingo des phrases toutes faites de leur chef",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_072",
+    "question": "As-tu déjà remercié publiquement un collègue pour son travail ?",
+    "reveal": "{count} sur {total} ont déjà remercié publiquement un collègue pour son travail",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_073",
+    "question": "As-tu déjà cédé un jour de congé à un collègue qui en avait besoin ?",
+    "reveal": "{count} sur {total} ont déjà cédé un jour de congé à un collègue qui en avait besoin",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_074",
+    "question": "As-tu déjà enregistré une réunion en douce ?",
+    "reveal": "{count} sur {total} ont déjà enregistré une réunion en douce",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_075",
+    "question": "As-tu déjà fait semblant de ne pas voir un collègue dans le métro ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de ne pas voir un collègue dans le métro",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_076",
+    "question": "As-tu déjà répondu « avec plaisir » en pensant tout l'inverse ?",
+    "reveal": "{count} sur {total} ont déjà répondu « avec plaisir » en pensant tout l'inverse",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_077",
+    "question": "As-tu déjà balancé un collègue à ton chef ?",
+    "reveal": "{count} sur {total} ont déjà balancé un collègue à leur chef",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_078",
+    "question": "As-tu déjà balancé une personne de ce salon à un supérieur ?",
+    "reveal": "{count} sur {total} ont déjà balancé une personne de ce salon à un supérieur",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_079",
+    "question": "As-tu déjà lu un mail resté ouvert sur l'écran d'un collègue ?",
+    "reveal": "{count} sur {total} ont déjà lu un mail resté ouvert sur l'écran d'un collègue",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_080",
+    "question": "As-tu déjà fouillé dans le bureau d'un collègue ?",
+    "reveal": "{count} sur {total} ont déjà fouillé dans le bureau d'un collègue",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_081",
+    "question": "As-tu déjà négocié une prime pour toute ton équipe ?",
+    "reveal": "{count} sur {total} ont déjà négocié une prime pour toute leur équipe",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_082",
+    "question": "As-tu déjà aidé un client bien au-delà de ce qu'on te demandait ?",
+    "reveal": "{count} sur {total} ont déjà aidé un client bien au-delà de ce qu'on leur demandait",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_083",
+    "question": "As-tu déjà offert un cadeau à ton chef ?",
+    "reveal": "{count} sur {total} ont déjà offert un cadeau à leur chef",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_084",
+    "question": "As-tu déjà oublié le prénom d'un collègue que tu croises tous les jours ?",
+    "reveal": "{count} sur {total} ont déjà oublié le prénom d'un collègue qu'ils croisent tous les jours",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_085",
+    "question": "As-tu déjà recommandé une personne de ce salon pour un poste ?",
+    "reveal": "{count} sur {total} ont déjà recommandé une personne de ce salon pour un poste",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_086",
+    "question": "As-tu déjà arrosé les plantes d'un collègue parti en vacances ?",
+    "reveal": "{count} sur {total} ont déjà arrosé les plantes d'un collègue parti en vacances",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_087",
+    "question": "As-tu déjà cru avoir quitté une visio alors que tout le monde t'entendait encore ?",
+    "reveal": "{count} sur {total} ont déjà cru avoir quitté une visio alors que tout le monde les entendait encore",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_088",
+    "question": "As-tu déjà laissé tomber une personne de ce salon sur un dossier important ?",
+    "reveal": "{count} sur {total} ont déjà laissé tomber une personne de ce salon sur un dossier important",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_089",
+    "question": "As-tu déjà envié en silence la promotion d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà envié en silence la promotion d'une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_090",
+    "question": "As-tu déjà cherché sur Google comment faire ton propre travail ?",
+    "reveal": "{count} sur {total} ont déjà cherché sur Google comment faire leur propre travail",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_091",
+    "question": "As-tu déjà refusé de faire des heures sup non payées ?",
+    "reveal": "{count} sur {total} ont déjà refusé de faire des heures sup non payées",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_092",
+    "question": "As-tu déjà parlé de ton salaire avec des collègues ?",
+    "reveal": "{count} sur {total} ont déjà parlé de leur salaire avec des collègues",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_093",
+    "question": "As-tu déjà parlé cinq minutes en visio avec le micro coupé ?",
+    "reveal": "{count} sur {total} ont déjà parlé cinq minutes en visio avec le micro coupé",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_094",
+    "question": "As-tu déjà envoyé un mème sur ton chef dans la mauvaise conversation ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un mème sur leur chef dans la mauvaise conversation",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_095",
+    "question": "As-tu déjà refilé un dossier pourri à un collègue ?",
+    "reveal": "{count} sur {total} ont déjà refilé un dossier pourri à un collègue",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_096",
+    "question": "As-tu déjà accepté un afterwork juste pour plaire à ton chef ?",
+    "reveal": "{count} sur {total} ont déjà accepté un afterwork juste pour plaire à leur chef",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_097",
+    "question": "T'es-tu déjà fait prendre en photo dans un sale état à une soirée d'entreprise ?",
+    "reveal": "{count} sur {total} se sont déjà fait prendre en photo dans un sale état à une soirée d'entreprise",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_098",
+    "question": "As-tu déjà signalé un problème que tout le monde taisait ?",
+    "reveal": "{count} sur {total} ont déjà signalé un problème que tout le monde taisait",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_099",
+    "question": "As-tu déjà organisé un afterwork pour souder l'équipe ?",
+    "reveal": "{count} sur {total} ont déjà organisé un afterwork pour souder l'équipe",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_100",
+    "question": "As-tu déjà déjeuné seul pour éviter tes collègues ?",
+    "reveal": "{count} sur {total} ont déjà déjeuné seuls pour éviter leurs collègues",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_101",
+    "question": "As-tu déjà voté contre l'idée d'une personne de ce salon par pure rivalité ?",
+    "reveal": "{count} sur {total} ont déjà voté contre l'idée d'une personne de ce salon par pure rivalité",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_102",
+    "question": "As-tu déjà pris la défense d'une personne de ce salon en son absence ?",
+    "reveal": "{count} sur {total} ont déjà pris la défense d'une personne de ce salon en son absence",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_103",
+    "question": "As-tu déjà refusé de mentir à un client sur ordre de ton chef ?",
+    "reveal": "{count} sur {total} ont déjà refusé de mentir à un client sur ordre de leur chef",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_104",
+    "question": "As-tu déjà prévenu un collègue que son poste était menacé ?",
+    "reveal": "{count} sur {total} ont déjà prévenu un collègue que son poste était menacé",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_105",
+    "question": "As-tu déjà défendu un collègue critiqué devant toute l'équipe ?",
+    "reveal": "{count} sur {total} ont déjà défendu un collègue critiqué devant toute l'équipe",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_106",
+    "question": "As-tu déjà présenté tes excuses à une personne de ce salon pour une remarque au travail ?",
+    "reveal": "{count} sur {total} ont déjà présenté leurs excuses à une personne de ce salon pour une remarque au travail",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_107",
+    "question": "As-tu déjà payé l'addition d'un afterwork pour toute l'équipe ?",
+    "reveal": "{count} sur {total} ont déjà payé l'addition d'un afterwork pour toute l'équipe",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_108",
+    "question": "As-tu déjà glissé un mot gentil anonyme sur le bureau d'un collègue ?",
+    "reveal": "{count} sur {total} ont déjà glissé un mot gentil anonyme sur le bureau d'un collègue",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_109",
+    "question": "As-tu déjà fait semblant de connaître un acronyme en réunion ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de connaître un acronyme en réunion",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdc_110",
+    "question": "As-tu déjà fait une sieste en douce au bureau ?",
+    "reveal": "{count} sur {total} ont déjà fait une sieste en douce au bureau",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  }
+]

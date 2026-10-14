@@ -1,0 +1,1559 @@
+[
+  {
+    "id": "jdf_001",
+    "question": "As-tu déjà revendu un cadeau de Noël ?",
+    "reveal": "{count} sur {total} ont déjà revendu un cadeau de Noël",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_002",
+    "question": "As-tu déjà fait accuser un frère ou une sœur à ta place ?",
+    "reveal": "{count} sur {total} ont déjà fait accuser un frère ou une sœur à leur place",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_003",
+    "question": "As-tu déjà lu le journal intime d'un frère ou d'une sœur ?",
+    "reveal": "{count} sur {total} ont déjà lu le journal intime d'un frère ou d'une sœur",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_004",
+    "question": "As-tu déjà caché des légumes sous ta serviette pendant un repas de famille ?",
+    "reveal": "{count} sur {total} ont déjà caché des légumes sous leur serviette pendant un repas de famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_005",
+    "question": "As-tu déjà fait la vaisselle d'un repas de famille sans qu'on te le demande ?",
+    "reveal": "{count} sur {total} ont déjà fait la vaisselle d'un repas de famille sans qu'on le leur demande",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_006",
+    "question": "As-tu déjà cru au Père Noël passé dix ans ?",
+    "reveal": "{count} sur {total} ont déjà cru au Père Noël passé dix ans",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_007",
+    "question": "As-tu déjà fouillé la maison pour trouver les cadeaux cachés avant Noël ?",
+    "reveal": "{count} sur {total} ont déjà fouillé la maison pour trouver les cadeaux cachés avant Noël",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_008",
+    "question": "As-tu déjà oublié la fête des Mères ?",
+    "reveal": "{count} sur {total} ont déjà oublié la fête des Mères",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_009",
+    "question": "As-tu déjà appelé ta maîtresse « maman » ?",
+    "reveal": "{count} sur {total} ont déjà appelé leur maîtresse « maman »",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_010",
+    "question": "As-tu déjà fugué de la maison quand tu étais enfant ?",
+    "reveal": "{count} sur {total} ont déjà fugué de la maison quand ils étaient enfants",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_011",
+    "question": "As-tu déjà mangé tous les chocolats du calendrier de l'Avent en un jour ?",
+    "reveal": "{count} sur {total} ont déjà mangé tous les chocolats du calendrier de l'Avent en un jour",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_012",
+    "question": "As-tu déjà cassé un objet de famille sans l'avouer ?",
+    "reveal": "{count} sur {total} ont déjà cassé un objet de famille sans l'avouer",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_013",
+    "question": "As-tu déjà raconté un secret de famille à quelqu'un de l'extérieur ?",
+    "reveal": "{count} sur {total} ont déjà raconté un secret de famille à quelqu'un de l'extérieur",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_014",
+    "question": "As-tu déjà fait un caprice dans un magasin étant petit ?",
+    "reveal": "{count} sur {total} ont déjà fait un caprice dans un magasin étant petits",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_015",
+    "question": "As-tu déjà aidé ta grand-mère à se servir de son téléphone ?",
+    "reveal": "{count} sur {total} ont déjà aidé leur grand-mère à se servir de son téléphone",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_016",
+    "question": "As-tu déjà appelé tes grands-parents juste pour prendre des nouvelles ?",
+    "reveal": "{count} sur {total} ont déjà appelé leurs grands-parents juste pour prendre des nouvelles",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_017",
+    "question": "As-tu déjà fini une partie de Monopoly en dispute générale ?",
+    "reveal": "{count} sur {total} ont déjà fini une partie de Monopoly en dispute générale",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_018",
+    "question": "As-tu déjà triché à un jeu de société en famille ?",
+    "reveal": "{count} sur {total} ont déjà triché à un jeu de société en famille",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_019",
+    "question": "As-tu déjà boudé pendant tout un repas de famille ?",
+    "reveal": "{count} sur {total} ont déjà boudé pendant tout un repas de famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_020",
+    "question": "As-tu déjà quitté la table d'un repas de famille en claquant la porte ?",
+    "reveal": "{count} sur {total} ont déjà quitté la table d'un repas de famille en claquant la porte",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_021",
+    "question": "As-tu déjà imité un membre de ta famille dans son dos ?",
+    "reveal": "{count} sur {total} ont déjà imité un membre de leur famille dans son dos",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_022",
+    "question": "As-tu déjà lancé un débat qui a fini en dispute au repas de Noël ?",
+    "reveal": "{count} sur {total} ont déjà lancé un débat qui a fini en dispute au repas de Noël",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_023",
+    "question": "As-tu déjà mis la table pour toute la famille sans râler ?",
+    "reveal": "{count} sur {total} ont déjà mis la table pour toute la famille sans râler",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_024",
+    "question": "As-tu déjà cuisiné le repas de Noël pour toute la famille ?",
+    "reveal": "{count} sur {total} ont déjà cuisiné le repas de Noël pour toute la famille",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_025",
+    "question": "As-tu déjà fait une bataille de nourriture avec ta fratrie ?",
+    "reveal": "{count} sur {total} ont déjà fait une bataille de nourriture avec leur fratrie",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_026",
+    "question": "As-tu déjà pleuré exprès pour faire punir un frère ou une sœur ?",
+    "reveal": "{count} sur {total} ont déjà pleuré exprès pour faire punir un frère ou une sœur",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_027",
+    "question": "As-tu déjà tracé une frontière au milieu d'une chambre partagée ?",
+    "reveal": "{count} sur {total} ont déjà tracé une frontière au milieu d'une chambre partagée",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_028",
+    "question": "As-tu déjà piqué des vêtements à un frère ou une sœur sans demander ?",
+    "reveal": "{count} sur {total} ont déjà piqué des vêtements à un frère ou une sœur sans demander",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_029",
+    "question": "As-tu déjà rapporté une bêtise d'un frère ou d'une sœur à tes parents ?",
+    "reveal": "{count} sur {total} ont déjà rapporté une bêtise d'un frère ou d'une sœur à leurs parents",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_030",
+    "question": "As-tu déjà pris une punition à la place d'un frère ou d'une sœur ?",
+    "reveal": "{count} sur {total} ont déjà pris une punition à la place d'un frère ou d'une sœur",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_031",
+    "question": "As-tu déjà défendu un petit frère ou une petite sœur dans la cour de récré ?",
+    "reveal": "{count} sur {total} ont déjà défendu un petit frère ou une petite sœur dans la cour de récré",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_032",
+    "question": "As-tu déjà construit une cabane avec des draps dans le salon ?",
+    "reveal": "{count} sur {total} ont déjà construit une cabane avec des draps dans le salon",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_033",
+    "question": "As-tu déjà menti à tes parents sur tes notes ?",
+    "reveal": "{count} sur {total} ont déjà menti à leurs parents sur leurs notes",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_034",
+    "question": "As-tu déjà imité la signature de tes parents ?",
+    "reveal": "{count} sur {total} ont déjà imité la signature de leurs parents",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_035",
+    "question": "As-tu déjà dit « je te déteste » à un parent ?",
+    "reveal": "{count} sur {total} ont déjà dit « je te déteste » à un parent",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_036",
+    "question": "As-tu déjà fabriqué un cadeau de tes mains pour tes parents ?",
+    "reveal": "{count} sur {total} ont déjà fabriqué un cadeau de leurs mains pour leurs parents",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_037",
+    "question": "As-tu déjà apporté le petit-déjeuner au lit à un parent ?",
+    "reveal": "{count} sur {total} ont déjà apporté le petit-déjeuner au lit à un parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_038",
+    "question": "As-tu déjà compté les cadeaux sous le sapin pour voir qui en avait le plus ?",
+    "reveal": "{count} sur {total} ont déjà compté les cadeaux sous le sapin pour voir qui en avait le plus",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_039",
+    "question": "As-tu déjà demandé « on arrive quand ? » toutes les cinq minutes en voiture ?",
+    "reveal": "{count} sur {total} ont déjà demandé « on arrive quand ? » toutes les cinq minutes en voiture",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_040",
+    "question": "As-tu déjà perdu tes parents de vue dans un supermarché ?",
+    "reveal": "{count} sur {total} ont déjà perdu leurs parents de vue dans un supermarché",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_041",
+    "question": "T'es-tu déjà fait oublier quelque part par tes parents ?",
+    "reveal": "{count} sur {total} se sont déjà fait oublier quelque part par leurs parents",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_042",
+    "question": "As-tu déjà passé des vacances en camping avec toute la famille ?",
+    "reveal": "{count} sur {total} ont déjà passé des vacances en camping avec toute la famille",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_043",
+    "question": "As-tu déjà passé tout un été chez tes grands-parents ?",
+    "reveal": "{count} sur {total} ont déjà passé tout un été chez leurs grands-parents",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_044",
+    "question": "As-tu déjà écouté les histoires de ton grand-père avec un faux intérêt ?",
+    "reveal": "{count} sur {total} ont déjà écouté les histoires de leur grand-père avec un faux intérêt",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_045",
+    "question": "As-tu déjà piqué des bonbons dans le sac de ta grand-mère ?",
+    "reveal": "{count} sur {total} ont déjà piqué des bonbons dans le sac de leur grand-mère",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_046",
+    "question": "As-tu déjà fait semblant de ne pas entendre ta mère t'appeler ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de ne pas entendre leur mère les appeler",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_047",
+    "question": "As-tu déjà raccroché au nez d'un parent ?",
+    "reveal": "{count} sur {total} ont déjà raccroché au nez d'un parent",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_048",
+    "question": "As-tu déjà envoyé un message gênant dans le groupe WhatsApp de la famille ?",
+    "reveal": "{count} sur {total} ont déjà envoyé un message gênant dans le groupe WhatsApp de la famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_049",
+    "question": "As-tu déjà quitté le groupe WhatsApp de la famille ?",
+    "reveal": "{count} sur {total} ont déjà quitté le groupe WhatsApp de la famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_050",
+    "question": "As-tu déjà mis le groupe WhatsApp de la famille en sourdine ?",
+    "reveal": "{count} sur {total} ont déjà mis le groupe WhatsApp de la famille en sourdine",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_051",
+    "question": "As-tu déjà menti à tes parents sur l'endroit où tu passais la nuit ?",
+    "reveal": "{count} sur {total} ont déjà menti à leurs parents sur l'endroit où ils passaient la nuit",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_052",
+    "question": "As-tu déjà fait le mur pour sortir le soir ?",
+    "reveal": "{count} sur {total} ont déjà fait le mur pour sortir le soir",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_053",
+    "question": "As-tu déjà accusé le chien d'une bêtise ?",
+    "reveal": "{count} sur {total} ont déjà accusé le chien d'une bêtise",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_054",
+    "question": "As-tu déjà esquivé les bisous d'une vieille tante ?",
+    "reveal": "{count} sur {total} ont déjà esquivé les bisous d'une vieille tante",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_055",
+    "question": "As-tu déjà réconcilié deux membres de ta famille fâchés ?",
+    "reveal": "{count} sur {total} ont déjà réconcilié deux membres de leur famille fâchés",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_056",
+    "question": "As-tu déjà pris parti dans une dispute familiale qui ne te regardait pas ?",
+    "reveal": "{count} sur {total} ont déjà pris parti dans une dispute familiale qui ne les regardait pas",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_057",
+    "question": "As-tu déjà critiqué une personne de ce salon pendant un repas de famille ?",
+    "reveal": "{count} sur {total} ont déjà critiqué une personne de ce salon pendant un repas de famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_058",
+    "question": "As-tu déjà révélé un secret d'une personne de ce salon à ta famille ?",
+    "reveal": "{count} sur {total} ont déjà révélé un secret d'une personne de ce salon à leur famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_059",
+    "question": "As-tu déjà fait porter le chapeau d'une bêtise à une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait porter le chapeau d'une bêtise à une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_060",
+    "question": "As-tu déjà offert à une personne de ce salon un cadeau qu'on t'avait offert ?",
+    "reveal": "{count} sur {total} ont déjà offert à une personne de ce salon un cadeau qu'on leur avait offert",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_061",
+    "question": "As-tu déjà fait semblant d'aimer un cadeau offert par une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant d'aimer un cadeau offert par une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_062",
+    "question": "As-tu déjà lu un message sur le téléphone d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà lu un message sur le téléphone d'une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_063",
+    "question": "As-tu déjà défendu une personne de ce salon pendant une dispute familiale ?",
+    "reveal": "{count} sur {total} ont déjà défendu une personne de ce salon pendant une dispute familiale",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_064",
+    "question": "As-tu déjà imité une personne de ce salon pour faire rire ta famille ?",
+    "reveal": "{count} sur {total} ont déjà imité une personne de ce salon pour faire rire leur famille",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_065",
+    "question": "As-tu déjà menti pour couvrir une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà menti pour couvrir une personne de ce salon",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_066",
+    "question": "As-tu déjà gardé pour toi un secret qu'une personne de ce salon t'avait confié ?",
+    "reveal": "{count} sur {total} ont déjà gardé pour eux un secret qu'une personne de ce salon leur avait confié",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_067",
+    "question": "As-tu déjà emprunté de l'argent à une personne de ce salon sans le rendre ?",
+    "reveal": "{count} sur {total} ont déjà emprunté de l'argent à une personne de ce salon sans le rendre",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "aboutRoom": true,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_068",
+    "question": "As-tu déjà raconté une anecdote d'enfance gênante sur une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà raconté une anecdote d'enfance gênante sur une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_069",
+    "question": "As-tu déjà oublié l'anniversaire d'une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà oublié l'anniversaire d'une personne de ce salon",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": true,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_070",
+    "question": "As-tu déjà pleuré devant un film en famille ?",
+    "reveal": "{count} sur {total} ont déjà pleuré devant un film en famille",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_071",
+    "question": "As-tu déjà monté un spectacle pour toute la famille ?",
+    "reveal": "{count} sur {total} ont déjà monté un spectacle pour toute la famille",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_072",
+    "question": "As-tu déjà réclamé de l'argent à tes parents en faisant les yeux doux ?",
+    "reveal": "{count} sur {total} ont déjà réclamé de l'argent à leurs parents en faisant les yeux doux",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_073",
+    "question": "As-tu déjà aidé un parent à déménager ?",
+    "reveal": "{count} sur {total} ont déjà aidé un parent à déménager",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_074",
+    "question": "As-tu déjà gardé tes petits frères et sœurs pour rendre service ?",
+    "reveal": "{count} sur {total} ont déjà gardé leurs petits frères et sœurs pour rendre service",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_075",
+    "question": "As-tu déjà appris à faire du vélo à un enfant de la famille ?",
+    "reveal": "{count} sur {total} ont déjà appris à faire du vélo à un enfant de la famille",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_076",
+    "question": "As-tu déjà reconstitué l'arbre généalogique de ta famille ?",
+    "reveal": "{count} sur {total} ont déjà reconstitué l'arbre généalogique de leur famille",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_077",
+    "question": "As-tu déjà caché un album pour qu'on ne montre pas tes photos de bébé ?",
+    "reveal": "{count} sur {total} ont déjà caché un album pour qu'on ne montre pas leurs photos de bébé",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_078",
+    "question": "As-tu déjà eu honte de tes parents devant des amis ?",
+    "reveal": "{count} sur {total} ont déjà eu honte de leurs parents devant des amis",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_079",
+    "question": "As-tu déjà demandé à tes parents de te déposer loin de l'école ?",
+    "reveal": "{count} sur {total} ont déjà demandé à leurs parents de les déposer loin de l'école",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_080",
+    "question": "As-tu déjà écrit une lettre à un grand-parent ?",
+    "reveal": "{count} sur {total} ont déjà écrit une lettre à un grand-parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_081",
+    "question": "As-tu déjà rendu visite à un grand-parent en maison de retraite ?",
+    "reveal": "{count} sur {total} ont déjà rendu visite à un grand-parent en maison de retraite",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_082",
+    "question": "As-tu déjà noté une recette de famille pour qu'elle ne se perde pas ?",
+    "reveal": "{count} sur {total} ont déjà noté une recette de famille pour qu'elle ne se perde pas",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_083",
+    "question": "As-tu déjà participé à une fête de famille de plus de cinquante personnes ?",
+    "reveal": "{count} sur {total} ont déjà participé à une fête de famille de plus de cinquante personnes",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_084",
+    "question": "As-tu déjà mangé à la table des enfants à plus de quinze ans ?",
+    "reveal": "{count} sur {total} ont déjà mangé à la table des enfants à plus de quinze ans",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_085",
+    "question": "As-tu déjà organisé une fête surprise pour un parent ?",
+    "reveal": "{count} sur {total} ont déjà organisé une fête surprise pour un parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_086",
+    "question": "As-tu déjà offert un cadeau acheté en catastrophe dans une station-service ?",
+    "reveal": "{count} sur {total} ont déjà offert un cadeau acheté en catastrophe dans une station-service",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_087",
+    "question": "As-tu déjà emballé un cadeau avec du papier journal ?",
+    "reveal": "{count} sur {total} ont déjà emballé un cadeau avec du papier journal",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_088",
+    "question": "As-tu déjà réveillé toute la maison à l'aube le matin de Noël ?",
+    "reveal": "{count} sur {total} ont déjà réveillé toute la maison à l'aube le matin de Noël",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_089",
+    "question": "As-tu déjà tellement mangé au repas de Noël que tu as dû t'allonger ?",
+    "reveal": "{count} sur {total} ont déjà tellement mangé au repas de Noël qu'ils ont dû s'allonger",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_090",
+    "question": "As-tu déjà séché un repas de famille avec une fausse excuse ?",
+    "reveal": "{count} sur {total} ont déjà séché un repas de famille avec une fausse excuse",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_091",
+    "question": "As-tu déjà fait semblant d'être malade pour ne pas aller à l'école ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant d'être malade pour ne pas aller à l'école",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_092",
+    "question": "As-tu déjà fait pleurer un petit frère ou une petite sœur exprès ?",
+    "reveal": "{count} sur {total} ont déjà fait pleurer un petit frère ou une petite sœur exprès",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_093",
+    "question": "As-tu déjà demandé pardon le premier à un parent après une dispute ?",
+    "reveal": "{count} sur {total} ont déjà demandé pardon les premiers à un parent après une dispute",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_094",
+    "question": "As-tu déjà dit « je t'aime » à un parent sans occasion particulière ?",
+    "reveal": "{count} sur {total} ont déjà dit « je t'aime » à un parent sans occasion particulière",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_095",
+    "question": "As-tu déjà fait découvrir un jeu vidéo à un grand-parent ?",
+    "reveal": "{count} sur {total} ont déjà fait découvrir un jeu vidéo à un grand-parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_096",
+    "question": "As-tu déjà joué le Père Noël pour les enfants de la famille ?",
+    "reveal": "{count} sur {total} ont déjà joué le Père Noël pour les enfants de la famille",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_097",
+    "question": "As-tu déjà révélé à un petit de la famille que le Père Noël n'existe pas ?",
+    "reveal": "{count} sur {total} ont déjà révélé à un petit de la famille que le Père Noël n'existe pas",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": true,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_098",
+    "question": "As-tu déjà envoyé une carte postale de vacances à ta famille ?",
+    "reveal": "{count} sur {total} ont déjà envoyé une carte postale de vacances à leur famille",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_099",
+    "question": "As-tu déjà crié « devant ! » pour avoir la meilleure place en voiture ?",
+    "reveal": "{count} sur {total} ont déjà crié « devant ! » pour avoir la meilleure place en voiture",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_100",
+    "question": "As-tu déjà recopié les devoirs d'un frère ou d'une sœur ?",
+    "reveal": "{count} sur {total} ont déjà recopié les devoirs d'un frère ou d'une sœur",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_101",
+    "question": "As-tu déjà pris soin d'un parent pendant qu'il traversait un moment difficile ?",
+    "reveal": "{count} sur {total} ont déjà pris soin d'un parent pendant qu'il traversait un moment difficile",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_102",
+    "question": "As-tu déjà dit à tes parents une vérité difficile qu'ils devaient entendre ?",
+    "reveal": "{count} sur {total} ont déjà dit à leurs parents une vérité difficile qu'ils devaient entendre",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_103",
+    "question": "As-tu déjà donné tes économies pour aider un frère ou une sœur ?",
+    "reveal": "{count} sur {total} ont déjà donné leurs économies pour aider un frère ou une sœur",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_104",
+    "question": "As-tu déjà fait les courses pour un grand-parent ?",
+    "reveal": "{count} sur {total} ont déjà fait les courses pour un grand-parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_105",
+    "question": "As-tu déjà avoué une grosse bêtise à tes parents avant qu'ils la découvrent ?",
+    "reveal": "{count} sur {total} ont déjà avoué une grosse bêtise à leurs parents avant qu'ils la découvrent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_106",
+    "question": "As-tu déjà consolé un frère ou une sœur après une rupture ?",
+    "reveal": "{count} sur {total} ont déjà consolé un frère ou une sœur après une rupture",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_107",
+    "question": "As-tu déjà appris une chanson pour l'anniversaire d'un grand-parent ?",
+    "reveal": "{count} sur {total} ont déjà appris une chanson pour l'anniversaire d'un grand-parent",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_108",
+    "question": "As-tu déjà traversé tout le pays pour une fête de famille ?",
+    "reveal": "{count} sur {total} ont déjà traversé tout le pays pour une fête de famille",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": false
+  },
+  {
+    "id": "jdf_109",
+    "question": "As-tu déjà appris un secret de famille par hasard ?",
+    "reveal": "{count} sur {total} ont déjà appris un secret de famille par hasard",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  },
+  {
+    "id": "jdf_110",
+    "question": "As-tu déjà découvert l'existence d'un cousin à l'âge adulte ?",
+    "reveal": "{count} sur {total} ont déjà découvert l'existence d'un cousin à l'âge adulte",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "aboutRoom": false,
+    "sensitive": false,
+    "adult": false,
+    "fullExcluded": true
+  }
+]
