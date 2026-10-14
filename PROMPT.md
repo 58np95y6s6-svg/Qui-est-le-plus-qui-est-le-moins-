@@ -62,7 +62,7 @@ Les thèmes **Collègues, Amis, Famille, Full** (et **Trash, Hot** derrière le 
 
 Option du MJ : **« Je joue aussi »** (activée par défaut) ou **« J'anime seulement »** (il n'apparaît alors pas dans la grille).
 
-Si le MJ se déconnecte plus de 30 s, le rôle passe automatiquement au joueur présent depuis le plus longtemps, avec une notification à tous.
+Un MJ qui sort de l'app (messages, autre app) **garde son rôle**. Seulement s'il est absent depuis plus de 3 min, les autres joueurs voient un bouton « Prendre le rôle de MJ » ; le premier qui appuie le récupère, avec une notification à tous. Le rôle passe aussi au joueur présent depuis le plus longtemps si le MJ quitte explicitement la partie.
 
 ---
 
@@ -151,6 +151,7 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Créer un
 | **Votes par joueur et par question** (« X réponses ») | 1 / 2 / 3 (avec 2 ou 3, un joueur répartit ses votes sur des personnes différentes) | 1 |
 | Thème | Collègues / Amis / Famille / **Full**, puis, derrière le verrou 18+ : **Trash** / **Hot** / **Trash + Hot** | — |
 | **Choix du thème** | « Je choisis » ou **« Les joueurs votent »** | Je choisis |
+| **Soumettre les règles au vote** | Aucune / **Toutes** / au choix, règle par règle (une case « au vote » à côté de chaque réglage) | Aucune |
 | Voter pour soi-même | Oui / Non | Non |
 | Votes | **Anonymes** / Publics (on révèle qui a voté pour qui) | Anonymes |
 | Passer une question | Seuil de joueurs qui doivent le demander : 1/3 / la moitié | 1/3 (minimum 2) |
@@ -165,6 +166,7 @@ Préréglages en un tap : **Afterwork** (Collègues, Soft, anonyme), **Soirée**
 - En haut : **code en très gros** (Unbounded), **QR code** plein écran au tap, bouton partager (Web Share API) et copier le lien.
 - Grille des joueurs qui arrivent en temps réel (animation « pop »), pastille de connexion, couronne sur le MJ.
 - Le MJ peut exclure un joueur (appui long sur sa tuile → confirmation).
+- **Vote des règles** (si le MJ a soumis des règles au vote) : un écran « On vote les règles » affiche une carte par règle soumise (mode de jeu, nombre de questions, thème, votes par question, voter pour soi, votes anonymes, contestation, seuil pour passer, etc.), chacune avec ses options en grosses pilules. Chaque joueur vote sur chaque carte ; les jauges se remplissent en direct ; le MJ voit qui n'a pas encore voté. Quand tout le monde a voté (ou que le MJ clôt), la majorité l'emporte règle par règle ; en cas d'égalité, la valeur proposée par le MJ est retenue. Le récapitulatif des règles retenues s'affiche à tous avant le lancement. **Exception** : le mode 18+ ne se vote jamais à la majorité, il exige toujours l'accord de chaque joueur (§7.6).
 - **Vote du thème** si activé : 4 grandes cartes de thème (6 si le mode 18+ est déverrouillé, voir §7.6), chaque joueur vote, jauges qui se remplissent en direct, égalité tranchée par le MJ. Le MJ peut lancer le vote de thème puis la partie.
 - Bouton **Lancer** actif à partir de **3 joueurs** (affiche « encore 1 joueur » sinon). Maximum **20 joueurs**.
 
@@ -430,17 +432,25 @@ n'importe quel état → PAUSED → retour à l'état précédent
 Chaque mode est un module (`modes/whoIsMost.ts`, `modes/neverHaveI.ts`, `modes/quiz.ts`) qui implémente la même interface (`answerPhase`, `reveal`, `score`, `ceremony`) ; la Soirée mix les enchaîne. Chaque transition est une fonction pure `(state, event) => state`, testée, avec les transitions interdites rejetées.
 
 ### 8.2 Événements (tous typés et validés par Zod)
-Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `theme:vote`, `game:start`, `vote:submit` (vote validé, définitif), `vote:forceClose`, `skip:request`, `skip:withdraw`, `challenge:start`, `challenge:endDefense`, `answer:submit` (J'ai déjà et quiz, définitif), `guess:submit` (pronostic), `joker:use`, `reveal:assume`, `story:request`, `game:next`, `game:pause`, `game:end`.
+Client → serveur : `room:create`, `room:join`, `room:rejoin`, `room:kick`, `room:updateSettings`, `rules:submitToVote`, `rules:vote`, `rules:close`, `theme:vote`, `player:leave`, `player:nudge` (relance push), `push:subscribe`, `game:start`, `vote:submit` (vote validé, définitif), `vote:forceClose`, `skip:request`, `skip:withdraw`, `challenge:start`, `challenge:endDefense`, `answer:submit` (J'ai déjà et quiz, définitif), `guess:submit` (pronostic), `joker:use`, `reveal:assume`, `story:request`, `game:next`, `game:pause`, `game:end`.
 Serveur → client : `room:state` (instantané complet, filtré selon le destinataire), `room:patch` (deltas), `phase:changed` (avec `endsAt` en temps serveur), `vote:progress` (nombre de votants et ids des votants, **jamais le contenu des votes** avant la révélation), `results:revealed`, `error` (codes normalisés).
 
 ### 8.3 Robustesse
 - **Horloge** : synchronisation au branchement (style NTP, 5 allers-retours, médiane) ; toutes les échéances sont des horodatages serveur, jamais des durées relatives.
-- **Reconnexion** : un jeton de session dans `localStorage` permet de retrouver sa place (prénom, photo, votes, scores) après un verrouillage d'écran, un changement de réseau ou un rechargement. La place est gardée 2 min.
-- **Départ en plein vote** : le nombre de votes attendus est recalculé immédiatement ; si tous les présents ont voté, le compte à rebours démarre.
-- **Désigné déconnecté** : pas de contestation possible pour lui.
+- **Sortir de l'app sans quitter la partie (exigence clé)** : un joueur doit pouvoir aller dans ses messages, répondre à un appel, ouvrir une autre app ou verrouiller son téléphone, puis revenir **sans jamais être déconnecté de la partie**. Concrètement :
+  - Le système d'exploitation coupe souvent la connexion WebSocket quand l'app passe en arrière-plan (surtout sur iOS) : ce n'est **pas** un départ. Le serveur distingue la **connexion** (technique, peut tomber) de la **présence dans la partie** (le joueur reste membre du salon jusqu'à ce qu'il appuie sur « Quitter la partie » ou soit exclu par le MJ).
+  - Sa place est gardée **pendant toute la partie** (prénom, photo, votes, scores, sélection en cours). Un jeton de session dans `localStorage` + IndexedDB permet de la retrouver, même après un rechargement de la page ou un redémarrage du navigateur.
+  - **On attend son vote** : un joueur parti dans une autre app compte toujours dans les votes attendus. La partie ne passe à la suite que quand il a validé, ou quand le MJ force la suite.
+  - Pour les autres, sa tuile affiche une pastille **« ailleurs »** (icône lune) après 10 s sans connexion, et le bandeau d'attente précise « On attend Tom (ailleurs depuis 40 s) ». Le MJ dispose d'un bouton **« Relancer Tom »** qui envoie une notification push (« C'est à toi de voter ! ») si le joueur a accepté les notifications, et toujours du bouton « Forcer la suite ».
+  - Au retour (`visibilitychange`, `focus`, `pageshow`, `online`), le client se reconnecte immédiatement, reçoit l'instantané complet de l'état et retrouve **exactement l'écran en cours** : la question, sa sélection non validée (gardée en local), ou l'écran de résultat s'il a manqué la révélation. Une courte animation « Re-bonjour Tom » remplace tout message d'erreur. Aucun écran « Vous avez été déconnecté ».
+  - Notifications push (Web Push, avec `VAPID` côté Worker) : proposées après la première partie, jamais au démarrage. Sur iOS, elles ne fonctionnent que si l'app est installée sur l'écran d'accueil (iOS 16.4+) : l'invite d'installation l'explique.
+  - Le salon n'est détruit qu'après 2 h sans aucune activité de qui que ce soit (§8.3 Durée de vie), jamais parce que les joueurs sont en arrière-plan.
+- **Départ explicite en plein vote** (bouton « Quitter la partie », ou exclusion par le MJ) : seulement dans ce cas, le nombre de votes attendus est recalculé immédiatement ; si tous les présents ont voté, le compte à rebours démarre.
+- **Désigné ailleurs** : sa fenêtre de contestation de 10 s démarre à son retour dans l'app si la révélation a eu lieu en son absence, tant que le MJ n'est pas passé à la question suivante.
 - **Anti-triche** : votes acceptés seulement en phase de vote, pour un joueur valide du salon, dans la limite autorisée ; limitation de débit par connexion WebSocket.
 - **Durée de vie** : une `alarm()` du Durable Object efface tout son stockage 2 h après la dernière activité ; les photos, qui ne sont qu'en mémoire, disparaissent avec lui.
 - **Écran actif** : Screen Wake Lock API pendant la partie (réacquis au retour au premier plan).
+- **Présence** : `presence:changed` (connecté / ailleurs depuis X s) diffusé aux autres joueurs ; un battement (ping) toutes les 15 s détecte les connexions mortes sans retirer le joueur de la partie.
 
 ### 8.4 Photos et vie privée (RGPD)
 - **La photo appartient au téléphone du joueur.** Elle est prise et compressée sur l'appareil (WebP 320×320, < 40 Ko) puis enregistrée **uniquement localement** (IndexedDB). Aucun serveur ne la stocke durablement.
@@ -507,6 +517,8 @@ README.md     # installation, lancement, déploiement, captures
 - 1 MJ + 4 joueurs : création, rejoindre par code, selfie simulé (fausse caméra Chromium), vote du thème, 3 questions jouées, une contestation qui acquitte, clôture forcée par le MJ, cérémonie finale.
 - Un joueur se déconnecte en plein vote puis revient : il retrouve sa place et son vote.
 - Le MJ quitte : transfert du rôle.
+- Un joueur passe en arrière-plan (onglet masqué + WebSocket coupé) pendant 2 min en plein vote : il reste dans la partie, la suite ne démarre pas sans lui, sa pastille « ailleurs » apparaît ; à son retour, il retrouve sa sélection, valide, et la partie continue.
+- Vote des règles : 3 règles soumises au vote, une égalité tranchée par la proposition du MJ.
 - Une partie J'ai déjà de 5 questions (révélation « J'assume ») et une partie Quiz de 5 questions avec un joker.
 
 **Critères d'acceptation**
@@ -515,6 +527,8 @@ README.md     # installation, lancement, déploiement, captures
 - [ ] Le 3-2-1 est synchronisé visuellement sur tous les écrans.
 - [ ] Le bouton « Contester » n'apparaît que chez le ou les désignés.
 - [ ] Voter se fait en deux temps (sélection modifiable, puis validation définitive) ; aucun minuteur de vote ; la suite ne démarre que quand tout le monde a validé ou que le MJ force.
+- [ ] Un joueur qui va dans ses messages ou une autre app puis revient n'est jamais déconnecté de la partie ; la partie attend son vote.
+- [ ] Le MJ peut soumettre une, plusieurs ou toutes les règles au vote des joueurs.
 - [ ] Un joueur peut proposer de passer la question ; au seuil, la question est remplacée sans compter dans l'avancement.
 - [ ] L'interface reprend la composition de la référence (fond crème, carte héros, cartes pastel empilées, écran classement plein violet avec feuille blanche).
 - [ ] Le récap affiche les deux podiums (positif, négatif) et les prix bonus.

@@ -225,8 +225,8 @@
   },
   {
     "id": "jdh_017",
-    "question": "As-tu déjà menti sur ton âge sur une appli de rencontre ?",
-    "reveal": "{count} sur {total} ont déjà menti sur leur âge sur une appli de rencontre",
+    "question": "As-tu déjà swipé à droite sur le profil d’un ou d’une ex ?",
+    "reveal": "{count} sur {total} ont déjà swipé à droite sur le profil d’un ou d’une ex",
     "polarity": "negative",
     "themes": [
       "hot"
@@ -253,8 +253,8 @@
   },
   {
     "id": "jdh_019",
-    "question": "As-tu déjà ghosté quelqu'un après un rendez-vous ?",
-    "reveal": "{count} sur {total} ont déjà ghosté quelqu'un après un rendez-vous",
+    "question": "As-tu déjà accepté un deuxième rendez-vous uniquement pour le bisou ?",
+    "reveal": "{count} sur {total} ont déjà accepté un deuxième rendez-vous uniquement pour le bisou",
     "polarity": "negative",
     "themes": [
       "hot"
@@ -841,8 +841,8 @@
   },
   {
     "id": "jdh_061",
-    "question": "As-tu déjà demandé à un ami de t'appeler pour fuir un rendez-vous raté ?",
-    "reveal": "{count} sur {total} ont déjà demandé à un ami de les appeler pour fuir un rendez-vous raté",
+    "question": "As-tu déjà inventé une excuse pour partir avant le dessert d’un rencard ?",
+    "reveal": "{count} sur {total} ont déjà inventé une excuse pour partir avant le dessert d’un rencard",
     "polarity": "negative",
     "themes": [
       "hot"

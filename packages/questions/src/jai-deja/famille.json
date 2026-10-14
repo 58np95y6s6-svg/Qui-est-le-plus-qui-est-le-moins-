@@ -704,8 +704,8 @@
   },
   {
     "id": "jdf_051",
-    "question": "As-tu déjà menti à tes parents sur l'endroit où tu passais la nuit ?",
-    "reveal": "{count} sur {total} ont déjà menti à leurs parents sur l'endroit où ils passaient la nuit",
+    "question": "As-tu déjà fait le mur pour sortir en cachette de tes parents ?",
+    "reveal": "{count} sur {total} ont déjà fait le mur pour sortir en cachette de leurs parents",
     "polarity": "negative",
     "themes": [
       "famille"
@@ -761,8 +761,8 @@
   },
   {
     "id": "jdf_055",
-    "question": "As-tu déjà réconcilié deux membres de ta famille fâchés ?",
-    "reveal": "{count} sur {total} ont déjà réconcilié deux membres de leur famille fâchés",
+    "question": "As-tu déjà joué les médiateurs pendant un repas de famille houleux ?",
+    "reveal": "{count} sur {total} ont déjà joué les médiateurs pendant un repas de famille houleux",
     "polarity": "positive",
     "themes": [
       "famille"
@@ -847,15 +847,15 @@
   },
   {
     "id": "jdf_061",
-    "question": "As-tu déjà fait semblant d'aimer un cadeau offert par une personne de ce salon ?",
-    "reveal": "{count} sur {total} ont déjà fait semblant d'aimer un cadeau offert par une personne de ce salon",
+    "question": "As-tu déjà fait semblant de dormir pour éviter de débarrasser la table ?",
+    "reveal": "{count} sur {total} ont déjà fait semblant de dormir pour éviter de débarrasser la table",
     "polarity": "negative",
     "themes": [
       "famille",
       "amis"
     ],
     "intensity": 2,
-    "aboutRoom": true,
+    "aboutRoom": false,
     "sensitive": false,
     "adult": false,
     "fullExcluded": false
@@ -1291,8 +1291,8 @@
   },
   {
     "id": "jdf_092",
-    "question": "As-tu déjà fait pleurer un petit frère ou une petite sœur exprès ?",
-    "reveal": "{count} sur {total} ont déjà fait pleurer un petit frère ou une petite sœur exprès",
+    "question": "As-tu déjà caché le doudou d’un petit frère ou d’une petite sœur pour te venger ?",
+    "reveal": "{count} sur {total} ont déjà caché le doudou d’un petit frère ou d’une petite sœur pour se venger",
     "polarity": "negative",
     "themes": [
       "famille"

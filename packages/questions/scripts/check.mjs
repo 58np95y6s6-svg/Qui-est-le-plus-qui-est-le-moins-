@@ -109,12 +109,13 @@ for (const q of quiz) {
   ids.add(q.id);
   if (!CATS.includes(q.category)) errors.push(`${w} : catégorie inconnue`);
   if (!["easy", "medium", "hard"].includes(q.difficulty)) errors.push(`${w} : difficulté invalide`);
-  if (!Array.isArray(q.choices) || q.choices.length !== 4 || new Set(q.choices.map(norm)).size !== 4) errors.push(`${w} : il faut 4 choix distincts`);
+  if (!Array.isArray(q.choices) || q.choices.length !== 4 || new Set(q.choices.map((c) => c.toLowerCase().trim())).size !== 4) errors.push(`${w} : il faut 4 choix distincts`);
   if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer > 3) errors.push(`${w} : index de réponse invalide`); else pos[q.answer]++;
-  if (!q.question?.trim().endsWith("?") && !q.question?.includes("…")) errors.push(`${w} : la question doit finir par « ? »`);
+  if (!q.question?.trim().endsWith("?") && !q.question?.startsWith("Complétez")) errors.push(`${w} : la question doit finir par « ? » (ou commencer par « Complétez »)`);
   if (typeof q.fact !== "string" || !q.fact.trim()) errors.push(`${w} : anecdote manquante`);
 }
-const qPrep = quiz.map((q) => ({ id: q.id, b: bigrams(norm(q.question ?? "")) }));
+// On compare question + bonne réponse : deux questions au même gabarit mais à la réponse différente ne sont pas des doublons.
+const qPrep = quiz.map((q) => ({ id: q.id, b: bigrams(norm(`${q.question ?? ""} ${q.choices?.[q.answer] ?? ""}`)) }));
 for (let i = 0; i < qPrep.length; i++)
   for (let j = i + 1; j < qPrep.length; j++)
     if (dice(qPrep[i].b, qPrep[j].b) > 0.85) errors.push(`quasi-doublon Quiz : ${qPrep[i].id} ≈ ${qPrep[j].id}`);

@@ -338,8 +338,8 @@
   },
   {
     "id": "jdc_025",
-    "question": "As-tu déjà liké par erreur une vieille photo d'un collègue ?",
-    "reveal": "{count} sur {total} ont déjà liké par erreur une vieille photo d'un collègue",
+    "question": "As-tu déjà consulté le profil LinkedIn d’un collègue sans passer en mode privé ?",
+    "reveal": "{count} sur {total} ont déjà consulté le profil LinkedIn d’un collègue sans passer en mode privé",
     "polarity": "neutral",
     "themes": [
       "collegues"
@@ -663,8 +663,8 @@
   },
   {
     "id": "jdc_048",
-    "question": "As-tu déjà trahi un secret qu'une personne de ce salon t'avait confié ?",
-    "reveal": "{count} sur {total} ont déjà trahi un secret qu'une personne de ce salon leur avait confié",
+    "question": "As-tu déjà répété à ton chef une critique faite par une personne de ce salon ?",
+    "reveal": "{count} sur {total} ont déjà répété à leur chef une critique faite par une personne de ce salon",
     "polarity": "negative",
     "themes": [
       "collegues",
@@ -1425,8 +1425,8 @@
   },
   {
     "id": "jdc_102",
-    "question": "As-tu déjà pris la défense d'une personne de ce salon en son absence ?",
-    "reveal": "{count} sur {total} ont déjà pris la défense d'une personne de ce salon en son absence",
+    "question": "As-tu déjà couvert une erreur d’une personne de ce salon auprès d’un chef ?",
+    "reveal": "{count} sur {total} ont déjà couvert une erreur d’une personne de ce salon auprès d’un chef",
     "polarity": "positive",
     "themes": [
       "collegues",
