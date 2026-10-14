@@ -29,10 +29,16 @@ Des joueurs réunis dans la même pièce rejoignent un salon depuis leur télép
 
 - **Front** : React 18 + TypeScript strict + Vite, Tailwind CSS (tokens du §4 dans `tailwind.config`), Framer Motion pour toutes les animations, Zustand pour l'état client, `qrcode` pour générer le QR et `@zxing/browser` (ou `BarcodeDetector` quand il existe) pour le scanner.
 - **PWA** : `vite-plugin-pwa` (Workbox), manifest complet, icônes maskable 192/512, splash screens iOS, mode `standalone`, coquille hors-ligne, invite d'installation personnalisée (et instructions dédiées pour iOS Safari, qui n'a pas d'invite native).
-- **Temps réel / back** : Node 20 + Fastify + Socket.IO. **Une salle = un état en mémoire géré par une machine à états** (aucune base de données obligatoire pour jouer). Adaptateur Redis optionnel pour passer à plusieurs instances.
+- **Hébergement : 100 % Cloudflare**, code sur GitHub avec déploiement automatique à chaque push sur `main`.
+  - **Front** : Cloudflare Pages (ou Workers Static Assets), servi en HTTPS, ce qui est indispensable pour la caméra et la PWA.
+  - **Temps réel / back** : Cloudflare Workers + **Durable Objects** avec WebSockets natifs. **Un salon = un Durable Object** (identifié par le code du salon), qui fait autorité : machine à états, votes, minuteurs (via `alarm()`), scores. Utilise la bibliothèque `partyserver` côté Worker et `partysocket` côté client (reconnexion automatique incluse). **Pas de Socket.IO** : il ne fonctionne pas sur Workers.
+  - Utilise l'**API WebSocket Hibernation** pour ne pas payer le temps d'attente entre deux votes. L'état de la partie (sans les photos) est sauvegardé dans le stockage SQLite du Durable Object à chaque transition, pour survivre à une mise en veille de l'objet.
+  - Pas de base de données externe, pas de KV, pas de R2 : rien n'est nécessaire pour jouer.
+  - Configuration `wrangler.toml` complète, `wrangler dev` pour le local, et un workflow GitHub Actions (`cloudflare/wrangler-action`) qui lance lint + tests puis déploie.
+  - Le tout doit tenir dans l'**offre gratuite** Cloudflare pour un usage entre amis ; documente les limites dans le README.
 - **Validation** : Zod partagé entre client et serveur (package `shared/`) pour chaque événement et pour la banque de questions.
-- **Monorepo** : `pnpm` workspaces → `apps/web`, `apps/server`, `packages/shared`, `packages/questions`.
-- **Déploiement** : Dockerfile multi-stage + `docker-compose.yml`, et la doc pour déployer le front sur Vercel/Netlify et le serveur sur Fly.io/Render.
+- **Monorepo** : `pnpm` workspaces → `apps/web`, `apps/party` (Worker + Durable Object), `packages/shared`, `packages/questions`.
+- **Déploiement** : README pas à pas (créer le compte Cloudflare, générer le jeton d'API, l'ajouter dans les secrets GitHub, premier déploiement, nom de domaine personnalisé optionnel).
 
 ---
 
@@ -114,7 +120,7 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Lien « C
 - **Selfie** : caméra frontale via `getUserMedia`, gabarit circulaire, compte à rebours de 3 s optionnel, miroir à l'aperçu mais pas sur la photo finale, bouton « Reprendre ».
 - Recadrage carré automatique centré, **compression en WebP 320×320 à moins de 40 Ko**.
 - Repli si la caméra est refusée ou absente : import depuis la galerie, sinon **avatar illustré généré** (initiales + forme + couleur du joueur), mais on insiste gentiment sur la photo (« le jeu est 10× plus drôle avec ta tête »).
-- Le profil (prénom + photo) est mémorisé localement pour les parties suivantes, avec bouton « Changer ».
+- Le profil (prénom + photo) est **stocké uniquement sur le téléphone du joueur** (IndexedDB, avec repli `localStorage`) et réutilisé aux parties suivantes, avec boutons « Changer » et « Effacer ma photo ». Voir §8.4.
 
 ### 5.4 Création du salon : réglages du MJ
 Écran en cartes empilées, chaque réglage en une ligne claire :
@@ -303,13 +309,17 @@ Serveur → client : `room:state` (instantané complet, filtré selon le destina
 - **Reconnexion** : un jeton de session dans `localStorage` permet de retrouver sa place (prénom, photo, votes, scores) après un verrouillage d'écran, un changement de réseau ou un rechargement. La place est gardée 2 min.
 - **Départ en plein vote** : le nombre de votes attendus est recalculé immédiatement ; si tous les présents ont voté, le compte à rebours démarre.
 - **Désigné déconnecté** : pas de contestation possible pour lui.
-- **Anti-triche** : votes acceptés seulement en phase de vote, pour un joueur valide du salon, dans la limite autorisée ; limitation de débit par socket.
-- **Durée de vie** : salon détruit 2 h après la dernière activité ; photos effacées de la mémoire avec lui.
+- **Anti-triche** : votes acceptés seulement en phase de vote, pour un joueur valide du salon, dans la limite autorisée ; limitation de débit par connexion WebSocket.
+- **Durée de vie** : une `alarm()` du Durable Object efface tout son stockage 2 h après la dernière activité ; les photos, qui ne sont qu'en mémoire, disparaissent avec lui.
 - **Écran actif** : Screen Wake Lock API pendant la partie (réacquis au retour au premier plan).
 
 ### 8.4 Photos et vie privée (RGPD)
-- Les photos ne sont **jamais stockées sur disque** ni envoyées à un service tiers : elles vivent dans la mémoire du salon et disparaissent avec lui.
-- Envoyées une seule fois à l'arrivée, puis mises en cache côté client par id de joueur (aucun renvoi à chaque état).
+- **La photo appartient au téléphone du joueur.** Elle est prise et compressée sur l'appareil (WebP 320×320, < 40 Ko) puis enregistrée **uniquement localement** (IndexedDB). Aucun serveur ne la stocke durablement.
+- **Elle n'est envoyée qu'au moment de rejoindre un salon**, dans le message `room:join` (ou `room:rejoin`), sous forme binaire ou base64.
+- Le Durable Object la garde **seulement en mémoire vive**, **jamais dans son stockage SQLite**, et la relaie une fois aux autres joueurs du salon, qui la gardent en mémoire le temps de la partie (jamais sur leur disque).
+- Si le Durable Object a été mis en veille et a perdu les photos, il envoie `photo:request` aux clients concernés, qui renvoient automatiquement leur photo depuis leur téléphone. Le joueur ne voit rien.
+- Quand le joueur quitte, est exclu ou que le salon se termine, sa photo est retirée de la mémoire du salon et de celle des autres téléphones.
+- Aucun service tiers, aucun stockage d'images (pas de R2, pas de CDN d'images).
 - Pas de compte, pas de traçage. Page « Confidentialité » courte et claire.
 
 ---
@@ -341,7 +351,7 @@ Serveur → client : `room:state` (instantané complet, filtré selon le destina
 ```
 apps/
   web/        # PWA React : routes, écrans, composants, hooks temps réel
-  server/     # Fastify + Socket.IO, gestion des salons, machine à états
+  party/      # Cloudflare Worker + Durable Object « Room » : salons, machine à états, wrangler.toml
 packages/
   shared/     # types, schémas Zod, scoring, grille, tirage, machine à états
   questions/  # questions.fr.json + script de contrôle
@@ -382,7 +392,7 @@ README.md     # installation, lancement, déploiement, captures
 
 1. Plan + `DECISIONS.md` + squelette du monorepo.
 2. `packages/shared` : types, Zod, machine à états, scoring, grille, tirage, avec leurs tests.
-3. Serveur temps réel complet.
+3. Worker + Durable Object temps réel complet, testé en local avec `wrangler dev` et `@cloudflare/vitest-pool-workers`.
 4. Design system (tokens, typos, composants de base : bouton, carte, pilule, tuile joueur, podium, compte à rebours).
 5. Écrans dans l'ordre du parcours (§5), câblés au serveur.
 6. **Banque de questions complète** (rédigée par lots de 60, chaque lot vérifié par le script).
