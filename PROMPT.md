@@ -74,7 +74,7 @@ On abandonne le mono-orange au profit d'une palette plus festive et plus contras
 | `--gold` | `#FFD23F` | `#F2B700` | Podium, compte à rebours, couronnes |
 | `--pink` | `#FF9BD8` | `#F06BB8` | Accents, confettis |
 
-Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte foncé `#14101F` sur `--positive` et `--gold`, jamais de blanc dessus. Les couleurs de thème : **Collègues = bleu ciel**, **Amis = rose**, **Famille = or**, **Full = violet**, réutilisées en cartes empilées façon référence.
+Règles : contraste texte/fond ≥ 4.5:1 (vérifie et documente-le), texte foncé `#14101F` sur `--positive` et `--gold`, jamais de blanc dessus. Les couleurs de thème : **Collègues = bleu ciel**, **Amis = rose**, **Famille = or**, **Full = violet**, **Trash = vert citron**, **Hot = corail**, réutilisées en cartes empilées façon référence.
 
 **Typographies (Google Fonts, auto-hébergées pour le hors-ligne)**
 - **Titres et questions** : *Bricolage Grotesque* 700–800, interlettrage serré (-0.02em). La question s'affiche en très grand.
@@ -123,7 +123,7 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Lien « C
 |---|---|---|
 | Nombre de questions | 10 / 20 / **30** / 50 | 30 |
 | **Votes par joueur et par question** (« X réponses ») | 1 / 2 / 3 (avec 2 ou 3, un joueur répartit ses votes sur des personnes différentes) | 1 |
-| Thème | Collègues / Amis / Famille / **Full** | — |
+| Thème | Collègues / Amis / Famille / **Full**, puis, derrière le verrou 18+ : **Trash** / **Hot** / **Trash + Hot** | — |
 | **Choix du thème** | « Je choisis » ou **« Les joueurs votent »** | Je choisis |
 | Voter pour soi-même | Oui / Non | Non |
 | Votes | **Anonymes** / Publics (on révèle qui a voté pour qui) | Anonymes |
@@ -133,13 +133,13 @@ Logo animé, deux CTA géants : **Créer une partie** / **Rejoindre**. Lien « C
 | Équilibre | Curseur positif ↔ négatif (par défaut 40 % positif, 40 % négatif, 20 % neutre) | 40/40/20 |
 | Retardataires | Autorisés entre deux questions / Refusés | Autorisés |
 
-Préréglages en un tap : **Afterwork** (Collègues, Soft, anonyme), **Soirée** (Amis, Épicé), **Repas de famille** (Famille, Soft).
+Préréglages en un tap : **Afterwork** (Collègues, Soft, anonyme), **Soirée** (Amis, Épicé), **Repas de famille** (Famille, Soft), **Fin de soirée 🔞** (Trash + Hot, anonyme, contestation illimitée).
 
 ### 5.5 Salon d'attente (lobby)
 - En haut : **code en très gros** (Unbounded), **QR code** plein écran au tap, bouton partager (Web Share API) et copier le lien.
 - Grille des joueurs qui arrivent en temps réel (animation « pop »), pastille de connexion, couronne sur le MJ.
 - Le MJ peut exclure un joueur (appui long sur sa tuile → confirmation).
-- **Vote du thème** si activé : 4 grandes cartes de thème, chaque joueur vote, jauges qui se remplissent en direct, égalité tranchée par le MJ. Le MJ peut lancer le vote de thème puis la partie.
+- **Vote du thème** si activé : 4 grandes cartes de thème (6 si le mode 18+ est déverrouillé, voir §7.6), chaque joueur vote, jauges qui se remplissent en direct, égalité tranchée par le MJ. Le MJ peut lancer le vote de thème puis la partie.
 - Bouton **Lancer** actif à partir de **3 joueurs** (affiche « encore 1 joueur » sinon). Maximum **20 joueurs**.
 
 ### 5.6 Tour de jeu : la question (écran critique)
@@ -219,7 +219,8 @@ Séquence révélée écran par écran, que le MJ fait avancer :
 - **Au moins 160 questions par thème** (Collègues, Amis, Famille). Une question peut appartenir à plusieurs thèmes.
 - Par thème : environ 40 % positives, 40 % négatives, 20 % neutres, et un mélange des trois formats : **≥ 35 % « Qui est le plus… »**, **≥ 20 % « Qui est le moins… »**, **≥ 25 % « Qui pour… / Qui serait le plus susceptible de… »**.
 - **Mode Full** = l'union de tous les thèmes **moins** les questions marquées `fullExcluded: true` (questions de famille trop intimes ou trop spécifiques, par exemple sur les parents, les héritages ou les secrets de famille, qui n'ont pas de sens ou mettent mal à l'aise hors du cercle familial).
-- **Intensité** 1 (tout public), 2 (taquin), 3 (épicé, jamais humiliant). Interdits : physique et poids, orientation sexuelle, religion, santé, origines, argent réel des gens, sexualité explicite. On se moque des **comportements et des habitudes**, jamais de l'identité.
+- **Intensité** 1 (tout public), 2 (taquin), 3 (épicé, jamais humiliant). Dans les thèmes Collègues, Amis, Famille et Full, sont interdits : physique et poids, orientation sexuelle, religion, santé, origines, argent réel des gens, sexualité. On se moque des **comportements et des habitudes**, jamais de l'identité.
+- **Les thèmes Trash et Hot ont leurs propres règles (§7.6)** et ne sont **jamais** inclus dans le mode Full.
 
 ### 7.2 Format (fichier `packages/questions/questions.fr.json`, validé par Zod)
 ```json
@@ -253,8 +254,32 @@ Séquence révélée écran par écran, que le MJ fait avancer :
 - **Pas de répétition** dans une même partie ni lors d'un « Rejouer » ; le serveur garde l'historique des questions vues par salon, et le client garde dans `localStorage` les 300 derniers ids vus pour les éviter d'une partie à l'autre.
 - Algorithme déterministe avec une graine (seed) pour pouvoir le tester.
 
+### 7.6 Thèmes adultes 🔞 : **Trash** et **Hot**
+
+Deux thèmes supplémentaires, réservés aux soirées entre adultes consentants, **hors mode Full** et cachés par défaut.
+
+**Déverrouillage (obligatoire)**
+- Le MJ active « Mode 18+ » dans les réglages : écran de confirmation explicite (« Tous les joueurs ont 18 ans ou plus et sont d'accord pour des questions trash et coquines »).
+- Puis **chaque joueur confirme sur son téléphone** (« Je suis majeur·e et partant·e ») avant que le thème soit jouable. Si un seul joueur refuse ou ne répond pas en 30 s, les thèmes 18+ restent verrouillés pour cette partie (sans dire qui a refusé).
+- Les thèmes 18+ sont **incompatibles avec le thème Famille** : si le MJ a choisi Famille ou le préréglage « Repas de famille », l'option 18+ est désactivée avec une explication.
+- Un badge 🔞 discret reste affiché pendant toute la partie, et chaque joueur peut à tout moment appuyer sur « Passer cette question » : si au moins 2 joueurs (ou 25 % du salon) passent, la question est remplacée sans être jouée.
+
+**Thème Trash** (vert citron, icône poubelle ou mouche) : le sale, le gênant, le dégoûtant, l'hygiène, les mauvaises habitudes, la honte assumée.
+- Exemples : « Qui pue le plus des pieds ? », « Qui est le plus susceptible de renifler son linge pour savoir s'il est propre ? », « Qui a déjà fait pipi dans la piscine ? », « Qui est le plus susceptible de manger un truc tombé par terre ? », « Qui pète le plus en douce ? », « Qui garde le même caleçon le plus longtemps ? », « Qui a la pire haleine du matin ? », « Qui est le plus susceptible de vomir en soirée ? », « Qui se cure le nez en voiture ? », « Qui a la chambre la plus crade ? », « Qui est le moins regardant sur la date de péremption ? », « Qui pour lécher le sol pour 50 € ? ».
+
+**Thème Hot** (corail, icône piment ou flamme) : la séduction, le flirt, la vie amoureuse et sexuelle, suggestive et drôle, sans être pornographique.
+- Exemples : « Qui est le plus libéré·e ? », « Qui est le plus gourmand·e au lit ? », « Qui est le plus susceptible d'envoyer un nude par erreur ? », « Qui a le plus de body count ? », « Qui est le meilleur coup de la pièce ? », « Qui est le plus susceptible de coucher le premier soir ? », « Qui a le plus de jouets cachés dans sa table de nuit ? », « Qui est le moins à l'aise pour parler de sexe ? », « Qui pour tester un club libertin ? », « Qui a déjà fait l'amour dans un lieu public ? », « Qui est le plus bruyant·e ? », « Qui est le plus susceptible de flirter avec un ex ce soir ? », « Qui ferait le meilleur strip-tease ? », « Qui a le plus de fantasmes inavouables ? ».
+
+**Volume** : **au moins 120 questions Trash et 120 questions Hot**, en plus des 480 de base (soit **720 au minimum**), avec le même mélange de formats et des intensités 1 (coquin léger), 2 (piquant) et 3 (très épicé).
+
+**Polarité dans ces thèmes** : la majorité des questions Trash sont négatives ; en Hot, beaucoup sont **neutres ou positives** (« le meilleur coup », « le plus libéré ») plutôt que honteuses. Le récap final ajoute deux titres réservés aux parties 18+ : **« Le/la plus crado »** (le plus désigné en Trash) et **« Le/la plus chaud·e »** (le plus désigné en Hot).
+
+**Lignes rouges, même en 18+** (vérifiées par le script de contrôle) : rien sur les mineurs, rien de non consenti (agression, contrainte, alcool comme moyen de pression), pas d'insultes sur l'apparence physique, l'orientation sexuelle, le genre, les origines, la religion ou un handicap, pas de description sexuelle explicite (on suggère, on ne décrit pas), pas de question qui vise un couple présent ou un tiers absent nommément. Le Hot taquine **les comportements et les envies**, il ne doit jamais servir à humilier quelqu'un.
+
+**Format** : champ `adult: true`, `themes: ["trash"]` ou `["hot"]`, `fullExcluded: true` obligatoire. Le serveur refuse de tirer une question `adult` si le salon n'a pas le consentement 18+ validé.
+
 ### 7.5 Script de contrôle `pnpm questions:check`
-Il échoue si : ids en double, textes en double ou quasi-doublons (similarité normalisée > 0,85), volume par thème insuffisant, ratios hors tolérance (±5 %), question sans `verdict`, `{name}` absent du verdict, mot de la liste interdite trouvé. Il affiche un tableau de statistiques par thème, polarité, format et intensité.
+Il échoue si : ids en double, textes en double ou quasi-doublons (similarité normalisée > 0,85), volume par thème insuffisant, ratios hors tolérance (±5 %), question sans `verdict`, `{name}` absent du verdict, mot de la liste interdite trouvé (avec une liste spécifique pour Trash et Hot), question `adult` sans `fullExcluded: true`, question `adult` mélangée avec le thème Famille, moins de 120 questions Trash ou Hot. Il affiche un tableau de statistiques par thème, polarité, format et intensité.
 
 ---
 
@@ -346,7 +371,8 @@ README.md     # installation, lancement, déploiement, captures
 - [ ] Le 3-2-1 est synchronisé visuellement sur tous les écrans.
 - [ ] Le bouton « Contester » n'apparaît que chez le ou les désignés.
 - [ ] Le récap affiche les deux podiums (positif, négatif) et les prix bonus.
-- [ ] `pnpm questions:check` passe avec au moins 480 questions.
+- [ ] `pnpm questions:check` passe avec au moins 480 questions de base + 120 Trash + 120 Hot.
+- [ ] Aucune question 18+ ne peut être tirée sans le consentement de tous les joueurs, ni en mode Full, ni en thème Famille.
 - [ ] Lighthouse mobile : PWA installable, Performance ≥ 90, Accessibilité ≥ 95.
 - [ ] `pnpm lint`, `pnpm typecheck`, `pnpm test` et `pnpm e2e` passent.
 
