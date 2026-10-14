@@ -1,0 +1,2359 @@
+[
+  {
+    "id": "col_001",
+    "text": "Qui est le plus susceptible de sauver une réunion qui part en vrille ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sauve les réunions qui partent en vrille, respect éternel"
+  },
+  {
+    "id": "col_002",
+    "text": "Qui pour un trajet de 12h en voiture vers un salon pro, entre playlist et conversation ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera au volant du prochain déplacement pro, playlist comprise"
+  },
+  {
+    "id": "col_003",
+    "text": "Qui est le plus fiable quand il faut rendre un dossier à l'heure ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, les deadlines sont tenues, point"
+  },
+  {
+    "id": "col_004",
+    "text": "Qui est le plus doué pour expliquer un truc compliqué en deux minutes chrono ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rend simple ce que tout le monde trouve compliqué"
+  },
+  {
+    "id": "col_005",
+    "text": "Qui est le plus calme quand tout le monde panique avant une deadline ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} garde son calme pendant que l'open space prend feu"
+  },
+  {
+    "id": "col_006",
+    "text": "Qui est le plus généreux en viennoiseries le vendredi matin ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est la raison pour laquelle on aime les vendredis matin"
+  },
+  {
+    "id": "col_007",
+    "text": "Qui est le plus fort pour débloquer l'imprimante quand elle fait des caprices ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} parle couramment le langage secret de l'imprimante"
+  },
+  {
+    "id": "col_008",
+    "text": "Qui est le plus diplomate quand deux services se prennent le bec ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} mérite un poste aux Nations unies de la boîte"
+  },
+  {
+    "id": "col_009",
+    "text": "Qui est le plus organisé pour préparer le pot de Noël de l'équipe ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} gère le pot de Noël comme un vrai chef d'orchestre"
+  },
+  {
+    "id": "col_010",
+    "text": "Qui est le plus drôle en réunion sans jamais casser l'ambiance ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rend les réunions presque agréables"
+  },
+  {
+    "id": "col_011",
+    "text": "Qui est le plus à l'écoute quand un collègue passe une mauvaise journée ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le bureau des plaintes le plus bienveillant de l'étage"
+  },
+  {
+    "id": "col_012",
+    "text": "Qui est le plus pédagogue avec les nouveaux arrivants dans l'équipe ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a formé la moitié de l'équipe sans même s'en rendre compte"
+  },
+  {
+    "id": "col_013",
+    "text": "Qui est le plus efficace pour attaquer sa to-do list un lundi matin ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà tout coché pendant que les autres cherchent un café"
+  },
+  {
+    "id": "col_014",
+    "text": "Qui est le plus doué pour négocier avec un client vraiment difficile ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme les clients pénibles en clients fidèles"
+  },
+  {
+    "id": "col_015",
+    "text": "Qui est le plus créatif quand on lance un brainstorming ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a des idées pour trois brainstormings d'avance"
+  },
+  {
+    "id": "col_016",
+    "text": "Qui est le plus solidaire quand quelqu'un de l'équipe est sous l'eau ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lance la bouée avant même qu'on crie au secours"
+  },
+  {
+    "id": "col_017",
+    "text": "Qui est le plus fort pour trouver un resto le midi qui plaît à tout le monde ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est officiellement en charge des déjeuners"
+  },
+  {
+    "id": "col_018",
+    "text": "Qui est le plus honnête quand une idée est nulle, mais avec beaucoup de tact ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sait dire « c'est nul » de la façon la plus gentille du monde"
+  },
+  {
+    "id": "col_019",
+    "text": "Qui est le plus calé sur les raccourcis Excel et les tableaux croisés dynamiques ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait des choses avec Excel que la science ne comprend pas"
+  },
+  {
+    "id": "col_020",
+    "text": "Qui est le plus motivant quand un projet commence à battre de l'aile ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} remet tout le monde en selle quand le projet tangue"
+  },
+  {
+    "id": "col_021",
+    "text": "Qui est le plus à l'aise pour pitcher devant un gros client à l'improviste ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} peut vendre un projet en trente secondes, sans slide"
+  },
+  {
+    "id": "col_022",
+    "text": "Qui est le plus réactif sur Slack ou Teams quand il y a une vraie urgence ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répond avant même que l'urgence soit signalée"
+  },
+  {
+    "id": "col_023",
+    "text": "Qui est le plus fort pour transformer un simple afterwork en soirée mémorable ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme chaque afterwork en légende"
+  },
+  {
+    "id": "col_024",
+    "text": "Qui est le plus doué pour rédiger un mail diplomatique à un client furieux ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} écrit des mails qui calment les tempêtes"
+  },
+  {
+    "id": "col_025",
+    "text": "Qui est le plus fair-play quand on lui pique son idée en pleine réunion ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} laisse filer ses idées avec une classe folle"
+  },
+  {
+    "id": "col_026",
+    "text": "Qui est le plus généreux pour partager ses astuces sans rien attendre en retour ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} partage ses meilleures astuces gratuitement, quelle âme"
+  },
+  {
+    "id": "col_027",
+    "text": "Qui est le plus patient avec les questions répétées du stagiaire ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une patience de moine bouddhiste avec les stagiaires"
+  },
+  {
+    "id": "col_028",
+    "text": "Qui est le plus doué pour caler les congés de chacun sans froisser personne ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} réussit le Tetris des congés sans faire un seul jaloux"
+  },
+  {
+    "id": "col_029",
+    "text": "Qui est le plus doué pour faire un compte rendu de réunion clair et vraiment utile ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les comptes rendus de {name} sont plus utiles que les réunions elles-mêmes"
+  },
+  {
+    "id": "col_030",
+    "text": "Qui est le plus bosseur de l'équipe, sans jamais s'en vanter ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} abat un travail monstre en toute discrétion"
+  },
+  {
+    "id": "col_031",
+    "text": "Qui est le plus inventif pour décorer l'open space à Noël ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme l'open space en village de Noël chaque décembre"
+  },
+  {
+    "id": "col_032",
+    "text": "Qui est le plus fort pour désamorcer une tension avec une blague bien placée ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} désamorce les tensions avec une seule vanne"
+  },
+  {
+    "id": "col_033",
+    "text": "Qui est le moins rancunier après un gros désaccord en réunion ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} oublie les clashs de réunion avant même d'avoir quitté la salle"
+  },
+  {
+    "id": "col_034",
+    "text": "Qui est le moins stressé la veille d'une grosse présentation ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dort comme un bébé la veille des grosses présentations"
+  },
+  {
+    "id": "col_035",
+    "text": "Qui est le moins râleur, même un lundi matin sous la pluie ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} garde le sourire même un lundi matin pluvieux"
+  },
+  {
+    "id": "col_036",
+    "text": "Qui est le moins susceptible quand on corrige son travail ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} accepte les corrections sans jamais bouder"
+  },
+  {
+    "id": "col_037",
+    "text": "Qui est le moins jaloux quand quelqu'un d'autre réussit ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} applaudit sincèrement le succès des autres"
+  },
+  {
+    "id": "col_038",
+    "text": "Qui est le moins scotché à son téléphone pendant les réunions ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est la dernière personne vraiment présente en réunion"
+  },
+  {
+    "id": "col_039",
+    "text": "Qui est le moins enclin à tirer la couverture à soi quand l'équipe réussit ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} laisse toujours la lumière à l'équipe"
+  },
+  {
+    "id": "col_040",
+    "text": "Qui est le moins à cheval sur la hiérarchie, toujours accessible à tout le monde ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "La porte de {name} est toujours ouverte, même quand il n'y a pas de porte"
+  },
+  {
+    "id": "col_041",
+    "text": "Qui est le moins rouillé après trois semaines de congés ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} revient de vacances aussi efficace qu'avant de partir"
+  },
+  {
+    "id": "col_042",
+    "text": "Qui est le moins langue de bois quand il faut dire les choses en réunion ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dit tout haut ce que l'open space pense tout bas"
+  },
+  {
+    "id": "col_043",
+    "text": "Qui est le moins susceptible de lâcher un dossier en cours de route ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} va au bout de chaque dossier, quoi qu'il arrive"
+  },
+  {
+    "id": "col_044",
+    "text": "Qui est le moins tatillon quand il faut partager l'addition au resto d'équipe ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, l'addition se règle sans calculatrice ni drame"
+  },
+  {
+    "id": "col_045",
+    "text": "Qui est le moins à cheval sur les horaires quand un collègue a besoin d'un coup de main ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} reste pour aider, même quand l'heure de partir est passée"
+  },
+  {
+    "id": "col_046",
+    "text": "Qui pour prendre la parole au nom de l'équipe devant la direction ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera notre porte-parole officiel devant la direction"
+  },
+  {
+    "id": "col_047",
+    "text": "Qui pour me remplacer au pied levé pendant mes vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} gère tes dossiers pendant que tu bronzes"
+  },
+  {
+    "id": "col_048",
+    "text": "Qui pour organiser le meilleur pot de départ de l'histoire de la boîte ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} organisera un pot de départ dont on parlera encore dans dix ans"
+  },
+  {
+    "id": "col_049",
+    "text": "Avec qui partager un bureau pendant un an sans jamais craquer ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le voisin ou la voisine de bureau idéal"
+  },
+  {
+    "id": "col_050",
+    "text": "Qui pour m'aider à préparer mon entretien annuel ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera ton coach secret avant l'entretien annuel"
+  },
+  {
+    "id": "col_051",
+    "text": "Qui pour être mon binôme dans l'escape game du team building ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera ton binôme pour sortir de l'escape game en premier"
+  },
+  {
+    "id": "col_052",
+    "text": "Qui pour garder un secret de bureau jusqu'à la retraite ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les secrets du bureau sont en sécurité avec {name}"
+  },
+  {
+    "id": "col_053",
+    "text": "Qui pour monter sa propre boîte et finir par tous nous embaucher ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera ton futur patron, prépare ton CV"
+  },
+  {
+    "id": "col_054",
+    "text": "Qui est le plus susceptible de devenir le grand patron de la boîte un jour ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dirigera la boîte, autant être sympa dès maintenant"
+  },
+  {
+    "id": "col_055",
+    "text": "Qui a déjà réglé un problème avant même que le chef s'en rende compte ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} éteint les incendies avant qu'ils ne démarrent"
+  },
+  {
+    "id": "col_056",
+    "text": "Qui est le plus susceptible de retenir le prénom de tous les nouveaux dès le premier jour ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît le prénom de chaque nouveau avant la fin de la matinée"
+  },
+  {
+    "id": "col_057",
+    "text": "Qui est le plus susceptible de penser à l'anniversaire de chaque collègue ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} n'oublie aucun anniversaire de l'étage"
+  },
+  {
+    "id": "col_058",
+    "text": "Qui a déjà fait gagner un gros contrat à l'équipe ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a ramené le contrat dont tout le monde parle encore"
+  },
+  {
+    "id": "col_059",
+    "text": "Qui est le plus susceptible d'être élu collègue de l'année ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} repart avec le trophée du collègue de l'année"
+  },
+  {
+    "id": "col_060",
+    "text": "Qui pour représenter la boîte sur un plateau télé en direct ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le visage de la boîte au journal de 20h"
+  },
+  {
+    "id": "col_061",
+    "text": "Qui pour gérer le client le plus pénible de tout le portefeuille ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} récupère le client infernal, et s'en sortira très bien"
+  },
+  {
+    "id": "col_062",
+    "text": "Qui pour nous sauver d'une panne de wifi un jour de visio importante ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le super-héros du wifi en détresse"
+  },
+  {
+    "id": "col_063",
+    "text": "Qui pour faire le discours au pot de départ du chef ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera le discours qui fera pleurer tout le monde au pot du chef"
+  },
+  {
+    "id": "col_064",
+    "text": "Qui est le plus susceptible de ramener des souvenirs de vacances pour tout l'open space ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ramène des souvenirs pour tout l'open space à chaque retour"
+  },
+  {
+    "id": "col_065",
+    "text": "Qui a déjà défendu un collègue absent quand les autres le critiquaient ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} défend les absents, et ça, c'est la classe"
+  },
+  {
+    "id": "col_066",
+    "text": "Qui pour être capitaine au tournoi de foot inter-entreprises ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} portera le brassard au tournoi inter-entreprises"
+  },
+  {
+    "id": "col_067",
+    "text": "Qui pour faire visiter les locaux à un futur gros client ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera visiter les locaux comme un palace cinq étoiles"
+  },
+  {
+    "id": "col_068",
+    "text": "Qui est le plus susceptible de dépanner tout le monde avec un chargeur de rechange ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un chargeur pour chaque téléphone de la planète"
+  },
+  {
+    "id": "col_069",
+    "text": "Qui pour tenir la boîte à lui tout seul pendant le pont du 15 août ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tiendra la boîte à bout de bras pendant le pont"
+  },
+  {
+    "id": "col_070",
+    "text": "Qui pour m'expliquer le nouveau logiciel sans me faire sentir complètement nul ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} explique le nouveau logiciel avec une patience infinie"
+  },
+  {
+    "id": "col_071",
+    "text": "Qui a déjà ramené un gâteau fait maison au bureau juste pour le plaisir ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait des gâteaux juste pour rendre les collègues heureux"
+  },
+  {
+    "id": "col_072",
+    "text": "Qui est le plus susceptible de lancer une initiative écolo dans la boîte ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} va installer un compost sur le toit de la boîte"
+  },
+  {
+    "id": "col_073",
+    "text": "Qui est le moins investi dans la boîte ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est là pour le salaire et la machine à café"
+  },
+  {
+    "id": "col_074",
+    "text": "Qui arrive le plus souvent en retard au bureau ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} arrive au bureau quand les autres partent déjeuner"
+  },
+  {
+    "id": "col_075",
+    "text": "Qui est le plus gros rat quand on fait la cagnotte d'un pot de départ ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} met deux euros dans la cagnotte et mange la moitié du buffet"
+  },
+  {
+    "id": "col_076",
+    "text": "Qui est le plus bordélique, rien qu'à voir l'état de son bureau ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le bureau de {name} est classé zone sinistrée"
+  },
+  {
+    "id": "col_077",
+    "text": "Qui est le plus susceptible de répondre « on en reparle » pour ne jamais en reparler ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, « on en reparle » veut dire « jamais »"
+  },
+  {
+    "id": "col_078",
+    "text": "Qui est le plus fan des réunions qui auraient pu être un simple mail ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme chaque mail en réunion d'une heure"
+  },
+  {
+    "id": "col_079",
+    "text": "Qui est le plus lent à répondre aux mails, genre trois semaines après ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répondra à ton mail… le mois prochain"
+  },
+  {
+    "id": "col_080",
+    "text": "Qui est le plus fort pour faire semblant de bosser quand le chef passe ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un talent d'acteur dès que le chef approche"
+  },
+  {
+    "id": "col_081",
+    "text": "Qui est le plus râleur dès que la clim est réglée à un degré près ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un avis tranché sur chaque degré de la clim"
+  },
+  {
+    "id": "col_082",
+    "text": "Qui est le plus bruyant au téléphone dans l'open space ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Tout l'open space connaît les dossiers de {name} par cœur"
+  },
+  {
+    "id": "col_083",
+    "text": "Qui est le plus doué pour disparaître pile au moment de ranger après le pot ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} s'évapore dès qu'on sort les sacs-poubelle"
+  },
+  {
+    "id": "col_084",
+    "text": "Qui est le plus lèche-bottes avec la direction ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une carte de fidélité au bureau de la direction"
+  },
+  {
+    "id": "col_085",
+    "text": "Qui est le plus commère de la machine à café ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est la meilleure source d'infos de la boîte, avant même l'intranet"
+  },
+  {
+    "id": "col_086",
+    "text": "Qui est le plus interminable quand il prend la parole en réunion ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Quand {name} prend la parole, prévois un sandwich"
+  },
+  {
+    "id": "col_087",
+    "text": "Qui est le plus gros voleur de stylos de la boîte ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un stock de stylos de la boîte à faire pâlir un fournisseur"
+  },
+  {
+    "id": "col_088",
+    "text": "Qui est le plus adepte du « c'est pas dans ma fiche de poste » ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît sa fiche de poste par cœur, surtout ce qui n'y est pas"
+  },
+  {
+    "id": "col_089",
+    "text": "Qui est le plus pénible avec ses notifications Teams qui sonnent en continu ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les notifications de {name} sont la bande-son officielle de l'open space"
+  },
+  {
+    "id": "col_090",
+    "text": "Qui est le plus fort pour s'attribuer le travail des autres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} signe le travail des autres avec un aplomb incroyable"
+  },
+  {
+    "id": "col_091",
+    "text": "Qui est le plus adepte du « répondre à tous » pour dire juste « merci » ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} met quarante personnes en copie pour dire merci"
+  },
+  {
+    "id": "col_092",
+    "text": "Qui est le plus ailleurs en visio, caméra coupée et clairement occupé à autre chose ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est en visio, mais seulement en théorie"
+  },
+  {
+    "id": "col_093",
+    "text": "Qui est le plus réfractaire à chaque nouvel outil imposé par la boîte ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} défendra le fax jusqu'au bout"
+  },
+  {
+    "id": "col_094",
+    "text": "Qui est le plus en mode « pas mon problème » quand ça brûle au bureau ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le feu peut prendre, {name} dira que ce n'est pas son service"
+  },
+  {
+    "id": "col_095",
+    "text": "Qui est le plus gros fan du jargon corporate genre « on challenge le process » ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} va « challenger » ce verdict « en mode agile »"
+  },
+  {
+    "id": "col_096",
+    "text": "Qui est le plus difficile à décoller du bar quand tout le monde veut rentrer ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fermera le bar, comme d'habitude"
+  },
+  {
+    "id": "col_097",
+    "text": "Qui est le plus doué pour inventer un « je suis en call » et échapper à une corvée ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est miraculeusement en call à chaque corvée"
+  },
+  {
+    "id": "col_098",
+    "text": "Qui est le plus procrastinateur, à tout boucler la veille de la deadline ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait en une nuit ce qui était prévu sur un mois"
+  },
+  {
+    "id": "col_099",
+    "text": "Qui est le plus bavard quand on a clairement du boulot par-dessus la tête ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours une histoire à raconter pile quand tu es charrette"
+  },
+  {
+    "id": "col_100",
+    "text": "Qui est le plus sec dans ses mails, sans bonjour ni merci ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les mails de {name} ressemblent à des télégrammes"
+  },
+  {
+    "id": "col_101",
+    "text": "Qui est le plus de mauvaise foi quand un projet tourne au fiasco ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Ce n'est jamais la faute de {name}, jamais"
+  },
+  {
+    "id": "col_102",
+    "text": "Qui est le plus mauvais perdant au baby-foot ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} réclame une revanche à chaque défaite, et à chaque victoire des autres"
+  },
+  {
+    "id": "col_103",
+    "text": "Qui est le plus doué pour laisser un dossier en plan et partir en vacances ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part en vacances en laissant une bombe sur ton bureau"
+  },
+  {
+    "id": "col_104",
+    "text": "Qui est le plus critique culinaire de la cantine, jamais content de son plateau ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} note chaque plateau de la cantine comme un guide gastronomique"
+  },
+  {
+    "id": "col_105",
+    "text": "Qui est le plus gros fan des PowerPoint de 80 slides ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un PowerPoint pour chaque occasion, même pour annoncer une pause"
+  },
+  {
+    "id": "col_106",
+    "text": "Qui est le plus doué pour faire traîner un projet de deux semaines sur six mois ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, deux semaines de boulot durent un semestre"
+  },
+  {
+    "id": "col_107",
+    "text": "Qui est le plus doué pour bloquer son agenda avec de faux rendez-vous ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "L'agenda de {name} est plein de réunions qui n'existent pas"
+  },
+  {
+    "id": "col_108",
+    "text": "Qui est le moins doué pour partager son écran sans afficher ses onglets perso ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà montré ses recherches perso à toute l'équipe en visio"
+  },
+  {
+    "id": "col_109",
+    "text": "Qui est le moins doué avec la nouvelle machine à café high-tech ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a besoin d'un tutoriel pour se faire un expresso"
+  },
+  {
+    "id": "col_110",
+    "text": "Qui est le moins discret avec son paquet de chips en pleine visio ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le paquet de chips de {name} s'entend jusque chez les clients"
+  },
+  {
+    "id": "col_111",
+    "text": "Qui est le moins fiable pour rappeler un client comme promis ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les clients de {name} attendent encore le rappel promis"
+  },
+  {
+    "id": "col_112",
+    "text": "Qui est le moins à jour dans sa boîte mail, avec 4 000 messages non lus ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "La boîte mail de {name} est un trou noir"
+  },
+  {
+    "id": "col_113",
+    "text": "Qui est le moins susceptible d'avoir lu l'ordre du jour avant la réunion ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} découvre l'ordre du jour en même temps que la réunion"
+  },
+  {
+    "id": "col_114",
+    "text": "Qui est le moins doué pour couper son micro en visio ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Grâce à {name}, toute l'équipe connaît son chien et son micro-ondes"
+  },
+  {
+    "id": "col_115",
+    "text": "Qui est le moins enthousiaste à l'idée d'un séminaire team building ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} cherche déjà une excuse pour le prochain team building"
+  },
+  {
+    "id": "col_116",
+    "text": "Qui est le moins crédible quand on entend son « j'ai presque fini » ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Quand {name} dit « presque fini », compte encore deux semaines"
+  },
+  {
+    "id": "col_117",
+    "text": "Qui est le moins fiable pour arroser les plantes du bureau pendant les vacances ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les plantes du bureau tremblent quand on les confie à {name}"
+  },
+  {
+    "id": "col_118",
+    "text": "Qui est le moins autonome, à demander de l'aide pour la moindre broutille ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} t'a déjà appelé trois fois depuis le début de la partie"
+  },
+  {
+    "id": "col_119",
+    "text": "Qui est le moins capable de tenir une réunion de 30 minutes en 30 minutes ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Une réunion de 30 minutes avec {name} dure une heure et demie"
+  },
+  {
+    "id": "col_120",
+    "text": "Qui est le moins doué pour encaisser une critique pendant l'entretien annuel ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} boude encore à cause de son dernier entretien annuel"
+  },
+  {
+    "id": "col_121",
+    "text": "Qui est le moins motivé un vendredi après 15h ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le vendredi à 15h, {name} est déjà en week-end dans sa tête"
+  },
+  {
+    "id": "col_122",
+    "text": "Qui est le moins doué pour mettre un message d'absence pendant ses congés ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les mails à {name} pendant ses congés tombent dans le vide sidéral"
+  },
+  {
+    "id": "col_123",
+    "text": "Qui est le moins doué pour noter les infos importantes d'un appel client ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} raccroche avec un client et a déjà tout oublié"
+  },
+  {
+    "id": "col_124",
+    "text": "Qui est le plus susceptible d'envoyer un message perso sur le mauvais canal Slack ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} va un jour envoyer sa liste de courses sur le canal #général"
+  },
+  {
+    "id": "col_125",
+    "text": "Qui a déjà piqué du nez en pleine réunion ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà fait une petite sieste en pleine réunion, chut"
+  },
+  {
+    "id": "col_126",
+    "text": "Qui est le plus susceptible d'oublier sa propre présentation le jour J ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} découvrira ses propres slides en même temps que nous"
+  },
+  {
+    "id": "col_127",
+    "text": "Qui a déjà fait semblant d'avoir un bug de connexion pour couper une visio ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "La connexion de {name} plante toujours au moment le plus pratique"
+  },
+  {
+    "id": "col_128",
+    "text": "Qui est le plus susceptible de partir en congés sans prévenir personne ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est sur une plage et personne n'a été mis au courant"
+  },
+  {
+    "id": "col_129",
+    "text": "Qui est le plus susceptible de squatter une salle de réunion réservée par d'autres ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} squatte ta salle de réunion et fait comme si de rien n'était"
+  },
+  {
+    "id": "col_130",
+    "text": "Qui a déjà mangé le yaourt d'un collègue dans le frigo commun ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le mystérieux voleur de yaourts du frigo"
+  },
+  {
+    "id": "col_131",
+    "text": "Qui est le plus susceptible de mettre un pouce sur Slack sans avoir lu le message ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} valide d'un pouce des messages jamais lus"
+  },
+  {
+    "id": "col_132",
+    "text": "Qui est le plus susceptible de critiquer le chef dans son dos puis de l'applaudir en réunion ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a deux discours : un pour la machine à café, un pour le chef"
+  },
+  {
+    "id": "col_133",
+    "text": "Qui est le plus susceptible de rater son avion pour un déplacement pro ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} regardera l'avion du séminaire décoller depuis le terminal"
+  },
+  {
+    "id": "col_134",
+    "text": "Qui ferait le pire chef de projet de toute la boîte ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le projet de {name} finirait en légende, mais pas pour les bonnes raisons"
+  },
+  {
+    "id": "col_135",
+    "text": "Qui ferait exploser le budget du séminaire en une seule soirée ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ruinera le budget du séminaire avant le dessert"
+  },
+  {
+    "id": "col_136",
+    "text": "Qui a déjà envoyé un mail important en oubliant la pièce jointe ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a inventé le mail « oups, voici la pièce jointe »"
+  },
+  {
+    "id": "col_137",
+    "text": "Qui est le plus susceptible de prendre deux heures de pause déj « vite fait » ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "La pause déj « rapide » de {name} dure deux heures"
+  },
+  {
+    "id": "col_138",
+    "text": "Qui est le plus susceptible de lancer une demande « urgente » le vendredi à 18h ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lance des urgences le vendredi à 18h, bon week-end à tous"
+  },
+  {
+    "id": "col_139",
+    "text": "Qui a déjà présenté des slides bourrées de fautes d'orthographe devant tout le monde ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les slides de {name} feraient pleurer un correcteur orthographique"
+  },
+  {
+    "id": "col_140",
+    "text": "Qui est le plus susceptible de voler la vedette au pot de départ de quelqu'un d'autre ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera de ton pot de départ son propre one-man-show"
+  },
+  {
+    "id": "col_141",
+    "text": "Qui a déjà fini la cafetière sans en relancer une nouvelle ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} boit la dernière tasse et laisse la cafetière vide aux suivants"
+  },
+  {
+    "id": "col_142",
+    "text": "Qui ferait le pire standardiste de la boîte ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name} au standard, les clients tomberaient tous sur la messagerie"
+  },
+  {
+    "id": "col_143",
+    "text": "Qui est le plus susceptible de se dire débordé tout en scrollant sur LinkedIn ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est très débordé, surtout sur LinkedIn"
+  },
+  {
+    "id": "col_144",
+    "text": "Qui pour animer le séminaire de l'année prochaine ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} animera le séminaire de l'année prochaine, préparez-vous"
+  },
+  {
+    "id": "col_145",
+    "text": "Qui est le plus fort pour quitter le bureau à 17h pile sans un mot ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "À 17h pile, {name} s'est déjà volatilisé dans la nature"
+  },
+  {
+    "id": "col_146",
+    "text": "Qui est le moins doué pour dire non quand on lui refile une mission en plus ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dit oui à tout, même aux missions qui n'existent pas encore"
+  },
+  {
+    "id": "col_147",
+    "text": "Qui est le plus susceptible de faire la sieste dans sa voiture à la pause déj ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait une sieste royale dans sa voiture tous les midis"
+  },
+  {
+    "id": "col_148",
+    "text": "Qui est le moins capable de décrocher pendant ses vacances, toujours sur ses mails ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} relit ses mails même sur un transat"
+  },
+  {
+    "id": "col_149",
+    "text": "Qui est le plus susceptible de tout plaquer pour ouvrir un food truck ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} va tout lâcher pour vendre des burgers sur la côte"
+  },
+  {
+    "id": "col_150",
+    "text": "Qui pour survivre seul dans les locaux pendant tout un week-end ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} survivra un week-end entier au bureau avec le distributeur"
+  },
+  {
+    "id": "col_151",
+    "text": "Qui est le plus accro au café, déjà à la cinquième tasse avant midi ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} carbure au café, cinquième tasse avant midi"
+  },
+  {
+    "id": "col_152",
+    "text": "Qui a déjà envoyé un mail de boulot à 2h du matin ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} envoie des mails à 2h du matin, personne ne sait pourquoi"
+  },
+  {
+    "id": "col_153",
+    "text": "Qui est le plus susceptible d'avoir un tiroir rempli de snacks de survie ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le tiroir de {name} peut nourrir tout l'étage pendant une semaine"
+  },
+  {
+    "id": "col_154",
+    "text": "Qui est le plus fan des goodies distribués dans les salons professionnels ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} repart de chaque salon avec trois sacs de goodies"
+  },
+  {
+    "id": "col_155",
+    "text": "Qui pour représenter l'équipe au karaoké de l'afterwork ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prendra le micro au karaoké, que ça nous plaise ou non"
+  },
+  {
+    "id": "col_156",
+    "text": "Qui est le plus attaché à sa tasse perso, que personne n'a le droit de toucher ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Touche à la tasse de {name} et tu le regretteras"
+  },
+  {
+    "id": "col_157",
+    "text": "Qui est le moins fan des visios avec la caméra allumée ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} reste un écran noir avec des initiales, et c'est très bien"
+  },
+  {
+    "id": "col_158",
+    "text": "Qui est le plus susceptible de faire son télétravail depuis une plage ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} bosse en télétravail, les pieds dans le sable"
+  },
+  {
+    "id": "col_159",
+    "text": "Qui ferait le meilleur personnage d'un documentaire sur la vie de bureau ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera la star du documentaire sur la vie de bureau"
+  },
+  {
+    "id": "col_160",
+    "text": "Qui est le plus maniaque des post-it de toutes les couleurs ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "L'écran de {name} est recouvert d'un arc-en-ciel de post-it"
+  },
+  {
+    "id": "col_161",
+    "text": "Qui est le plus susceptible de changer de fond virtuel à chaque visio ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} change de fond virtuel comme de chemise"
+  },
+  {
+    "id": "col_162",
+    "text": "Qui est le moins tenté par les afterworks, toujours rentré direct après le boulot ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rentre direct, l'afterwork se fera sans lui ou sans elle"
+  },
+  {
+    "id": "col_163",
+    "text": "Qui est le plus nostalgique de « l'ancien temps » dans la boîte ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} commence chaque phrase par « à l'époque, dans la boîte… »"
+  },
+  {
+    "id": "col_164",
+    "text": "Qui pour accepter une mutation à l'autre bout du monde du jour au lendemain ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà sa valise prête pour la mutation à l'autre bout du monde"
+  },
+  {
+    "id": "col_165",
+    "text": "Qui est le plus susceptible de rester dans la même boîte jusqu'à la retraite ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} aura son nom gravé sur une plaque à l'entrée de la boîte"
+  },
+  {
+    "id": "col_166",
+    "text": "Qui est le plus susceptible de devenir influenceur ou influenceuse LinkedIn ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} publiera bientôt « ce que mon stagiaire m'a appris sur la vie »"
+  },
+  {
+    "id": "col_167",
+    "text": "Qui est le moins attiré par la cantine, toujours avec sa gamelle maison ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} et sa gamelle maison forment un couple inséparable"
+  },
+  {
+    "id": "col_168",
+    "text": "Qui pour tenir le stand de la boîte pendant trois jours de salon ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tiendra le stand trois jours, sourire commercial compris"
+  },
+  {
+    "id": "col_169",
+    "text": "Qui a déjà changé de place dans l'open space sans prévenir personne ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déménagé de bureau et personne ne s'en est rendu compte"
+  },
+  {
+    "id": "col_170",
+    "text": "Qui ferait le plus de jaloux avec ses photos de vacances sur le canal #général ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} postera ses photos de vacances et rendra tout l'open space jaloux"
+  },
+  {
+    "id": "col_171",
+    "text": "Qui est le plus susceptible d'avoir un bureau rempli de plantes vertes ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Le bureau de {name} ressemble à une jungle tropicale"
+  },
+  {
+    "id": "col_172",
+    "text": "Qui est le moins susceptible de prendre l'ascenseur, toujours par l'escalier ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend l'escalier même pour monter au dixième étage"
+  },
+  {
+    "id": "col_173",
+    "text": "Qui est le plus fan des emojis dans les messages pro ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les messages pro de {name} contiennent plus d'emojis que de mots"
+  },
+  {
+    "id": "col_174",
+    "text": "Qui pour assurer le show à la soirée déguisée de fin d'année ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarquera avec le déguisement le plus fou de la soirée"
+  },
+  {
+    "id": "col_175",
+    "text": "Qui est le plus susceptible de connaître le nom du chien du PDG ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît le nom du chien du PDG, et sa date d'anniversaire"
+  },
+  {
+    "id": "col_176",
+    "text": "Qui a déjà fait une visio en chemise en haut et en pyjama en bas ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait ses visios en chemise et en bas de pyjama"
+  },
+  {
+    "id": "col_177",
+    "text": "Qui est le plus susceptible de s'inscrire à toutes les activités du CSE ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est inscrit à toutes les sorties du CSE, même le bowling"
+  },
+  {
+    "id": "col_178",
+    "text": "Qui pour partir en stage de survie en pleine forêt avec la direction ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} survivra en forêt avec la direction, et ça vaut une promo"
+  },
+  {
+    "id": "col_179",
+    "text": "Qui ferait le pire binôme pour un rendez-vous client décisif ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name} en binôme, le client signera… chez la concurrence"
+  },
+  {
+    "id": "col_180",
+    "text": "Qui pour rester coincé deux heures dans l'ascenseur avec le PDG ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "collegues"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sortira de l'ascenseur avec le PDG comme meilleur ami"
+  }
+]

@@ -1,0 +1,2461 @@
+[
+  {
+    "id": "fam_001",
+    "text": "Qui est le plus doué pour réconcilier tout le monde à Noël ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le casque bleu officiel des repas de Noël"
+  },
+  {
+    "id": "fam_002",
+    "text": "Qui est le plus doué pour organiser des anniversaires surprises ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} organise des surprises dignes d'une agence d'événementiel"
+  },
+  {
+    "id": "fam_003",
+    "text": "Qui est le plus fort pour raconter des histoires à table ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tient toute la tablée en haleine à chaque repas"
+  },
+  {
+    "id": "fam_004",
+    "text": "Qui est le plus patient avec les petits cousins pendant les fêtes ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est la nounou préférée de tous les petits cousins"
+  },
+  {
+    "id": "fam_005",
+    "text": "Qui est le plus doué en cuisine pour les grandes tablées ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} nourrit vingt personnes sans transpirer"
+  },
+  {
+    "id": "fam_006",
+    "text": "Qui est le plus doué pour choisir des cadeaux qui font vraiment plaisir ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tape dans le mille à chaque cadeau"
+  },
+  {
+    "id": "fam_007",
+    "text": "Qui est le plus serviable quand il faut débarrasser la table ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarrasse la table avant même la fin du dessert"
+  },
+  {
+    "id": "fam_008",
+    "text": "Qui est le plus fort pour relancer l'ambiance quand le repas devient trop calme ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} relance l'ambiance comme personne"
+  },
+  {
+    "id": "fam_009",
+    "text": "Qui est le plus fidèle aux traditions de la famille ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est le gardien officiel des traditions familiales"
+  },
+  {
+    "id": "fam_010",
+    "text": "Qui est le plus bricoleur quand quelque chose casse dans la maison ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répare tout avec un tournevis et de la bonne volonté"
+  },
+  {
+    "id": "fam_011",
+    "text": "Qui est le plus doué pour décorer le sapin de Noël ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme chaque sapin en œuvre d'art"
+  },
+  {
+    "id": "fam_012",
+    "text": "Qui est le plus attentionné avec les grands-parents ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est le rayon de soleil des grands-parents"
+  },
+  {
+    "id": "fam_013",
+    "text": "Qui est le plus redoutable aux jeux de société du dimanche ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} gagne au Monopoly sans même tricher"
+  },
+  {
+    "id": "fam_014",
+    "text": "Qui est le plus fort pour garder le secret d'un cadeau jusqu'au jour J ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est un vrai coffre-fort à surprises"
+  },
+  {
+    "id": "fam_015",
+    "text": "Qui est le plus doué pour retrouver les vieilles photos de famille ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est l'archiviste officiel de la famille"
+  },
+  {
+    "id": "fam_016",
+    "text": "Qui est le plus zen quand la maison est envahie par les invités ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} reste zen même avec quinze invités à la maison"
+  },
+  {
+    "id": "fam_017",
+    "text": "Qui est le plus doué pour faire rire mamie aux éclats ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} fait pleurer de rire mamie à chaque visite"
+  },
+  {
+    "id": "fam_018",
+    "text": "Qui est le plus doué pour le barbecue des dimanches ensoleillés ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le roi du barbecue, pince en main"
+  },
+  {
+    "id": "fam_019",
+    "text": "Qui est le plus doué pour éviter les sujets qui fâchent à table ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} esquive les sujets qui fâchent comme un diplomate"
+  },
+  {
+    "id": "fam_020",
+    "text": "Qui est le plus organisé pour préparer les valises des vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait des valises au millimètre près"
+  },
+  {
+    "id": "fam_021",
+    "text": "Qui est le plus doué pour refaire les recettes de mamie à l'identique ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a hérité des recettes secrètes de mamie"
+  },
+  {
+    "id": "fam_022",
+    "text": "Qui est le plus généreux quand il ne reste qu'une part de dessert ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} donne sa dernière part de gâteau sans hésiter"
+  },
+  {
+    "id": "fam_023",
+    "text": "Qui est le plus doué pour endormir un bébé qui hurle ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} endort les bébés en trois minutes chrono"
+  },
+  {
+    "id": "fam_024",
+    "text": "Qui est le plus fiable pour garder la maison des parents pendant leurs vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} garde la maison familiale comme un pro"
+  },
+  {
+    "id": "fam_025",
+    "text": "Qui est le plus fun pendant les vacances en famille ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est l'animateur officiel des vacances"
+  },
+  {
+    "id": "fam_026",
+    "text": "Qui est le plus doué pour clouer le bec à l'oncle qui sait tout ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} remet tonton je-sais-tout à sa place avec classe"
+  },
+  {
+    "id": "fam_027",
+    "text": "Qui est le plus doué pour se souvenir des anniversaires de tout le monde ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} n'oublie jamais un anniversaire, même celui du chien"
+  },
+  {
+    "id": "fam_028",
+    "text": "Qui est le moins rancunier après une dispute de famille ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} pardonne avant même la fin de la dispute"
+  },
+  {
+    "id": "fam_029",
+    "text": "Qui est le moins râleur quand il faut faire la vaisselle ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait la vaisselle sans un seul soupir"
+  },
+  {
+    "id": "fam_030",
+    "text": "Qui est le moins pressé de quitter la table après un long repas ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} reste à table jusqu'au café du soir"
+  },
+  {
+    "id": "fam_031",
+    "text": "Qui est le moins susceptible face aux taquineries du repas de famille ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} encaisse les taquineries avec le sourire"
+  },
+  {
+    "id": "fam_032",
+    "text": "Qui est le moins stressé le jour du départ en vacances ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part en vacances aussi zen qu'un moine"
+  },
+  {
+    "id": "fam_033",
+    "text": "Qui est le moins jaloux quand un autre reçoit plus de cadeaux à Noël ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} se réjouit sincèrement des cadeaux des autres"
+  },
+  {
+    "id": "fam_034",
+    "text": "Qui est le moins exigeant pour dormir sur le canapé-lit chez les grands-parents ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} dort comme un bébé même sur le vieux canapé-lit"
+  },
+  {
+    "id": "fam_035",
+    "text": "Qui est le moins bavard quand on lui confie un secret de famille ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} emportera les secrets de famille dans sa tombe"
+  },
+  {
+    "id": "fam_036",
+    "text": "Qui est le moins capricieux pour choisir le film du dimanche soir ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} regarde n'importe quel film sans broncher"
+  },
+  {
+    "id": "fam_037",
+    "text": "Qui est le moins pénible en voiture sur la route des vacances ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le passager idéal des longs trajets"
+  },
+  {
+    "id": "fam_038",
+    "text": "Qui est le moins tricheur quand on sort les cartes après le repas ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} joue à la belote avec une honnêteté exemplaire"
+  },
+  {
+    "id": "fam_039",
+    "text": "Qui est le moins paresseux quand il faut aider à mettre la table ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} met la table avant qu'on le demande"
+  },
+  {
+    "id": "fam_040",
+    "text": "Qui est le moins gêné de passer un week-end entier avec la belle-famille ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est à l'aise chez la belle-famille comme chez soi"
+  },
+  {
+    "id": "fam_041",
+    "text": "Qui est le moins prise de tête quand il faut choisir la destination des vacances ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} suit tout le monde partout avec le sourire"
+  },
+  {
+    "id": "fam_042",
+    "text": "Qui pour un trajet de 12h en voiture vers les vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le compagnon parfait pour 12h de route"
+  },
+  {
+    "id": "fam_043",
+    "text": "Qui pour préparer le repas de Noël pour toute la famille ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le chef étoilé du réveillon"
+  },
+  {
+    "id": "fam_044",
+    "text": "Qui pour garder les enfants un samedi soir ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} gardera les enfants comme un pro"
+  },
+  {
+    "id": "fam_045",
+    "text": "Qui pour organiser la prochaine grande réunion de famille ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} organisera la réunion de famille du siècle"
+  },
+  {
+    "id": "fam_046",
+    "text": "Qui pour aider à déménager un dimanche matin ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} portera les cartons sans se plaindre"
+  },
+  {
+    "id": "fam_047",
+    "text": "Qui pour faire le discours à un anniversaire important ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera pleurer toute la salle avec son discours"
+  },
+  {
+    "id": "fam_048",
+    "text": "Qui pour réparer la box internet quand plus rien ne marche ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le support technique officiel de la maison"
+  },
+  {
+    "id": "fam_049",
+    "text": "Avec qui partager une chambre pendant les vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le colocataire de vacances idéal"
+  },
+  {
+    "id": "fam_050",
+    "text": "Qui pour expliquer aux grands-parents comment marche leur smartphone ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} donne des cours d'informatique à papy avec patience"
+  },
+  {
+    "id": "fam_051",
+    "text": "Qui pour lire la carte quand le GPS ne capte plus rien ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} retrouvera la route même sans réseau"
+  },
+  {
+    "id": "fam_052",
+    "text": "Qui pour s'occuper du chien pendant que toute la famille part en vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le meilleur gardien du chien"
+  },
+  {
+    "id": "fam_053",
+    "text": "Qui pour préparer le gâteau du prochain anniversaire ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} préparera un gâteau d'anniversaire mémorable"
+  },
+  {
+    "id": "fam_054",
+    "text": "Qui pour annoncer une mauvaise nouvelle à toute la famille avec tact ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} annonce même les pires nouvelles avec douceur"
+  },
+  {
+    "id": "fam_055",
+    "text": "Qui pour organiser une chasse aux œufs de Pâques géniale ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} cache les œufs de Pâques comme un génie"
+  },
+  {
+    "id": "fam_056",
+    "text": "Qui pour défendre tout le monde quand belle-maman critique la cuisine ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} défend la cuisine de la famille comme un avocat"
+  },
+  {
+    "id": "fam_057",
+    "text": "Qui est le plus susceptible d'envoyer un message gentil sans raison ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} envoie des petits mots doux juste comme ça"
+  },
+  {
+    "id": "fam_058",
+    "text": "Qui serait le plus susceptible de reprendre la maison de famille pour la garder ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} sera le gardien de la maison de famille"
+  },
+  {
+    "id": "fam_059",
+    "text": "Qui serait le plus susceptible d'organiser un voyage avec toute la famille ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} réunira toute la famille sous le soleil"
+  },
+  {
+    "id": "fam_060",
+    "text": "Qui a déjà sauvé un repas de la catastrophe au dernier moment ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà sauvé un repas du désastre"
+  },
+  {
+    "id": "fam_061",
+    "text": "Qui serait le plus susceptible de reconstituer l'arbre généalogique de la famille ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} remontera l'arbre généalogique jusqu'à Charlemagne"
+  },
+  {
+    "id": "fam_062",
+    "text": "Qui est le plus susceptible de se souvenir du plat préféré de chacun ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît le plat préféré de tout le monde par cœur"
+  },
+  {
+    "id": "fam_063",
+    "text": "Qui serait le plus susceptible d'accueillir tout le monde chez soi à Noël ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ouvrira sa maison à tout le monde pour Noël"
+  },
+  {
+    "id": "fam_064",
+    "text": "Qui est le plus susceptible de faire la vaisselle sans qu'on le demande ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait la vaisselle en douce pendant que tout le monde digère"
+  },
+  {
+    "id": "fam_065",
+    "text": "Qui serait le plus susceptible de devenir le pilier de la famille ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} deviendra le pilier de la famille"
+  },
+  {
+    "id": "fam_066",
+    "text": "Qui ferait le meilleur parrain ou la meilleure marraine ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le parrain ou la marraine de rêve"
+  },
+  {
+    "id": "fam_067",
+    "text": "Qui est le plus susceptible d'envoyer encore des cartes postales de vacances ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} envoie encore des cartes postales, à l'ancienne"
+  },
+  {
+    "id": "fam_068",
+    "text": "Qui est le plus doué pour consoler quelqu'un après une dispute ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une épaule réconfortante pour tout le monde"
+  },
+  {
+    "id": "fam_069",
+    "text": "Qui serait le plus susceptible de préparer l'album photo des noces d'or des grands-parents ?",
+    "format": "most_likely",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} préparera l'album photo des noces d'or"
+  },
+  {
+    "id": "fam_070",
+    "text": "Qui est le plus doué pour trouver une activité quand il pleut en vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sauve les vacances pluvieuses avec mille idées"
+  },
+  {
+    "id": "fam_071",
+    "text": "Qui pour esquiver les questions indiscrètes de la tante au repas de famille ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} esquive les questions de tata comme un ninja"
+  },
+  {
+    "id": "fam_072",
+    "text": "Qui est le plus débrouillard quand on a oublié un truc à la maison en partant en vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trouve toujours une solution au truc oublié"
+  },
+  {
+    "id": "fam_073",
+    "text": "Qui est le plus bordélique, avec une chambre digne d'un champ de bataille ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une chambre qui ressemble à un champ de bataille"
+  },
+  {
+    "id": "fam_074",
+    "text": "Qui est le plus en retard aux repas de famille ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} arrive toujours pile pour le dessert"
+  },
+  {
+    "id": "fam_075",
+    "text": "Qui est le plus gourmand quand il reste de la bûche de Noël ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} finit la bûche en cachette dans la cuisine"
+  },
+  {
+    "id": "fam_076",
+    "text": "Qui est le plus mauvais perdant aux jeux de société en famille ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} renverse le plateau quand ça tourne mal"
+  },
+  {
+    "id": "fam_077",
+    "text": "Qui est le plus râleur quand il faut faire le ménage ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} râle à chaque coup d'aspirateur"
+  },
+  {
+    "id": "fam_078",
+    "text": "Qui est le plus accro à son téléphone pendant les repas ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} scrolle même entre la poire et le fromage"
+  },
+  {
+    "id": "fam_079",
+    "text": "Qui est le plus long dans la salle de bain le matin ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} squatte la salle de bain pendant des heures"
+  },
+  {
+    "id": "fam_080",
+    "text": "Qui est le plus de mauvaise foi pendant les débats à table ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours raison, même quand ça n'a aucun sens"
+  },
+  {
+    "id": "fam_081",
+    "text": "Qui est le plus doué pour lancer un sujet qui fâche au milieu du repas ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} allume la mèche pile au moment du fromage"
+  },
+  {
+    "id": "fam_082",
+    "text": "Qui est le plus difficile à table devant une assiette de légumes ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trie ses légumes comme à 5 ans"
+  },
+  {
+    "id": "fam_083",
+    "text": "Qui est le plus radin pour les cadeaux de Noël ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} offre des chaussettes depuis dix ans"
+  },
+  {
+    "id": "fam_084",
+    "text": "Qui est le plus lent pour se préparer quand toute la famille attend dans la voiture ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait attendre tout le monde dans la voiture"
+  },
+  {
+    "id": "fam_085",
+    "text": "Qui est le plus gâté-pourri de la fratrie ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a toujours eu droit à tout, et tout le monde le sait"
+  },
+  {
+    "id": "fam_086",
+    "text": "Qui est le plus susceptible quand on critique sa cuisine ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} boude dès qu'on rajoute du sel dans son plat"
+  },
+  {
+    "id": "fam_087",
+    "text": "Qui est le plus bruyant quand tout le monde fait la sieste ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} réveille toute la maison à l'heure de la sieste"
+  },
+  {
+    "id": "fam_088",
+    "text": "Qui est le plus pénible avec le choix de la musique en voiture ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} confisque l'autoradio dès le premier kilomètre"
+  },
+  {
+    "id": "fam_089",
+    "text": "Qui est le plus doué pour critiquer la déco de la maison des autres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} juge chaque coussin du salon"
+  },
+  {
+    "id": "fam_090",
+    "text": "Qui est le plus doué pour ressortir les dossiers d'enfance des autres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} ressort les dossiers compromettants à chaque repas"
+  },
+  {
+    "id": "fam_091",
+    "text": "Qui est le plus tête en l'air avec les clés de la maison ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a perdu plus de clés que de chaussettes"
+  },
+  {
+    "id": "fam_092",
+    "text": "Qui est le plus feignant pour sortir les poubelles ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} laisse les poubelles déborder jusqu'à l'explosion"
+  },
+  {
+    "id": "fam_093",
+    "text": "Qui est le plus grognon au réveil pendant les vacances ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} grogne jusqu'au premier café"
+  },
+  {
+    "id": "fam_094",
+    "text": "Qui est le plus doué pour critiquer la cuisine de la belle-famille ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trouve toujours le gratin trop cuit chez la belle-famille"
+  },
+  {
+    "id": "fam_095",
+    "text": "Qui est le plus dépensier en souvenirs inutiles pendant les vacances ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} revient de vacances avec une valise pleine de bibelots"
+  },
+  {
+    "id": "fam_096",
+    "text": "Qui est le plus mauvais pour emballer les cadeaux ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} emballe les cadeaux avec trois mètres de scotch"
+  },
+  {
+    "id": "fam_097",
+    "text": "Qui est le plus doué pour se faire servir comme un roi chez ses parents ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} se fait encore servir comme un roi chez ses parents"
+  },
+  {
+    "id": "fam_098",
+    "text": "Qui est le plus doué pour finir les restes du frigo sans prévenir personne ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} vide le frigo comme un raton laveur"
+  },
+  {
+    "id": "fam_099",
+    "text": "Qui chante le plus faux quand on entonne « Joyeux anniversaire » ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} massacre « Joyeux anniversaire » chaque année"
+  },
+  {
+    "id": "fam_100",
+    "text": "Qui est le moins doué pour monter un meuble en kit ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours trois vis en trop"
+  },
+  {
+    "id": "fam_101",
+    "text": "Qui est le moins doué en cuisine, même pour faire des pâtes ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} arrive à rater des pâtes"
+  },
+  {
+    "id": "fam_102",
+    "text": "Qui est le moins patient dans les bouchons des départs en vacances ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} klaxonne dès le premier bouchon"
+  },
+  {
+    "id": "fam_103",
+    "text": "Qui est le moins doué pour faire les courses sans rien oublier ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} revient des courses avec tout sauf le pain"
+  },
+  {
+    "id": "fam_104",
+    "text": "Qui est le moins motivé pour la balade digestive après le repas ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} préfère digérer allongé sur le canapé"
+  },
+  {
+    "id": "fam_105",
+    "text": "Qui est le moins fiable pour arroser les plantes pendant les vacances ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rend les plantes en état de momie"
+  },
+  {
+    "id": "fam_106",
+    "text": "Qui est le moins doué pour faire un créneau devant la maison ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait un créneau en douze manœuvres"
+  },
+  {
+    "id": "fam_107",
+    "text": "Qui appelle le moins sa mère, alors qu'elle attend des nouvelles ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} laisse maman sur messagerie depuis des semaines"
+  },
+  {
+    "id": "fam_108",
+    "text": "Qui est le moins doué pour ranger correctement le lave-vaisselle ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} range le lave-vaisselle comme un Tetris raté"
+  },
+  {
+    "id": "fam_109",
+    "text": "Qui est le moins doué pour se souvenir des prénoms des cousins éloignés ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} appelle tous les cousins « mon grand »"
+  },
+  {
+    "id": "fam_110",
+    "text": "Qui est le moins discret quand il s'ennuie à un repas de famille ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} soupire si fort que toute la table l'entend"
+  },
+  {
+    "id": "fam_111",
+    "text": "Qui est le moins partageur avec sa réserve de bonbons ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} cache ses bonbons sous son oreiller"
+  },
+  {
+    "id": "fam_112",
+    "text": "Qui est le moins enthousiaste quand on sort l'appareil pour la photo de groupe ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait la tête sur toutes les photos de groupe"
+  },
+  {
+    "id": "fam_113",
+    "text": "Qui est le moins investi dans les préparatifs de Noël ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} arrive pile quand tout est prêt"
+  },
+  {
+    "id": "fam_114",
+    "text": "Qui est le moins rapide pour répondre sur le groupe WhatsApp de la famille ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répond au groupe WhatsApp avec trois jours de retard"
+  },
+  {
+    "id": "fam_115",
+    "text": "Qui est le moins honnête sur le nombre de chocolats mangés ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} jure n'avoir mangé que deux chocolats… sur vingt"
+  },
+  {
+    "id": "fam_116",
+    "text": "Qui est le moins doué pour se taire pendant un film ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} commente chaque scène du film du dimanche"
+  },
+  {
+    "id": "fam_117",
+    "text": "Qui monopolise la télécommande dès qu'on allume la télé ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ne lâche jamais la télécommande"
+  },
+  {
+    "id": "fam_118",
+    "text": "Qui est le plus susceptible d'oublier l'anniversaire de sa propre mère ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} découvrira l'anniversaire de sa mère sur les réseaux sociaux"
+  },
+  {
+    "id": "fam_119",
+    "text": "Qui a déjà fait passer un plat du traiteur pour du fait maison ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà servi du traiteur en jurant que c'était maison"
+  },
+  {
+    "id": "fam_120",
+    "text": "Qui est le plus susceptible de rater le train des vacances ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} courra derrière le train des vacances"
+  },
+  {
+    "id": "fam_121",
+    "text": "Qui est le plus susceptible de bouder pendant tout le repas de Noël ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} boude du foie gras jusqu'au café"
+  },
+  {
+    "id": "fam_122",
+    "text": "Qui a déjà cassé un objet de la maison et l'a caché en espérant que personne ne remarque ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un cimetière d'objets cassés planqué quelque part"
+  },
+  {
+    "id": "fam_123",
+    "text": "Qui est le plus susceptible d'oublier quelqu'un sur une aire d'autoroute ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} repartira de l'aire d'autoroute avec un passager en moins"
+  },
+  {
+    "id": "fam_124",
+    "text": "Qui est le plus susceptible de raconter la même anecdote à chaque repas ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} raconte la même histoire depuis 1998"
+  },
+  {
+    "id": "fam_125",
+    "text": "Qui est le plus susceptible de dire tout haut ce que tout le monde pense de belle-maman ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dira tout haut ce que tout le monde pense tout bas"
+  },
+  {
+    "id": "fam_126",
+    "text": "Qui a déjà offert un cadeau qu'on lui avait offert ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} recycle les cadeaux sans aucune honte"
+  },
+  {
+    "id": "fam_127",
+    "text": "Qui est le plus susceptible de se chamailler avec son frère ou sa sœur pour un rien ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} se chamaille avec sa fratrie comme à 8 ans"
+  },
+  {
+    "id": "fam_128",
+    "text": "Qui ferait semblant de dormir pour éviter de faire la vaisselle ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait semblant de dormir dès qu'on sort l'éponge"
+  },
+  {
+    "id": "fam_129",
+    "text": "Qui ferait la tête si on oubliait de lui garder une part de gâteau ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera la tête pour une part de gâteau"
+  },
+  {
+    "id": "fam_130",
+    "text": "Qui est le plus susceptible de se battre pour hériter du service en porcelaine ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} se battra pour la soupière de mamie"
+  },
+  {
+    "id": "fam_131",
+    "text": "Qui est le plus susceptible de rapporter son linge sale chez ses parents ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} ramène son linge sale chez ses parents chaque week-end"
+  },
+  {
+    "id": "fam_132",
+    "text": "Qui est le plus doué pour se plaindre de la chaleur ou du froid en vacances ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trouve toujours qu'il fait trop chaud ou trop froid"
+  },
+  {
+    "id": "fam_133",
+    "text": "Qui ferait brûler le rôti du dimanche ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transformera le rôti du dimanche en charbon"
+  },
+  {
+    "id": "fam_134",
+    "text": "Qui est le plus rapide pour réclamer la place à l'avant dans la voiture ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} crie « devant ! » dès qu'on parle de voiture"
+  },
+  {
+    "id": "fam_135",
+    "text": "Qui est le plus doué pour faire culpabiliser ceux qui ne viennent pas assez souvent ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} maîtrise l'art de la culpabilisation familiale"
+  },
+  {
+    "id": "fam_136",
+    "text": "Qui est le plus susceptible de critiquer l'éducation des enfants des autres ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un avis sur l'éducation de tous les neveux et nièces"
+  },
+  {
+    "id": "fam_137",
+    "text": "Qui ferait le pire guide pour une visite de musée en vacances ?",
+    "format": "who_for",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera visiter le musée en dix minutes chrono"
+  },
+  {
+    "id": "fam_138",
+    "text": "Qui est le moins doué pour rester poli quand tonton raconte ses blagues ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} lève les yeux au ciel dès que tonton commence une blague"
+  },
+  {
+    "id": "fam_139",
+    "text": "Qui est le plus doué pour mettre les pieds dans le plat au mauvais moment ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} met les pieds dans le plat avec une précision redoutable"
+  },
+  {
+    "id": "fam_140",
+    "text": "Qui était le plus doué pour se défiler des corvées en prétextant ses devoirs ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} avait toujours des devoirs pile à l'heure de la vaisselle"
+  },
+  {
+    "id": "fam_141",
+    "text": "Qui est le moins doué pour éteindre la lumière en quittant une pièce ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} laisse la maison illuminée comme un sapin"
+  },
+  {
+    "id": "fam_142",
+    "text": "Qui est le moins doué pour doser les pâtes dans la casserole ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} cuit des pâtes pour un régiment"
+  },
+  {
+    "id": "fam_143",
+    "text": "Qui est le plus susceptible d'oublier sa valise en partant en vacances ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} partira en vacances sans valise"
+  },
+  {
+    "id": "fam_144",
+    "text": "Qui est le plus doué pour piquer les frites dans l'assiette des autres ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} pique dans toutes les assiettes à portée de main"
+  },
+  {
+    "id": "fam_145",
+    "text": "Qui ferait le meilleur Père Noël pour les petits ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera le Père Noël le plus crédible de l'histoire"
+  },
+  {
+    "id": "fam_146",
+    "text": "Qui a été le chouchou de mamie ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a été le chouchou de mamie, inutile de nier"
+  },
+  {
+    "id": "fam_147",
+    "text": "Qui ressemble le plus à papa dans ses manies ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est le portrait craché de papa, tics compris"
+  },
+  {
+    "id": "fam_148",
+    "text": "Qui imite le mieux maman quand elle s'énerve ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} imite maman en colère à la perfection"
+  },
+  {
+    "id": "fam_149",
+    "text": "Qui a fait le plus de bêtises pendant son enfance ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a un casier d'enfance bien rempli"
+  },
+  {
+    "id": "fam_150",
+    "text": "Qui a déjà été oublié par ses parents dans un magasin ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a déjà vécu « Maman, j'ai raté l'avion » version supermarché"
+  },
+  {
+    "id": "fam_151",
+    "text": "Qui finirait par habiter à deux rues de chez ses parents ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} habitera à deux rues de chez ses parents"
+  },
+  {
+    "id": "fam_152",
+    "text": "Qui est le plus susceptible de connaître tous les secrets de famille ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} sait tout sur tout le monde dans la famille"
+  },
+  {
+    "id": "fam_153",
+    "text": "Qui est le plus nostalgique des dessins animés de son enfance ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît encore tous les génériques par cœur"
+  },
+  {
+    "id": "fam_154",
+    "text": "Qui est le plus susceptible d'avoir gardé son doudou d'enfance ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a encore son doudou bien rangé quelque part"
+  },
+  {
+    "id": "fam_155",
+    "text": "Qui serait le plus susceptible de partir vivre à l'autre bout du monde ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera les fêtes en visio depuis l'autre bout du monde"
+  },
+  {
+    "id": "fam_156",
+    "text": "Qui a le plus de photos gênantes dans les albums de famille ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est la star des photos gênantes de l'album"
+  },
+  {
+    "id": "fam_157",
+    "text": "Qui ferait le meilleur candidat pour une émission de cuisine à la télé ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} passera bientôt à la télé avec son tablier"
+  },
+  {
+    "id": "fam_158",
+    "text": "Qui est le plus susceptible d'hériter du vieux buffet de mamie ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} repartira avec le buffet de mamie dans le coffre"
+  },
+  {
+    "id": "fam_159",
+    "text": "Qui est le plus fidèle à son émission de télé du dimanche soir ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ne rate jamais son émission du dimanche"
+  },
+  {
+    "id": "fam_160",
+    "text": "Qui est le plus susceptible de s'endormir devant la télé avant la fin du film ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ronfle avant même le générique de début"
+  },
+  {
+    "id": "fam_161",
+    "text": "Qui est le plus susceptible de commencer le repas par le dessert ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} commence toujours par le dessert"
+  },
+  {
+    "id": "fam_162",
+    "text": "Qui est le moins doué pour faire semblant d'aimer un cadeau ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une tête qui trahit chaque cadeau raté"
+  },
+  {
+    "id": "fam_163",
+    "text": "Qui a le plus de surnoms ridicules donnés par la famille ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} collectionne les surnoms donnés par la famille"
+  },
+  {
+    "id": "fam_164",
+    "text": "Qui ferait le meilleur personnage principal d'un téléfilm de Noël ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} jouera le premier rôle du prochain téléfilm de Noël"
+  },
+  {
+    "id": "fam_165",
+    "text": "Qui a le moins changé de caractère depuis l'enfance ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a exactement le même caractère qu'à 6 ans"
+  },
+  {
+    "id": "fam_166",
+    "text": "Qui est le plus attaché à son rituel du petit-déjeuner ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ne déroge jamais à son rituel du petit-déj"
+  },
+  {
+    "id": "fam_167",
+    "text": "Qui a déjà été puni pour une bêtise faite par son frère ou sa sœur ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} a déjà payé pour les bêtises de sa fratrie"
+  },
+  {
+    "id": "fam_168",
+    "text": "Qui ferait le déguisement le plus fou pour le carnaval des enfants ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} aura le déguisement le plus fou du carnaval"
+  },
+  {
+    "id": "fam_169",
+    "text": "Qui est le plus fan des chansons de Noël dès le mois de novembre ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lance les chants de Noël dès le 1er novembre"
+  },
+  {
+    "id": "fam_170",
+    "text": "Qui serait le plus susceptible d'avoir une famille nombreuse ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} aura de quoi former une équipe de foot à la maison"
+  },
+  {
+    "id": "fam_171",
+    "text": "Qui a le plus hérité du caractère de papy ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} est le digne héritier du caractère de papy"
+  },
+  {
+    "id": "fam_172",
+    "text": "Qui finirait par adopter tous les animaux abandonnés du quartier ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transformera la maison en arche de Noé"
+  },
+  {
+    "id": "fam_173",
+    "text": "Qui est le moins au courant des potins de la famille ?",
+    "format": "least",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} apprend toujours les nouvelles en dernier"
+  },
+  {
+    "id": "fam_174",
+    "text": "Qui a déjà goûté les croquettes du chat par curiosité ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sait exactement quel goût ont les croquettes"
+  },
+  {
+    "id": "fam_175",
+    "text": "Qui ferait la meilleure star d'une télé-réalité sur sa famille ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera la star de la prochaine télé-réalité familiale"
+  },
+  {
+    "id": "fam_176",
+    "text": "Qui a les souvenirs d'enfance les plus précis ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} se souvient de la couleur du pull de Noël 1999"
+  },
+  {
+    "id": "fam_177",
+    "text": "Qui est le plus susceptible de toujours s'asseoir à la même place à table ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a sa chaise réservée à vie"
+  },
+  {
+    "id": "fam_178",
+    "text": "Qui est le plus ému devant les vieilles vidéos de vacances ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "famille",
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} verse sa larme devant les vieux films de vacances"
+  },
+  {
+    "id": "fam_179",
+    "text": "Qui finirait par raconter les secrets de famille dans un livre ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": true,
+    "adult": false,
+    "verdict": "{name} publiera les secrets de famille en best-seller"
+  },
+  {
+    "id": "fam_180",
+    "text": "Qui ferait une annonce surprise fracassante au repas de Noël ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lâchera une bombe entre la dinde et la bûche"
+  }
+]

@@ -1,0 +1,2570 @@
+[
+  {
+    "id": "ami_001",
+    "text": "Qui pour un trajet de 12h (musique, conversation, etc.) ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend le volant et la playlist pour 12h de route"
+  },
+  {
+    "id": "ami_002",
+    "text": "Qui est le plus fiable pour garder un secret ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les secrets de la bande sont en sécurité chez {name}"
+  },
+  {
+    "id": "ami_003",
+    "text": "Qui est le moins rancunier de la bande après une grosse embrouille ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} oublie les embrouilles avant même la fin de la soirée"
+  },
+  {
+    "id": "ami_004",
+    "text": "Qui pour organiser le meilleur week-end entre potes ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend les commandes du prochain week-end"
+  },
+  {
+    "id": "ami_005",
+    "text": "Qui est le plus doué pour remonter le moral après une rupture ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarque avec de la glace, des mouchoirs et les bons conseils"
+  },
+  {
+    "id": "ami_006",
+    "text": "Qui pour appeler à 3h du matin en cas de grosse galère ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} décroche même à 3h du mat, c'est ça l'amitié"
+  },
+  {
+    "id": "ami_007",
+    "text": "Qui est le meilleur cuisinier de la bande ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} devient chef de cuisine officiel des soirées"
+  },
+  {
+    "id": "ami_008",
+    "text": "Qui met le plus l'ambiance dès qu'il y a de la musique en soirée ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme n'importe quel salon en boîte de nuit"
+  },
+  {
+    "id": "ami_009",
+    "text": "Qui est le moins susceptible de lâcher le groupe à la dernière minute ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répond toujours présent, même sous la pluie"
+  },
+  {
+    "id": "ami_010",
+    "text": "Qui pour gérer les comptes après les vacances sans prise de tête ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} devient le Tricount humain du groupe"
+  },
+  {
+    "id": "ami_011",
+    "text": "Qui est le plus doué pour dénicher le resto parfait en deux minutes ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours la bonne adresse dans sa poche"
+  },
+  {
+    "id": "ami_012",
+    "text": "Qui pour t'aider à déménager un dimanche sous la pluie ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} porte les cartons sans râler, respect éternel"
+  },
+  {
+    "id": "ami_013",
+    "text": "Qui est le moins radin quand il s'agit de payer sa tournée ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} régale, et c'est loin d'être la première fois"
+  },
+  {
+    "id": "ami_014",
+    "text": "Qui est le plus fort pour raconter une anecdote qui fait pleurer de rire ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} pourrait raconter sa journée et faire rire toute la salle"
+  },
+  {
+    "id": "ami_015",
+    "text": "Qui pour monter la tente au camping sans même ouvrir la notice ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} monte une tente les yeux fermés"
+  },
+  {
+    "id": "ami_016",
+    "text": "Qui est le plus débrouillard en voyage à l'étranger ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} se sort de n'importe quelle galère à l'autre bout du monde"
+  },
+  {
+    "id": "ami_017",
+    "text": "Qui est le plus doué pour trouver le bon mot dans une carte d'anniversaire ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} écrit des cartes qui font pleurer tout le monde"
+  },
+  {
+    "id": "ami_018",
+    "text": "Qui pour faire la meilleure playlist de soirée ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend le contrôle de l'enceinte, à vie"
+  },
+  {
+    "id": "ami_019",
+    "text": "Qui est le plus doué pour réconcilier deux potes fâchés ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} mérite le prix Nobel de la paix version apéro"
+  },
+  {
+    "id": "ami_020",
+    "text": "Qui pour partir en road trip sans rien planifier à l'avance ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part à l'aventure, la carte routière au fond du coffre"
+  },
+  {
+    "id": "ami_021",
+    "text": "Qui est le plus fort pour ne jamais oublier un anniversaire ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} n'a jamais raté un anniversaire, même ceux des cousins"
+  },
+  {
+    "id": "ami_022",
+    "text": "Qui est le plus partant pour un plan improvisé de dernière minute ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est déjà dans la voiture avant la fin du message"
+  },
+  {
+    "id": "ami_023",
+    "text": "Qui pour te faire découvrir ta prochaine série préférée ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours LA série qu'il faut regarder"
+  },
+  {
+    "id": "ami_024",
+    "text": "Qui est le meilleur coéquipier dans un jeu de société ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name} dans ton équipe, la victoire est presque garantie"
+  },
+  {
+    "id": "ami_025",
+    "text": "Qui pour garder ton chat pendant deux semaines de vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} devient le pet-sitter officiel de la bande"
+  },
+  {
+    "id": "ami_026",
+    "text": "Qui est le moins jaloux quand un pote réussit un truc énorme ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} applaudit le plus fort à chaque victoire des autres"
+  },
+  {
+    "id": "ami_027",
+    "text": "Qui est le plus fiable pour ramener tout le monde en fin de soirée ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le capitaine de soirée attitré"
+  },
+  {
+    "id": "ami_028",
+    "text": "Qui pour te faire un pep talk avant un rendez-vous important ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te fait croire que tu peux conquérir le monde"
+  },
+  {
+    "id": "ami_029",
+    "text": "Qui est le plus doué pour trouver des bons plans pas chers en voyage ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} déniche des vols à 12 euros, c'est un don"
+  },
+  {
+    "id": "ami_030",
+    "text": "Qui pour te réveiller à 5h pour voir le lever de soleil en vacances ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te tire du lit pour un lever de soleil inoubliable"
+  },
+  {
+    "id": "ami_031",
+    "text": "Qui pour animer un karaoké jusqu'au bout de la nuit ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tient le micro et ne le lâchera plus"
+  },
+  {
+    "id": "ami_032",
+    "text": "Qui est le moins prise de tête quand il faut choisir un resto ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} mange partout, le rêve pour décider vite"
+  },
+  {
+    "id": "ami_033",
+    "text": "Qui est le plus doué pour organiser un anniversaire surprise ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prépare les surprises comme un agent secret"
+  },
+  {
+    "id": "ami_034",
+    "text": "Qui pour tenir la conversation à un dîner où personne ne se connaît ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} brise la glace en deux phrases"
+  },
+  {
+    "id": "ami_035",
+    "text": "Qui est le plus loyal quand ça part en embrouille avec d'autres ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sera toujours de ton côté, même quand t'as tort"
+  },
+  {
+    "id": "ami_036",
+    "text": "Qui est le plus doué pour se faire des potes partout en vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} repart de vacances avec quinze nouveaux amis"
+  },
+  {
+    "id": "ami_037",
+    "text": "Qui pour te sauver d'une soirée gênante avec un faux appel ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} appelle pile au bon moment pour te sortir de là"
+  },
+  {
+    "id": "ami_038",
+    "text": "Qui est le moins flippé de goûter un plat bizarre en voyage ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} croque des sauterelles grillées sans broncher"
+  },
+  {
+    "id": "ami_039",
+    "text": "Qui est le plus attentionné quand un pote passe une sale semaine ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarque avec des croissants quand ça ne va pas"
+  },
+  {
+    "id": "ami_040",
+    "text": "Qui pour un week-end rando avec 20 km de marche par jour ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} enfile les chaussures de rando, la bande suit"
+  },
+  {
+    "id": "ami_041",
+    "text": "Qui est le meilleur pour trouver une location de vacances de rêve ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trouve la villa de rêve au prix d'un studio"
+  },
+  {
+    "id": "ami_042",
+    "text": "Qui est le plus drôle sur le groupe WhatsApp ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est la star incontestée du groupe WhatsApp"
+  },
+  {
+    "id": "ami_043",
+    "text": "Qui est le moins stressé quand tout part en vrille pendant un voyage ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} reste zen même quand l'avion décolle sans la bande"
+  },
+  {
+    "id": "ami_044",
+    "text": "Qui pour partager une coloc pendant un an sans aucune embrouille ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le coloc parfait, vaisselle comprise"
+  },
+  {
+    "id": "ami_045",
+    "text": "Qui est le plus doué pour faire des cadeaux qui tapent pile juste ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} offre toujours le cadeau parfait, c'est presque flippant"
+  },
+  {
+    "id": "ami_046",
+    "text": "Qui est le plus motivant pour te traîner à la salle de sport ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te traîne au sport, et tu dis merci après"
+  },
+  {
+    "id": "ami_047",
+    "text": "Qui pour cuisiner pour quinze personnes sans paniquer une seconde ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} gère un repas pour quinze comme un chef étoilé"
+  },
+  {
+    "id": "ami_048",
+    "text": "Qui est le moins susceptible de te juger, quoi que tu lui racontes ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} écoute tout sans jamais juger, une vraie oreille en or"
+  },
+  {
+    "id": "ami_049",
+    "text": "Qui est le plus fort pour connaître les paroles de toutes les chansons ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} connaît toutes les chansons par cœur, même les génériques"
+  },
+  {
+    "id": "ami_050",
+    "text": "Qui pour faire gagner l'équipe au quiz de culture générale du bar ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rapporte la victoire au quiz du jeudi"
+  },
+  {
+    "id": "ami_051",
+    "text": "Qui est le plus doué pour négocier les prix au marché en vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} repart avec trois tapis pour le prix d'un"
+  },
+  {
+    "id": "ami_052",
+    "text": "Qui pour te prêter sa voiture sans poser la moindre question ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te tend les clés de sa voiture, les yeux fermés"
+  },
+  {
+    "id": "ami_053",
+    "text": "Qui pour faire un festival de trois jours sous la pluie sans râler ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} danse dans la boue avec le sourire"
+  },
+  {
+    "id": "ami_054",
+    "text": "Qui est le plus patient pour expliquer les règles d'un jeu aux nouveaux ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} explique les règles dix fois sans soupirer"
+  },
+  {
+    "id": "ami_055",
+    "text": "Qui est le moins égoïste quand il reste une seule part de pizza ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} laisse toujours la dernière part, un saint"
+  },
+  {
+    "id": "ami_056",
+    "text": "Qui pour relire ton message avant que tu l'envoies à ton ex ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} relit ton message et t'évite la catastrophe"
+  },
+  {
+    "id": "ami_057",
+    "text": "Qui est le plus doué pour jouer les guides dans une ville inconnue ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours un plan, un détour et une anecdote"
+  },
+  {
+    "id": "ami_058",
+    "text": "Qui est le plus doué pour choisir un film qui plaît à tout le monde ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} met tout le monde d'accord sur le film du soir"
+  },
+  {
+    "id": "ami_059",
+    "text": "Qui pour organiser un barbecue en moins d'une heure ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} allume le barbecue avant que tu finisses ta phrase"
+  },
+  {
+    "id": "ami_060",
+    "text": "Qui est le plus fidèle en amitié depuis le tout premier jour ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est là depuis le premier jour et le sera jusqu'au dernier"
+  },
+  {
+    "id": "ami_061",
+    "text": "Qui est le plus doué pour réparer un truc cassé en vacances ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répare la clim avec un trombone et du scotch"
+  },
+  {
+    "id": "ami_062",
+    "text": "Qui est le plus calme pour gérer une crise en pleine soirée ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} désamorce les crises comme un pro du déminage"
+  },
+  {
+    "id": "ami_063",
+    "text": "Qui pour envoyer le mème parfait pile au bon moment ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a un mème pour chaque situation de la vie"
+  },
+  {
+    "id": "ami_064",
+    "text": "Qui est le meilleur pour prendre les photos de groupe ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le photographe officiel de la bande"
+  },
+  {
+    "id": "ami_065",
+    "text": "Qui est le plus honnête avec ses potes, même quand ça pique ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dit la vérité, même celle qu'on ne veut pas entendre"
+  },
+  {
+    "id": "ami_066",
+    "text": "Qui pour monter une équipe imbattable au foot du dimanche ?",
+    "format": "who_for",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} devient capitaine de l'équipe du dimanche"
+  },
+  {
+    "id": "ami_067",
+    "text": "Qui est le moins à cheval sur qui doit combien au resto ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ne sort jamais la calculette au resto"
+  },
+  {
+    "id": "ami_068",
+    "text": "Qui est le plus doué pour sauver des vacances gâchées par la pluie ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sauve les vacances pluvieuses avec une idée géniale"
+  },
+  {
+    "id": "ami_069",
+    "text": "Qui est le plus présent quand ça va vraiment très mal ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est là quand ça compte vraiment, sans qu'on ait à demander"
+  },
+  {
+    "id": "ami_070",
+    "text": "Qui est le plus doué pour faire rire quelqu'un qui pleure ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme les larmes en fou rire en une minute"
+  },
+  {
+    "id": "ami_071",
+    "text": "Qui est le plus organisé pour préparer les valises avant un voyage ?",
+    "format": "most",
+    "polarity": "positive",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une check-list pour sa check-list"
+  },
+  {
+    "id": "ami_072",
+    "text": "Qui est le moins râleur pendant une longue rando en plein soleil ?",
+    "format": "least",
+    "polarity": "positive",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} grimpe en chantant pendant que les autres agonisent"
+  },
+  {
+    "id": "ami_073",
+    "text": "Qui est le plus en retard ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} arrivera en retard à son propre anniversaire"
+  },
+  {
+    "id": "ami_074",
+    "text": "Qui est le plus gros rat ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ferait des économies sur l'air qu'on respire"
+  },
+  {
+    "id": "ami_075",
+    "text": "Qui est le plus bordélique ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} vit dans un chantier permanent"
+  },
+  {
+    "id": "ami_076",
+    "text": "Qui est le moins joignable quand on l'appelle au téléphone ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Appeler {name}, c'est tomber sur la messagerie à coup sûr"
+  },
+  {
+    "id": "ami_077",
+    "text": "Qui est le plus susceptible de laisser tout le groupe WhatsApp en vu ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lit tout, ne répond jamais"
+  },
+  {
+    "id": "ami_078",
+    "text": "Qui est le plus nul pour trancher quand le groupe hésite ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} répond « comme vous voulez » depuis 2015"
+  },
+  {
+    "id": "ami_079",
+    "text": "Qui est le plus susceptible d'oublier son passeport le jour du départ ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} découvrira à l'aéroport que son passeport est resté à la maison"
+  },
+  {
+    "id": "ami_080",
+    "text": "Qui est le plus susceptible de ne jamais descendre les poubelles en coloc ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Les poubelles de la coloc attendent {name} depuis trois semaines"
+  },
+  {
+    "id": "ami_081",
+    "text": "Qui est le plus mauvais perdant aux jeux de société ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} renverse le plateau du Monopoly, encore"
+  },
+  {
+    "id": "ami_082",
+    "text": "Qui devient le plus relou après deux verres en soirée ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} passe en mode relou dès le deuxième verre"
+  },
+  {
+    "id": "ami_083",
+    "text": "Qui est le plus susceptible de spoiler la fin d'une série sans faire exprès ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a encore spoilé le final, désolé pour toi"
+  },
+  {
+    "id": "ami_084",
+    "text": "Qui est le moins doué pour lire une carte pendant un road trip ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} nous emmène à Lyon en passant par Bordeaux"
+  },
+  {
+    "id": "ami_085",
+    "text": "Qui est le plus susceptible de quitter une soirée sans dire au revoir ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a encore filé à l'anglaise, comme d'hab"
+  },
+  {
+    "id": "ami_086",
+    "text": "Qui est le plus collé à son téléphone pendant les soirées ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est en soirée, mais surtout sur Instagram"
+  },
+  {
+    "id": "ami_087",
+    "text": "Qui est le plus de mauvaise foi pendant un débat entre potes ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a tort, le sait, et continue quand même"
+  },
+  {
+    "id": "ami_088",
+    "text": "Qui est le plus susceptible de squatter le canapé d'un pote pendant un mois ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "La « nuit sur le canapé » de {name} dure depuis trois semaines"
+  },
+  {
+    "id": "ami_089",
+    "text": "Qui est le plus long pour se préparer avant de sortir ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Pendant que {name} se prépare, la soirée a déjà commencé"
+  },
+  {
+    "id": "ami_090",
+    "text": "Qui est le plus susceptible d'annuler un plan prévu depuis trois mois ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} annule la veille, avec une excuse en béton… ou pas"
+  },
+  {
+    "id": "ami_091",
+    "text": "Qui est le plus susceptible de se perdre en plein festival ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est quelque part entre la scène 2 et le stand de frites"
+  },
+  {
+    "id": "ami_092",
+    "text": "Qui est le plus bruyant quand la bande va au restaurant ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Toute la salle connaît maintenant la vie de {name}"
+  },
+  {
+    "id": "ami_093",
+    "text": "Qui est le plus susceptible d'envoyer un vocal WhatsApp de 7 minutes ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} envoie des vocaux qui ressemblent à des podcasts"
+  },
+  {
+    "id": "ami_094",
+    "text": "Qui est le plus accro à la télécommande pendant les soirées télé ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a la télécommande et ne la lâchera jamais"
+  },
+  {
+    "id": "ami_095",
+    "text": "Qui est le plus susceptible d'oublier qu'il a invité des gens chez lui ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ouvre la porte en pyjama, surpris de voir tout le monde"
+  },
+  {
+    "id": "ami_096",
+    "text": "Qui est le plus susceptible de perdre ses clés pendant une soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dormira devant sa porte ce soir, encore"
+  },
+  {
+    "id": "ami_097",
+    "text": "Qui est le plus vantard après un tout petit exploit sportif ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} raconte son 5 km comme un marathon olympique"
+  },
+  {
+    "id": "ami_098",
+    "text": "Qui est le moins fiable pour arroser tes plantes pendant tes vacances ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Tes plantes ne survivront pas aux vacances chez {name}"
+  },
+  {
+    "id": "ami_099",
+    "text": "Qui est le plus lent pour rembourser sa part après un resto ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te doit encore 12 euros depuis 2019"
+  },
+  {
+    "id": "ami_100",
+    "text": "Qui est le plus bavard pendant un film au cinéma ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} commente le film comme un match de foot"
+  },
+  {
+    "id": "ami_101",
+    "text": "Qui est le moins doué pour faire un créneau devant tout le monde ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} réussit son créneau en quatorze manœuvres, sous les applaudissements"
+  },
+  {
+    "id": "ami_102",
+    "text": "Qui est le plus susceptible de s'endormir en premier en soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dort sur le canapé avant même le dessert"
+  },
+  {
+    "id": "ami_103",
+    "text": "Qui est le plus susceptible de s'incruster dans un plan sans être invité ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarque toujours, invitation ou pas"
+  },
+  {
+    "id": "ami_104",
+    "text": "Qui est le plus susceptible de revenir des courses sans la moitié de la liste ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part chercher du pain et revient avec des chips et une piscine gonflable"
+  },
+  {
+    "id": "ami_105",
+    "text": "Qui est le plus insupportable quand il a le ventre vide ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} le ventre vide, c'est un danger public"
+  },
+  {
+    "id": "ami_106",
+    "text": "Qui est le plus susceptible de poster une photo gênante de toi sans demander ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà posté la photo, trop tard"
+  },
+  {
+    "id": "ami_107",
+    "text": "Qui est le plus susceptible de zapper toutes les chansons sans en proposer ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} zappe toutes les chansons mais n'en propose aucune"
+  },
+  {
+    "id": "ami_108",
+    "text": "Qui est le plus tricheur aux jeux de cartes entre potes ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours un as caché quelque part"
+  },
+  {
+    "id": "ami_109",
+    "text": "Qui est le moins doué pour tenir son budget en vacances ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a tout claqué le premier jour, la suite à crédit chez les potes"
+  },
+  {
+    "id": "ami_110",
+    "text": "Qui est le plus susceptible de crier « devant ! » à 30 mètres de la voiture ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a réservé la place devant à vie"
+  },
+  {
+    "id": "ami_111",
+    "text": "Qui est le plus susceptible de lancer un débat politique au pire moment ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} parle politique au dessert, et l'ambiance s'effondre"
+  },
+  {
+    "id": "ami_112",
+    "text": "Qui est le plus susceptible de se tromper de date pour une soirée ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} arrive à la fête… le samedi suivant"
+  },
+  {
+    "id": "ami_113",
+    "text": "Qui est le plus pénible à demander « on arrive quand ? » en voiture ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} demande « on arrive quand ? » toutes les dix minutes"
+  },
+  {
+    "id": "ami_114",
+    "text": "Qui est le plus susceptible de laisser la porte de la coloc grande ouverte ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a laissé la porte ouverte, et le chat s'est barré"
+  },
+  {
+    "id": "ami_115",
+    "text": "Qui ressort le plus souvent la même blague depuis des années ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} raconte encore la blague de 2012, et rit tout seul"
+  },
+  {
+    "id": "ami_116",
+    "text": "Qui est le plus susceptible de s'embrouiller avec un serveur pour rien ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part en guerre pour un café pas assez chaud"
+  },
+  {
+    "id": "ami_117",
+    "text": "Qui est le plus égocentrique dans les conversations de la bande ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, toutes les conversations finissent par parler de {name}"
+  },
+  {
+    "id": "ami_118",
+    "text": "Qui est le plus dramatique pour une broutille du quotidien ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} transforme un ticket de métro perdu en tragédie grecque"
+  },
+  {
+    "id": "ami_119",
+    "text": "Qui est le plus susceptible de se faire refouler à l'entrée d'une boîte ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} négocie encore avec le videur"
+  },
+  {
+    "id": "ami_120",
+    "text": "Qui est le plus susceptible de commander le plat le plus cher quand on partage l'addition ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend le homard quand l'addition est partagée"
+  },
+  {
+    "id": "ami_121",
+    "text": "Qui est le plus faux-cul de la bande ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} te fait la bise et dit du mal de toi dans la foulée"
+  },
+  {
+    "id": "ami_122",
+    "text": "Qui est le plus susceptible de faire des promesses de fin de soirée jamais tenues ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a promis de courir un marathon, encore une promesse de soirée"
+  },
+  {
+    "id": "ami_123",
+    "text": "Qui fait le plus la tête quand la bande sort sans l'inviter ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a vu la story et boude depuis trois jours"
+  },
+  {
+    "id": "ami_124",
+    "text": "Qui est le plus susceptible de lire tes messages par-dessus ton épaule ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà lu ta conversation avant toi"
+  },
+  {
+    "id": "ami_125",
+    "text": "Qui est le plus susceptible de dire « c'est la dernière » puis d'en reprendre cinq ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} annonce la dernière tournée pour la sixième fois"
+  },
+  {
+    "id": "ami_126",
+    "text": "Qui est le plus susceptible de se faire arnaquer par un taxi à l'étranger ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} paie 80 euros pour un trajet de cinq minutes"
+  },
+  {
+    "id": "ami_127",
+    "text": "Qui est le plus susceptible de couper la parole à tout le monde ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} finit tes phrases, mais jamais comme tu voulais"
+  },
+  {
+    "id": "ami_128",
+    "text": "Qui est de la pire humeur au réveil pendant les vacances ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} au réveil, c'est un ours qu'on ne dérange pas"
+  },
+  {
+    "id": "ami_129",
+    "text": "Qui est le plus susceptible de partir avec ton chargeur et de ne jamais le rendre ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Ton chargeur vit désormais chez {name}"
+  },
+  {
+    "id": "ami_130",
+    "text": "Qui est le plus susceptible d'imposer 300 photos de vacances à tout le monde ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sort le diaporama de 300 photos, installez-vous"
+  },
+  {
+    "id": "ami_131",
+    "text": "Qui est le plus susceptible de piquer dans l'assiette des autres ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} pique une frite, puis dix"
+  },
+  {
+    "id": "ami_132",
+    "text": "Qui est le plus snob dès qu'on parle de bouffe ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} trouve que ta raclette manque de raffinement"
+  },
+  {
+    "id": "ami_133",
+    "text": "Qui est le plus susceptible de mettre sa musique sans écouteurs dans le train ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} partage sa musique avec tout le wagon"
+  },
+  {
+    "id": "ami_134",
+    "text": "Qui est le plus influençable quand quelqu'un propose une grosse bêtise ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dit oui à toutes les mauvaises idées sans réfléchir"
+  },
+  {
+    "id": "ami_135",
+    "text": "Qui est le plus susceptible de prendre la meilleure chambre sans demander ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà posé sa valise dans la chambre vue mer"
+  },
+  {
+    "id": "ami_136",
+    "text": "Qui est le moins doué pour accepter une critique, même gentille ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prend chaque remarque comme une déclaration de guerre"
+  },
+  {
+    "id": "ami_137",
+    "text": "Qui est le plus manipulateur de la bande ?",
+    "format": "most",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} tire les ficelles, et la bande ne voit rien"
+  },
+  {
+    "id": "ami_138",
+    "text": "Qui est le plus susceptible de lâcher ses potes pour un crush ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} vendrait la bande pour un seul regard de son crush"
+  },
+  {
+    "id": "ami_139",
+    "text": "Qui est le plus susceptible de s'éclipser pile quand une embrouille éclate ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} s'éclipse dès que ça chauffe"
+  },
+  {
+    "id": "ami_140",
+    "text": "Qui est le plus susceptible de te sortir « je te l'avais dit » ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a toujours raison, mais seulement après coup"
+  },
+  {
+    "id": "ami_141",
+    "text": "Qui est le plus susceptible de foutre la zizanie dans le groupe ?",
+    "format": "most_likely",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lâche une phrase, et le groupe WhatsApp s'enflamme trois jours"
+  },
+  {
+    "id": "ami_142",
+    "text": "Qui est le moins discret quand il faut garder une surprise jusqu'au jour J ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà lâché la surprise, une semaine avant"
+  },
+  {
+    "id": "ami_143",
+    "text": "Qui est le moins fiable pour réserver à temps les billets du groupe ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Grâce à {name}, la bande voyage en bus de nuit"
+  },
+  {
+    "id": "ami_144",
+    "text": "Qui est le moins doué pour rendre ce qu'on lui prête en bon état ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Ta tente revient de chez {name} avec trois trous de plus"
+  },
+  {
+    "id": "ami_145",
+    "text": "Qui est le moins investi quand il faut organiser quoi que ce soit ?",
+    "format": "least",
+    "polarity": "negative",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} débarque le jour J en demandant « on fait quoi ? »"
+  },
+  {
+    "id": "ami_146",
+    "text": "Qui pour survivre le plus longtemps sur une île déserte ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} construit une cabane pendant que les autres pleurent"
+  },
+  {
+    "id": "ami_147",
+    "text": "Qui pour apprendre une danse TikTok en une seule soirée ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a déjà appris la choré, et la filme"
+  },
+  {
+    "id": "ami_148",
+    "text": "Qui est le plus susceptible de transformer un apéro tranquille en nuit blanche ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Avec {name}, l'apéro de 19h finit au petit-déj"
+  },
+  {
+    "id": "ami_149",
+    "text": "Qui est le plus susceptible de finir tout habillé dans la piscine ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} finira dans la piscine, chaussures comprises"
+  },
+  {
+    "id": "ami_150",
+    "text": "Qui est le plus susceptible de raconter ses rêves en détail au petit-déj ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} raconte son rêve pendant 45 minutes, sans pause"
+  },
+  {
+    "id": "ami_151",
+    "text": "Qui pour gagner une émission de télé-réalité ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} remporte la télé-réalité grâce à des stratégies douteuses"
+  },
+  {
+    "id": "ami_152",
+    "text": "Qui est le plus susceptible de devenir célèbre par accident ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fera le buzz demain sans comprendre pourquoi"
+  },
+  {
+    "id": "ami_153",
+    "text": "Qui pour être le cerveau d'un casse façon Casa de Papel ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est le cerveau du casse, lunettes noires incluses"
+  },
+  {
+    "id": "ami_154",
+    "text": "Qui est le plus susceptible de partir vivre à l'autre bout du monde sur un coup de tête ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} enverra une carte postale de Bali, aller simple"
+  },
+  {
+    "id": "ami_155",
+    "text": "Qui est le plus susceptible d'adopter un animal complètement improbable ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rentrera de vacances avec une chèvre"
+  },
+  {
+    "id": "ami_156",
+    "text": "Qui pour être le maître du jeu d'une partie de loup-garou ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} mène le loup-garou comme un vrai conteur"
+  },
+  {
+    "id": "ami_157",
+    "text": "Qui est le plus susceptible de relever un défi absurde à 2h du matin ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} relève le défi, et personne n'a pu l'arrêter"
+  },
+  {
+    "id": "ami_158",
+    "text": "Qui est le plus imprévisible en soirée ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "Personne ne sait ce que {name} va faire ce soir, même pas {name}"
+  },
+  {
+    "id": "ami_159",
+    "text": "Qui est le plus fan de jeux vidéo de la bande ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a plus d'heures de jeu que d'heures de sommeil"
+  },
+  {
+    "id": "ami_160",
+    "text": "Qui est le plus susceptible de binge-watcher une saison entière en un week-end ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a fini la saison avant que tu lances l'épisode 2"
+  },
+  {
+    "id": "ami_161",
+    "text": "Qui pour gagner un concours de mangeurs de piments ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} engloutit les piments sans verser une larme"
+  },
+  {
+    "id": "ami_162",
+    "text": "Qui est le plus nostalgique des soirées d'avant ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} commence toutes ses phrases par « tu te souviens quand… »"
+  },
+  {
+    "id": "ami_163",
+    "text": "Qui est le plus susceptible de se faire tatouer un délire de soirée ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} aura bientôt une pizza tatouée sur la cheville"
+  },
+  {
+    "id": "ami_164",
+    "text": "Qui pour faire le meilleur agent secret infiltré ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} est en mission, et personne ne se doute de rien"
+  },
+  {
+    "id": "ami_165",
+    "text": "Qui est le plus susceptible de lancer un business avec un pote en pleine soirée ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a lancé une start-up de tacos à 3h du matin"
+  },
+  {
+    "id": "ami_166",
+    "text": "Qui est le plus collectionneur de souvenirs de voyage inutiles ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a une étagère pleine de magnets et de boules à neige"
+  },
+  {
+    "id": "ami_167",
+    "text": "Qui pour défier un parfait inconnu au billard ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} pose sa pièce sur le billard, ça va chauffer"
+  },
+  {
+    "id": "ami_168",
+    "text": "Qui est le plus susceptible de se réveiller dans une autre ville après une soirée ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} se réveillera à Bruxelles sans savoir comment"
+  },
+  {
+    "id": "ami_169",
+    "text": "Qui est le plus superstitieux avant un match ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} porte les mêmes chaussettes à chaque match, par principe"
+  },
+  {
+    "id": "ami_170",
+    "text": "Qui pour être le dernier debout à la fin d'un mariage ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} ferme la piste de danse avec le DJ"
+  },
+  {
+    "id": "ami_171",
+    "text": "Qui est le plus susceptible de parler à son chat comme à un humain ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} a de longues conversations avec son chat"
+  },
+  {
+    "id": "ami_172",
+    "text": "Qui pour sauter le premier en parachute ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} saute en premier, en hurlant de joie"
+  },
+  {
+    "id": "ami_173",
+    "text": "Qui est le plus susceptible de finir sur scène pendant un concert ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} montera sur scène, sans invitation"
+  },
+  {
+    "id": "ami_174",
+    "text": "Qui est le plus fan de jeux de société avec 300 règles ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} sort encore un jeu de quatre heures avec douze manuels"
+  },
+  {
+    "id": "ami_175",
+    "text": "Qui pour vivre six mois dans un van aménagé ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} part vivre dans un van avec une guirlande lumineuse"
+  },
+  {
+    "id": "ami_176",
+    "text": "Qui est le plus susceptible de faire un discours improvisé en pleine fête ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 2,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} lève son verre pour un discours de vingt minutes"
+  },
+  {
+    "id": "ami_177",
+    "text": "Qui pour inventer un nouveau jeu à boire aux règles incompréhensibles ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} invente un jeu et personne ne comprend les règles"
+  },
+  {
+    "id": "ami_178",
+    "text": "Qui est le plus susceptible de finir la soirée en pyjama chez quelqu'un d'autre ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} dort chez les voisins, en pyjama emprunté"
+  },
+  {
+    "id": "ami_179",
+    "text": "Qui est le plus susceptible de revenir de vacances avec l'accent du coin ?",
+    "format": "most_likely",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} rentre d'Espagne avec un accent andalou"
+  },
+  {
+    "id": "ami_180",
+    "text": "Qui pour organiser un enterrement de vie de garçon ou de jeune fille ?",
+    "format": "who_for",
+    "polarity": "neutral",
+    "themes": [
+      "amis"
+    ],
+    "intensity": 3,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} prépare un programme dont personne ne sortira indemne"
+  },
+  {
+    "id": "ami_181",
+    "text": "Qui est le plus accro aux jeux de mots pourris ?",
+    "format": "most",
+    "polarity": "neutral",
+    "themes": [
+      "amis",
+      "collegues",
+      "famille"
+    ],
+    "intensity": 1,
+    "fullExcluded": false,
+    "adult": false,
+    "verdict": "{name} fait des jeux de mots tellement nuls qu'ils en deviennent drôles"
+  }
+]
